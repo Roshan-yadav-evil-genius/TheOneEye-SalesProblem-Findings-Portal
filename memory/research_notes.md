@@ -897,3 +897,60 @@
 49. **Cloud marketplace is the fastest-growing channel with the worst operational tooling** — $30B→$160B by 2030, 62% report net-new customers, but 51% say process too complex to scale; structural misalignment between ISV incentives and hyperscaler consumption targets creates a fundamentally different channel challenge from traditional partner programs
 50. **Revenue recognition compliance is the invisible deal design constraint** — ASC 606 forces sales to structure deals within accounting rules that most reps don't understand; 156 hours/month manual overhead, 3.4x audit adjustments, and $2.4M per material weakness make revenue recognition a hidden tax on sales velocity
 51. **AI has poisoned the outreach well for everyone** — the trust crisis is self-reinforcing: more AI outreach → more aggressive buyer filters → lower response rates for ALL senders → more sellers adopt AI volume tools → further trust erosion; even human-written, personally researched messages now get caught in the anti-AI immune response
+52. **Consumption pricing breaks the sales operating system** — 55-61% of vendors offer usage-based pricing growing 29% YoY, but pipeline metrics, quota models, and comp plans were designed for fixed-value contracts; deal close no longer equals known revenue, creating a structural predictability gap between sales and finance
+53. **Event leads are the highest-cost, lowest-follow-up pipeline source** — 40% of B2B marketing budgets go to events, but $5.4B is wasted annually because 80% of captured leads get zero follow-up; the 5-minute qualification window, badge scanning's 3-data-point limitation, and the swag trap create a unique processing challenge distinct from digital lead handoff
+54. **Product roadmaps are built on 20% of actual customer feedback** — 42% of feature requests never reach product, 80% of chat-based signals lost; formal portals capture the least volume with the highest rate while informal channels (where most insight lives) have 5-10% capture rates; the capture-volume paradox creates systematically biased product decisions
+
+### Consumption-Based Pricing Revenue Predictability (Session 14)
+- 55% of SaaS vendors offer usage-based pricing, rising to 61% in 2025
+- Consumption-based companies grow 29% YoY vs 22% for subscription-only
+- Net dollar retention: 120% for usage-based vs 110% for subscription
+- $60K contract may generate only $5K in Year 1 if adoption is slow
+- Revenue materializes 30-60 days after deal closure during customer ramp
+- Pipeline conversion rates fail to predict revenue in usage-based models
+- Traditional ACV metrics obsolete when deal value is unknowable at close
+- 'Usage churn': consumption cuts without cancellation — invisible revenue erosion
+- 58% of SEC enforcement actions in FY 2024 involved revenue recognition issues
+- Nearly 80% of organizations believe comp plans ineffective at driving goals
+- ICP must shift to growth potential + technical maturity, not upfront commitment size
+- Forecasting benchmarks: 90-95% accuracy at account level by mid-quarter, weekly updates minimum
+- 3-5 usage signals per product needed (growth, decline, seasonality, feature adoption, per-user)
+- Multi-method modeling: historical usage + segmentation + leading indicators + scenarios
+
+### Event/Trade Show Lead Follow-Up Decay (Session 14)
+- $5.4B wasted annually in US B2B from failed trade show follow-up
+- 80% of trade show leads receive ZERO follow-up
+- 5-minute contact = 21x more likely to qualify than 30-minute contact
+- After 48 hours, connection likelihood drops 10x
+- 50% of sales go to vendor that responds first
+- $15,000 avg booth cost, $12,000 lost per event from unworked leads
+- 42 trade shows/year avg → half-million-dollar annual revenue hemorrhage
+- 247-lead event = $270K lost pipeline by quarter-end
+- 42% of organizations: marketing and sales each assume the other will follow up
+- 80% of delays from data enrichment and manual routing; avg 12-hour processing lag
+- Badge scanning captures only 3 data points: name, company, sometimes email
+- Only 1 in 5 enterprises integrate event tech with martech stack
+- Large enterprises deploy 6+ event tech solutions
+- 73% of leads not genuinely interested (swag/drawing motivated)
+- Show-provided platforms: $100-575 per scanner per event, 1-2 week data delivery
+- Structured qualification: 3.2x more closed deals
+- Multi-channel (3+ channels): 30% higher conversion
+- Only 20% of attendees have immediate buying plans
+- 79% of event leads never receive follow-ups
+- 95% of marketers prioritize better performance measurement
+- Trade shows = ~40% of B2B marketing budgets ($67-71B exhibition industry)
+
+### Sales-to-Product Feedback Loop Failure (Session 14)
+- 42% of feature requests never reach the product team (Pendo)
+- 80% of product-relevant signals in workplace chat never captured
+- Formal feedback channels capture only 20% of actual user feedback
+- Formal portals = 5% of total volume but 80-90% capture rate (capture-volume paradox)
+- Channel breakdown: chat 35% volume/5-10% capture, support 25%/15-20%, CRM 15%/5-10%, meetings 10%/<5%, social 10%/10-15%, portals 5%/80-90%
+- 66% of product professionals: measuring feedback impact is biggest challenge
+- 50%+ say improving feedback loops is the #1 problem to solve next
+- Sales/CS lack visibility into product decisions; product lacks revenue context
+- Engineers receive filtered requests based on anecdotal evidence, not customer data
+- Organizations capture negative signals (complaints) but miss positive signals (what works)
+- Common tools (spreadsheets, PM tools, portals) fail at scale due to context-switching
+- Sales reps in deal cycles won't stop to log feedback in separate systems
+- Best practice: contributor access to product management platforms (rarely implemented)

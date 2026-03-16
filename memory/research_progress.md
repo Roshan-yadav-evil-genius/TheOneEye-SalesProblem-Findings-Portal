@@ -865,17 +865,115 @@
 - [x] ASC 606 revenue recognition compliance burden / deal design constraint
 - [x] AI outreach trust erosion / buyer authenticity filter crisis
 
+## Session 14: Consumption Pricing, Event Leads, Sales-Product Feedback (2026-03-17)
+
+### Problems Added (3 new, 74 total)
+72. **consumption-based-pricing-revenue-predictability-collapse-sales-motion-disruption** — 55-61% of vendors offer usage-based pricing, 29% YoY growth but pipeline metrics broken, deals close but revenue uncertain 30-60 days, comp plans misaligned, $60K contract may yield $5K Year 1
+73. **event-trade-show-lead-follow-up-decay-pipeline-hemorrhage** — $5.4B wasted annually, 80% of trade show leads get zero follow-up, 5-min contact = 21x more likely to qualify, 73% leads not genuinely interested (swag trap), only 1 in 5 enterprises integrate event tech with martech
+74. **sales-to-product-feedback-loop-dark-matter-feature-request-gap** — 42% of feature requests never reach product, 80% of chat-based signals lost, formal portals = 5% of volume but 80-90% capture, 66% of product teams say measuring feedback is biggest challenge
+
+### Research Sources Used (Session 14)
+- Alguna, Durity, Monetizely (x2), ZeonEdge, Revvana, Escalon, Aleph (Consumption pricing)
+- SurFox, Momencio (x2), Lensmor, Event Tech Live, Popl, QR-Insights (Event/trade show leads)
+- IdeaLift (x2), Four/Four, Productboard, Airfocus, Osprey Strategies (Sales-product feedback loop)
+
+### Areas Evaluated But Not Added (Session 14)
+- **Outbound calling caller ID reputation management** — Researched but overlaps significantly with #30 (cold call connect rate collapse / spam labeling crisis); caller ID reputation is the mechanism layer of the same problem
+- **Sales process documentation / playbook codification failure** — Researched but overlaps with #52 (tribal knowledge decay), #16 (enablement content findability), and #58 (training retention failure); playbook staleness is a manifestation of these existing problems
+- **Sales enablement ROI measurement failure** — Researched but overlaps with #16 (content findability) and #58 (training retention); the measurement gap is the downstream consequence, not a distinct root cause
+- **B2B sales gifting/direct mail compliance and ROI** — Researched (68% campaigns fail, 40% gifts trashed, 41% unclaimed at corporate offices) but too niche as a marketing channel problem rather than core sales workflow issue
+- **CRM platform migration/switching costs** — Researched (55-70% implementation failures) but overlaps with #64 (CRM technical debt); migration is a consequence when tech debt becomes untenable
+- **Sales team internal communication/deal collaboration friction** — Researched but overlaps with #7 (multi-threading/stakeholder management) and #52 (tribal knowledge); deal coordination is a sub-dimension of these problems
+- **Community-led growth coordination with sales** — Researched (CLG outperforms PLG on CAC at $214 vs $847) but emerging strategy with thin evidence base; overlaps conceptually with #37 (PLG-to-sales handoff)
+
+## Areas Explored (Updated)
+- [x] SDR daily workflows and productivity
+- [x] CRM data quality and manual entry
+- [x] Pipeline management and forecasting
+- [x] Cold email outreach and personalization
+- [x] Marketing-to-sales handoff
+- [x] Sales coaching and manager visibility
+- [x] Multi-threading and stakeholder management
+- [x] Sales tool stack and integrations
+- [x] Territory planning and account assignment
+- [x] Buyer intent data quality
+- [x] Contract/legal review bottlenecks
+- [x] Competitive intelligence freshness
+- [x] Post-sale expansion and upsell detection
+- [x] Demo scheduling and no-show rates
+- [x] Sales hiring and onboarding ramp time
+- [x] Sales enablement content findability
+- [x] Commission calculation and disputes
+- [x] Sales-to-CS post-close handoff
+- [x] Email deliverability and domain reputation
+- [x] Quota setting methodology and fairness
+- [x] Pricing optimization and discounting discipline
+- [x] RFP/proposal response capacity and automation
+- [x] CPQ quoting errors and revenue leakage
+- [x] Channel/partner sales coordination and enablement
+- [x] SaaS renewals management and churn prediction
+- [x] Revenue attribution and multi-touch modeling
+- [x] Buyer committee mapping and org chart intelligence
+- [x] Customer reference and advocacy program management
+- [x] Deal desk and non-standard deal approval routing
+- [x] Outbound phone/cold call connect rates and spam labeling
+- [x] Pre-call meeting preparation and intelligence synthesis
+- [x] Sales demo personalization and buyer experience
+- [x] Sales compensation plan design complexity
+- [x] Sales hiring and predictive talent selection
+- [x] LinkedIn/social selling saturation and InMail capacity limits
+- [x] Value selling, ROI quantification, and business case gap
+- [x] Product-led growth to sales-led handoff (PQL scoring)
+- [x] Sales qualification methodology enforcement and drift
+- [x] Multi-jurisdiction prospect data compliance (GDPR/CCPA/CASL)
+- [x] Sales forecasting methodology (weighted vs. AI-driven)
+- [x] Sales engineering capacity and pre-sales bottleneck
+- [x] Dark funnel / anonymous buyer journey visibility
+- [x] AI sales agent deployment governance and quality control
+- [x] Sales rep burnout and workforce engagement crisis
+- [x] B2B self-service purchasing portal friction and failure
+- [x] RevOps team burnout, understaffing, and tool admin overhead
+- [x] B2B data enrichment vendor accuracy gap (claims vs. reality)
+- [x] Outbound sequence/cadence pattern saturation and automation fatigue
+- [x] ABM program coordination failure and static account list decay
+- [x] Win/loss analysis and buyer feedback loop failure
+- [x] Buying committee multi-stakeholder meeting scheduling coordination
+- [x] Sales tribal knowledge and institutional context decay
+- [x] Lead/account scoring model failure and prioritization architecture
+- [x] Post-proposal silent deal decay and momentum erosion
+- [x] Buyer enablement / champion internal selling toolkit gap
+- [x] Security questionnaire / vendor assessment procurement bottleneck
+- [x] Shadow AI / sales data leakage into consumer LLMs
+- [x] Sales training event-based knowledge retention failure ($70B+ waste)
+- [x] Customer onboarding time-to-value gap blocking expansion revenue
+- [x] International cross-border B2B selling localization and payment complexity
+- [x] Frontline sales manager span of control / bandwidth crisis
+- [x] Buyer committee consensus failure / group decision conflict dynamics
+- [x] Sales capacity planning / headcount timing / phantom capacity
+- [x] CRM technical debt / automation sprawl / AI adoption blocker
+- [x] Multi-product cross-sell portfolio selling execution failure
+- [x] Autonomous AI buyer agent disruption / seller machine-legibility crisis
+- [x] Enterprise POC/trial late-stage conversion collapse
+- [x] Churned customer win-back pipeline neglect / reactivation revenue gap
+- [x] Cloud marketplace co-sell operational complexity / ISV scaling gap
+- [x] ASC 606 revenue recognition compliance burden / deal design constraint
+- [x] AI outreach trust erosion / buyer authenticity filter crisis
+- [x] Consumption-based pricing revenue predictability / sales motion disruption
+- [x] Event/trade show lead follow-up decay / pipeline hemorrhage
+- [x] Sales-to-product feedback loop failure / feature request dark matter
+
 ## Areas To Explore Next
-- [ ] Outbound calling local presence / caller ID reputation management
 - [ ] Sales team diversity and inclusion as a revenue performance factor
-- [ ] Sales process documentation and methodology codification failure
 - [ ] Real-time competitive deal intelligence (beyond static battlecards)
 - [ ] Sales order management and fulfillment coordination for complex deals
 - [ ] Procurement-driven vendor consolidation as a sales barrier
 - [ ] Sales meeting recording consent and compliance across jurisdictions
 - [ ] Buyer-side procurement technology adoption creating seller data requirements
-- [ ] Sales team internal communication and deal collaboration friction
-- [ ] Usage-based / consumption pricing revenue predictability challenges
-- [ ] Sales-to-product feedback loop failure (customer needs not reaching product team)
-- [ ] Event/conference lead follow-up decay and ROI measurement gap
-- [ ] Customer community-led growth coordination with sales pipeline
+- [ ] Community-led growth coordination with sales pipeline (needs more evidence)
+- [ ] Sales forecasting behavioral gaming (sandbagging, happy ears) detection
+- [ ] Vertical-specific sales compliance (healthcare HIPAA, government FedRAMP)
+- [ ] Partner ecosystem co-innovation and joint solution selling coordination
+- [ ] Account-based experience (ABX) execution gap between strategy and implementation
+- [ ] Sales content creation bottleneck (personalized decks, proposals, case studies)
+- [ ] Customer advisory board management and insight capture at scale
+- [ ] Sales analytics dashboard overload / signal-to-noise ratio in reporting
