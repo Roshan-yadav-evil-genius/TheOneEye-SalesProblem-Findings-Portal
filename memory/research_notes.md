@@ -997,6 +997,39 @@
 - G2 reviews: 67% of Perplexity citations include G2, threshold 100+ reviews, 4.5+ rating
 - 82% of AI citations come from earned media, not vendor-owned content
 
-## Cross-Cutting Themes (Updated Session 15)
+### Buying Network External Influence Invisibility (Session 16)
+- Forrester Buyers' Journey Survey 2025: nearly 18,000 global business buyers
+- Average B2B purchase: 13 internal stakeholders + 9 external participants = 22 total
+- 41% of decision influencers (9/22) exist OUTSIDE the buyer's company
+- 73% of purchases involve 3+ departments
+- For AI-feature purchases: buying group DOUBLES (14 vs 7)
+- 94% of buyers with 6+ participants report clear benefits (broader perspectives, budget approval, lower risk)
+- Industry expert interactions trigger provider engagement MORE than AI tools
+- 94% use AI during buying, but 20% felt LESS confident (unreliable info); 28% for procurement
+- Procurement now decision-makers in 53% of buying cycles, from earliest stages
+- Only 36% of trial participants plan to convert with SAME provider; 35% plan DIFFERENT provider
+- TrustRadius: 79% know about purchase before formal research (89% for enterprise $100K+)
+- TrustRadius: 82% have top product choice when creating shortlist; 70% buy that product
+- Average buyer considers just 2.6 products; only 14% evaluate 4+
+- G2 + portfolio brands: 84% of review-platform citations across AI search engines
+- Review platform influence: 7.4% of AI citations in discovery → 13.2% in evaluation (near-double)
+- G2: 10% more reviews correlate with 2% more AI citations
+- 79% of global B2B buyers say AI search changed their research methods
+- Peer reviews rank top 3 resources alongside demos and prior experience
+- External influencers shape thinking BEFORE providers are on radar
+- Buying network persists beyond purchase into renewal and expansion
+- Forrester predicts 20% of sellers forced into agent-led quote negotiations
+
+### Sales Cycle Elongation Data (Session 16 — context, not standalone problem)
+- Average B2B SaaS sales cycle: 134 days (25% increase from 107 days)
+- 53% of SaaS companies report increases of 10%+ in cycle length
+- Enterprise ($100K+ ACV): 3-9 months or longer
+- Decision groups: 3-5 people (2010) → 7-13 people (2025-2026)
+- 64.4% of companies report more stakeholders per deal
+- Procurement adds avg 16 days just for payment term negotiation
+- Enterprise deals take 64% longer than small business deals
+
+## Cross-Cutting Themes (Updated Session 16)
 55. **AI recording compliance is a trust-documentation trade-off with criminal penalties** — 84% of professionals modify behavior when recorded, 13 states require all-party consent with criminal penalties; sales teams must choose between accurate deal documentation and prospect candor; the legal exposure from active Otter.ai class-actions signals systemic vendor liability
 56. **Vendor invisibility in AI search is the pre-pipeline crisis no one is measuring** — 50% of buyers start research in AI chatbots but most vendors don't monitor AI search presence; ChatGPT concentrates 89% of citations among top 3 brands; traditional SEO has minimal correlation with AI visibility (12%); the discovery layer has shifted but go-to-market infrastructure hasn't
+57. **The buying network has outgrown the buying committee model** — 9 external participants per purchase (41% of total influencers) exist outside the buyer's organization and outside any CRM; sellers are structured for internal committee selling but buyers decide through networks that include analysts, peers, communities, review platforms, and AI tools; the AI-then-validate loop creates a two-stage influence path (AI discovers, humans validate) that sellers cannot observe; external influence persists into renewal, making initial deals vulnerable to invisible competitive displacement; review platforms like G2 control 84% of AI citations and their influence DOUBLES from discovery to evaluation
