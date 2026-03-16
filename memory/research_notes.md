@@ -139,6 +139,66 @@
 - 1% improvement in realized price has outsized earnings impact
 - Dual reality: list prices vs. actual negotiated prices
 
+### RFP/Proposal Management (Session 3)
+- 35% of companies complete RFPs entirely manually
+- 25-50 hours per proposal; senior experts spend 40% of time on proposals
+- 20% of incoming RFPs go unfinished → $725K lost revenue/org
+- Companies decline 60% of RFP opportunities due to capacity
+- Average win rate: 45%; top teams: 60%+
+- 100% of high-win teams have dedicated bid managers vs 44% of low-win teams
+- RFPs contribute 39% of total company revenue ($256M annually)
+- Automation reduces response time 83% (25 hrs → <5 hrs), enables 5x more responses
+- Coordination (not content) is the primary bottleneck
+
+### CPQ/Manual Quoting (Session 3)
+- Legacy CPQ: 2-4% annual revenue leakage ($2M per $100M revenue)
+- B2B manufacturing: 5% revenue leakage, 88% losing deals from slow/inaccurate quotes
+- 44% of manufacturers report manual quoting errors
+- 20-30% of legacy quotes contain errors → ~$100K/yr cost at 10K quotes
+- 71% of B2B manufacturers take 1+ day for quotes
+- 50% of sales go to vendor responding first
+- 49% report lengthening sales cycles
+- CPQ talent shortage: specialist roles go unfilled for months
+
+### Channel Partner Programs (Session 3)
+- 42% manage MDF via email/spreadsheets; 24% basic portals without workflow
+- 70% of technology spending flows through partners
+- Three structural failures: Won't Do, Can't Do, Don't Know
+- "Channel Drift" = gap between modern offerings and legacy partner structures
+- Deal registration: unclear rules, duplicates, internal misalignment
+- Partner programs treated as campaigns, not core business units
+
+### SaaS Renewals/Churn (Session 3)
+- 3.5% average monthly churn (35% annual); top performers <1%
+- Contract renewals drive 80% of SaaS revenue growth
+- By 2026, renewals = 60%+ of new revenue in mature SaaS
+- Black-box churn scores (0-100) without explainability
+- "Silent Churn": AI agents migrate workflows without human cancellation
+- "Outcome Churn": AI agents get results without product UI
+- 20-48% involuntary churn (failed payments); 40% recoverable
+- 14-day value threshold: 3x higher churn if not reached
+- Best models: 70-80% accuracy, 4 months in advance
+
+### Revenue Attribution (Session 3)
+- Traditional models (first/last-touch, linear, time-decay) built for e-commerce
+- B2B deals: 20+ touchpoints, 10+ decision-makers, months-long cycles
+- Marketing, sales, finance claim different credit for same deals
+- Poor alignment: 42% lower conversion, 36% higher CAC, 30% longer cycles
+- 73% of marketing-generated leads never contacted by sales
+- $3.1T annual cost of data silos across businesses
+- 82% of enterprises report data silos disrupting workflows
+- 78% of B2B companies now have dedicated RevOps (up from 48% in 2023)
+
+### Buyer Committee Mapping (Session 3)
+- Average B2B purchase: 13 stakeholders
+- 89% of buying decisions cross multiple departments
+- 29% of enterprise buying groups: 10+ stakeholders
+- 86% of B2B purchases stall at some point
+- Titles don't reflect actual influence (budget controls, risk ownership)
+- Cross-functional blockers (Finance, Legal, Procurement, IT) join late
+- CRM data obsolete faster due to restructuring and role consolidation
+- GenAI-driven dynamic org charts emerging as solution
+
 ## Cross-Cutting Themes
 1. **Data quality is the root cause of many downstream problems** — CRM decay feeds into bad forecasts, bad territories, bad intent signals
 2. **Time poverty is universal** — SDRs, managers, and CS teams all lack time for their highest-value activities
@@ -148,3 +208,7 @@
 6. **Invisible costs compound silently** — commission errors, discount creep, no-show pipeline leaks, and content waste accumulate without visible metrics
 7. **Governance gaps enable degradation** — without guardrails on pricing, quotas, and commission calculations, individual rep decisions erode organizational outcomes
 8. **Onboarding is a retention lever** — ramp time directly correlates with tenure; 88% of companies underinvest in structured onboarding
+9. **Speed kills deals in both directions** — first to respond wins 50% (quoting), but scheduling delays increase no-shows 3-6x; speed is a consistent competitive advantage
+10. **Opacity in prediction creates false security** — churn scores, intent data, and forecast models provide numbers without explanations, making intervention impossible
+11. **Channel and ecosystem complexity is accelerating** — 70% of spending flows through partners but programs are built for simple resale, not AI/outcome-based selling
+12. **Attribution failures misallocate GTM budgets** — e-commerce attribution models applied to B2B systematically underfund pipeline generation activities

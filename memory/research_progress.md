@@ -79,19 +79,66 @@
 - [x] Quota setting methodology and fairness
 - [x] Pricing optimization and discounting discipline
 
+## Session 3: Deeper Sales Operations Research (2026-03-16)
+
+### Problems Added (6 new, 27 total)
+22. **rfp-proposal-response-capacity-bottleneck** — 35% fully manual, 25-50 hrs per proposal, 20% unfinished ($725K lost), 39% of revenue from RFPs
+23. **manual-quoting-cpq-revenue-leakage-errors** — 2-4% revenue leakage from legacy CPQ, 44% error rate, 71% take 1+ day, first responder wins 50%
+24. **channel-partner-program-drift-mdf-fragmentation** — 42% manage MDF via email/spreadsheets, Channel Drift gap, Won't Do/Can't Do/Don't Know failures
+25. **saas-renewal-churn-prediction-opacity-reactive** — 80% revenue from renewals, 3.5% monthly churn, black-box scores, Silent Churn from AI agents
+26. **b2b-revenue-attribution-model-mismatch** — E-commerce models fail for 20+ touchpoints, conflicting credit claims, 42% lower conversion from misalignment
+27. **buyer-committee-mapping-blindness-stakeholder-discovery** — 13 stakeholders avg, 86% of deals stall, titles don't reflect influence, CRM data obsolete
+
+### Research Sources Used (Session 3)
+- Bidara, AutoRFP.ai, QorusDocs, Arphie.ai (RFP/proposal management)
+- Nucleus Research, CPQ Integrations, GlobeNewsWire B2B Manufacturing Survey, CaptivateIQ (CPQ/quoting)
+- ChannelScaler, TSIA, Techaisle, Kademi, Channelnomics, JourneyBee (Channel partner programs)
+- SaaSCity, Cotera.co, Cognida.ai, Sirion.ai, Memoir/SalesGTM (Renewals/churn prediction)
+- RevSure, MarketBetter, Brixon Group, Fullcast, SyncGTM (Revenue attribution/RevOps)
+- Traction Complete, BizKonnect, RevNew, Salesmotion (Buyer committee mapping)
+
+## Areas Explored
+- [x] SDR daily workflows and productivity
+- [x] CRM data quality and manual entry
+- [x] Pipeline management and forecasting
+- [x] Cold email outreach and personalization
+- [x] Marketing-to-sales handoff
+- [x] Sales coaching and manager visibility
+- [x] Multi-threading and stakeholder management
+- [x] Sales tool stack and integrations
+- [x] Territory planning and account assignment
+- [x] Buyer intent data quality
+- [x] Contract/legal review bottlenecks
+- [x] Competitive intelligence freshness
+- [x] Post-sale expansion and upsell detection
+- [x] Demo scheduling and no-show rates
+- [x] Sales hiring and onboarding ramp time
+- [x] Sales enablement content findability
+- [x] Commission calculation and disputes
+- [x] Sales-to-CS post-close handoff
+- [x] Email deliverability and domain reputation
+- [x] Quota setting methodology and fairness
+- [x] Pricing optimization and discounting discipline
+- [x] RFP/proposal response capacity and automation
+- [x] CPQ quoting errors and revenue leakage
+- [x] Channel/partner sales coordination and enablement
+- [x] SaaS renewals management and churn prediction
+- [x] Revenue attribution and multi-touch modeling
+- [x] Buyer committee mapping and org chart intelligence
+
 ## Areas To Explore Next
-- [ ] Channel/partner sales coordination and enablement
 - [ ] Customer reference and case study management
-- [ ] Deal desk and non-standard deal routing
-- [ ] Revenue attribution and multi-touch modeling
+- [ ] Deal desk and non-standard deal routing (beyond legal — budget, pricing, decision process)
 - [ ] Account-based selling coordination across AE/SDR/CS
-- [ ] Renewals management and churn prediction
 - [ ] Sales demo personalization and product-led growth friction
 - [ ] Prospect research and account intelligence automation
 - [ ] Sales meeting preparation and pre-call intelligence
-- [ ] Buyer committee mapping and org chart intelligence
-- [ ] CPQ (Configure-Price-Quote) complexity and errors
 - [ ] Revenue operations data silos across tools
 - [ ] Sales forecasting methodology (weighted vs. AI-driven)
-- [ ] Proposal and RFP response automation
 - [ ] Sales hiring — identifying top performer traits
+- [ ] Outbound calling/phone connect rates decline
+- [ ] Sales compensation plan design complexity
+- [ ] Procurement process navigation for sellers
+- [ ] Customer reference fatigue and advocacy management
+- [ ] Sales data privacy compliance (GDPR, CCPA) in outreach
+- [ ] RevOps tooling sprawl and orchestration layer gaps
