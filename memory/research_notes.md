@@ -419,6 +419,77 @@
 - Tech stacks increase stress: more dashboards/platforms/tracking = cognitive fatigue
 - 71% start year without quota; 90% face major target obstacles (CaptivateIQ)
 
+### B2B Self-Service Purchasing Portal Friction (Session 7)
+- 80-95% of B2B ecommerce projects underperform or fail outright
+- 65% of platforms under-deliver after launch (customers don't use them)
+- 70% of distributors, 50% of manufacturers label efforts "unsuccessful"
+- 83% of B2B buyers say self-service crucial; 77% willing to spend $50K+ self-serve
+- Documented case: 15% adoption six months after launch
+- 65% of B2B execs say ecommerce is "broken"; 83% cite bad product data
+- 81% of buyers switch suppliers after one poor digital experience
+- Portal fatigue: multiple logins, MFA, learning curves across dozens of vendors
+- Buyers revert to email/phone when portal UX falls short
+- Top friction: pricing transparency (39%), reordering (35%), approval processes (34%)
+- By 2026: 80% of B2B sales digital; 50%+ of $1M+ deals through self-serve
+- Self-service tech market: $46B by 2027
+
+### RevOps Team Burnout and Understaffing (Session 7)
+- 78% of B2B companies now have RevOps (up from 48% in 2023)
+- 56% RevOps leadership burnout (22% higher in business services)
+- 40% of RevOps time on tool administration, not process improvement
+- Median B2B SaaS: 80+ applications with significant overlap
+- 73% of ops requests are automatable with existing AI tools
+- 2.3-hour avg ops response time vs 15-min expectation (9.2x gap)
+- Response delay: ~$50K/month productivity drag per 100 people
+- Benchmark: 1 RevOps per 25-30 revenue team members; top: 1:15-20; under-invested: 1:40+
+- 67% of RevOps leaders plan to reduce tool count in 2026
+- 70% fail to integrate sales processes into tech stack
+- Mature RevOps: 19% faster revenue growth, 15% higher win rates
+- Burnout drivers: manual GTM planning, disconnected data, cross-functional misalignment
+
+### B2B Data Enrichment Accuracy Gap (Session 7)
+- Every vendor claims 90%+ accuracy; real-world testing shows 65-80%
+- Apollo.io: claims 91%, delivers 65-80% (selective reporting: 84% match vs 91% on pre-verified)
+- Email find rates across vendors: 29% (LeadIQ) to 87% (Surfe) — 3x gap
+- Phone find rates: 44% (Lusha) to 72% (Surfe)
+- Quality scores: 60% to 90% (how many found contacts are valid)
+- Controlled 5,000-contact test: Surfe 89.4% email / 94.9% mobile vs Cognism 66.1% / 73.6%
+- ZoomInfo: 88% email deliverability but only 31% phone connect in real campaigns
+- Accuracy varies by: data type, geography (US > EU > APAC), company size
+- Waterfall enrichment (50+ providers): 35% higher coverage than single-source
+- No vendor reliable as single source of truth
+- Teams lack capacity for internal benchmarking to validate vendor claims
+
+### Outbound Cadence/Sequence Pattern Saturation (Session 7)
+- Generic mass sequences: sub-1% reply rates
+- Average cold outbound: 3.43% reply; top quartile: 5.5-10.7%
+- Buyers receive 50-100 cold emails weekly
+- AI-standardized sequences create recognizable "sales automation fingerprint"
+- Pattern saturation: behavioral filtering, not deliverability issue
+- Response drops sharply after 3rd generic touch
+- 80% of sales require 5+ touches, but 92% of reps stop after 4 or fewer
+- Static cadences aligned to seller calendar, not buyer reality
+- Signal-triggered sequences: 2-4x cold outbound conversion
+- Multi-channel (email + social + phone): 18.3% reply vs 5.2% email-only
+- 55% switch brands due to marketing overload; 79% prefer fewer, targeted messages
+- 44% of salespeople give up after one follow-up
+- Shift: calendar-driven → signal-driven cadences (fundamental architecture change)
+
+### ABM Program Coordination Failure (Session 7)
+- 68-80% of ABM programs fail to meet expectations
+- 340 enterprise orgs analyzed: 68% fail within 18 months (SalesRelief)
+- Companies invest $500K-$2M annually in ABM tech and personnel
+- Less than 15% of targeted accounts progress to qualified opportunities
+- Static account lists decay 3.2% monthly → 38% outdated by December
+- 40-60% of program budgets wasted on non-viable opportunities
+- Only 8% report strong sales-marketing alignment; 82% of executives believe they're aligned (perception gap)
+- Intelligence velocity gap: 73% of enterprise deals start 4-7 months before RFPs
+- Quarterly account reviews miss weekly buying signal shifts → $100M+ revenue gap
+- Firmographic-only targeting: <11% engagement; multi-signal intelligence: 34% engagement, 2.8x pipeline conversion
+- Elite ABM: 145% average ROI, 7.5-9.1x returns
+- Aligned orgs: 24% faster revenue growth, 67% higher close rates, 208% higher marketing revenue
+- Misalignment costs $1T annually
+
 ## Cross-Cutting Themes
 1. **Data quality is the root cause of many downstream problems** — CRM decay feeds into bad forecasts, bad territories, bad intent signals
 2. **Time poverty is universal** — SDRs, managers, and CS teams all lack time for their highest-value activities
@@ -444,3 +515,8 @@
 22. **The dark funnel is the majority of the buying journey** — 73% of buyer activity is invisible to sellers; AI tools (LLMs) are accelerating anonymous research; traditional attribution captures only 27% of actual influence
 23. **AI adoption without governance creates new failure modes** — AI agents show 340% market growth but face 90-day performance cliffs; hallucination, phantom pipeline, and domain damage compound without human oversight gates
 24. **Burnout is a revenue metric, not an HR metric** — 66% of reps report burning out with 34% lower win rates; burnout compounds other operational problems (data fabrication, skipped qualification, default discounting); no systematic measurement exists
+25. **The infrastructure layer is as burned out as the frontline** — RevOps teams at 56% burnout, 40% time on tool admin, 73% of requests automatable; the ops team enabling revenue is itself drowning, creating cascading failures in territory planning, quota models, and integrations
+26. **Vendor accuracy claims are systematically inflated** — B2B data enrichment vendors claim 90%+ but deliver 65-80%; email find rates span 29-87% across providers; selective reporting on pre-verified subsets creates false confidence that corrupts downstream outreach
+27. **Automation architecture has become the problem** — sales sequence tools standardized outreach patterns across millions of users, creating a recognizable 'automation fingerprint' that buyers filter; the shift from calendar-driven to signal-driven cadences is fundamental but underway at only top-quartile teams
+28. **ABM's perception-reality gap is the largest in sales** — 82% of executives believe they have alignment vs. 8% who actually do; ABM programs fail at 68-80% despite proven 145% ROI for elite programs; static quarterly reviews miss weekly buying signals
+29. **Self-service purchasing is the next battleground** — 80% of B2B sales moving digital by 2026, but 80-95% of portal projects underperform; buyers want self-service but portals force behavior change; the gap between B2C digital expectations and B2B purchasing reality is widening

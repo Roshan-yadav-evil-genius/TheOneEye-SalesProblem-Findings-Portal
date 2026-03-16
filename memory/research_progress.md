@@ -302,19 +302,85 @@
 - [x] AI sales agent deployment governance and quality control
 - [x] Sales rep burnout and workforce engagement crisis
 
+## Session 7: Portal Friction, RevOps Burnout, Data Enrichment, Cadence Fatigue, ABM Failure (2026-03-16)
+
+### Problems Added (5 new, 49 total)
+45. **b2b-self-service-purchasing-portal-failure-buyer-reversion** — 80-95% of B2B ecommerce portals underperform, 65% of platforms under-deliver, buyers revert to email/phone, 83% want self-service but face portal fatigue
+46. **revops-team-burnout-tool-admin-overhead-understaffing** — 56% leadership burnout, 40% time on tool admin, 73% of requests automatable but unautomated, 2.3-hour response vs 15-min expectation (9.2x gap)
+47. **b2b-data-enrichment-accuracy-gap-vendor-claims-vs-reality** — Vendors claim 90%+ but deliver 65-80%, email find rates 29-87% across providers, phone find rates 44-72%, selective reporting inflates perceived accuracy
+48. **outbound-sequence-pattern-saturation-cadence-automation-fatigue** — Generic sequences sub-1% reply, pattern saturation across AI-standardized cadences, 50-100 cold emails/week per buyer, signal-triggered 2-4x better
+49. **abm-program-failure-static-account-lists-intelligence-velocity-gap** — 68-80% failure rate, $500K-$2M annual investment wasted, static lists decay 3.2%/month, only 8% achieve strong alignment despite 82% believing they do
+
+### Research Sources Used (Session 7)
+- Kadasync, Zaelab, NETCONOMY, Polar Insight, KiboCommerce, Cloudflight, Zoovu/Forrester, Artigence (B2B self-service portals)
+- Fullcast, SyncGTM, Runbear, VEN Studio, GTM Engine (RevOps burnout/understaffing)
+- Surfe, SyncGTM, Prospeo, Medium/Serghei Pogor, Cleanlist, SynLabs (Data enrichment accuracy)
+- Prospeo, SyncGTM, Forma Norden, GlobeNewsWire/Optimove, Outreach, Salesmotion (Cadence fatigue)
+- SalesRelief, ABM Agency, RevenueMemo, Sopro (ABM program failures)
+
+## Areas Explored (Updated)
+- [x] SDR daily workflows and productivity
+- [x] CRM data quality and manual entry
+- [x] Pipeline management and forecasting
+- [x] Cold email outreach and personalization
+- [x] Marketing-to-sales handoff
+- [x] Sales coaching and manager visibility
+- [x] Multi-threading and stakeholder management
+- [x] Sales tool stack and integrations
+- [x] Territory planning and account assignment
+- [x] Buyer intent data quality
+- [x] Contract/legal review bottlenecks
+- [x] Competitive intelligence freshness
+- [x] Post-sale expansion and upsell detection
+- [x] Demo scheduling and no-show rates
+- [x] Sales hiring and onboarding ramp time
+- [x] Sales enablement content findability
+- [x] Commission calculation and disputes
+- [x] Sales-to-CS post-close handoff
+- [x] Email deliverability and domain reputation
+- [x] Quota setting methodology and fairness
+- [x] Pricing optimization and discounting discipline
+- [x] RFP/proposal response capacity and automation
+- [x] CPQ quoting errors and revenue leakage
+- [x] Channel/partner sales coordination and enablement
+- [x] SaaS renewals management and churn prediction
+- [x] Revenue attribution and multi-touch modeling
+- [x] Buyer committee mapping and org chart intelligence
+- [x] Customer reference and advocacy program management
+- [x] Deal desk and non-standard deal approval routing
+- [x] Outbound phone/cold call connect rates and spam labeling
+- [x] Pre-call meeting preparation and intelligence synthesis
+- [x] Sales demo personalization and buyer experience
+- [x] Sales compensation plan design complexity
+- [x] Sales hiring and predictive talent selection
+- [x] LinkedIn/social selling saturation and InMail capacity limits
+- [x] Value selling, ROI quantification, and business case gap
+- [x] Product-led growth to sales-led handoff (PQL scoring)
+- [x] Sales qualification methodology enforcement and drift
+- [x] Multi-jurisdiction prospect data compliance (GDPR/CCPA/CASL)
+- [x] Sales forecasting methodology (weighted vs. AI-driven)
+- [x] Sales engineering capacity and pre-sales bottleneck
+- [x] Dark funnel / anonymous buyer journey visibility
+- [x] AI sales agent deployment governance and quality control
+- [x] Sales rep burnout and workforce engagement crisis
+- [x] B2B self-service purchasing portal friction and failure
+- [x] RevOps team burnout, understaffing, and tool admin overhead
+- [x] B2B data enrichment vendor accuracy gap (claims vs. reality)
+- [x] Outbound sequence/cadence pattern saturation and automation fatigue
+- [x] ABM program coordination failure and static account list decay
+
 ## Areas To Explore Next
-- [ ] Account-based selling coordination across AE/SDR/CS (data collected but not yet added — may overlap with existing)
-- [ ] RevOps tooling sprawl and orchestration layer gaps (data collected — may overlap with tool stack #8)
 - [ ] Procurement process navigation for sellers (from seller's perspective — buying groups now 13+ stakeholders with procurement in 53% of cycles)
 - [ ] Sales conversation intelligence and call analytics adoption gaps (overlaps with coaching #6 — needs distinctness check)
 - [ ] Vertical-specific selling challenges (healthcare, financial services, government)
 - [ ] Customer success-qualified leads (CSQLs) as a pipeline source (overlaps with expansion #13)
 - [ ] International/cross-border selling localization (beyond compliance — pricing, payments, cultural)
 - [ ] B2B marketplace and platform selling challenges (Amazon Business, etc.)
-- [ ] RevOps team burnout and understaffing (1:40+ ratios, 40% time on tool admin, 67% plan to reduce tool count)
-- [ ] Outbound sequence/cadence fatigue and multi-channel over-saturation (full automation reduces response 60-80%)
-- [ ] B2B data enrichment vendor accuracy gap (vendors claim 90%+ but actual performance varies by type/geography/size)
-- [ ] B2B buyer self-service purchasing portal friction (83% say self-service crucial but portals create friction)
 - [ ] Sales team collaboration and knowledge sharing across distributed/remote teams
 - [ ] Buyer enablement — equipping champions with internal selling tools (partially addressed in #36 but may warrant standalone)
-- [ ] Post-demo follow-up and proposal personalization gaps
+- [ ] Post-demo follow-up and proposal personalization gaps (strong data found: 75% demo-to-close failure, 92% stop after 4 attempts)
+- [ ] Sales data privacy and security (reps pasting confidential data into LLMs, shadow AI usage)
+- [ ] Account prioritization and scoring model failures (beyond territory — which accounts to work first)
+- [ ] Sales meeting scheduling friction and calendar coordination with buying committees
+- [ ] Win/loss analysis programs — most lack systematic post-mortem processes
+- [ ] Sales process documentation and institutional knowledge capture
