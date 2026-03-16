@@ -1,6 +1,6 @@
 # Sales Problems Research Progress
 
-## Last Updated: 2026-03-17
+## Last Updated: 2026-03-17 (Session 15)
 
 ## Session 1: Initial Research (2026-03-16)
 
@@ -962,18 +962,122 @@
 - [x] Event/trade show lead follow-up decay / pipeline hemorrhage
 - [x] Sales-to-product feedback loop failure / feature request dark matter
 
+## Session 15: AI Recording Compliance, AI Search Discoverability (2026-03-17)
+
+### Problems Added (2 new, 76 total)
+75. **ai-meeting-recording-consent-compliance-sales-trust-legal-crisis** — 84% modify behavior when AI records, 50% non-users cite privacy as barrier, 47% experienced unintended recording, 13 all-party consent states with criminal penalties, active Otter.ai class-action lawsuits, BIPA biometric voiceprint violations, reps forced to choose documentation vs. prospect trust
+76. **ai-search-vendor-discoverability-pipeline-invisibility-crisis** — 50% of B2B buyers start in AI chatbots not Google (71% increase in 4 months), ChatGPT cites only 3-4 brands with 89% concentration on top 3, only 12% of ChatGPT URLs rank in Google top 10, <4% citations from vendor websites, Reddit 40.1% of cross-platform citations, AI-referred leads convert at 5x Google rates, $200K deal lost from ChatGPT invisibility
+
+### Research Sources Used (Session 15)
+- Fellow.ai 'State of AI Meeting Notetakers 2025' survey, JDSupra/Robinson+Cole, NPR Illinois, The Register, Faegre Drinker, ReedSmith, Hunton, Ohio Employer Law Blog (AI recording compliance)
+- GrackerAI 10,000 Citations Study (Feb 2026), GrackerAI 'Buyer Has Already Moved', AuthorityTech, DiscoveredLabs AEO Pipeline Impact, ConvertMate AI Visibility 2026, KnewSearch Benchmark, Salespeak AI (AI search discoverability)
+
+### Areas Evaluated But Not Added (Session 15)
+- **Sales analytics dashboard overload / signal-to-noise ratio** — Researched but overlaps with #8 (tool stack bloat), #46 (RevOps burnout, 40% time on tool admin), and #2 (CRM data decay); dashboard explosion is a manifestation of these existing problems
+- **Post-signature deal orchestration / order management failure** — Researched but overlaps with #11 (legal review bottleneck), #29 (deal desk approval), #18 (sales-CS handoff), #54 (silent deal decay), and #59 (onboarding TTV gap); post-signature coordination is distributed across existing problems
+- **CRM activity logging burden / context switching cost** — Researched (72% activity data missing, 40% productivity loss from context switching) but overlaps with #1 (SDR productivity crisis), #2 (CRM data decay), and #8 (tool stack bloat)
+- **Sales forecasting behavioral gaming (sandbagging, happy ears)** — Researched but #40 (sales forecasting methodology) already covers "behavioral distortions: happy ears, sandbagging, zombie deals" explicitly; gaming detection is a sub-dimension of forecasting methodology failure
+- **TCPA/outbound compliance** — Researched (3,200+ federal lawsuits/year, $6.6M avg settlements) but overlaps with #30 (cold call connect rate collapse) and #39 (multi-jurisdiction data compliance); calling compliance is the legal mechanism layer of existing problems
+- **Sales gamification failure** — Researched (leaderboards demotivate 80%, Carnegie Mellon moral erosion study) but more management/culture issue than automation opportunity; overlaps with #6 (coaching gap) and #44 (burnout)
+- **AI-to-human handoff in sales conversations** — Researched (68% lose context, 31% satisfaction drop) but overlaps with #43 (AI agent governance) as a sub-problem of AI SDR deployment
+- **Buyer procurement platform vendor onboarding burden** — Researched (8.4 platforms avg, 60%+ fail adoption, 50-day cycles) but more procurement/operations than sales workflow; too far from core sales automation opportunity
+- **Sales proposal/deck creation time bottleneck** — Researched (4-6 hrs/proposal, 67% say biggest time drain, 73% generic templates) but overlaps with #22 (RFP/proposal capacity bottleneck) which covers proposal creation at scale
+- **Sales tax nexus compliance for SaaS** — Researched (25 states tax SaaS differently, no federal rule, expanding nexus triggers) but more finance/tax problem than sales operations
+- **Multi-partner ecosystem co-selling coordination** — Researched (7+ partners per account, only 2/8 executives co-sell effectively) but overlaps with #24 (channel partner program drift) and #69 (cloud marketplace co-sell); evidence base too thin from vendor blogs
+- **Vertical-specific sales compliance (healthcare, government)** — Previously evaluated in Session 13; regulatory friction overlaps with #56, #62, #27
+- **Speed-to-lead / after-hours response gap** — Researched (40% leads arrive off-hours, 77.3% lead leakage for slow after-hours responders) but overlaps with #5 (marketing-sales lead handoff) and #42 (dark funnel); response timing is covered in existing problems
+- **Inbound lead routing / assignment failure** — Researched (30% leads with no owner, 20% duplicate assignments, 63.5% never responded to) but overlaps with #5 (marketing-sales handoff); routing is the implementation mechanism of the same handoff problem
+
+## Areas Explored (Updated)
+- [x] SDR daily workflows and productivity
+- [x] CRM data quality and manual entry
+- [x] Pipeline management and forecasting
+- [x] Cold email outreach and personalization
+- [x] Marketing-to-sales handoff
+- [x] Sales coaching and manager visibility
+- [x] Multi-threading and stakeholder management
+- [x] Sales tool stack and integrations
+- [x] Territory planning and account assignment
+- [x] Buyer intent data quality
+- [x] Contract/legal review bottlenecks
+- [x] Competitive intelligence freshness
+- [x] Post-sale expansion and upsell detection
+- [x] Demo scheduling and no-show rates
+- [x] Sales hiring and onboarding ramp time
+- [x] Sales enablement content findability
+- [x] Commission calculation and disputes
+- [x] Sales-to-CS post-close handoff
+- [x] Email deliverability and domain reputation
+- [x] Quota setting methodology and fairness
+- [x] Pricing optimization and discounting discipline
+- [x] RFP/proposal response capacity and automation
+- [x] CPQ quoting errors and revenue leakage
+- [x] Channel/partner sales coordination and enablement
+- [x] SaaS renewals management and churn prediction
+- [x] Revenue attribution and multi-touch modeling
+- [x] Buyer committee mapping and org chart intelligence
+- [x] Customer reference and advocacy program management
+- [x] Deal desk and non-standard deal approval routing
+- [x] Outbound phone/cold call connect rates and spam labeling
+- [x] Pre-call meeting preparation and intelligence synthesis
+- [x] Sales demo personalization and buyer experience
+- [x] Sales compensation plan design complexity
+- [x] Sales hiring and predictive talent selection
+- [x] LinkedIn/social selling saturation and InMail capacity limits
+- [x] Value selling, ROI quantification, and business case gap
+- [x] Product-led growth to sales-led handoff (PQL scoring)
+- [x] Sales qualification methodology enforcement and drift
+- [x] Multi-jurisdiction prospect data compliance (GDPR/CCPA/CASL)
+- [x] Sales forecasting methodology (weighted vs. AI-driven)
+- [x] Sales engineering capacity and pre-sales bottleneck
+- [x] Dark funnel / anonymous buyer journey visibility
+- [x] AI sales agent deployment governance and quality control
+- [x] Sales rep burnout and workforce engagement crisis
+- [x] B2B self-service purchasing portal friction and failure
+- [x] RevOps team burnout, understaffing, and tool admin overhead
+- [x] B2B data enrichment vendor accuracy gap (claims vs. reality)
+- [x] Outbound sequence/cadence pattern saturation and automation fatigue
+- [x] ABM program coordination failure and static account list decay
+- [x] Win/loss analysis and buyer feedback loop failure
+- [x] Buying committee multi-stakeholder meeting scheduling coordination
+- [x] Sales tribal knowledge and institutional context decay
+- [x] Lead/account scoring model failure and prioritization architecture
+- [x] Post-proposal silent deal decay and momentum erosion
+- [x] Buyer enablement / champion internal selling toolkit gap
+- [x] Security questionnaire / vendor assessment procurement bottleneck
+- [x] Shadow AI / sales data leakage into consumer LLMs
+- [x] Sales training event-based knowledge retention failure ($70B+ waste)
+- [x] Customer onboarding time-to-value gap blocking expansion revenue
+- [x] International cross-border B2B selling localization and payment complexity
+- [x] Frontline sales manager span of control / bandwidth crisis
+- [x] Buyer committee consensus failure / group decision conflict dynamics
+- [x] Sales capacity planning / headcount timing / phantom capacity
+- [x] CRM technical debt / automation sprawl / AI adoption blocker
+- [x] Multi-product cross-sell portfolio selling execution failure
+- [x] Autonomous AI buyer agent disruption / seller machine-legibility crisis
+- [x] Enterprise POC/trial late-stage conversion collapse
+- [x] Churned customer win-back pipeline neglect / reactivation revenue gap
+- [x] Cloud marketplace co-sell operational complexity / ISV scaling gap
+- [x] ASC 606 revenue recognition compliance burden / deal design constraint
+- [x] AI outreach trust erosion / buyer authenticity filter crisis
+- [x] Consumption-based pricing revenue predictability / sales motion disruption
+- [x] Event/trade show lead follow-up decay / pipeline hemorrhage
+- [x] Sales-to-product feedback loop failure / feature request dark matter
+- [x] AI meeting recording consent compliance / sales trust-documentation trade-off
+- [x] AI search vendor discoverability / pipeline invisibility crisis
+
 ## Areas To Explore Next
 - [ ] Sales team diversity and inclusion as a revenue performance factor
 - [ ] Real-time competitive deal intelligence (beyond static battlecards)
 - [ ] Sales order management and fulfillment coordination for complex deals
-- [ ] Procurement-driven vendor consolidation as a sales barrier
-- [ ] Sales meeting recording consent and compliance across jurisdictions
-- [ ] Buyer-side procurement technology adoption creating seller data requirements
 - [ ] Community-led growth coordination with sales pipeline (needs more evidence)
-- [ ] Sales forecasting behavioral gaming (sandbagging, happy ears) detection
-- [ ] Vertical-specific sales compliance (healthcare HIPAA, government FedRAMP)
 - [ ] Partner ecosystem co-innovation and joint solution selling coordination
 - [ ] Account-based experience (ABX) execution gap between strategy and implementation
-- [ ] Sales content creation bottleneck (personalized decks, proposals, case studies)
 - [ ] Customer advisory board management and insight capture at scale
-- [ ] Sales analytics dashboard overload / signal-to-noise ratio in reporting
+- [ ] Sales content creation bottleneck (personalized decks, proposals — distinct angle from RFP)
+- [ ] Buyer procurement platform vendor registration fatigue (seller-side operational burden)
+- [ ] Sales incentive trip / President's Club ROI and behavioral distortion
+- [ ] Customer NPS/satisfaction survey fatigue impacting sales relationships
+- [ ] Sales org restructuring / GTM motion change management disruption
+- [ ] Territory realignment productivity loss and account handoff disruption
+- [ ] AI-powered buyer research validation loop (buyers fact-checking AI with trusted sources)

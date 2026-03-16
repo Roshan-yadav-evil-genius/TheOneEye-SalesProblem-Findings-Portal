@@ -954,3 +954,49 @@
 - Common tools (spreadsheets, PM tools, portals) fail at scale due to context-switching
 - Sales reps in deal cycles won't stop to log feedback in separate systems
 - Best practice: contributor access to product management platforms (rarely implemented)
+
+### AI Meeting Recording Consent Compliance Crisis (Session 15)
+- 75% of professionals use AI notetakers in work meetings (Fellow 2025)
+- 84% modify what they say when AI notetaker is present
+- 50% of non-users cite privacy/security as main barrier to adoption
+- 47% experienced a notetaker recording or sharing something unintended
+- 13 all-party consent states: CA, CT, DE, FL, IL, MD, MA, MI, MT, NV, NH, PA, WA
+- Interstate calls: most restrictive state's law applies
+- California: $2,500 per violation + 1 year imprisonment
+- Maryland: felony charges, up to 5 years imprisonment + $10,000 fines
+- BIPA (Illinois): explicit written consent required for biometric voiceprints
+- Otter.ai class-action lawsuits (Aug-Sep 2025): ECPA, CFAA, BIPA violations
+- Recordings used for AI model training without secondary consent
+- Transcripts sent to non-participating meeting invitees
+- Consent burden shifted to account holders, not direct participants
+- Enterprise buyers react poorly to visible recording bots on sales calls
+- Reps forced to choose between documentation and prospect trust
+- Inaccurate AI transcripts become discoverable evidence in litigation
+- Voice recordings = personal data under CCPA and GDPR
+
+### AI Search Vendor Discoverability Pipeline Invisibility Crisis (Session 15)
+- 50% of B2B buyers start vendor research in AI chatbots, not Google (71% increase in 4 months)
+- 67% use AI assistants as much as or more than traditional search for vendor eval
+- 94% of B2B buyers use LLMs during buying process
+- 95% of winning vendors on Day One shortlist (up from 85%)
+- ChatGPT: only 3-4 brands cited per answer, 89% concentration among top 3 market leaders
+- Only 12% of ChatGPT-cited URLs rank in Google's top 10
+- <4% of citations from vendor websites — AI doesn't look at your site
+- Reddit = 40.1% of cross-platform citations (#1 most-cited domain)
+- Wikipedia = 26.3% (47.9% of ChatGPT citations specifically)
+- AI-referred leads convert at 14.2% vs Google's 2.8% (5x advantage)
+- 58% lower CAC for AI-referred traffic ($75 vs $180)
+- Documented $200K deal lost: vendor #1 on Google but absent from ChatGPT
+- Perplexity cites ~13 brands per answer (best for niche/mid-market)
+- Gemini cites ~8 brands; Google AI Overviews cites ~7
+- Citation stability: 54% (Gemini) to 71% (AI Overviews) consistency
+- Monday.com citation rate varied 28pp over 6 months with no product changes
+- Content >180 days old: 40% less likely to be cited
+- Companies outside top 10 market share: 3% ChatGPT citation vs 47% on Perplexity
+- FAQ schema markup: 3.7x citation lift; HowTo schema: 2.9x lift
+- G2 reviews: 67% of Perplexity citations include G2, threshold 100+ reviews, 4.5+ rating
+- 82% of AI citations come from earned media, not vendor-owned content
+
+## Cross-Cutting Themes (Updated Session 15)
+55. **AI recording compliance is a trust-documentation trade-off with criminal penalties** — 84% of professionals modify behavior when recorded, 13 states require all-party consent with criminal penalties; sales teams must choose between accurate deal documentation and prospect candor; the legal exposure from active Otter.ai class-actions signals systemic vendor liability
+56. **Vendor invisibility in AI search is the pre-pipeline crisis no one is measuring** — 50% of buyers start research in AI chatbots but most vendors don't monitor AI search presence; ChatGPT concentrates 89% of citations among top 3 brands; traditional SEO has minimal correlation with AI visibility (12%); the discovery layer has shifted but go-to-market infrastructure hasn't
