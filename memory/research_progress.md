@@ -19,7 +19,7 @@
 12. **competitive-intelligence-staleness-battlecard-decay** — Battlecards stale in 30 days, 20% adoption rate
 13. **missed-post-sale-expansion-revenue-detection-gap** — 3% upsell acceptance, no systematic detection
 
-### Research Sources Used
+### Research Sources Used (Session 1)
 - Zintlr, Orum, MarketBetter, MeetRep (SDR problems)
 - Prospeo, RecordContext, Pintel, Rings.ai (CRM data quality)
 - ForecastIO, Oliv.ai (Pipeline/forecasting)
@@ -33,6 +33,28 @@
 - SalesRelief, Ironclad, BindLegal, PandaDoc (Contract bottleneck)
 - AriseGTM, Info-Tech, HireSteve, FoeSight (Competitive intelligence)
 - Quivly AI, EverAfter, Guideflow, Growth Suite (Post-sale expansion)
+
+## Session 2: Expanded Research (2026-03-16)
+
+### Problems Added (8 new, 21 total)
+14. **demo-no-show-intent-decay-scheduling-gap** — 23-47% no-show for 8+ day bookings, $730 per no-show, $1.8M-$3.6M annual pipeline leak
+15. **sales-rep-ramp-time-onboarding-cost-crisis** — 3-9 month ramp, $115K-$195K per departure, 88% have subpar onboarding
+16. **sales-enablement-content-last-mile-delivery-gap** — $2.3M annual loss from unused content, reps can't find what they need
+17. **sales-commission-calculation-errors-trust-erosion** — 3-8% manual error rates, 42% quit after disputes, 9% quit over errors
+18. **sales-cs-post-close-handoff-context-loss** — 62% of CS leaders lack visibility, 60%+ handoffs missing critical context
+19. **cold-outbound-email-deliverability-authentication-collapse** — Gmail/Yahoo DMARC requirements, 0.1% complaint threshold, direct rejection
+20. **quota-setting-methodology-gap-arbitrary-targets** — 87% of leaders lack methodology, 76.6% miss quota, peanut butter spread
+21. **uncontrolled-discounting-margin-erosion-pricing-governance-gap** — 15-30% margin erosion, invisible discount creep, no pricing governance
+
+### Research Sources Used (Session 2)
+- MeetRep, RevenueHero, Reply.io, Chili Piper, Gong (Demo no-shows)
+- MarketBetter, Bridge Group, Optifai, SalesSo Research (Rep onboarding/ramp)
+- GTMBuddy, 1up.ai, Responsive, Allego, G2 (Content enablement)
+- SalesCompLab, SimpleRev, CaptivateIQ, Xactly (Commission errors)
+- OnRamp, SBI Growth, Sybill, Altior & Co. (Sales-to-CS handoff)
+- MailReach, DMARClytics, GrowthMentor, Yahoo Tech (Email deliverability)
+- Fullcast, Xactly, SalesCommissionsCalc, Forma.ai (Quota setting)
+- CityShift Finance, PROS, Rework, RevenueML (Pricing/discounting)
 
 ## Areas Explored
 - [x] SDR daily workflows and productivity
@@ -48,20 +70,28 @@
 - [x] Contract/legal review bottlenecks
 - [x] Competitive intelligence freshness
 - [x] Post-sale expansion and upsell detection
+- [x] Demo scheduling and no-show rates
+- [x] Sales hiring and onboarding ramp time
+- [x] Sales enablement content findability
+- [x] Commission calculation and disputes
+- [x] Sales-to-CS post-close handoff
+- [x] Email deliverability and domain reputation
+- [x] Quota setting methodology and fairness
+- [x] Pricing optimization and discounting discipline
 
 ## Areas To Explore Next
-- [ ] Sales hiring and onboarding ramp time (search failed, retry)
-- [ ] Pricing optimization and discounting discipline
+- [ ] Channel/partner sales coordination and enablement
 - [ ] Customer reference and case study management
-- [ ] Channel/partner sales coordination
-- [ ] Sales enablement content findability
 - [ ] Deal desk and non-standard deal routing
 - [ ] Revenue attribution and multi-touch modeling
 - [ ] Account-based selling coordination across AE/SDR/CS
-- [ ] Quota setting methodology and fairness
-- [ ] Sales-to-CS handoff (post-close)
 - [ ] Renewals management and churn prediction
-- [ ] Commission calculation and SPIFFs tracking
-- [ ] Sales demo scheduling and no-show rates
-- [ ] Prospect research and account intelligence
-- [ ] Email deliverability and domain reputation management
+- [ ] Sales demo personalization and product-led growth friction
+- [ ] Prospect research and account intelligence automation
+- [ ] Sales meeting preparation and pre-call intelligence
+- [ ] Buyer committee mapping and org chart intelligence
+- [ ] CPQ (Configure-Price-Quote) complexity and errors
+- [ ] Revenue operations data silos across tools
+- [ ] Sales forecasting methodology (weighted vs. AI-driven)
+- [ ] Proposal and RFP response automation
+- [ ] Sales hiring — identifying top performer traits
