@@ -1,6 +1,6 @@
 # Sales Problems Research Progress
 
-## Last Updated: 2026-03-17 (Session 16)
+## Last Updated: 2026-03-17 (Session 17)
 
 ## Session 1: Initial Research (2026-03-16)
 
@@ -1174,19 +1174,140 @@
 - [x] AI search vendor discoverability / pipeline invisibility crisis
 - [x] Buying network external influence invisibility / 9 external validators CRM blind spot
 
+## Session 17: Sales Workflow Middleware Fragility (2026-03-17)
+
+### Problems Added (1 new, 78 total)
+78. **sales-workflow-middleware-fragility-integration-chain-silent-failure-crisis** — 623+ Zapier outages since 2017, 1.4/5 Trustpilot (71% one-star), October 2025 all-day outage, $27,600 lost in single 4h18m incident, 62% of businesses experienced silent failures undetected 48+ hours, 70-85% automation projects fail (IBM/McKinsey/Gartner), only 26% deliver expected ROI, 69% CRM integration failure rate, 71% of AI tools fail integration within 6 months ($1.9M per failure), 76% of enterprises experienced negative outcomes from disconnected systems, "Jenga Stack" phenomenon
+
+### Research Sources Used (Session 17)
+- Go Rogue Ops 'Is Zapier Reliable for Mission-Critical Workflows? Data-Driven Assessment' (Jan 2026) — 623+ outages, $27,600 incident, Trustpilot 1.4/5, Oct 2025 all-day outage
+- Vaza.ai 'Stop Using Zapier and Make.com: Why Edge-First Stacks Win' (2025) — 62% silent failure rate undetected 48+ hours
+- Zigment.ai 'The HubSpot + Zapier Jenga Stack: Why Your Automation Is Still Broken' (2026) — Jenga Stack framework, latency accumulation, logic drift
+- ReliabilityLayer 'HubSpot and Make.com Error Handling: Stop Silent Failures' (2025) — 5-layer error handling architecture, sales complaint discovery pattern
+- Go Rogue Ops '7 Automation Pitfalls That Will Cost You Thousands' (2025) — 70-85% failure rate, 26% ROI delivery, 30% unplanned maintenance budget
+- Pertama Partners 'Why 71% of AI Tools Fail Integration: Workflow Fit Over Features' (2025) — 71% abandonment, $1.9M per failed integration, 4.2x adoption with invisible integration
+- GlobeNewsWire/Zapier survey (Dec 2025) — 70% enterprises fail beyond basic integration, 76% negative outcomes from disconnected systems
+- AppseConnect 'Why Salesforce Integrations Fail' (2025) — 69% CRM integration failure rate
+
+### Areas Evaluated But Not Added (Session 17)
+- **Post-sale contract amendment / change order management** — Researched (version sprawl, compliance blind spots, revenue recognition errors) but overlaps with #70 (ASC 606 compliance burden) and #11 (legal review bottleneck); amendment management is a downstream consequence of revenue recognition rules and contract lifecycle problems already documented
+- **Competitive displacement selling / incumbent vendor switching friction** — Researched (25% higher win rates, 28% higher conversion with ecosystem migration) but more of a sales strategy/methodology than operational workflow problem; lacks specific automation opportunity distinct from competitive intelligence (#12)
+- **B2B sales data clean room / privacy-preserving data collaboration** — Researched (Salesforce Data 360, Snowflake, BigQuery offerings emerging) but more of a technology solution than a documented pain point; insufficient evidence of quantified costs or widespread operational failures
+- **Customer advisory board management** — Researched (poor planning, siloed feedback, lack of follow-up) but too niche and evidence base thin; overlaps partially with #74 (sales-to-product feedback loop)
+- **Sales incentive trip / President's Club ROI and behavioral distortion** — Researched (present bias, hedonic adaptation, social comparison fairness, budget pressures) but more HR/culture problem than sales operations automation opportunity
+- **Email warm-up / domain infrastructure management** — Researched (3-5 domains per team, 4-week warm-up, $150-400/month, 3-12 months to rebuild reputation) but overlaps with #19 (cold outbound email deliverability/authentication collapse); infrastructure management is the operational layer of the same deliverability problem
+- **CRM user adoption depth / feature utilization** — Researched (only 26% consistent usage, 55% implementations fail) but overlaps with #2 (CRM data decay) and #64 (CRM technical debt); low adoption is a manifestation/consequence of these problems
+- **Post-merger sales org integration** — Researched (70-90% M&A fail, 83% don't boost returns) but intermittent event, not recurring operational problem; overlaps with #9 (territory design), #63 (capacity planning), and #52 (tribal knowledge)
+- **B2B buyer self-education / pre-purchase readiness gap** — Researched (83% define requirements before sales, 61% prefer rep-free) but overlaps with #42 (dark funnel), #55 (buyer enablement), #76 (AI search discoverability), and #36 (no-decision gap); cross-cutting theme, not distinct problem
+- **ICP drift / ideal customer profile evolution mismatch** — Researched (£250K-£500K in misdirected spend, 7 drift drivers, 4 types) but evidence base thin (mostly vendor/consultant content); overlaps with #49 (ABM static account lists) and #53 (lead scoring model failure); ICP definition is upstream of targeting problems already documented
+- **AI deal risk scoring accuracy / reliability** — Researched (Einstein 52% accuracy = coin flip, 70-80% project failure, 41% inaccurate deal amounts, 35% wrong stages) but overlaps with #40 (forecasting methodology), #53 (lead scoring), and #64 (CRM technical debt); AI scoring failure is downstream of data quality and methodology problems
+- **CRM-to-ERP revenue reconciliation gap** — Researched ("Closed Won" means nothing to finance, invoicing delays from missing PO numbers, entity coding errors, 8% data entry errors) but overlaps with #70 (ASC 606 compliance) as the systems implementation dimension of revenue recognition; primarily a finance operations problem rather than sales operations
+- **Outbound prospecting channel ROI measurement** — Researched ($150-400 CPM benchmarks, attribution gaps across disconnected platforms) but overlaps with #26 (revenue attribution model mismatch); outbound-specific attribution is a sub-dimension
+- **B2B buyer ghosting / no-response epidemic** — Researched (55% ghost after initial contact, 73% single-stakeholder trap) but overlaps extensively with #54 (silent deal decay) and #7 (single-threaded deal risk); uses same data sources (SpurIQ/Optifai 47,548 deals)
+- **RevOps key person dependency** — Researched (single-threaded RevOps teams, knowledge concentration) but overlaps with #46 (RevOps burnout/understaffing); key-person risk is a symptom of the understaffing problem
+- **Sales compensation benchmarking data scarcity** — Researched (Glassdoor unreliable, OTE ranges vary widely) but overlaps with #17 (commission errors), #33 (comp plan complexity), and #34 (hiring prediction); niche data availability problem
+- **Vendor evaluation fatigue / buyer decision paralysis** — Researched (59% end in no decision from mental effort) but overlaps with #36 (no-decision pipeline loss at 40-60%); buyer-side manifestation of the same problem
+- **Competitive contract renewal timing intelligence** — Researched (6-18 month advance detection, AI monitoring tools) but more strategy/intelligence opportunity than documented pain point; overlaps with #10 (intent data) and #12 (competitive intelligence)
+- **Pipeline coverage ratio unreliability / phantom pipeline** — Researched (3.4x raw vs 1.8x weighted gap, 47% less valuable than appears) but overlaps with #3 (pipeline pollution) and #40 (forecasting methodology); phantom pipeline is the mechanism by which these existing problems manifest
+- **Customer org change detection (M&A, layoffs, reorgs)** — Researched (47% key employees leave within first year of acquisition) but overlaps with #7 (champion departure), #27 (buyer committee mapping), and #42 (dark funnel); monitoring is a sub-capability of buyer intelligence
+- **Sales content performance analytics** — Researched (which content drives deals forward) but overlaps with #16 (sales enablement content findability); analytics is the measurement layer of the same content problem
+- **Payment terms negotiation impact on deal velocity** — Researched (Net-30 to Net-90 dynamics, 20 days late average, 77.9% CFOs prioritize cash flow) but primarily finance/treasury problem rather than sales operations automation opportunity
+- **Account-based experience (ABX) execution gap** — No strong results found; searched but insufficient distinct evidence base separate from #49 (ABM failure)
+- **Sales-to-implementation/delivery handoff** — No strong results found distinct from #18 (sales-CS handoff)
+- **B2B sales proposal contract redlining** — No strong results found distinct from #11 (legal review bottleneck) and #22 (RFP/proposal capacity)
+
+## Areas Explored (Updated)
+- [x] SDR daily workflows and productivity
+- [x] CRM data quality and manual entry
+- [x] Pipeline management and forecasting
+- [x] Cold email outreach and personalization
+- [x] Marketing-to-sales handoff
+- [x] Sales coaching and manager visibility
+- [x] Multi-threading and stakeholder management
+- [x] Sales tool stack and integrations
+- [x] Territory planning and account assignment
+- [x] Buyer intent data quality
+- [x] Contract/legal review bottlenecks
+- [x] Competitive intelligence freshness
+- [x] Post-sale expansion and upsell detection
+- [x] Demo scheduling and no-show rates
+- [x] Sales hiring and onboarding ramp time
+- [x] Sales enablement content findability
+- [x] Commission calculation and disputes
+- [x] Sales-to-CS post-close handoff
+- [x] Email deliverability and domain reputation
+- [x] Quota setting methodology and fairness
+- [x] Pricing optimization and discounting discipline
+- [x] RFP/proposal response capacity and automation
+- [x] CPQ quoting errors and revenue leakage
+- [x] Channel/partner sales coordination and enablement
+- [x] SaaS renewals management and churn prediction
+- [x] Revenue attribution and multi-touch modeling
+- [x] Buyer committee mapping and org chart intelligence
+- [x] Customer reference and advocacy program management
+- [x] Deal desk and non-standard deal approval routing
+- [x] Outbound phone/cold call connect rates and spam labeling
+- [x] Pre-call meeting preparation and intelligence synthesis
+- [x] Sales demo personalization and buyer experience
+- [x] Sales compensation plan design complexity
+- [x] Sales hiring and predictive talent selection
+- [x] LinkedIn/social selling saturation and InMail capacity limits
+- [x] Value selling, ROI quantification, and business case gap
+- [x] Product-led growth to sales-led handoff (PQL scoring)
+- [x] Sales qualification methodology enforcement and drift
+- [x] Multi-jurisdiction prospect data compliance (GDPR/CCPA/CASL)
+- [x] Sales forecasting methodology (weighted vs. AI-driven)
+- [x] Sales engineering capacity and pre-sales bottleneck
+- [x] Dark funnel / anonymous buyer journey visibility
+- [x] AI sales agent deployment governance and quality control
+- [x] Sales rep burnout and workforce engagement crisis
+- [x] B2B self-service purchasing portal friction and failure
+- [x] RevOps team burnout, understaffing, and tool admin overhead
+- [x] B2B data enrichment vendor accuracy gap (claims vs. reality)
+- [x] Outbound sequence/cadence pattern saturation and automation fatigue
+- [x] ABM program coordination failure and static account list decay
+- [x] Win/loss analysis and buyer feedback loop failure
+- [x] Buying committee multi-stakeholder meeting scheduling coordination
+- [x] Sales tribal knowledge and institutional context decay
+- [x] Lead/account scoring model failure and prioritization architecture
+- [x] Post-proposal silent deal decay and momentum erosion
+- [x] Buyer enablement / champion internal selling toolkit gap
+- [x] Security questionnaire / vendor assessment procurement bottleneck
+- [x] Shadow AI / sales data leakage into consumer LLMs
+- [x] Sales training event-based knowledge retention failure ($70B+ waste)
+- [x] Customer onboarding time-to-value gap blocking expansion revenue
+- [x] International cross-border B2B selling localization and payment complexity
+- [x] Frontline sales manager span of control / bandwidth crisis
+- [x] Buyer committee consensus failure / group decision conflict dynamics
+- [x] Sales capacity planning / headcount timing / phantom capacity
+- [x] CRM technical debt / automation sprawl / AI adoption blocker
+- [x] Multi-product cross-sell portfolio selling execution failure
+- [x] Autonomous AI buyer agent disruption / seller machine-legibility crisis
+- [x] Enterprise POC/trial late-stage conversion collapse
+- [x] Churned customer win-back pipeline neglect / reactivation revenue gap
+- [x] Cloud marketplace co-sell operational complexity / ISV scaling gap
+- [x] ASC 606 revenue recognition compliance burden / deal design constraint
+- [x] AI outreach trust erosion / buyer authenticity filter crisis
+- [x] Consumption-based pricing revenue predictability / sales motion disruption
+- [x] Event/trade show lead follow-up decay / pipeline hemorrhage
+- [x] Sales-to-product feedback loop failure / feature request dark matter
+- [x] AI meeting recording consent compliance / sales trust-documentation trade-off
+- [x] AI search vendor discoverability / pipeline invisibility crisis
+- [x] Buying network external influence invisibility / 9 external validators CRM blind spot
+- [x] Sales workflow middleware fragility / integration chain silent failure crisis
+
 ## Areas To Explore Next
 - [ ] Sales team diversity and inclusion as a revenue performance factor
 - [ ] Sales order management and fulfillment coordination for complex deals
 - [ ] Partner ecosystem co-innovation and joint solution selling coordination
-- [ ] Account-based experience (ABX) execution gap between strategy and implementation
-- [ ] Customer advisory board management and insight capture at scale
-- [ ] Sales content creation bottleneck (personalized decks — distinct from RFP if stronger evidence found)
-- [ ] Sales incentive trip / President's Club ROI and behavioral distortion
-- [ ] Customer NPS/satisfaction survey fatigue impacting sales relationships (needs stronger sales-ops angle)
-- [ ] B2B buyer self-education / pre-purchase readiness gap and "application blindness"
-- [ ] Post-sale contract amendment / change order management complexity
-- [ ] Sales-to-implementation/delivery handoff quality (distinct from CS handoff if stronger evidence)
-- [ ] Competitive displacement selling methodology and incumbent vendor switching friction
 - [ ] Customer community / user group selling intelligence and influence measurement
-- [ ] B2B sales data clean room / privacy-preserving data collaboration
-- [ ] Sales workflow middleware fragility (Zapier/integration chains breaking silently)
+- [ ] Sales content creation bottleneck (personalized decks — distinct from RFP if stronger evidence found)
+- [ ] Customer NPS/satisfaction survey fatigue impacting sales relationships (needs stronger sales-ops angle)
+- [ ] B2B sales gamification behavioral distortion and leaderboard demotivation
+- [ ] Sales process compliance / methodology adherence monitoring (distinct from qualification #38 if broader)
+- [ ] Revenue operations data observability and pipeline data lineage tracking
+- [ ] Customer multi-product adoption sequencing and expansion path optimization
+- [ ] Sales team communication and deal collaboration across remote/distributed teams
+- [ ] Outbound channel selection intelligence (when to use which channel for which prospect)
+- [ ] Sales AI output verification and hallucination detection in customer-facing content
+- [ ] B2B subscription pricing experimentation and A/B testing infrastructure gaps
