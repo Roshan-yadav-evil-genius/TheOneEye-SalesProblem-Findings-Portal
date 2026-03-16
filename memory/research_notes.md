@@ -280,20 +280,101 @@
 - Coachability, resilience, and discipline outperform traditional credentials
 - Technical literacy increasingly expected across roles
 
+### LinkedIn/Social Selling Saturation (Session 5)
+- LinkedIn InMail capped from ~800 to <100/month (87% reduction) in late 2025
+- Avg connection acceptance rate: 30-40%
+- <25 requests/week → 2x more likely to hit 40%+ acceptance vs 26+
+- Only 66% personalize messages; inconsistent personalization worse than none
+- 4.5x higher acceptance for always-personalized vs occasional
+- Generic templates: 1-2% response; signal-driven: 15-25%
+- 51 requests/week avg; 5 meetings booked/month avg
+- 80% with unoptimized profiles see <40% acceptance
+- Automation doesn't save time — shifts time usage
+- 51% of automation users still spend 5+ hrs/week on LinkedIn
+- AI-extensive users book 3.5x more meetings but log higher hours
+- Platform prices relevance: ignored messages cost capacity, responses regenerate credits
+
+### No-Decision Pipeline / Business Case Gap (Session 5)
+- 40-60% of qualified pipeline ends in "no decision" (JOLT Effect)
+- 79% of B2B purchases require CFO approval (TrustRadius)
+- Only 45% seller/buyer alignment on core problem after discovery (Emblaze)
+- +38% win rate when alignment is achieved
+- 93% of buyers require business case for tech investments
+- 87% tightened to mission-critical only (Forrester)
+- High-friction buying reduces purchase likelihood by 43% (SBI Growth)
+- Only ~4,000 value engineers vs 180,000 pre-sales engineers in U.S.
+- 57% expect ROI within 3 months (G2)
+- 71% of buyers describe experience as "frustrating"
+- 74% choose seller who first delivers insight (Forrester)
+- 65% of sales/marketing content goes unused (Spekit/Forrester)
+- 81% of buyers dissatisfied with chosen provider (Forrester)
+
+### PLG-to-Sales Handoff (Session 5)
+- Only 24% of B2B SaaS companies use PQL scoring
+- PQLs convert 5-6x better than MQLs (15-30% vs 2-5%)
+- 23% of PLG companies switched back to SLG by Q3 2025 ($1.2B wasted)
+- Typical $100M+ ARR: 90% enterprise / 5% sales-assisted / 5% self-serve
+- Target mix: 60% enterprise / 30% sales-assisted / 10% self-serve
+- 67% of successful companies run hybrid models by year three
+- Enterprise signals: team expansion of 10+ users in 30 days
+- AI-powered onboarding increased PLG conversion by 34%
+- Sales-led with ACV >$50K: 2.3x higher net retention
+- Core failure: product usage data and sales ops in disconnected systems
+
+### Sales Qualification Methodology Drift (Session 5)
+- Only 15% of opportunities fully qualified (even when teams claim frameworks)
+- 67% of lost sales trace to poor lead qualification
+- 91% of sales orgs missed quota in 2024
+- MEDDIC: 73% of $100K+ ACV SaaS, +18% win rates, 3.6 months to master
+- BANT: 52% of pros use it, 70 years old, works under $10K ACV
+- Frameworks fail when not embedded in CRM/daily tools
+- Wrong framework for deal type is common (BANT for enterprise, MEDDIC for transactional)
+- Implementation is ongoing process, not one-time training
+
+### Multi-Jurisdiction Prospect Data Compliance (Session 5)
+- 68% of B2B companies struggle with compliant lead list building
+- Total GDPR fines: €5.88B across 2,245 cases
+- Marketing/sales data violations: 34% of enforcement actions
+- €20M or 4% global revenue max per violation
+- Avg GDPR fine in 2024: €1.6M
+- CNIL Jan 2026: €27M + €15M fines
+- Vodafone Italia: €12.25M for purchased lists; TIM: €27.8M
+- Data retention limit: 3 years without interaction (GDPR)
+- International transfer sanctions increased 107% (2023→2024)
+- ePrivacy Regulation withdrawn Feb 2025 → fragmented national rules
+- Germany strictest, France more permissive for B2B
+- CAN-SPAM: most permissive, $50K+ per email penalties
+- CASL: strictest, $10M CAD per violation, requires consent
+
+### Sales Forecasting Methodology (Session 5)
+- 80% of teams miss forecasts by 10%+
+- Only 7% achieve 90%+ accuracy
+- XANT Labs: 28.1% close within 5% of 90-day forecast; 47% miss by half; avg error >31%
+- Variance by method: rep roll-up ±25-35%, weighted pipeline ±18-25%, historical ±15-20%, AI/ML ±8-15%
+- 69% of ops leaders say forecasting is becoming more challenging
+- $156K+ annual manual cost for 10-manager team
+- Behavioral distortions: happy ears, sandbagging, zombie deals
+- Companies with accurate forecasting: 10% more likely to grow revenue YoY
+- AI/ML methods: 15-25% improvement over manual but vendors oversell
+
 ## Cross-Cutting Themes
 1. **Data quality is the root cause of many downstream problems** — CRM decay feeds into bad forecasts, bad territories, bad intent signals
 2. **Time poverty is universal** — SDRs, managers, and CS teams all lack time for their highest-value activities
 3. **AI adoption is early and failing** — 81% use AI but 1% mature; 79% of automation fails ROI targets
 4. **Personalization vs Scale is the central tension** — quality drops as volume increases across every channel
-5. **Handoff points are revenue leaks** — marketing→sales, sales→legal, sales→CS all lose context and speed
+5. **Handoff points are revenue leaks** — marketing→sales, sales→legal, sales→CS, PLG→sales all lose context and speed
 6. **Invisible costs compound silently** — commission errors, discount creep, no-show pipeline leaks, and content waste accumulate without visible metrics
-7. **Governance gaps enable degradation** — without guardrails on pricing, quotas, and commission calculations, individual rep decisions erode organizational outcomes
+7. **Governance gaps enable degradation** — without guardrails on pricing, quotas, commission calculations, and qualification methodology, individual rep decisions erode organizational outcomes
 8. **Onboarding is a retention lever** — ramp time directly correlates with tenure; 88% of companies underinvest in structured onboarding
 9. **Speed kills deals in both directions** — first to respond wins 50% (quoting), but scheduling delays increase no-shows 3-6x; speed is a consistent competitive advantage
-10. **Opacity in prediction creates false security** — churn scores, intent data, and forecast models provide numbers without explanations, making intervention impossible
+10. **Opacity in prediction creates false security** — churn scores, intent data, forecast models, and PQL scores provide numbers without explanations, making intervention impossible
 11. **Channel and ecosystem complexity is accelerating** — 70% of spending flows through partners but programs are built for simple resale, not AI/outcome-based selling
 12. **Attribution failures misallocate GTM budgets** — e-commerce attribution models applied to B2B systematically underfund pipeline generation activities
-13. **Channel saturation is multi-dimensional** — email (deliverability collapse), phone (spam labeling crisis), and social selling all face declining effectiveness simultaneously, creating a multi-channel outreach crisis
+13. **Channel saturation is multi-dimensional** — email (deliverability collapse), phone (spam labeling crisis), LinkedIn (87% InMail cap, volume tax) all face declining effectiveness simultaneously, creating a multi-channel outreach crisis
 14. **Buyer expectations now exceed seller capabilities** — 61% prefer rep-free buying, demand interactive demos, expect instant responses, and self-serve 70% of evaluation before engaging sales
 15. **Compensation architecture drives behavior more than accuracy** — plan complexity causes behavioral distortion (shadow tracking, gaming), while calculation errors cause trust erosion; both are distinct failure modes
 16. **Hiring is the upstream root of many downstream problems** — bad hires cascade into ramp costs, coaching burden, team drag, and quota misses; yet hiring signals (interviews, resumes) are among the weakest predictors
+17. **The "no decision" crisis is the largest pipeline killer** — 40-60% of qualified pipeline dies not to competitors but to buyer inability to build defensible business cases; only ~4,000 value engineers exist vs 180,000 pre-sales engineers
+18. **Compliance is becoming a structural sales constraint** — GDPR, CAN-SPAM, CASL create conflicting requirements across jurisdictions; €5.88B in fines issued; 68% of companies struggle with compliant list building
+19. **Forecasting methodology has not kept pace with deal complexity** — 80% of teams miss by 10%+, most still use rep roll-ups or static stage probabilities, behavioral distortions (happy ears, sandbagging, zombie deals) are undetectable without AI
+20. **GTM motion transitions are high-waste moments** — PLG-to-SLG transitions waste $1.2B+ as 23% of companies switch back; methodology mismatch (BANT for enterprise, MEDDIC for transactional) wastes qualification effort

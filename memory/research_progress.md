@@ -182,19 +182,79 @@
 - [x] Sales compensation plan design complexity
 - [x] Sales hiring and predictive talent selection
 
+## Session 5: Channel Saturation, Buyer Decision, and Operational Methodology (2026-03-16)
+
+### Problems Added (6 new, 40 total)
+35. **linkedin-social-selling-saturation-volume-tax** — 87% InMail capacity cut, volume tax on acceptance rates, <25 requests/week = 2x acceptance, platform prices relevance
+36. **no-decision-pipeline-loss-business-case-quantification-gap** — 40-60% of qualified pipeline ends in "no decision", 79% require CFO approval, only 45% seller/buyer alignment, ~4,000 value engineers vs 180,000 pre-sales engineers
+37. **plg-to-sales-handoff-pql-scoring-failure** — Only 24% use PQL scoring despite 5-6x better conversion, 23% switched back to SLG ($1.2B wasted), product/sales data disconnected
+38. **sales-qualification-methodology-drift-enforcement-gap** — Only 15% of opportunities fully qualified, 67% of lost sales from poor qualification, frameworks not embedded in CRM workflows
+39. **multi-jurisdiction-prospect-data-compliance-legal-minefield** — 68% struggle with compliant list building, €5.88B in GDPR fines, 34% of enforcement actions target marketing/sales data
+40. **sales-forecasting-methodology-static-probabilities-rep-intuition** — 80% miss by 10%+, only 7% at 90%+ accuracy, rep roll-up ±25-35%, weighted pipeline ±18-25%, $156K+ annual manual overhead
+
+### Research Sources Used (Session 5)
+- PhantomBuster, Salesmotion, Prospectory (LinkedIn social selling saturation)
+- ValuePros, JOLT Effect, Forrester, TrustRadius, 6sense, Emblaze, Corporate Visions, SBI Growth, Spotlight.ai (No-decision / business case gap)
+- LifecycleX, Zintlr, GrowthWithGary, PLG Handbook, RudderStack, Rework, TrailSpark (PLG-to-sales handoff)
+- MeetRep, Eubrics, Sybill, RevCentric Partners, Saber.app (Qualification methodology drift)
+- QuotaEngine, Derrick-app, Prospeo, WarmySender, OutreachBloom, SparkDBI (Prospect data compliance)
+- Prospeo, Teamgate, Oliv.ai, Fullcast, XANT Labs, ForecastIO (Forecasting methodology)
+
+## Areas Explored (Updated)
+- [x] SDR daily workflows and productivity
+- [x] CRM data quality and manual entry
+- [x] Pipeline management and forecasting
+- [x] Cold email outreach and personalization
+- [x] Marketing-to-sales handoff
+- [x] Sales coaching and manager visibility
+- [x] Multi-threading and stakeholder management
+- [x] Sales tool stack and integrations
+- [x] Territory planning and account assignment
+- [x] Buyer intent data quality
+- [x] Contract/legal review bottlenecks
+- [x] Competitive intelligence freshness
+- [x] Post-sale expansion and upsell detection
+- [x] Demo scheduling and no-show rates
+- [x] Sales hiring and onboarding ramp time
+- [x] Sales enablement content findability
+- [x] Commission calculation and disputes
+- [x] Sales-to-CS post-close handoff
+- [x] Email deliverability and domain reputation
+- [x] Quota setting methodology and fairness
+- [x] Pricing optimization and discounting discipline
+- [x] RFP/proposal response capacity and automation
+- [x] CPQ quoting errors and revenue leakage
+- [x] Channel/partner sales coordination and enablement
+- [x] SaaS renewals management and churn prediction
+- [x] Revenue attribution and multi-touch modeling
+- [x] Buyer committee mapping and org chart intelligence
+- [x] Customer reference and advocacy program management
+- [x] Deal desk and non-standard deal approval routing
+- [x] Outbound phone/cold call connect rates and spam labeling
+- [x] Pre-call meeting preparation and intelligence synthesis
+- [x] Sales demo personalization and buyer experience
+- [x] Sales compensation plan design complexity
+- [x] Sales hiring and predictive talent selection
+- [x] LinkedIn/social selling saturation and InMail capacity limits
+- [x] Value selling, ROI quantification, and business case gap
+- [x] Product-led growth to sales-led handoff (PQL scoring)
+- [x] Sales qualification methodology enforcement and drift
+- [x] Multi-jurisdiction prospect data compliance (GDPR/CCPA/CASL)
+- [x] Sales forecasting methodology (weighted vs. AI-driven)
+
 ## Areas To Explore Next
-- [ ] Account-based selling coordination across AE/SDR/CS
-- [ ] Revenue operations data silos across tools
-- [ ] Sales forecasting methodology (weighted vs. AI-driven)
+- [ ] Account-based selling coordination across AE/SDR/CS (data collected but not yet added — may overlap with existing)
+- [ ] RevOps tooling sprawl and orchestration layer gaps (data collected — may overlap with tool stack #8)
 - [ ] Procurement process navigation for sellers (from seller's perspective)
-- [ ] Sales data privacy compliance (GDPR, CCPA, CASL) in outreach
-- [ ] RevOps tooling sprawl and orchestration layer gaps
-- [ ] LinkedIn/social selling saturation and declining InMail response rates
-- [ ] Sales-led vs. product-led growth handoff friction
-- [ ] International/cross-border selling compliance and localization
-- [ ] Sales conversation intelligence and call analytics adoption gaps
+- [ ] Sales conversation intelligence and call analytics adoption gaps (overlaps with coaching #6 — needs distinctness check)
 - [ ] Vertical-specific selling challenges (healthcare, financial services, government)
-- [ ] Customer success-qualified leads (CSQLs) as a pipeline source
-- [ ] Value selling and ROI quantification tools gap
-- [ ] Sales playbook adoption and methodology drift
-- [ ] Buyer enablement (helping champions sell internally)
+- [ ] Customer success-qualified leads (CSQLs) as a pipeline source (overlaps with expansion #13)
+- [ ] Buyer enablement — equipping champions with internal selling tools (folded into no-decision problem #36)
+- [ ] International/cross-border selling localization (beyond compliance — pricing, payments, cultural)
+- [ ] AI agent disruption of traditional sales roles (AI SDRs, AI demos, autonomous selling)
+- [ ] Sales team mental health, burnout, and quota-driven stress
+- [ ] B2B marketplace and platform selling challenges (Amazon Business, etc.)
+- [ ] Sales ops headcount shortage and operational bottlenecks
+- [ ] Customer buying journey analytics and dark funnel visibility
+- [ ] Outbound sequence/cadence fatigue and diminishing returns
+- [ ] Sales engineering bottleneck and technical pre-sales capacity
