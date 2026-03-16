@@ -592,17 +592,107 @@
 - [x] Customer onboarding time-to-value gap blocking expansion revenue
 - [x] International cross-border B2B selling localization and payment complexity
 
+## Session 11: Manager Bandwidth, Buyer Consensus, Capacity Planning, CRM Tech Debt (2026-03-16)
+
+### Problems Added (4 new, 64 total)
+61. **frontline-sales-manager-span-of-control-bandwidth-impossibility-crisis** — 12.1+ direct reports (doubled since 2013), only 10-40% time on people management, 50% of reps wouldn't pay for manager's time, weekly coaching = 76% quota attainment vs 47% quarterly
+62. **buyer-committee-consensus-failure-group-decision-conflict-paralysis** — 74% unhealthy conflict (Gartner 632 buyers), individual content hurts consensus 59%, AI purchases double group size, group-level content +20% consensus, 2.5x higher deal quality
+63. **sales-capacity-planning-phantom-capacity-headcount-timing-revenue-miss** — 87% missed 2025 targets, $4,150/day per unfilled seat, phantom capacity from 3-4 under-ramped seats, SDR 49% annual turnover, models assume instant ramp
+64. **crm-technical-debt-automation-sprawl-ai-adoption-blocker** — Only 33% CRM AI initiatives meet ROI, 75% customer data outside CRM, automation density conflicts, 72% fail to scale, cleanup yields 25% productivity gains
+
+### Research Sources Used (Session 11)
+- CoachEm, Business Insider, MySalesCoach, Hyperbound, GetChief (Manager span of control)
+- Gartner 2025 (632 buyers), Forrester 2026 State of Business Buying, JollyMarketer, Intentsify (Buyer consensus failure)
+- Clari Labs Jan 2026, Meander Resources, RevenueTools, Outbound Kitchen, Kernel (Capacity planning)
+- ReplyFabric State of Salesforce 2025-2026, iTechCloud, Salesforce official docs, Sweep, CIO.com, CZM.ai (CRM technical debt)
+
+### Areas Evaluated But Not Added (Session 11)
+- **Free trial abuse / conversion metric distortion** — Researched but more fraud/product problem than sales; PLG conversion overlaps with #37 (PLG-to-sales handoff)
+- **Procurement vendor consolidation as sales barrier** — Researched but more market condition than operational inefficiency; lacks specific automation opportunity
+- **Customer health score opacity** — Researched but overlaps significantly with #25 (SaaS renewal churn prediction opacity); health scoring IS the churn prediction mechanism
+- **Deal velocity variance / one-size-fits-all process** — Researched but overlaps with #38 (qualification methodology drift) and #9 (territory design); segment-specific process design is a sub-dimension of methodology enforcement
+- **B2B marketplace selling (Amazon Business)** — Researched but too platform-specific and e-commerce-adjacent; not core B2B sales workflow
+- **Voicemail effectiveness** — Researched but clearly a sub-problem of #30 (cold call connect rate collapse), not distinct
+
+## Areas Explored (Updated)
+- [x] SDR daily workflows and productivity
+- [x] CRM data quality and manual entry
+- [x] Pipeline management and forecasting
+- [x] Cold email outreach and personalization
+- [x] Marketing-to-sales handoff
+- [x] Sales coaching and manager visibility
+- [x] Multi-threading and stakeholder management
+- [x] Sales tool stack and integrations
+- [x] Territory planning and account assignment
+- [x] Buyer intent data quality
+- [x] Contract/legal review bottlenecks
+- [x] Competitive intelligence freshness
+- [x] Post-sale expansion and upsell detection
+- [x] Demo scheduling and no-show rates
+- [x] Sales hiring and onboarding ramp time
+- [x] Sales enablement content findability
+- [x] Commission calculation and disputes
+- [x] Sales-to-CS post-close handoff
+- [x] Email deliverability and domain reputation
+- [x] Quota setting methodology and fairness
+- [x] Pricing optimization and discounting discipline
+- [x] RFP/proposal response capacity and automation
+- [x] CPQ quoting errors and revenue leakage
+- [x] Channel/partner sales coordination and enablement
+- [x] SaaS renewals management and churn prediction
+- [x] Revenue attribution and multi-touch modeling
+- [x] Buyer committee mapping and org chart intelligence
+- [x] Customer reference and advocacy program management
+- [x] Deal desk and non-standard deal approval routing
+- [x] Outbound phone/cold call connect rates and spam labeling
+- [x] Pre-call meeting preparation and intelligence synthesis
+- [x] Sales demo personalization and buyer experience
+- [x] Sales compensation plan design complexity
+- [x] Sales hiring and predictive talent selection
+- [x] LinkedIn/social selling saturation and InMail capacity limits
+- [x] Value selling, ROI quantification, and business case gap
+- [x] Product-led growth to sales-led handoff (PQL scoring)
+- [x] Sales qualification methodology enforcement and drift
+- [x] Multi-jurisdiction prospect data compliance (GDPR/CCPA/CASL)
+- [x] Sales forecasting methodology (weighted vs. AI-driven)
+- [x] Sales engineering capacity and pre-sales bottleneck
+- [x] Dark funnel / anonymous buyer journey visibility
+- [x] AI sales agent deployment governance and quality control
+- [x] Sales rep burnout and workforce engagement crisis
+- [x] B2B self-service purchasing portal friction and failure
+- [x] RevOps team burnout, understaffing, and tool admin overhead
+- [x] B2B data enrichment vendor accuracy gap (claims vs. reality)
+- [x] Outbound sequence/cadence pattern saturation and automation fatigue
+- [x] ABM program coordination failure and static account list decay
+- [x] Win/loss analysis and buyer feedback loop failure
+- [x] Buying committee multi-stakeholder meeting scheduling coordination
+- [x] Sales tribal knowledge and institutional context decay
+- [x] Lead/account scoring model failure and prioritization architecture
+- [x] Post-proposal silent deal decay and momentum erosion
+- [x] Buyer enablement / champion internal selling toolkit gap
+- [x] Security questionnaire / vendor assessment procurement bottleneck
+- [x] Shadow AI / sales data leakage into consumer LLMs
+- [x] Sales training event-based knowledge retention failure ($70B+ waste)
+- [x] Customer onboarding time-to-value gap blocking expansion revenue
+- [x] International cross-border B2B selling localization and payment complexity
+- [x] Frontline sales manager span of control / bandwidth crisis
+- [x] Buyer committee consensus failure / group decision conflict dynamics
+- [x] Sales capacity planning / headcount timing / phantom capacity
+- [x] CRM technical debt / automation sprawl / AI adoption blocker
+
 ## Areas To Explore Next
 - [ ] Vertical-specific selling challenges (healthcare, financial services, government — regulatory, compliance, procurement cycles)
 - [ ] Customer success-qualified leads (CSQLs) as a pipeline source (overlaps with expansion #13 but may be distinct)
-- [ ] B2B marketplace and platform selling challenges (Amazon Business, etc.)
 - [ ] Renewal negotiation and contract expansion pricing complexity
 - [ ] Outbound calling local presence / caller ID reputation management (sub-problem of #30 but may have distinct technical dimension)
-- [ ] Sales operations headcount planning and capacity modeling failures
 - [ ] Deal velocity variance by segment / industry and the one-size-fits-all process problem
-- [ ] Buyer consensus failure within committees (not mapping, but the GROUP DECISION process itself)
-- [ ] Revenue leakage from free trial abuse / PLG to paid conversion friction
-- [ ] Sales manager span of control crisis (12+ direct reports, impossible coaching load)
-- [ ] Customer health scoring opacity and leading vs lagging indicator confusion
-- [ ] Procurement-driven vendor consolidation and multi-vendor deal complexity
+- [ ] Revenue leakage from free trial abuse / PLG to paid conversion friction (more fraud than sales, but may revisit)
+- [ ] Customer health scoring opacity and leading vs lagging indicator confusion (close to #25, may revisit)
+- [ ] Procurement-driven vendor consolidation and multi-vendor deal complexity (market condition, not operational)
 - [ ] Sales team diversity and inclusion as a revenue performance factor
+- [ ] Sales meeting follow-up documentation and action item tracking automation
+- [ ] Multi-product cross-sell complexity in enterprise portfolio selling
+- [ ] Virtual/remote selling effectiveness gap and hybrid meeting dynamics
+- [ ] Sales data warehouse / analytics infrastructure gaps beyond CRM
+- [ ] AI tool evaluation and selection fatigue for sales leaders
+- [ ] Buyer self-serve research intelligence gap (what buyers know vs what sellers know about buyers)

@@ -702,7 +702,62 @@
 - Prepared firms: 77% global expansion success vs 31% unprepared (2.5x gap)
 - Cultural differences: negotiation styles, decision hierarchies, communication preferences
 
-## Cross-Cutting Themes (Updated Session 10)
+### Frontline Manager Span of Control (Session 11)
+- Span of control: 8.2 (2013) → 10.9 (2024) → 12.1 (2025)
+- 13% of managers oversee 25+ direct reports
+- Dell mandating 20+ sellers per manager
+- 30-60% of manager time on admin, only 10-40% on people management
+- 90% of leaders claim monthly coaching; only 62% of reps agree; 38% rarely/never coached
+- 45% rate coaching below average (up from 29%)
+- Weekly coaching: 76% quota attainment; monthly: 56%; quarterly: 47%
+- Regular coaching: +40% retention, 19-22% faster close
+- Over 50% of reps wouldn't pay for an hour of their manager's time
+- High performers leave first when development disappears
+- AI co-piloting can expand viable span from 7:1 to 25:1
+
+### Buyer Committee Consensus Failure (Session 11)
+- 74% of B2B buyer teams demonstrate "unhealthy conflict" (Gartner, 632 buyers)
+- Committees: 8.2 avg (up 21% from 6.8 in 2015)
+- Enterprise $250K+ deals: up to 19 external stakeholders
+- Forrester 2026: 13 internal + 9 external stakeholders avg
+- AI-featured purchases DOUBLE group size (14 vs 7)
+- Millennial/Gen Z (71% of B2B decision-makers) involve 2x more stakeholders (6.8 vs 3.5)
+- Buying journeys: 11+ months, 27 interactions
+- Individual-level content: 59% NEGATIVE impact on consensus (confirmation bias)
+- Group-level content: +20% consensus improvement
+- Consensus reached: 2.5x higher deal quality
+- "Buying group relevance": 3x more likely high-quality deal
+- Procurement in 53% of cycles from start
+- 60%+ use trials (78% for $10M+ deals)
+- 94% with 6+ participants report clear benefits
+
+### Sales Capacity Planning Failure (Session 11)
+- 87% of enterprises missed 2025 revenue targets (Clari Labs)
+- $4,150/day cost per unfilled AE seat ($1M quota)
+- Phantom capacity: 10 approved AEs → 6-7 ramped → 3-4 seats evaporate
+- SDR ramp: 3.2 months; AE ramp: 5.7 months; Enterprise: 6-9 months
+- SDR tenure: 23 months, 49% annual turnover
+- AE tenure: 33 months, 30% annual turnover
+- New hires: 25% productivity months 1-2, 50% months 3-4, 75% months 5-6
+- 25-35% annual attrition reduces capacity 15-20%
+- 55% report conflicting pipeline signals; 48% say data isn't AI-ready
+- CRM data ~30% inaccurate for capacity/territory planning
+- Three years of hiring freezes (2022-2024) creating back-loaded hiring rush
+
+### CRM Technical Debt / Automation Sprawl (Session 11)
+- Only 33% of Salesforce AI initiatives meet ROI; 72% fail to scale; 20% stalled/abandoned
+- 74% of customers struggle with CX despite AI investment
+- Only 21% confident in agentic AI governance
+- 75% of customer data resides OUTSIDE Salesforce
+- Legacy Workflow Rules + Process Builder + Flows = conflicting automation chains
+- "Automation density": cumulative rules on single objects → recursion, CPU limits
+- 20%+ inactive automation = serious technical debt signal
+- Technical debt compounds non-linearly (exponential slowdowns)
+- Agentforce: LLM unpredictability → forced deterministic controls → governance burden on customers
+- Cleanup results: 40% fewer integration errors, 30% faster performance, 50% fewer governor limits
+- Strategic optimization: 25% productivity gains, 26% cost savings, 30-50% faster dev cycles
+
+## Cross-Cutting Themes (Updated Session 11)
 34. **Deal decay is invisible in CRM** — 86% of deals die silently through execution failure accumulation, not formal rejection; CRM stage progressions create false confidence; 8 early warning signals exist but most organizations lack detection systems
 35. **Buyer-side enablement is the missing half of sales enablement** — sellers control 5% of buyer's purchase time; the other 95% requires champion-ready tools that most organizations never build; DSRs were meant to solve this but 48% are never viewed
 36. **Procurement compliance is the new enterprise deal killer** — security questionnaires (847 questions, 23 hours each) have joined legal review as a distinct pipeline bottleneck; 94% question overlap across clients reveals a trust-exchange market gap
@@ -710,3 +765,7 @@
 38. **Sales training is a $70B content production industry with 1-2% retention** — the event-based delivery model contradicts neuroscience of memory formation; the entire industry measures satisfaction scores, not behavior change; the fix (spaced repetition + microlearning) is well-understood but adoption requires replacing the SKO model
 39. **Time-to-value is the hidden gateway to expansion revenue** — 48% of customers never reach value, blocking 40-50% of potential ARR from expansion; the problem is process visibility (62% lack it), not product quality; real-time tracking = 96% engagement improvement
 40. **Cross-border selling is a compounding friction multiplier** — pricing, payments, language, tax, export controls, and cultural adaptation each add 5-10% friction; combined, they extend cycles 20-50%; companies either build systematic localization infrastructure or accept structurally lower international win rates
+41. **The frontline sales manager is the highest-risk revenue role** — span of control doubled from 8.2 to 12.1 in a decade; only 10-40% of time on people management; coaching, forecasting, pipeline review, hiring, and retention all compete for diminishing bandwidth; AI amplification (not replacement) can expand viable spans 3x
+42. **Buyer committee conflict is the hidden consensus killer** — 74% of committees experience unhealthy conflict; the dominant approach (individually-tailored content) makes it WORSE (-59% consensus); group-level content is 79 percentage points more effective; the decision process itself — not mapping, scheduling, or business cases — is the bottleneck
+43. **Capacity planning is the unmodeled root of revenue misses** — 87% of enterprises missed 2025 targets; phantom capacity from mistimed hiring and ignored ramp gaps creates $4,150/day per unfilled seat; most models assume instant ramp, ignore attrition, and back-load hiring; the headcount-to-revenue lag is 3-9 months but planning treats it as instantaneous
+44. **CRM technical debt is the AI adoption blocker** — only 33% of CRM AI initiatives meet ROI; the platform itself — not the AI — is broken; 75% of customer data outside CRM, legacy automation conflicting with modern Flows, and non-linear compounding of technical debt make the infrastructure incapable of supporting agentic AI
