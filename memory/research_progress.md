@@ -369,6 +369,75 @@
 - [x] Outbound sequence/cadence pattern saturation and automation fatigue
 - [x] ABM program coordination failure and static account list decay
 
+## Session 8: Win/Loss Analysis, Scheduling Coordination, Knowledge Decay, Lead Scoring (2026-03-16)
+
+### Problems Added (4 new, 53 total)
+50. **win-loss-analysis-crm-data-fiction-learning-failure** — CRM closed-lost reasons wrong 85% of the time, 50-70% seller/buyer disagreement, 61% of "competitor losses" actually no-decision, 1 in 10 "lost" deals still active
+51. **buying-committee-scheduling-coordination-tax-demo-request-drop-off** — 50-70% of demo requests drop off after form submission, 5-13 stakeholders must align calendars, 4.8 hrs/week per rep on manual scheduling, 5 compound friction points
+52. **sales-tribal-knowledge-context-decay-departure-loss** — 42% of org knowledge individual-only, $2.4M annual loss per 1K employees, 90% of SDR research never persists, 440 hrs/year searching for information
+53. **lead-scoring-model-activity-intent-conflation-prioritization-failure** — Traditional scoring rewards linear funnel progression buyers don't follow, conflates activity with intent, 78% miss quota, predictive models perpetuate CRM bias
+
+### Research Sources Used (Session 8)
+- Prospeo, Clozd, UsePropane, Corporate Visions, Reveal, Nitrogen, Diffly, UserIntuition.ai (Win/loss analysis)
+- SkipUp, Aurium Research, Gartner, Forrester, Calendly, Reply.io (Buying committee scheduling)
+- RecordContext, Panopto, Docket.io, WifiTalents, UseWhale (Tribal knowledge/context decay)
+- MarketBetter, Prospeo, Bombora, TrailSpark, Salesmotion, Medium/Neha Reddy (Lead scoring models)
+
+## Areas Explored (Updated)
+- [x] SDR daily workflows and productivity
+- [x] CRM data quality and manual entry
+- [x] Pipeline management and forecasting
+- [x] Cold email outreach and personalization
+- [x] Marketing-to-sales handoff
+- [x] Sales coaching and manager visibility
+- [x] Multi-threading and stakeholder management
+- [x] Sales tool stack and integrations
+- [x] Territory planning and account assignment
+- [x] Buyer intent data quality
+- [x] Contract/legal review bottlenecks
+- [x] Competitive intelligence freshness
+- [x] Post-sale expansion and upsell detection
+- [x] Demo scheduling and no-show rates
+- [x] Sales hiring and onboarding ramp time
+- [x] Sales enablement content findability
+- [x] Commission calculation and disputes
+- [x] Sales-to-CS post-close handoff
+- [x] Email deliverability and domain reputation
+- [x] Quota setting methodology and fairness
+- [x] Pricing optimization and discounting discipline
+- [x] RFP/proposal response capacity and automation
+- [x] CPQ quoting errors and revenue leakage
+- [x] Channel/partner sales coordination and enablement
+- [x] SaaS renewals management and churn prediction
+- [x] Revenue attribution and multi-touch modeling
+- [x] Buyer committee mapping and org chart intelligence
+- [x] Customer reference and advocacy program management
+- [x] Deal desk and non-standard deal approval routing
+- [x] Outbound phone/cold call connect rates and spam labeling
+- [x] Pre-call meeting preparation and intelligence synthesis
+- [x] Sales demo personalization and buyer experience
+- [x] Sales compensation plan design complexity
+- [x] Sales hiring and predictive talent selection
+- [x] LinkedIn/social selling saturation and InMail capacity limits
+- [x] Value selling, ROI quantification, and business case gap
+- [x] Product-led growth to sales-led handoff (PQL scoring)
+- [x] Sales qualification methodology enforcement and drift
+- [x] Multi-jurisdiction prospect data compliance (GDPR/CCPA/CASL)
+- [x] Sales forecasting methodology (weighted vs. AI-driven)
+- [x] Sales engineering capacity and pre-sales bottleneck
+- [x] Dark funnel / anonymous buyer journey visibility
+- [x] AI sales agent deployment governance and quality control
+- [x] Sales rep burnout and workforce engagement crisis
+- [x] B2B self-service purchasing portal friction and failure
+- [x] RevOps team burnout, understaffing, and tool admin overhead
+- [x] B2B data enrichment vendor accuracy gap (claims vs. reality)
+- [x] Outbound sequence/cadence pattern saturation and automation fatigue
+- [x] ABM program coordination failure and static account list decay
+- [x] Win/loss analysis and buyer feedback loop failure
+- [x] Buying committee multi-stakeholder meeting scheduling coordination
+- [x] Sales tribal knowledge and institutional context decay
+- [x] Lead/account scoring model failure and prioritization architecture
+
 ## Areas To Explore Next
 - [ ] Procurement process navigation for sellers (from seller's perspective — buying groups now 13+ stakeholders with procurement in 53% of cycles)
 - [ ] Sales conversation intelligence and call analytics adoption gaps (overlaps with coaching #6 — needs distinctness check)
@@ -376,11 +445,12 @@
 - [ ] Customer success-qualified leads (CSQLs) as a pipeline source (overlaps with expansion #13)
 - [ ] International/cross-border selling localization (beyond compliance — pricing, payments, cultural)
 - [ ] B2B marketplace and platform selling challenges (Amazon Business, etc.)
-- [ ] Sales team collaboration and knowledge sharing across distributed/remote teams
-- [ ] Buyer enablement — equipping champions with internal selling tools (partially addressed in #36 but may warrant standalone)
+- [ ] Sales team collaboration and knowledge sharing across distributed/remote teams (research found 3.6 hrs/day searching, high-performers withhold techniques — partially covered in #52 knowledge decay)
+- [ ] Buyer enablement — equipping champions with internal selling tools (partially addressed in #36 but may warrant standalone — champions get only 17% of buyer's time, 70% of B2B content unused)
 - [ ] Post-demo follow-up and proposal personalization gaps (strong data found: 75% demo-to-close failure, 92% stop after 4 attempts)
-- [ ] Sales data privacy and security (reps pasting confidential data into LLMs, shadow AI usage)
-- [ ] Account prioritization and scoring model failures (beyond territory — which accounts to work first)
-- [ ] Sales meeting scheduling friction and calendar coordination with buying committees
-- [ ] Win/loss analysis programs — most lack systematic post-mortem processes
-- [ ] Sales process documentation and institutional knowledge capture
+- [ ] Sales data privacy and security (reps pasting confidential data into LLMs — 77% of employees leak data, 82% via personal accounts — partially covered in #43 but may warrant standalone)
+- [ ] Sales conversation intelligence tools — actual adoption vs. hype gap
+- [ ] Renewal negotiation and contract expansion pricing complexity
+- [ ] Cross-sell motion discovery and product adjacency mapping
+- [ ] Partner-sourced lead quality and attribution challenges
+- [ ] Sales playbook maintenance and version control across evolving product lines
