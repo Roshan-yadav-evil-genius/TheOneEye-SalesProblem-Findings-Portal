@@ -357,6 +357,68 @@
 - Companies with accurate forecasting: 10% more likely to grow revenue YoY
 - AI/ML methods: 15-25% improvement over manual but vendors oversell
 
+### Sales Engineering Capacity Bottleneck (Session 6)
+- Median AE:SE ratio: 4:1 (Vivun 2025); high performers: 2:1
+- Revenue gap: $3.2M/rep at 2:1 vs $2M/rep at 4:1-5:1 (60% gap, Alexander Group)
+- 70% of deals require presales support (Consensus)
+- 35% of demos go to unqualified/underqualified prospects
+- $58K wasted per SE annually on unqualified demos ($167K total comp)
+- 21 days/year per SE on demo environment maintenance (Reprise)
+- Intro demos: #2 time drain, #10 in deal impact (Consensus)
+- Demo volume: 40% YoY increase without proportional hiring
+- 67% of prospects wait 1+ week for first demo; avg 5.6 days
+- 60% of SEs feel overwhelmed; 69% cite workload/burnout as #1 challenge
+- 10% increase in unqualified demos = burnout equivalent to 2 crunch weeks
+- SE ramp: 3-6 months to demo independently, 6-12 months full productivity
+- Demo automation: 15-67% reduction in SE-attended calls, 30% shorter cycles
+- 82% of orgs plan AI agent integration within 1-3 years (Capgemini)
+
+### Dark Funnel / Anonymous Buyer Journey (Session 6)
+- 73% of B2B buying journey occurs anonymously (6sense)
+- Traditional analytics capture only 27% of buyer influence
+- 92% of buyers start with at least one vendor in mind (6sense)
+- 83% fully define requirements before speaking with sales (6sense)
+- 94% of B2B buyers use LLMs during buying process (6sense 2025)
+- 72% encounter Google AI Overviews during research (TrustRadius)
+- 35% consult external influencers; expected to reach 50% (Forrester 2024)
+- Average lead response time: 42 hours (Kixie 2025)
+- 78% buy from first responder (Gitnux 2026)
+- 5-minute response: 21x more likely to qualify (InsideSales)
+- Typical SaaS site: 10K visitors → 200 leads (2% form fill)
+- Visitor ID technology: 4,000-6,000 companies identified (20-30x more)
+- Dark funnel channels: AI tools, private Slack, LinkedIn DMs, podcasts, Reddit, dark social
+- Three forces expanding dark funnel: AI trust > rep trust, fluid buying networks, privacy regulation
+
+### AI Sales Agent Governance Crisis (Session 6)
+- AI SDRs: 3x more meetings at 40-60% lower cost, 500+ touches/day
+- '90-day cliff': performance collapses after initial gains (AI Journal)
+- Gartner: <40% of sellers will report AI improved productivity by 2028
+- AI hallucination: fabricates funding rounds, blog posts, products
+- Only 40% of consumers trust AI-generated outputs; 4 in 5 spot AI content
+- Phantom pipeline: unqualified meetings create false forecast confidence
+- Domain reputation: spam complaints >0.3% trigger barriers taking quarters to recover
+- TCPA: AI voice calls classified as robocalls, requiring explicit consent
+- Confidential data exposure: reps paste deal terms into public LLMs
+- AI sales agent market: 340% growth since 2024
+- 4.2x pipeline increase, 78% lower cost per qualified lead reported
+- Governance differentiates sustained performance from decay
+- Winners: human review gates, authenticated sender infra, suppression protocols, outcome feedback
+
+### Sales Rep Burnout Workforce Crisis (Session 6)
+- 66% of sales reps report burning out (George Lui analysis)
+- Only 21% of B2B reps fully engaged (Sales Collective 2025)
+- 34% lower win rate for burned-out reps (Quota Crushers Agency)
+- 21% more time on non-revenue tasks vs engaged peers
+- 43% leave due to impossible quotas; 76% of leaders admit quotas unrealistic
+- 70% struggle with work-life balance; 31% say motivation declining
+- Turnover reaches 73% in some sales-focused industries
+- 1 in 3 sales pros lack any wellness/burnout support from leadership
+- 77% of American workers affected by work stress; 57% report burnout symptoms
+- 63% higher sick-day rates for burned-out employees
+- Companies addressing burnout: +23% quota attainment advantage
+- Tech stacks increase stress: more dashboards/platforms/tracking = cognitive fatigue
+- 71% start year without quota; 90% face major target obstacles (CaptivateIQ)
+
 ## Cross-Cutting Themes
 1. **Data quality is the root cause of many downstream problems** — CRM decay feeds into bad forecasts, bad territories, bad intent signals
 2. **Time poverty is universal** — SDRs, managers, and CS teams all lack time for their highest-value activities
@@ -378,3 +440,7 @@
 18. **Compliance is becoming a structural sales constraint** — GDPR, CAN-SPAM, CASL create conflicting requirements across jurisdictions; €5.88B in fines issued; 68% of companies struggle with compliant list building
 19. **Forecasting methodology has not kept pace with deal complexity** — 80% of teams miss by 10%+, most still use rep roll-ups or static stage probabilities, behavioral distortions (happy ears, sandbagging, zombie deals) are undetectable without AI
 20. **GTM motion transitions are high-waste moments** — PLG-to-SLG transitions waste $1.2B+ as 23% of companies switch back; methodology mismatch (BANT for enterprise, MEDDIC for transactional) wastes qualification effort
+21. **Pre-sales engineering is the hidden revenue bottleneck** — SE capacity constrains deal velocity more than AE capacity; 60% revenue gap between 2:1 and 4:1 AE:SE ratios, yet sales leaders default to AE hires because they understand that role
+22. **The dark funnel is the majority of the buying journey** — 73% of buyer activity is invisible to sellers; AI tools (LLMs) are accelerating anonymous research; traditional attribution captures only 27% of actual influence
+23. **AI adoption without governance creates new failure modes** — AI agents show 340% market growth but face 90-day performance cliffs; hallucination, phantom pipeline, and domain damage compound without human oversight gates
+24. **Burnout is a revenue metric, not an HR metric** — 66% of reps report burning out with 34% lower win rates; burnout compounds other operational problems (data fabrication, skipped qualification, default discounting); no systematic measurement exists

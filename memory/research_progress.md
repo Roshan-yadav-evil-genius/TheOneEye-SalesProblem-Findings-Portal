@@ -242,19 +242,79 @@
 - [x] Multi-jurisdiction prospect data compliance (GDPR/CCPA/CASL)
 - [x] Sales forecasting methodology (weighted vs. AI-driven)
 
+## Session 6: SE Capacity, Dark Funnel, AI Agent Governance, and Burnout (2026-03-16)
+
+### Problems Added (4 new, 44 total)
+41. **sales-engineering-capacity-bottleneck-demo-waste** — 4:1 median AE:SE ratio, 35% demos wasted on unqualified buyers, $58K/SE wasted annually, 60% revenue gap, 69% cite burnout as #1 challenge
+42. **dark-funnel-invisible-buyer-journey-blind-spot** — 73% of buyer journey invisible, 94% use LLMs for research, 42-hour avg response time, 78% buy from first responder, 20-30x more opportunities via visitor ID
+43. **ai-sales-agent-performance-cliff-governance-crisis** — 90-day performance cliff, AI hallucination in personalization, phantom pipeline creation, 340% market growth, <40% will report productivity gains by 2028 (Gartner)
+44. **sales-rep-burnout-workforce-crisis-engagement-collapse** — 66% report burning out, only 21% fully engaged, 34% lower win rates, 43% leave over quotas, 1 in 3 lack wellness support, 23% attainment advantage from addressing burnout
+
+### Research Sources Used (Session 6)
+- MeetRep, Alexander Group, Vivun, Consensus, Reprise, Demoboost/Presales Collective (Sales engineering capacity)
+- MarketBetter, 6sense, Similarweb, Strategic ABM, Sagefrog, TheRevOpsReport, Forrester (Dark funnel)
+- AI Journal, Gartner/Salesmotion, EverWorker, Prospeo, Outreach, Astreaux AI (AI agent governance)
+- HatHawk, Quota Crushers Agency, Sales Collective, George Lui, Inc/BLS, CaptivateIQ, Sales & Marketing Management (Sales rep burnout)
+
+## Areas Explored (Updated)
+- [x] SDR daily workflows and productivity
+- [x] CRM data quality and manual entry
+- [x] Pipeline management and forecasting
+- [x] Cold email outreach and personalization
+- [x] Marketing-to-sales handoff
+- [x] Sales coaching and manager visibility
+- [x] Multi-threading and stakeholder management
+- [x] Sales tool stack and integrations
+- [x] Territory planning and account assignment
+- [x] Buyer intent data quality
+- [x] Contract/legal review bottlenecks
+- [x] Competitive intelligence freshness
+- [x] Post-sale expansion and upsell detection
+- [x] Demo scheduling and no-show rates
+- [x] Sales hiring and onboarding ramp time
+- [x] Sales enablement content findability
+- [x] Commission calculation and disputes
+- [x] Sales-to-CS post-close handoff
+- [x] Email deliverability and domain reputation
+- [x] Quota setting methodology and fairness
+- [x] Pricing optimization and discounting discipline
+- [x] RFP/proposal response capacity and automation
+- [x] CPQ quoting errors and revenue leakage
+- [x] Channel/partner sales coordination and enablement
+- [x] SaaS renewals management and churn prediction
+- [x] Revenue attribution and multi-touch modeling
+- [x] Buyer committee mapping and org chart intelligence
+- [x] Customer reference and advocacy program management
+- [x] Deal desk and non-standard deal approval routing
+- [x] Outbound phone/cold call connect rates and spam labeling
+- [x] Pre-call meeting preparation and intelligence synthesis
+- [x] Sales demo personalization and buyer experience
+- [x] Sales compensation plan design complexity
+- [x] Sales hiring and predictive talent selection
+- [x] LinkedIn/social selling saturation and InMail capacity limits
+- [x] Value selling, ROI quantification, and business case gap
+- [x] Product-led growth to sales-led handoff (PQL scoring)
+- [x] Sales qualification methodology enforcement and drift
+- [x] Multi-jurisdiction prospect data compliance (GDPR/CCPA/CASL)
+- [x] Sales forecasting methodology (weighted vs. AI-driven)
+- [x] Sales engineering capacity and pre-sales bottleneck
+- [x] Dark funnel / anonymous buyer journey visibility
+- [x] AI sales agent deployment governance and quality control
+- [x] Sales rep burnout and workforce engagement crisis
+
 ## Areas To Explore Next
 - [ ] Account-based selling coordination across AE/SDR/CS (data collected but not yet added — may overlap with existing)
 - [ ] RevOps tooling sprawl and orchestration layer gaps (data collected — may overlap with tool stack #8)
-- [ ] Procurement process navigation for sellers (from seller's perspective)
+- [ ] Procurement process navigation for sellers (from seller's perspective — buying groups now 13+ stakeholders with procurement in 53% of cycles)
 - [ ] Sales conversation intelligence and call analytics adoption gaps (overlaps with coaching #6 — needs distinctness check)
 - [ ] Vertical-specific selling challenges (healthcare, financial services, government)
 - [ ] Customer success-qualified leads (CSQLs) as a pipeline source (overlaps with expansion #13)
-- [ ] Buyer enablement — equipping champions with internal selling tools (folded into no-decision problem #36)
 - [ ] International/cross-border selling localization (beyond compliance — pricing, payments, cultural)
-- [ ] AI agent disruption of traditional sales roles (AI SDRs, AI demos, autonomous selling)
-- [ ] Sales team mental health, burnout, and quota-driven stress
 - [ ] B2B marketplace and platform selling challenges (Amazon Business, etc.)
-- [ ] Sales ops headcount shortage and operational bottlenecks
-- [ ] Customer buying journey analytics and dark funnel visibility
-- [ ] Outbound sequence/cadence fatigue and diminishing returns
-- [ ] Sales engineering bottleneck and technical pre-sales capacity
+- [ ] RevOps team burnout and understaffing (1:40+ ratios, 40% time on tool admin, 67% plan to reduce tool count)
+- [ ] Outbound sequence/cadence fatigue and multi-channel over-saturation (full automation reduces response 60-80%)
+- [ ] B2B data enrichment vendor accuracy gap (vendors claim 90%+ but actual performance varies by type/geography/size)
+- [ ] B2B buyer self-service purchasing portal friction (83% say self-service crucial but portals create friction)
+- [ ] Sales team collaboration and knowledge sharing across distributed/remote teams
+- [ ] Buyer enablement — equipping champions with internal selling tools (partially addressed in #36 but may warrant standalone)
+- [ ] Post-demo follow-up and proposal personalization gaps
