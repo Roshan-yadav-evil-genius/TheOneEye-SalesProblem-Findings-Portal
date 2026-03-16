@@ -585,3 +585,55 @@
 - Three-layer model replacement: static fit + dynamic intent + relationship context (Bombora)
 - Recency and context matter more than volume
 - "Is this lead qualified?" → wrong question; "Is this lead ready to buy THIS WEEK?" → right question
+
+### Silent Post-Proposal Deal Decay (Session 9)
+- 86% of B2B deals decay before closing — never formally lost, just silently stop moving
+- Deals stalled beyond 28 days: 67% drop in conversion (43.2% → 14.3%)
+- Steepest decline: days 21-35, each additional day = -2.3% win probability
+- Proposals stuck 21+ days: 70% less likely to close
+- 14-day proposal delay = 15% revenue velocity reduction ($9.5M+ annual loss at 500 opportunities)
+- 8 predictive signals forecast failure with 84% accuracy, 2-4 weeks ahead
+- Ghosting (61%), stall >28 days (67%), activity gap >7 days (52%), no DM contact (48%)
+- Missing champion (45%), budget unconfirmed (38%), delayed next step (35%), competitor mention (29%)
+- Early intervention within 72 hours: reduces failure from 67% to 28% ($1.2M saved/yr per 10-person team)
+- 20-30% of potential revenue leaks post-buyer interaction from signal-to-action failures
+- Only 18.7% of sales orgs achieve 75%+ forecast accuracy
+- CRM stages create false confidence — "proposal sent" to "closed" looks binary but 86% die in the gap
+
+### Buyer Enablement / Champion Internal Selling Gap (Session 9)
+- Buyers spend only 5% of purchase time with sales reps (95% self-evaluation)
+- Average B2B purchase: 13 stakeholders, 89% cross multiple departments
+- Champion-led deals: 2-3x close rate, 35% faster pipeline
+- 48% of Digital Sales Rooms (30,000+ analyzed) never receive a single buyer view
+- 60% of practitioners cite rooms going stale as top barrier
+- 30% of sales professionals have never used a DSR
+- 65% report longer cycles with more decision-makers
+- Each buying group member brings 4-5 pieces of independent research
+- Buying group expansion demands GTM orchestration over single-champion strategies (INFUSE 2026)
+- Enablement teams historically under-resourced for expanded mandate (Forrester 2026)
+- 79% of B2B businesses don't fully utilize CS enablement tools
+- 86% of B2B purchases stall; 81% of buyers disappointed with vendor
+- Gartner predicted 30% of sales cycles through DSRs by 2026 — adoption gap remains
+
+### Security Questionnaire / Vendor Assessment Bottleneck (Session 9)
+- Average questionnaire: 200-250 rows, 847 questions, 19 risk domains
+- Completion time: 23 hours average (15-40 range)
+- 47 unique questionnaires annually per SaaS company
+- Security reviews add 6-8 weeks to enterprise sales cycles (double in regulated)
+- 34% of deals delayed beyond forecast due to security review
+- $2.3M annual revenue loss per SaaS company
+- $47K opportunity cost per major deal; $180K per delayed enterprise deal
+- 23% lower win rates for deals requiring extensive security review
+- 94% of questionnaires ask identical questions (massive redundancy)
+- 73% of completed questionnaires contain critical inconsistencies
+- Security teams spend 40% of time on vendor assessments
+- CTOs/senior engineers diverted from product to sales support
+- 98% of organizations had a vendor breach in last 2 years
+- SEC requires incident disclosure within 4 days + annual vendor risk reporting
+- 15% of breaches involve third parties
+- AI automation: 80-85% reduction in response time, weeks → 48 hours
+
+## Cross-Cutting Themes (Updated Session 9)
+34. **Deal decay is invisible in CRM** — 86% of deals die silently through execution failure accumulation, not formal rejection; CRM stage progressions create false confidence; 8 early warning signals exist but most organizations lack detection systems
+35. **Buyer-side enablement is the missing half of sales enablement** — sellers control 5% of buyer's purchase time; the other 95% requires champion-ready tools that most organizations never build; DSRs were meant to solve this but 48% are never viewed
+36. **Procurement compliance is the new enterprise deal killer** — security questionnaires (847 questions, 23 hours each) have joined legal review as a distinct pipeline bottleneck; 94% question overlap across clients reveals a trust-exchange market gap

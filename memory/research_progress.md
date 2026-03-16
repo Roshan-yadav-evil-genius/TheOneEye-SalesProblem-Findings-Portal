@@ -438,19 +438,89 @@
 - [x] Sales tribal knowledge and institutional context decay
 - [x] Lead/account scoring model failure and prioritization architecture
 
+## Session 9: Deal Decay, Buyer Enablement, Security Questionnaires (2026-03-16)
+
+### Problems Added (3 new, 56 total)
+54. **silent-deal-decay-post-proposal-momentum-erosion-crm-blindspot** — 86% of deals decay silently, 28-day stall = 67% conversion drop, 8 early warning signals with 84% accuracy, $1.2M/yr saved per team with 72-hour intervention
+55. **buyer-enablement-champion-toolkit-gap-dsr-underperformance** — Buyers spend 95% of time without vendor, 48% of DSRs never viewed, 13-stakeholder average, champions get generic PDFs, buying group expansion demands orchestration over champion-based selling
+56. **security-questionnaire-vendor-assessment-enterprise-deal-bottleneck** — 847 questions, 23 hours per response, 47/year per SaaS company, 34% of deals delayed beyond forecast, $2.3M annual revenue loss, 94% question overlap across clients
+
+### Research Sources Used (Session 9)
+- SpurIQ, Optifai Revenue Velocity Lab (47,548 deals), Talewind, Salesmotion (Deal decay / silent pipeline death)
+- Flowla (30,000+ DSRs), Prospeo, GetAccept, INFUSE, Forrester, PathFactory (Buyer enablement / champion gap)
+- SalesDocx, Wolfia, Settle, Lesia Polivod/Medium, Targhee Security (Security questionnaire bottleneck)
+
+## Areas Explored (Updated)
+- [x] SDR daily workflows and productivity
+- [x] CRM data quality and manual entry
+- [x] Pipeline management and forecasting
+- [x] Cold email outreach and personalization
+- [x] Marketing-to-sales handoff
+- [x] Sales coaching and manager visibility
+- [x] Multi-threading and stakeholder management
+- [x] Sales tool stack and integrations
+- [x] Territory planning and account assignment
+- [x] Buyer intent data quality
+- [x] Contract/legal review bottlenecks
+- [x] Competitive intelligence freshness
+- [x] Post-sale expansion and upsell detection
+- [x] Demo scheduling and no-show rates
+- [x] Sales hiring and onboarding ramp time
+- [x] Sales enablement content findability
+- [x] Commission calculation and disputes
+- [x] Sales-to-CS post-close handoff
+- [x] Email deliverability and domain reputation
+- [x] Quota setting methodology and fairness
+- [x] Pricing optimization and discounting discipline
+- [x] RFP/proposal response capacity and automation
+- [x] CPQ quoting errors and revenue leakage
+- [x] Channel/partner sales coordination and enablement
+- [x] SaaS renewals management and churn prediction
+- [x] Revenue attribution and multi-touch modeling
+- [x] Buyer committee mapping and org chart intelligence
+- [x] Customer reference and advocacy program management
+- [x] Deal desk and non-standard deal approval routing
+- [x] Outbound phone/cold call connect rates and spam labeling
+- [x] Pre-call meeting preparation and intelligence synthesis
+- [x] Sales demo personalization and buyer experience
+- [x] Sales compensation plan design complexity
+- [x] Sales hiring and predictive talent selection
+- [x] LinkedIn/social selling saturation and InMail capacity limits
+- [x] Value selling, ROI quantification, and business case gap
+- [x] Product-led growth to sales-led handoff (PQL scoring)
+- [x] Sales qualification methodology enforcement and drift
+- [x] Multi-jurisdiction prospect data compliance (GDPR/CCPA/CASL)
+- [x] Sales forecasting methodology (weighted vs. AI-driven)
+- [x] Sales engineering capacity and pre-sales bottleneck
+- [x] Dark funnel / anonymous buyer journey visibility
+- [x] AI sales agent deployment governance and quality control
+- [x] Sales rep burnout and workforce engagement crisis
+- [x] B2B self-service purchasing portal friction and failure
+- [x] RevOps team burnout, understaffing, and tool admin overhead
+- [x] B2B data enrichment vendor accuracy gap (claims vs. reality)
+- [x] Outbound sequence/cadence pattern saturation and automation fatigue
+- [x] ABM program coordination failure and static account list decay
+- [x] Win/loss analysis and buyer feedback loop failure
+- [x] Buying committee multi-stakeholder meeting scheduling coordination
+- [x] Sales tribal knowledge and institutional context decay
+- [x] Lead/account scoring model failure and prioritization architecture
+- [x] Post-proposal silent deal decay and momentum erosion
+- [x] Buyer enablement / champion internal selling toolkit gap
+- [x] Security questionnaire / vendor assessment procurement bottleneck
+
 ## Areas To Explore Next
-- [ ] Procurement process navigation for sellers (from seller's perspective — buying groups now 13+ stakeholders with procurement in 53% of cycles)
-- [ ] Sales conversation intelligence and call analytics adoption gaps (overlaps with coaching #6 — needs distinctness check)
+- [ ] Sales conversation intelligence and call analytics adoption vs. actionability gap (insights trapped in platforms, not flowing to CRM/Slack — overlaps with coaching #6 but may be distinct)
 - [ ] Vertical-specific selling challenges (healthcare, financial services, government)
 - [ ] Customer success-qualified leads (CSQLs) as a pipeline source (overlaps with expansion #13)
 - [ ] International/cross-border selling localization (beyond compliance — pricing, payments, cultural)
 - [ ] B2B marketplace and platform selling challenges (Amazon Business, etc.)
-- [ ] Sales team collaboration and knowledge sharing across distributed/remote teams (research found 3.6 hrs/day searching, high-performers withhold techniques — partially covered in #52 knowledge decay)
-- [ ] Buyer enablement — equipping champions with internal selling tools (partially addressed in #36 but may warrant standalone — champions get only 17% of buyer's time, 70% of B2B content unused)
-- [ ] Post-demo follow-up and proposal personalization gaps (strong data found: 75% demo-to-close failure, 92% stop after 4 attempts)
-- [ ] Sales data privacy and security (reps pasting confidential data into LLMs — 77% of employees leak data, 82% via personal accounts — partially covered in #43 but may warrant standalone)
-- [ ] Sales conversation intelligence tools — actual adoption vs. hype gap
+- [ ] Sales data privacy and security (reps pasting confidential data into LLMs — 77% leak data, 82% via personal accounts)
 - [ ] Renewal negotiation and contract expansion pricing complexity
-- [ ] Cross-sell motion discovery and product adjacency mapping
+- [ ] Cross-sell motion discovery and product adjacency mapping (signal-to-contact resolution gap, 64% can't act fast enough)
 - [ ] Partner-sourced lead quality and attribution challenges
-- [ ] Sales playbook maintenance and version control across evolving product lines
+- [ ] Sales playbook staleness and low adoption (static PDFs <20% adoption, but overlaps with #16 content and #12 battlecard decay)
+- [ ] Revenue operations data integration / single source of truth challenges
+- [ ] Post-demo follow-up execution failure and proposal personalization gaps (related to new #54 deal decay)
+- [ ] Sales micro-learning and continuous training vs. event-based training model failure
+- [ ] Customer onboarding-to-value time gap as expansion revenue blocker
+- [ ] Outbound calling local presence / caller ID reputation management
