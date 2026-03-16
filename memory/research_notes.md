@@ -633,7 +633,80 @@
 - 15% of breaches involve third parties
 - AI automation: 80-85% reduction in response time, weeks → 48 hours
 
-## Cross-Cutting Themes (Updated Session 9)
+### Shadow AI / Sales Data Leakage into Consumer LLMs (Session 10)
+- 77% of enterprise employees paste company data into AI chatbots (ChatGPT, Claude, Gemini, DeepSeek)
+- 82% use personal accounts outside enterprise governance
+- 73.8% of ChatGPT usage on personal accounts; 94.4% of Gemini on non-corporate accounts
+- 22% of copy-paste operations contain PII or PCI data
+- 14% explicitly report pasting trade secrets
+- 32% of all corporate data exfiltration now flows through AI tools
+- 1.6% of AI prompts contain policy violations → 180 leaked prompts/day in 100-person company at 10 prompts/employee
+- Organizations have 3-10x more AI integrations than official inventories
+- Shadow AI breaches cost $670K more post-close than controlled incidents
+- 200-1,000 employee orgs: avg 45 distinct AI websites/month; 1,000-5,000: avg 72 sites
+- 1 in 41 enterprise prompts classified as high-risk (Check Point 2026)
+- 46-60% of workers engage in risky unauthorized AI behaviors
+- Sales teams are uniquely high-risk: deal terms, pricing, competitive intel, customer financials
+- Free-tier personal accounts: training-on-input typically enabled by default (no undo button)
+- Browser-based DLP for AI chatbots emerging but adoption lags threat by years
+
+### Sales Training Knowledge Retention Failure (Session 10)
+- US orgs spend $70-100B annually on sales training
+- 87% of newly taught skills forgotten within 30 days
+- 70% forgotten within 24 hours
+- 50% forgotten within 1 hour
+- Only 1-2% of training knowledge translates to real-world application
+- Just 8% of business leaders can confidently measure if training worked
+- 90% of corporate training programs have no lasting impact
+- Only 10% of reps use new messaging within 3 weeks of SKO
+- 65% of L&D teams never reach Level 4 measurement (business outcomes)
+- $98B spent on US training in 2024
+- Ebbinghaus Forgetting Curve (1885): consistently replicated, without spaced repetition brain discards new info
+- Event-based model failure: temporary enthusiasm fades within weeks
+- SKOs: six/seven-figure investments, zero durable behavior change
+- Companies with continuous training + reinforcement: 50% increase in net sales/employee
+- Organizations connecting data architecture properly: 241% ROI
+- Microlearning + spaced repetition + retrieval practice = the replacement architecture
+
+### Customer Onboarding Time-to-Value Gap (Session 10)
+- 48% of customers abandon onboarding if they don't see value quickly
+- 60% of customers say onboarding takes too long
+- 56% of companies experience onboarding delays
+- 57% of leaders say onboarding friction directly impacts revenue realization
+- 62% of CS leaders lack real-time visibility into customer progress
+- 1 in 3 leaders don't know where customers stand during onboarding
+- 96% of teams using real-time tracking report increased engagement
+- Top 3 momentum killers: complex setup/scattered tools, unclear next steps/ownership, manual disconnected comms
+- Expansion revenue = 40-50% of new ARR industry-wide
+- NRR average: 106%; top performers: 130%+
+- 14-day value threshold: 3x higher churn if not reached
+- Top-quartile SaaS: under 5-minute TTV, 40%+ activation (vs 15-20% median)
+- 65% using digital onboarding reduced TTV by at least 25%
+- 87% of customers expect consistent cross-touchpoint experience
+- Median CAC: $1,200/customer; avg SaaS growth: 18% (35% reporting YoY declines)
+
+### Cross-Border B2B Selling Complexity (Session 10)
+- International sales cycles 20-50% longer than domestic
+- 33% of buyers abandon when pricing shows only USD
+- 75% expect native language content
+- Avg B2B buyer: 13 content pieces before engaging, all need localization
+- Cross-border payments: 3-5 institution handoffs across time zones
+- 60% of CFOs cite cross-border payment pain as top operational challenge
+- Global B2B cross-border payments projected to exceed $250T (2023-2025)
+- EU: multiple VAT rates, special categories; must engineer tax into pricing pre-currency conversion
+- PSD3 expanding open banking; ISO 20022 becoming mandatory
+- AML/KYC requirements tightening globally
+- US de minimis duty-free treatment suspended August 2025 (all imports now subject to duties)
+- September 2025 BIS rule changes expanded ownership-based export restrictions
+- International buying committees: avg 7 people for mid-sized firms
+- Prepared firms: 77% global expansion success vs 31% unprepared (2.5x gap)
+- Cultural differences: negotiation styles, decision hierarchies, communication preferences
+
+## Cross-Cutting Themes (Updated Session 10)
 34. **Deal decay is invisible in CRM** — 86% of deals die silently through execution failure accumulation, not formal rejection; CRM stage progressions create false confidence; 8 early warning signals exist but most organizations lack detection systems
 35. **Buyer-side enablement is the missing half of sales enablement** — sellers control 5% of buyer's purchase time; the other 95% requires champion-ready tools that most organizations never build; DSRs were meant to solve this but 48% are never viewed
 36. **Procurement compliance is the new enterprise deal killer** — security questionnaires (847 questions, 23 hours each) have joined legal review as a distinct pipeline bottleneck; 94% question overlap across clients reveals a trust-exchange market gap
+37. **Shadow AI is the largest unmonitored data exfiltration channel in sales** — 77% of reps paste deal data into consumer LLMs, 82% via personal accounts; no existing DLP covers the AI chatbot vector; the productivity benefit is real (reps are under quota pressure) but the governance gap is structural
+38. **Sales training is a $70B content production industry with 1-2% retention** — the event-based delivery model contradicts neuroscience of memory formation; the entire industry measures satisfaction scores, not behavior change; the fix (spaced repetition + microlearning) is well-understood but adoption requires replacing the SKO model
+39. **Time-to-value is the hidden gateway to expansion revenue** — 48% of customers never reach value, blocking 40-50% of potential ARR from expansion; the problem is process visibility (62% lack it), not product quality; real-time tracking = 96% engagement improvement
+40. **Cross-border selling is a compounding friction multiplier** — pricing, payments, language, tax, export controls, and cultural adaptation each add 5-10% friction; combined, they extend cycles 20-50%; companies either build systematic localization infrastructure or accept structurally lower international win rates
