@@ -1,1 +1,1 @@
-agent "$(cat Goal.md)" --yolo
+timeout 50m agent "$(cat Goal.md)" --yolo
