@@ -1,0 +1,1 @@
+agent "$(cat Goal.md)" --yolo
