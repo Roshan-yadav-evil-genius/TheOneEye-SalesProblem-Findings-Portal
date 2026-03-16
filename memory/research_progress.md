@@ -126,19 +126,75 @@
 - [x] Revenue attribution and multi-touch modeling
 - [x] Buyer committee mapping and org chart intelligence
 
+## Session 4: New Channel, Buyer Experience & Operational Research (2026-03-16)
+
+### Problems Added (7 new, 34 total)
+28. **customer-reference-fatigue-unscalable-advocacy-model** — 12-18% participation, 1:1 model unscalable, advocates burn out after 3 calls/quarter, invisible to AI procurement
+29. **deal-desk-approval-workflow-fragmentation** — 93% struggle with cross-functional routing, 68% of stalled deals hit 12 common blockers, 45% lost deals from slow approval
+30. **cold-call-connect-rate-collapse-spam-labeling-crisis** — 2.3% conversation rate (down from 4.82%), 72% to voicemail, 153M robocalls/day drowning legitimate calls
+31. **pre-call-meeting-preparation-information-gap** — 5.2 min avg prep, <4% of available info reviewed, 82% of buyers say reps sound unprepared, 34% vs 19% close rate gap
+32. **generic-sales-demo-conversion-gap-buyer-experience-mismatch** — 18% generic vs 38% interactive demo conversion, 61% prefer rep-free buying, 5:14 drop-off threshold
+33. **sales-comp-plan-complexity-shadow-tracking-trust-gap** — SPIFFs become shadow plans, reps build tracking spreadsheets, multi-role crediting conflicts, plan loses behavioral steering power
+34. **sales-hiring-prediction-failure-unreliable-signals** — 1.8M openings/yr, 90-200% replacement cost, AI-generated CVs unreliable, interviews don't predict performance
+
+### Research Sources Used (Session 4)
+- AdvocacyMaven, GrowSurf, UserEvidence, Referential, Point-of-Reference (Customer reference/advocacy)
+- Optifai Revenue Velocity Lab, Yahoo Finance/Conga, PandaDoc, DealHub (Deal desk workflows)
+- Prospeo, Hiya, Numeracle, TitanX, MarketBetter (Cold calling connect rates)
+- Cotera.co, AmpUp, Salesmotion, MarketBetter (Pre-call preparation)
+- MeetRep, Consensus, Walnut, GreetNow, Optifai (Demo personalization)
+- Forrester, SalesGlobe, SalesCompLab, Spmtribe (Compensation plan complexity)
+- Precision Sales Recruiting, Meritt, SalesAssessmentTesting, QuotaCrushers, Optima Europe (Sales hiring)
+
+## Areas Explored
+- [x] SDR daily workflows and productivity
+- [x] CRM data quality and manual entry
+- [x] Pipeline management and forecasting
+- [x] Cold email outreach and personalization
+- [x] Marketing-to-sales handoff
+- [x] Sales coaching and manager visibility
+- [x] Multi-threading and stakeholder management
+- [x] Sales tool stack and integrations
+- [x] Territory planning and account assignment
+- [x] Buyer intent data quality
+- [x] Contract/legal review bottlenecks
+- [x] Competitive intelligence freshness
+- [x] Post-sale expansion and upsell detection
+- [x] Demo scheduling and no-show rates
+- [x] Sales hiring and onboarding ramp time
+- [x] Sales enablement content findability
+- [x] Commission calculation and disputes
+- [x] Sales-to-CS post-close handoff
+- [x] Email deliverability and domain reputation
+- [x] Quota setting methodology and fairness
+- [x] Pricing optimization and discounting discipline
+- [x] RFP/proposal response capacity and automation
+- [x] CPQ quoting errors and revenue leakage
+- [x] Channel/partner sales coordination and enablement
+- [x] SaaS renewals management and churn prediction
+- [x] Revenue attribution and multi-touch modeling
+- [x] Buyer committee mapping and org chart intelligence
+- [x] Customer reference and advocacy program management
+- [x] Deal desk and non-standard deal approval routing
+- [x] Outbound phone/cold call connect rates and spam labeling
+- [x] Pre-call meeting preparation and intelligence synthesis
+- [x] Sales demo personalization and buyer experience
+- [x] Sales compensation plan design complexity
+- [x] Sales hiring and predictive talent selection
+
 ## Areas To Explore Next
-- [ ] Customer reference and case study management
-- [ ] Deal desk and non-standard deal routing (beyond legal — budget, pricing, decision process)
 - [ ] Account-based selling coordination across AE/SDR/CS
-- [ ] Sales demo personalization and product-led growth friction
-- [ ] Prospect research and account intelligence automation
-- [ ] Sales meeting preparation and pre-call intelligence
 - [ ] Revenue operations data silos across tools
 - [ ] Sales forecasting methodology (weighted vs. AI-driven)
-- [ ] Sales hiring — identifying top performer traits
-- [ ] Outbound calling/phone connect rates decline
-- [ ] Sales compensation plan design complexity
-- [ ] Procurement process navigation for sellers
-- [ ] Customer reference fatigue and advocacy management
-- [ ] Sales data privacy compliance (GDPR, CCPA) in outreach
+- [ ] Procurement process navigation for sellers (from seller's perspective)
+- [ ] Sales data privacy compliance (GDPR, CCPA, CASL) in outreach
 - [ ] RevOps tooling sprawl and orchestration layer gaps
+- [ ] LinkedIn/social selling saturation and declining InMail response rates
+- [ ] Sales-led vs. product-led growth handoff friction
+- [ ] International/cross-border selling compliance and localization
+- [ ] Sales conversation intelligence and call analytics adoption gaps
+- [ ] Vertical-specific selling challenges (healthcare, financial services, government)
+- [ ] Customer success-qualified leads (CSQLs) as a pipeline source
+- [ ] Value selling and ROI quantification tools gap
+- [ ] Sales playbook adoption and methodology drift
+- [ ] Buyer enablement (helping champions sell internally)

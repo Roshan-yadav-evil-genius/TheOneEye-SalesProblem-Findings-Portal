@@ -199,6 +199,87 @@
 - CRM data obsolete faster due to restructuring and role consolidation
 - GenAI-driven dynamic org charts emerging as solution
 
+### Customer Reference/Advocacy (Session 4)
+- 12-18% B2B advocacy participation rate
+- Overused advocates stop responding after ~3 calls/quarter
+- 1:1 reference model can't be audited or parsed by AI procurement
+- 80%+ buyers dissatisfied with chosen provider (Forrester)
+- Shift from activity measurement to influence impact
+- Advocacy programs cut first during budget tightening
+- Reference calls = private reassurance; doesn't scale for committee buying
+
+### Deal Desk Approval Workflows (Session 4)
+- 93% of companies struggle with cross-functional deal routing (Conga 2026)
+- 47,832 deals analyzed: 68% hit one of 12 common blockers
+- Top blockers: Legal (32%, 18.4 days), Budget (28%, 12.7 days), Unclear Decision (24%, 15.3 days)
+- Security audit (22%, 15.2 days), Procurement (19%, 14.8 days)
+- Approval delays extend cycles 45→63 days (40% increase)
+- Close rates drop 32%→27% with blockers
+- 45% lost a deal from slow quote approval in past 6 months
+- Proactive detection: -23% cycle time, +14% close rates
+- Non-standard deals route via Slack, email, informal conversations
+- Approval rules exist in people's heads
+
+### Cold Calling Connect Rates (Session 4)
+- Conversation rate: 2.3% (down from 4.82% prior year)
+- 72% of calls go to voicemail
+- 209 calls per booked appointment
+- "Spam Likely" label: 95% ignore
+- 153M robocalls/day in the US
+- 20B suspected spam calls flagged in H1 2024
+- Once you reach a decision-maker: 65.6% positive next step
+- SaaS connect rates: 8-15%; regulated industries: 3-8%
+- 8%+ connect rate = top quartile
+- 80% of unidentified calls go unanswered
+- Bad data costs $12.9M/yr average
+- STIR/SHAKEN auth can increase answer rates up to 5x
+- Numeracle: 161K+ spam-label remediations in 2025 (44% YoY increase)
+
+### Pre-Call Meeting Preparation (Session 4)
+- 5.2 minutes avg prep regardless of deal size
+- 12,000+ words of info available in systems
+- Less than 4% of available info reviewed
+- 6-8 meetings/day, 10-15 min windows between calls
+- 82% of decision-makers say reps sound unprepared
+- Only 19% of B2B buyers believe meetings are valuable
+- Top performer: 34% close rate (deep prep) vs 19% (quick skim)
+- 76% of top performers do research vs 47% average
+- $4.85B sales intelligence market; 67% of features unused
+- AI can compress 15-30 min research into 60-90 seconds
+
+### Sales Demo Personalization (Session 4)
+- Average demo-to-close rate: 25% (SaaS: 30%)
+- Generic screen-share demos: 18% conversion
+- Interactive self-serve demos: 38% conversion (111% improvement)
+- Buyer attention drop-off: 5 minutes 14 seconds
+- 61% of buyers prefer rep-free buying
+- 45% of qualified leads vanish from scheduling friction
+- Only 22% of demo requests convert to qualified opportunities
+- Well-qualified deals: 50% close vs poorly qualified 8% (6.3x)
+- Prospects watching 9+ demos: 8-10x more likely to close
+- Under $10K deals: 35% close; $100K+: 15% close
+
+### Compensation Plan Complexity (Session 4)
+- Plans layer metrics, tiers, multipliers, SPIFFs until reps can't explain pay
+- Shadow tracking spreadsheets built by reps to verify earnings
+- SPIFFs evolve into permanent "shadow compensation plans"
+- Fixed annual quotas don't work in volatile markets
+- Multi-role crediting conflicts (AE, AM, specialists, overlays)
+- Goldilocks dilemma: too simple misses motions; too complex loses behavior steering
+- Forrester: plan complexity causes more behavioral distortion than misalignment
+
+### Sales Hiring Prediction (Session 4)
+- 1.8M sales openings annually
+- 90-200% of annual salary replacement cost per bad hire
+- AI-generated CVs make screening unreliable
+- Top performers rarely apply (already employed at competitors)
+- Traditional interviews don't predict selling performance
+- Top candidates exit market in days, not weeks
+- Only 27-30% of B2B reps hit quota
+- Structured assessments outperform interview-based selection
+- Coachability, resilience, and discipline outperform traditional credentials
+- Technical literacy increasingly expected across roles
+
 ## Cross-Cutting Themes
 1. **Data quality is the root cause of many downstream problems** — CRM decay feeds into bad forecasts, bad territories, bad intent signals
 2. **Time poverty is universal** — SDRs, managers, and CS teams all lack time for their highest-value activities
@@ -212,3 +293,7 @@
 10. **Opacity in prediction creates false security** — churn scores, intent data, and forecast models provide numbers without explanations, making intervention impossible
 11. **Channel and ecosystem complexity is accelerating** — 70% of spending flows through partners but programs are built for simple resale, not AI/outcome-based selling
 12. **Attribution failures misallocate GTM budgets** — e-commerce attribution models applied to B2B systematically underfund pipeline generation activities
+13. **Channel saturation is multi-dimensional** — email (deliverability collapse), phone (spam labeling crisis), and social selling all face declining effectiveness simultaneously, creating a multi-channel outreach crisis
+14. **Buyer expectations now exceed seller capabilities** — 61% prefer rep-free buying, demand interactive demos, expect instant responses, and self-serve 70% of evaluation before engaging sales
+15. **Compensation architecture drives behavior more than accuracy** — plan complexity causes behavioral distortion (shadow tracking, gaming), while calculation errors cause trust erosion; both are distinct failure modes
+16. **Hiring is the upstream root of many downstream problems** — bad hires cascade into ramp costs, coaching burden, team drag, and quota misses; yet hiring signals (interviews, resumes) are among the weakest predictors
