@@ -769,3 +769,57 @@
 42. **Buyer committee conflict is the hidden consensus killer** — 74% of committees experience unhealthy conflict; the dominant approach (individually-tailored content) makes it WORSE (-59% consensus); group-level content is 79 percentage points more effective; the decision process itself — not mapping, scheduling, or business cases — is the bottleneck
 43. **Capacity planning is the unmodeled root of revenue misses** — 87% of enterprises missed 2025 targets; phantom capacity from mistimed hiring and ignored ramp gaps creates $4,150/day per unfilled seat; most models assume instant ramp, ignore attrition, and back-load hiring; the headcount-to-revenue lag is 3-9 months but planning treats it as instantaneous
 44. **CRM technical debt is the AI adoption blocker** — only 33% of CRM AI initiatives meet ROI; the platform itself — not the AI — is broken; 75% of customer data outside CRM, legacy automation conflicting with modern Flows, and non-linear compounding of technical debt make the infrastructure incapable of supporting agentic AI
+
+### Multi-Product Cross-Sell Portfolio Selling Failure (Session 12)
+- 43% lower win rates for companies with 5+ products (B2B Outbound Systems)
+- 23% of rep time spent determining which product to pitch
+- 68% of cross-sell opportunities identified only after the initial sale
+- Cross-selling increases B2B CLV by 31% (HBR), 25% average (Bain), 30% with personalization (Forrester)
+- Blue Ridge Partners case: technology company off target by 30% on cross-sell synergies
+- Sellers default to familiar products even when messaging and pricing are optimized
+- Territory design and ownership create friction between product teams
+- Compensation plans reward individual performance over collaboration
+- Team selling perceived as risky and time-consuming
+- Bain case: sellers spending less than 25% of time customer-facing due to portfolio complexity
+- 33% increase in customer-facing time achieved through enablement optimization
+- Targeted interventions (6 weeks): 40% win rate improvement, 107% of annual target, 25% larger deals
+- Account planning tool market: $1.4B (2025) to $2.1B (2035)
+- AI-powered product-prospect matching: 92% accuracy, response rates 2-3% to 9-14%
+- Nearly 80% of organizations believe comp plans ineffective at driving company goals
+
+### Autonomous AI Buyer Agent Disruption (Session 12)
+- Gartner: 90% of B2B purchases handled by AI agents by 2028, $15T+ through automated exchanges
+- McKinsey: 50% of procurement tasks automated by AI agents by 2027
+- Forrester: 1/3 of industrial B2B firms optimizing for "buying bots" in 2026
+- AI agents complete 80-90% of vendor research before human sees proposal (Iron Horse)
+- AI procurement agents achieve 17% deeper savings than human-led negotiations
+- Pactum: thousands of autonomous negotiations for Walmart and Maersk, no humans required
+- PLG assumption breaking: agents don't experience onboarding, microcopy, brand narrative
+- Company-owned websites: only 3-17% of AI citations; independent platforms: 60-70%
+- Traditional per-seat licensing obsolete for AI buyers calculating ROI on outcomes
+- Must be transparent, machine-readable, API-queryable
+- LLM asymmetry: perform better as sellers than buyers, buyer agents will improve faster
+- New discipline: "Agent Experience (AX)" parallel to UX
+- BCG: "autonomous selling" — AI agents independently engage, prioritize, transact
+- Deloitte: 25% of enterprises deploying autonomous agents in 2025, doubling to 50% by 2027
+- Human procurement leaders shift to "Delegation Risk" management
+
+### Enterprise POC/Trial Late-Stage Conversion Collapse (Session 12)
+- ICONIQ 2025: 5-10pp drop in late-stage conversion from opportunity to closed-won
+- Enterprise trial conversion: 10-15% (down from mid-market benchmark of 25%)
+- POC $100K+ ACV: 5% median conversion (12% top quartile, 20% elite)
+- Median B2B SaaS trial-to-paid: 18.5% (10,000+ companies, 1Capture)
+- Trial-acquired customers: 2-3% monthly churn vs 3.5% annual churn for demo-qualified
+- Every 10-minute delay in TTV costs 8% in conversion
+- Enterprise trials: 40+ days to value vs 3-6 days for demos (6-13x gap)
+- Enterprise POCs involve 7-11 stakeholders vs 1-2 for smaller deals
+- AI-native companies: 56% late-stage conversion via trials/POCs vs 32% for non-AI peers
+- Opt-in trials: 18.2% conversion; opt-out (auto-renewal): 48.8% (false confidence)
+- 30% of GenAI projects abandoned after POC by end of 2025 (Gartner)
+- Demo conversion: 55-75% vs trial conversion: 10-15% (enterprise) — demos 4-7x more effective
+- AI-native solutions: embedded copilots, real-time usage signals, dynamic trial setup
+
+## Cross-Cutting Themes (Updated Session 12)
+45. **Portfolio breadth is a liability without behavioral change** — multi-product companies systematically underperform (43% lower win rates) because sellers default to familiar products, compensation rewards individual rather than collaborative selling, and territory ownership creates internal friction
+46. **The buyer is becoming non-human** — AI procurement agents handling $15T+ in B2B purchasing by 2028 fundamentally breaks the assumptions underlying all of B2B sales: persuasion-based selling, relationship-dependent trust, experience-driven evaluation, and human-centric pricing models
+47. **Late-stage evaluation is the new conversion crisis** — top-of-funnel remains flat but late-stage conversion has dropped 5-10pp; enterprise POCs at 5% median conversion consume massive pre-sale resources without revenue guarantee
