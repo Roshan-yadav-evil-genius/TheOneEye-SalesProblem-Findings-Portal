@@ -819,7 +819,81 @@
 - Demo conversion: 55-75% vs trial conversion: 10-15% (enterprise) — demos 4-7x more effective
 - AI-native solutions: embedded copilots, real-time usage signals, dynamic trial setup
 
-## Cross-Cutting Themes (Updated Session 12)
+### Churned Customer Win-Back Pipeline Neglect (Session 13)
+- 75% of churn is winnable with proper intervention
+- 26% of churned customers will consider returning with systematic outreach
+- 15-25% of churned revenue recoverable within six months
+- Up to 34% of previously cancelled customers reactivatable
+- <10% of CS resources allocated to reactivation
+- Win-back costs 60-80% less than new acquisition
+- Reactivated customers: 2-3x higher LTV, second-lifetime revenue ~110% of original
+- Multi-channel win-back: 7:1 ROI; win-back emails: 42.51% open rate
+- 72-Hour Rule: 23% more recoveries vs 5-7 day wait
+- Optimal window: 30-90 days post-churn (35-45% conversion at-risk vs 5-10% lost)
+- Proactive retention: 60-80% conversion vs 15-20% reactive
+- $12M ARR company: $2.1M hidden annual loss from usage churn/downgrades
+- Downgrades predict full cancellation 67% of time, 3-6 months ahead
+- Multi-touch sequences: 2,361% higher conversion vs single email
+- Average win-back: $485K (SMB), $1M+ (enterprise)
+- 22.5% annual email database decay threatens campaigns
+- Organizational blind spot: neither sales nor CS owns reactivation pipeline
+
+### Cloud Marketplace Co-Sell Operational Complexity (Session 13)
+- Projected: $30B (2024) → $160B (2030), 30% CAGR
+- $470B+ committed cloud spend available across AWS, Azure, GCP
+- 51% of ISVs say co-sell too complex to scale consistently
+- Only 22% drive >20% revenue through marketplace
+- 62% report net-new customers unavailable through direct channels
+- 42% RevOps teams unconvinced about marketplace ROI
+- Only 32% have structured proactive co-sell cadences with hyperscaler reps
+- Only 41% use purpose-built marketplace platforms for CRM integration
+- 50% of AWS transactions use private offers (enterprise default)
+- ISVs source 45% of marketplace deals themselves
+- Co-sellers report 2x software sales growth
+- Marketplace transactions: 41% faster, 45% shorter cycles, 43% faster cash
+- Hyperscaler AEs earn minimal marketplace fees, motivated by cloud consumption
+- Manual listing management: CRM-marketplace misalignment causes transaction failures
+- IP co-sell referrals: repetitive data entry, validation errors, missing solution IDs
+
+### ASC 606 Revenue Recognition Compliance Burden (Session 13)
+- 156 hours/month on revenue recognition analysis (mid-market SaaS)
+- $195K annual cost for ASC 606 work
+- 64% still rely on spreadsheets or basic tools
+- 3.4x more audit adjustments with manual processes
+- 5 extra days to close monthly books vs automated peers
+- 18% of revenue restatements from manual errors
+- $2.4M average cost per material weakness in revenue recognition
+- Single 42-page contract with 4 obligations: 6 hours to process
+- $15K annual subscription = $1,250/month recognized revenue
+- ASC 606 requires capitalizing and amortizing commission costs over contract period
+- Variable consideration must be constrained to avoid revenue reversal
+- Consumption-based, multi-year variable, continuous modifications increasing complexity
+- Sales, billing, finance interpret obligations differently → misaligned schedules
+- Common shortcuts (collapsing obligations, hard-coding legacy) complicate audits
+- Vendor renewal pricing manipulation: 3%/year caps compound to 9% over 3 years
+
+### AI Outreach Trust Erosion / Buyer Authenticity Filter (Session 13)
+- 70% of B2B buyers auto-delete AI-looking outreach
+- 91% of outreach emails now ignored
+- 0.2% of mass cold emails lead to meetings
+- Interested-only reply rate: 0.64%
+- 'Perfectly polished' AI emails trigger ignore mode via structural fingerprints
+- 74% of newly created webpages contained AI content by April 2025
+- 87% of content marketers use AI → saturated every digital touchpoint
+- 1 in 4 buyers can instantly spot AI misuse
+- 59% prefer not to interact with sales reps as primary info source
+- Market bifurcating: 'AI Spammers' vs 'Safe Havens' (verified human networks)
+- Verified profiles: 3x more replies than AI-automated
+- Niche-specific requests surged 60% in Q1 2026
+- Quality data + genuine humanization: 3-5x higher response rates
+- Trust erosion is self-reinforcing: more AI → more filters → lower rates → more AI
+- Cold email reply rates: 2.1-3.43% average
+
+## Cross-Cutting Themes (Updated Session 13)
 45. **Portfolio breadth is a liability without behavioral change** — multi-product companies systematically underperform (43% lower win rates) because sellers default to familiar products, compensation rewards individual rather than collaborative selling, and territory ownership creates internal friction
 46. **The buyer is becoming non-human** — AI procurement agents handling $15T+ in B2B purchasing by 2028 fundamentally breaks the assumptions underlying all of B2B sales: persuasion-based selling, relationship-dependent trust, experience-driven evaluation, and human-centric pricing models
 47. **Late-stage evaluation is the new conversion crisis** — top-of-funnel remains flat but late-stage conversion has dropped 5-10pp; enterprise POCs at 5% median conversion consume massive pre-sale resources without revenue guarantee
+48. **Churned customers are the most profitable pipeline no one owns** — 75% of churn is winnable, 15-25% recoverable in 6 months, but <10% of CS resources allocated; reactivation costs 60-80% less than acquisition yet falls into organizational no-man's-land between sales and CS
+49. **Cloud marketplace is the fastest-growing channel with the worst operational tooling** — $30B→$160B by 2030, 62% report net-new customers, but 51% say process too complex to scale; structural misalignment between ISV incentives and hyperscaler consumption targets creates a fundamentally different channel challenge from traditional partner programs
+50. **Revenue recognition compliance is the invisible deal design constraint** — ASC 606 forces sales to structure deals within accounting rules that most reps don't understand; 156 hours/month manual overhead, 3.4x audit adjustments, and $2.4M per material weakness make revenue recognition a hidden tax on sales velocity
+51. **AI has poisoned the outreach well for everyone** — the trust crisis is self-reinforcing: more AI outreach → more aggressive buyer filters → lower response rates for ALL senders → more sellers adopt AI volume tools → further trust erosion; even human-written, personally researched messages now get caught in the anti-AI immune response
