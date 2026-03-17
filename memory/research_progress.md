@@ -2048,6 +2048,66 @@
 - [ ] Forrester 2026: Ungoverned genAI costing B2B $10B+ in enterprise value — governance layer for decentralized AI content creation
 - [ ] Forrester 2026: 20% of B2B sellers forced to engage in AI agent-led quote negotiations
 - [ ] INFUSE 2026: Buyer trust gap — information abundance without clarity, confidence eroding
-- [ ] B2B sales playbook maintenance / playbook rot — outdated playbooks as market changes
+- [x] B2B sales playbook maintenance / playbook rot — outdated playbooks as market changes (captured as #108)
 - [ ] Sales deal precedent search — finding how similar past deals/objections were handled
 - [ ] B2B co-selling / ecosystem selling coordination beyond traditional channel partnerships
+- [x] Account plan execution tracking / living intelligence gap (captured as #109, revisited with stronger 2026 evidence)
+
+## Session 33 — Problems Added: #108, #109
+
+### New Problems Added (Session 33)
+
+108. **sales-playbook-rot-86pct-no-defined-playbook-sub-20pct-adoption-6-month-obsolescence-35pct-lower-win-rates** — Distinct from #16 (buyer-facing enablement content), #52 (knowledge loss at departure), #58 (training retention), #38 (qualification methodology behavioral drift). Only 14% of companies have a clearly defined playbook (86% winging it). Adoption below 20%; some as low as 5%. 28% say irrelevant, 33% can't find or don't use. Static docs become obsolete within 6 months. 78% of high-performers update quarterly vs 32% of low-performers. 55% of sales leaders lost revenue from lacking defined process. 80%+ adoption drives 35% higher win rates and 28% shorter cycles. 48% of high-performers use dynamic playbooks. One team went from 5% to 87% adoption by replacing PDF with searchable wiki. Strong automation opportunity: AI-powered living playbooks that auto-update from win/loss data.
+
+109. **account-plan-execution-collapse-845pct-fail-completion-sub-20pct-embedded-static-plans-stale-in-weeks** — Distinct from #107 (QBR value communication to customers), #13 (expansion revenue detection), #87 (health score churn prediction), #52 (knowledge loss). Revisited from Session 28 with much stronger 2026 evidence. ClearPoint Strategy analyzed 20,000+ plans (31.2M data points): only 12.5% of strategic projects completed, 84.5% fail, 83.17% are very low performers. <20% of companies embed account planning into operations. Plans go stale within weeks. DemandFarm: "Account Planning is Dead" — annual cadences structurally obsolete. Mature programs: 72% higher ROI, 28% faster cycles, 35% higher close rates. Market growing from $1.4B to $2.1B. Strong automation opportunity: living, signal-driven account plans with auto-updating market intelligence.
+
+### Research Sources Used (Session 33)
+- The Sales Collective (2026): "Only 14% of Companies Have a Sales Playbook" — 86% lack defined playbook, 55% lost revenue from undefined process
+- Sellcrafter (2026): "Why Your Sales Playbook Isn't Working" — sub-20% adoption, obsolete within 6 months, built without rep input
+- DocBeacon (2026): "How to Build a Sales Playbook That Actually Gets Used" — 5% to 87% adoption via searchable wiki, 80% of reps use only 3 sections, 30-second access threshold
+- Optifai (2026): "How to Build a Sales Playbook from Scratch" — 78% high-performers update quarterly vs 32% low-performers, 80%+ adoption = 35% higher win rates + 28% shorter cycles
+- Highspot (2026): "How to Craft the Perfect Sales Playbook" — 40% have no playbook, 48% of high-performers use dynamic vs static
+- Sharpsell (2026): "Frontline Sales Enablement Shifts" — mature enablement = 32% higher quota attainment, 27% higher CLV
+- HubSpot via Salesfully (2026): 28% say playbook irrelevant, 33% don't use or can't find, 15% higher quota with regular updates
+- ClearPoint Strategy 2026 Report (20,000+ plans, 31.2M data points): 12.5% completion rate, 84.5% fail, 83.17% very low performers
+- Salesmotion (2026): "Enterprise Account Planning 2026 Playbook" — <20% embedded, plans stale within weeks, 65% time on manual research, 72% higher ROI for mature programs, 28% faster cycles, 35% higher close rates, $1.4B→$2.1B market
+- DemandFarm (2026): "Account Planning is Dead" — annual plans invalidated in months, product cycles compressed 3yr→6mo, lifecycle 8+yr→24mo
+- DemandFarm (2025 Wrapped): 1,000+ plans, 2,000+ goals, 5,000+ whitespace opps, 25-30% faster expansions
+
+### Topics Explored But Not Added (Session 33)
+- **B2B co-selling / ecosystem selling coordination** — 71% engaged, 51% say too complex; overlaps directly with #69 (Cloud Marketplace Co-Sell, uses same 51% stat, same co-sell coordination themes) and #105 (channel conflict)
+- **Sales deal precedent search / institutional deal memory** — 31% time searching for content, 15 min per search, DealMemory.ai launching; overlaps with #52 (tribal knowledge evaporates — 90% of SDR research never persists) and #50 (win/loss analysis on CRM fiction); the "can't find past deal patterns" problem is a component of the knowledge evaporation problem
+- **B2B buyer decision paralysis / evaluation fatigue** — 40-60% no-decision, 86% stall, 60% find options overwhelming; overlaps with #36 (no-decision outcome), #62 (unhealthy conflict), #27 (committee blindness); buyer-side manifestation of seller-side problems already captured
+- **AI SDR quality control / brand damage from autonomous agents** — 50-70% annual churn for AI SDR tools, 17% hallucination rate, vendor credibility issues; overlaps with #43 (AI 90-day cliff — explicitly includes hallucination and domain damage) and #79 (AI hallucinations in content)
+- **EU AI Act impact on sales AI tools** — Feb 2025 / Aug 2026 deadlines, penalties up to 7% turnover; most sales AI is limited-risk; primarily regulatory compliance, overlaps with #39 (data compliance); evidence nascent, deadline may be pushed to 2027
+- **CRM migration / sales data portability** — 55% failure rate; primarily IT/infrastructure problem, not daily workflow; explored Session 32 and rejected as overlapping #8 (tool bloat) and #64 (CRM tech debt)
+- **RevOps talent shortage** — 78% now have RevOps (up from 48% 2023), 300% job posting growth, $179K avg salary; labor market problem not automatable; related to #46 (RevOps burnout) as a supply-side complement
+- **Sales micro-learning / JIT training delivery** — 32% higher quota, 45% productivity improvement; essentially the SOLUTION to #58 (training lost in 30 days), not a separate problem
+- **Intent signal overload / signal-to-action gap** — $4.49B market, only 24% exceptional ROI; previously explored and rejected Session 31 as overlapping #10 (intent accuracy) and #53 (lead scoring)
+- **Multi-language selling challenges** — 40% response drop with poor translations; primarily marketing/localization, not sales workflow; overlaps with #60 (international selling cycles)
+- **Sales meeting-to-CRM auto-sync failure** — 14-16 hrs/week on data entry; component of #1 (sell 2 hrs/day), #2 (CRM data decay), #81 (app switching)
+- **B2B procurement portal fragmentation for sellers** — Ariba/Coupa portal management burden; primarily buyer-side procurement ops, explored Sessions 30-31 as not seller-automatable
+- **Sales reps pulled into post-sale support** — No strong specific evidence; time allocation data is the same as #1 (productivity crisis)
+- **Budget cycle misalignment / sales-finance deal approval disconnect** — 49% more deals rejected in 2025; overlaps with #29 (deal desk workflows), #91 (competing forecasts); thin evidence
+
+---
+
+## Areas To Explore Next
+- [ ] Sales team diversity and inclusion as a revenue performance factor (strong data but needs sales-ops framing)
+- [ ] Customer NPS/satisfaction survey fatigue impacting sales relationships (needs stronger sales-ops angle)
+- [ ] Post-close contract obligation tracking automation gap (related to #84 but buyer-side)
+- [ ] Buyer procurement AI agent response protocol standardization (selling TO AI agents; related to #66/#89)
+- [ ] Multi-cloud commitment drawdown tracking for marketplace sellers
+- [ ] Sales team peer learning and knowledge sharing at scale (needs fresh angle)
+- [ ] Sales process observability / real-time funnel health monitoring (distinct from #3 pollution, diagnostic tooling angle)
+- [ ] Sales meeting-to-CRM auto-sync reliability and field mapping accuracy (adjacent to #103 but CRM integration angle)
+- [ ] Revenue team incentive misalignment across sales/CS/support/partners (meta-problem)
+- [ ] B2B customer lifecycle revenue orchestration across new/renewal/expansion/win-back (meta-problem)
+- [ ] Forrester 2026: Ungoverned genAI costing B2B $10B+ in enterprise value
+- [ ] Forrester 2026: 20% of B2B sellers forced to engage in AI agent-led quote negotiations
+- [ ] INFUSE 2026: Buyer trust gap — information abundance without clarity
+- [ ] Sales deal precedent search — finding how similar past deals/objections were handled (explored Session 33, overlaps #52/#50)
+- [ ] B2B sales-finance deal approval criteria disconnect (explored Session 33, thin evidence)
+- [ ] Field sales geographic route optimization / travel logistics (distinct from calendar saturation #83)
+- [ ] B2B sales compliance content freshness / regulatory update propagation to reps
+- [ ] Sales pipeline coverage ratio gaming / inflated pipeline to hit 3x target
