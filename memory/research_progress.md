@@ -1616,3 +1616,72 @@
 - [x] Vertical industry expertise gap for horizontal SaaS (captured as #93)
 - [x] Post-M&A sales team integration / revenue synergy failure (captured as #94)
 - [x] B2B hidden pricing information asymmetry (captured as #95)
+- [x] ICP drift / ideal customer profile silent degradation (captured as #96)
+- [x] Champion job change pipeline gap / warm outbound from former buyers (captured as #97)
+
+---
+
+## Session 25 — Problems Added: #96, #97
+
+### New Problems Added (Session 25)
+
+96. **icp-drift-silent-targeting-degradation-wrong-buyer-optimization-cac-ltv-inversion** — ICP drift silently degrades targeting over 6-18 months; 40-60% higher CAC; customers outside core ICP cost 2.3x more to acquire with 40% lower LTV; up to 50% revenue growth potential lost with static ICP; £250K-£500K annual waste from late detection; 7 primary drift drivers (market shifts, product evolution, competitor moves, buyer behavior changes, internal strategy, technology adoption, buying committee evolution); 3 drift types (product-driven, market-driven, economic); detection relies on lagging indicators discovered quarters after drift begins; modern ICPs must assess buying readiness not just firmographics
+97. **champion-job-change-pipeline-gap-78pct-missed-114pct-higher-win-rates-warm-outbound** — 78% of job changes missed by standard CRM tracking; 20% of CRM contacts change jobs annually; 114% higher win rates vs cold outreach; 54% larger deal sizes; 65% response rate (vs 12% cold); 39% win rate vs 19% industry average; 6X-22X higher conversion rates; 70% of new budgets spent in first 100 days; sales cycles shorten ~12% with champion involvement; case study: $90K deal in 3 weeks vs typical 5-6 month/$40K ACV cycles; teams report +$7M pipeline in under 60 days
+
+### Research Sources Used (Session 25)
+- ITMunch: "ICP Drift: Why Your Ideal Customer Profile Keeps Changing" — 7 primary drivers, lagging indicator detection problem
+- AriseGTM: "Persona Drift Detection: When Your ICP Silently Changes" — £250K-£500K annual late detection cost, 6-18 month silent degradation, 3 drift types
+- UserIntuition: "ICP Drift: Using Win-Loss to Recenter Ideal Customer Profile" — 2.3x acquisition cost for out-of-ICP customers, 40% lower LTV
+- Strives AI: "Is Your ICP Fit Stalling Growth?" — 40-60% higher CAC, 20-50% conversion drop, up to 50% revenue growth potential reduction
+- CoJoy RevGen: "How to Fix ICP Drift in B2B SaaS" — downstream cascade when ICP drifts corrupting ABM, scoring, intent measurement
+- EM360Tech: "Modern Ideal Customer Profile for Tech Services 2026" — buying readiness signals, stakeholder alignment, urgency triggers
+- Prospeo: "Automated Champion Tracking: 2026 Playbook for Job Change Pipeline" — 78% missed, 114% higher win rates, 65% response rate, 6X-22X conversion, 20% annual job changes, 70% budget in first 100 days
+- Lantern Champion Tracking Software — +$7M pipeline in under 60 days case study
+- SyncGTM: "Job Change Signals: The Secret Weapon for Warm Outbound in 2026" — timing decay curve, optimal outreach windows
+- Salesmotion: "Champion Tracking: Generate Pipeline When Contacts Move" — 26% sales performance increase, $90K/3-week deal case study
+- Launch Leads: "Champion Tracking for B2B Sales in 2026" — 54% larger deal sizes, 3X repeat purchase likelihood, structural CRM gap
+- Versapay 2026 Cash Flow Clarity Report — 69% increased late payments, 78% forced business changes, 81% harder collections (explored, finance-side problem)
+- PRNewsWire/AIJourn CRM utilization study — 27% full CRM utilization, 55% exec vs non-exec perception gap (explored, overlaps with #8/#64)
+- ValuePros/Thunderbit B2B Stats 2026 — 93% require business case, 40-60% no-decision, value selling gap (explored, overlaps with #36)
+- Journeybee/Clazar co-sell research — 70% partnership failure, 32% structured co-sell, 18-25 hour manual mapping (explored, overlaps with #24/#69)
+- Sandler Sales Sandbagging analysis — behavioral forecast manipulation, ±25-35% rep roll-up variance (explored, overlaps with #40)
+- RecordContext Context Decay / CRM Data Quality — $222K annual lost research value per 10-person SDR team, 91% data decay (explored, overlaps with #2/#52)
+
+### Topics Explored But Not Added (Session 25)
+- **B2B late payment impact on sales operations** — 69% increased late payments, 74% spend significant time chasing, 78% forced business changes; strong data but primarily a finance/AR problem rather than sales workflow automation; the sales-specific angle (commission timing) is covered partially by #17
+- **CRM feature underutilization** — 27% full utilization, 55% implementation failure; overlaps with sales tool stack bloat (#8) and CRM AI initiative failure (#64); the adoption gap is important but covered from different angles by existing problems
+- **B2B value selling / business case co-creation** — 93% require business case, 40-60% no-decision; directly overlaps with #36 which already cites "Buyers Cannot Build Defensible Business Cases" in its title
+- **Partner co-selling coordination failure** — 70% fail within 2 years, only 32% structured co-sell; overlaps with channel drift (#24) and cloud marketplace complexity (#69); the account mapping friction is interesting but insufficient differentiation
+- **Sales forecast sandbagging** — behavioral manipulation vs methodology failure (#40); ±25-35% rep roll-up variance, 80% believe plans ineffective; overlaps too closely with #40's forecast methodology coverage
+- **Multi-product hybrid pricing complexity** — 61% now usage-based, 76% over $50M have multiple products; overlaps with consumption-based pricing (#72) and CPQ errors (#23)
+- **Account rep transition customer churn** — 34% SDR turnover, 14-18 month tenure, $150K replacement cost; overlaps significantly with new hire ramp (#15) and tribal knowledge loss (#52); customer-side impact data insufficient for standalone problem
+- **B2B sales email infrastructure management burden** — SPF/DKIM/DMARC, domain warm-up, reputation management; sub-problem of email deliverability crisis (#19)
+- **CRM migration switching cost** — 55% fail, $15K-$150K, 20-40% productivity loss; one-time IT event rather than persistent sales workflow friction
+- **Quote-to-cash revenue leakage** — 3-5% ARR lost, 42% experience leakage; overlaps with CPQ errors (#23) and post-signature contract leakage (#84)
+- **B2B peer review platform influence** — 77% consult reviews, 84% of AI citations are G2; overlaps with dark funnel blindness (#42) and AI chatbot vendor research (#76)
+- **Product launch sales readiness gap** — mostly vendor marketing content, thin evidence; overlaps with enablement content (#16) and training loss (#58)
+- **Sales compensation plan modeling/simulation** — 80% believe plans ineffective; overlaps with commission errors (#17), comp complexity (#33), quota setting (#20)
+- **Pipeline velocity measurement** — overlaps with forecasting (#40), pipeline pollution (#3), qualification drift (#38)
+- **Customer expansion signal detection** — directly overlaps with post-sale expansion (#13)
+
+## Areas To Explore Next
+- [ ] Sales team diversity and inclusion as a revenue performance factor (strong data but needs sales-ops framing)
+- [ ] Partner ecosystem co-innovation and joint solution selling coordination (explored Session 25, overlaps with #24/#69 but account mapping friction is interesting)
+- [ ] Customer NPS/satisfaction survey fatigue impacting sales relationships (needs stronger sales-ops angle)
+- [ ] Post-close contract obligation tracking automation gap (related to #84 but buyer-side)
+- [ ] Multi-product pricing model governance (usage + subscription + one-time hybrid complexity; explored Session 25, overlaps with #72/#23)
+- [ ] Buyer-side evaluation template standardization (every company's security/vendor assessment is unique)
+- [ ] Real-time AI coaching authenticity trap (needs more quantitative evidence; revisit when more data available)
+- [ ] Buyer procurement AI agent response protocol standardization (selling TO AI agents)
+- [ ] Multi-cloud commitment drawdown tracking for marketplace sellers
+- [ ] AI-generated proposal customization quality control at scale
+- [ ] B2B payment friction impact on sales operations and commission timing (explored Session 25, primarily finance-side)
+- [ ] Sales forecast sandbagging / rep under-reporting pipeline (explored Session 25, overlaps with #40)
+- [ ] Buyer-side AI-assisted vendor shortlisting disruption (related to #75 but vendor response angle)
+- [ ] B2B sales hiring signal quality / interview process predictive validity (related to #34 but process angle)
+- [ ] Sales-initiated customer advisory board coordination and ROI
+- [ ] GTM data unification across sales/marketing/CS systems (explored Session 25, being solved by RevOps maturation)
+- [ ] Post-incident/outage sales relationship repair and retention playbooks
+- [ ] B2B buyer committee video-first consensus building tools
+- [ ] Sales territory coverage gap during rep leave/transition/vacancy periods
+- [ ] Revenue intelligence platform consolidation and vendor lock-in risk
