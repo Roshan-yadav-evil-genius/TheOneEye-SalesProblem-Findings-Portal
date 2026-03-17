@@ -1368,6 +1368,48 @@
 - **Dashboard / reporting overload** — Insufficient standalone evidence; more a UX complaint than a structural sales problem
 - **Outbound channel selection intelligence** — Tactical advice more than structural problem; overlaps with cadence saturation (#48)
 
+## Session 20: Post-Signature Revenue Leakage, Sales-Delivery Gap, Inbound Lead Authenticity (2026-03-17)
+
+### Problems Added (3 total, #84-86)
+84. **post-signature-contract-revenue-leakage-unenforced-terms-billing-gaps** — 6-12% annual revenue leakage (median 9%) from unenforced price escalation clauses, unbilled usage (10-20%), permanent discount decay (>1/3 persist beyond approval), and lifecycle event gaps; $9M lost at $100M revenue; 84% price realization in $5M-$50M SaaS band
+85. **sales-promise-implementation-delivery-gap-structural-overselling-churn** — 70% of failed implementations from misaligned requirements originating in sales; 75% of software firms seeing declining NRR; 69% cite unmet expectations as churn reason; structural incentive misalignment between sales (closure speed) and PS (utilization) with no owner for promise-delivery alignment
+86. **inbound-lead-authenticity-crisis-bot-traffic-fake-form-submissions-pipeline-contamination** — Bot traffic = ~50% of web traffic; $172B ad fraud by 2028; B2B bot clicks cost 10x more; modern fake leads bypass CAPTCHA; 85% MQL-to-SQL drop-off partly from contamination; SDR phone reputation damaged from dialing fake contacts; corrupts scoring models and analytics
+
+### Research Sources Used (Session 20)
+- Sirion AI: "Avoiding the 9% Revenue Drain: 2026 How-To Guide to Contract Renewal & Expiration Management with AI" — WorldCC 9% median leakage, price escalation enforcement gaps
+- TechGrowth Insights: "Price Realisation Benchmarks: $5M-$50M SaaS (2026)" — 84% list price realization, $2.4M leakage at $15M ARR
+- TechBullion: "The 2026 Revenue Leakage Problem Most Businesses Still Underestimate" — 3-7% earned revenue never captured, 10-20% billable usage never invoiced, commercial terms decay patterns
+- Renewly: "Auto-Renewal Tracking 2026" and "90-Day Notice Windows" — $120K missed deadline case study, 5-10% overpayment from missed windows
+- PactAlert: "Hidden Costs of SaaS" — 51% unused licenses, $21M annual waste, 12.2% annual price inflation
+- Success Navigator / LinkedIn (Hosking): "Beyond the Handoff: Sales Promise vs Implementation Reality in SaaS" — 75% declining NRR, sales-delivery disconnect, Trust Gap concept
+- Salesforce Ben: "Why Sales-to-Delivery Handoffs Fail in Salesforce" — 70% implementation failure from requirements misalignment
+- McMann & Ransford: "Sales Says Yes, Delivery Says No" — #2 PS growth barrier, 85% PS revenue pressure, black box dynamic
+- BigTime: "Hidden Cost of Inconsistent Project Scoping" — scope creep, lost margins, delayed starts
+- CaptivateIQ: "2026 State of Sales Report" — 90% major obstacles, 77% comp errors, 71% start without quota
+- SaaSCity: "SaaS Churn Playbook 2026" — 70% churn within 3 months, outcome churn concept
+- LeadsRain: "Top 5 Lead Quality Red Flags 2026" — billion-dollar fake lead problem, SDR time waste, phone reputation damage
+- MakeForms: "OTP Forms: Stop Fake Leads 2026" — 50% bot traffic, $172B ad fraud projection
+- TrafficGuard: "Click Fraud Impact on B2B Lead Generation" — 10x higher B2B CPC, click farm targeting
+- OrbitForms: "Forms Generating Spam Submissions 2026" — server-side validation needs, honeypot field strategies
+- Prospeo: "Sales Pipeline Challenges 2026" — 85% MQL-to-SQL drop-off rate, pipeline quality deterioration
+
+### Topics Explored But Not Added (Session 20)
+- **CRM data entry burden** — 5.9 hrs/week manual entry, 71% admin time; overlaps with CRM data quality (#2), context-switching (#81), calendar saturation (#83)
+- **Champion turnover / job change pipeline** — 1 in 5 leave within 12 months; overlaps with multi-threading (#4), buyer committee mapping (#49)
+- **Pipeline review theater** — 200+ hrs/month wasted, 22% productivity gain from elimination; overlaps with meetings (#83), forecasting (#40), CRM data quality (#2)
+- **Commission clawback disputes** — Sub-dimension of commission errors (#17) and comp complexity (#30)
+- **SDR prospect research duplication** — CRM deduplication/data quality issue (#2)
+- **Procurement portal fatigue** — Related to self-service portals (#42) but more procurement-ops than sales
+- **Territory conflict / deal ownership disputes** — Sub-dimension of territory planning (#9)
+- **Late-stage procurement surprises** — Overlaps with deal desk (#27) and security questionnaire (#56)
+- **Follow-up persistence gap** — Already covered in outbound cadence saturation (#48)
+- **CS-to-sales expansion handoff** — Overlaps with post-sale expansion (#13)
+- **Comp plan change management disruption** — Sub-dimension of comp complexity (#30) and quota setting (#29)
+- **Sales product knowledge gap** — Sub-dimension of content enablement (#16) and training retention (#58)
+- **Suppression list sync failure** — Sub-dimension of multi-jurisdiction compliance (#37)
+- **Sales vertical industry expertise gap** — Insufficient standalone data found
+- **Post-M&A sales team integration** — Insufficient standalone data found
+
 ## Areas To Explore Next
 - [ ] Sales team diversity and inclusion as a revenue performance factor
 - [ ] Partner ecosystem co-innovation and joint solution selling coordination
@@ -1377,8 +1419,11 @@
 - [ ] B2B subscription pricing experimentation and A/B testing infrastructure gaps
 - [ ] Buyer procurement process standardization vs. seller flexibility tension
 - [ ] AE-to-AM (account management) internal transition friction (continuation of handoff theme)
-- [ ] Sales pipeline inspection theater (weekly pipeline reviews that don't change outcomes)
-- [ ] Post-demo follow-up execution gap (promises made vs. promises kept)
-- [ ] Customer expansion signal detection and routing to sales
 - [ ] Sales team async communication and documentation culture failure
-- [ ] Prospect research duplication across SDR teams (same account researched independently by multiple reps)
+- [ ] Post-close contract obligation tracking automation gap (related to #84 but buyer-side)
+- [ ] Multi-product pricing model governance (usage + subscription + one-time hybrid complexity)
+- [ ] AI-generated pipeline inflation (phantom pipeline from AI SDR tools booking low-quality meetings)
+- [ ] Sales ops bottleneck from DIY integration maintenance (distinct from middleware #78 — internal custom code)
+- [ ] Buyer-side evaluation template standardization (every company's security/vendor assessment is unique)
+- [ ] Customer health score model calibration failure (scores don't predict actual churn/expansion)
+- [ ] Sales leadership development pipeline gap (managers promoted from top IC roles without training)
