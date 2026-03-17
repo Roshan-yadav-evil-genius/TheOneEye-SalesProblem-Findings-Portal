@@ -2138,13 +2138,53 @@
 
 ---
 
+## Session 35 — Problems Added: #111, #112
+
+### New Problems Added (Session 35)
+
+111. **involuntary-churn-payment-failure-440b-annual-drain-20-40pct-saas-churn-preventable-80-90pct-recoverable-most-companies-lack-dunning** — Distinct from #104 (Quote-to-Cash System Disconnection — about CRM-Billing-ERP manual handoffs and invoice errors in the quoting pipeline), #25 (SaaS Renewal Revenue at Risk — about churn prediction being opaque/reactive), and #87 (Customer Health Score — about predicting voluntary churn). This problem targets the PAYMENT PROCESSING FAILURE recovery gap: involuntary churn from failed payments rather than customer decisions. $440B annual industry cost. 20-40% of total SaaS churn is involuntary. 5-10% of recurring payments fail monthly. 80-90% of declines are soft (recoverable). Without dunning: 15-20% recovery; with dunning: 60-80% recovery. Only 17% actively track failed payments. Failed payment recovery market: $7.2B (2024) → $21.1B by 2033. Dunning automation delivers 10-20x ROI. Pure billing infrastructure problem solvable through automation.
+
+112. **outbound-sales-contact-compliance-fragmentation-3200-annual-tcpa-lawsuits-ai-voice-restrictions-state-law-consent-management-crisis** — Distinct from #19 (Cold Outbound Email Deliverability — email-specific technical authentication SPF/DKIM/DMARC), #30 (Cold Call Connect Rates — carrier spam labeling reducing answer rates), #39 (Multi-Jurisdiction Prospect Data Compliance — GDPR data privacy, how you collect/store/process personal data), and #75 (AI Meeting Notetaker Consent — recording consent in meetings). This problem targets OUTBOUND CONTACT PERMISSION management: the legal right to initiate phone/SMS/AI voice contact under TCPA and fragmenting state regulations. 3,200 TCPA federal lawsuits in 2025. 78% are class actions. $500-$50,120 per violation penalties. FCC classified AI voices under TCPA (Feb 2024). One-to-one consent rule. Consent revocation: 10 business days. Revoke-all rule January 2027. Texas SB 140, Virginia SB 1339 with 10-year opt-out retention. A2P 10DLC mandatory. Tens of millions of phone numbers reassigned annually. Consent documentation reduces successful claims by 68%. Massive automation opportunity for compliance platforms.
+
+### Research Sources Used (Session 35)
+- Rekko (2026): "Involuntary Churn Guide" — $440B annual cost, 20-40% of total churn, 5-10% monthly failure rates, 80-90% soft declines, 15-20% recovery without dunning vs 60-80% with, 10-20x ROI
+- MRRSaver (2026): "Involuntary Churn in SaaS — Causes & Prevention Guide" — 40.5% insufficient funds, 25-30% expired cards, 0.8% monthly B2B SaaS involuntary churn, 70-80% recovery with combined strategies
+- Finsi.ai (2026): "Involuntary Churn: The Hidden Revenue Leak" — 10-15% initial payment failure rate, 9% MRR lost before recovery
+- Slicker (2025): "Involuntary Churn Benchmarks" — B2B SaaS 0.8% monthly, industry comparisons
+- Slicker (2025): "How SaaS Companies Can Cut $129 Billion Involuntary-Churn Bill" — $129B loss, 62% of users never return after payment errors, 70% stems from failed transactions
+- Dataintelo: "Failed Payment Recovery Market Research Report 2033" — $7.2B (2024) → $21.1B by 2033, 12.8% CAGR
+- GlobeNewsWire (2026): Subscription Billing Management Market — $8.47B (2025) → $37.36B by 2035, 16% CAGR
+- Payoptify (2025): "Ultimate Guide to Payment Recovery for SaaS" — 23.7% of monthly revenue lost to payment failures for mid-market SaaS
+- Dodo Payments (2026): "Revenue Recovery for SaaS" — $129B in failed payments, recovery strategies
+- Claim Supply (2026): "TCPA Lawsuit Statistics 2026" — 3,200 federal cases in 2025, 8% decline from 2024, insurance 28%, debt collection 22%, legal 18%, 78% class actions, $5K-$12K average settlements, defense costs $50K-$150K
+- Apten (2026): "AI Compliance in Customer Communications" — FCC enforcement resources for AI, Texas SB 140, Virginia SB 1339, A2P 10DLC registration, revoke-all rule January 2027
+- LeadGuard (2026): "TCPA Autodialer Rules Updated for 2026" — real-time consent verification requirements, reassigned number database, DNC scrubbing every 31 days
+- PacificEast (2026): "TCPA in 2026" — consent revocation April 2025, 10 business days, narrowing reasonable reliance standard
+- Prospeo (2026): "TCPA Violations Penalties" — $500-$50,120 per violation, $280M Dish Network settlement, monthly filings 172 Jan 2025 (268% increase)
+- Aloware (2026): "DNC Compliance for Outbound Sales Teams" — internal DNC list requirements, monthly scrubbing, timestamped opt-out records
+- Percepture (2026): "Can AI Agents Make Outbound Calls?" — B2B exemptions from DNC but still TCPA consent requirements, AI voice = artificial voice under TCPA
+- Bigly Sales (2026): "AI Voice and TCPA: The 2026 Compliance Paradox" — PEWC elements required, one-to-one seller identification
+
+### Topics Explored But Not Added (Session 35)
+- **Sales process observability / real-time pipeline health monitoring** — 72% of CRM activity data missing, pipeline mirages, behavioral intelligence for deal health. Overlaps with #2 (CRM data decay — 91% annual decay), #3 (pipeline pollution), #40 (forecast methods), #54 (deal decay post-proposal). The observability gap is a symptom of data decay and pipeline pollution already captured.
+- **B2B sales data silos / customer 360 view fragmentation** — 9.4 tools average, 45% qualified leads unfollowed, 67% reps more time on data entry than selling, $1.8T annual data quality losses. Overlaps with #8 (tool stack bloat), #81 (app switching 1,200x/day), #64 (75% of customer data outside CRM), #2 (CRM data decay). Root cause of multiple existing problems, not distinct workflow.
+- **Field sales expense management inefficiency** — $58 per expense report, 20 min staff time, 19% contain errors. Primarily finance/operations problem, not core sales workflow. Solutions already exist (agile T&E automation). Thin as a sales automation opportunity.
+- **Customer reactivation / dormant lead pipeline** — 15-25% response rates vs 2-3% cold outreach, 3-5% of dormant leads in buying window. Overlaps with #68 (churned customer win-back — 75% winnable but <10% CS resources allocated). Same domain, slightly different framing.
+- **Contract renewal automation gap** — Only 11% rate contract management as very effective, 9% annual turnover leakage. Overlaps with #25 (SaaS renewal revenue), #84 (post-signature contract leakage), #11 (legal review bottleneck). Renewal management is a sub-problem of existing entries.
+- **Partner attribution / ecosystem selling measurement** — 42% use multi-touch, partner-influenced vs partner-sourced revenue gap. Overlaps with #26 (B2B revenue attribution broken) and #105 (channel partner programs via spreadsheets). Partner attribution is a sub-domain of broader attribution problem.
+- **Post-sale ROI documentation / value realization tracking** — Product metrics ≠ business outcomes, static ROI studies age quickly. Adjacent to #107 (QBR failures) and #59 (onboarding/time-to-value). Continuous value documentation is the solution to QBR failure, not a separate problem.
+- **CRM customization technical debt** — 60-75% of customizations become technical debt in 2 years, 1,200 dev hours/year maintenance. Overlaps with #64 (CRM AI initiative failure from accumulated technical debt). Same problem, narrower lens.
+- **Sales deal collaboration / team selling coordination failure** — Active coordination delivers +6.2pp win rate vs +2pp for just assigning reps. Overlaps with #7 (single-threaded deals), #27 (buyer committee blindness), #52 (tribal knowledge evaporates), #82 (SDR-to-AE handoff context loss). Coordination themes already captured across multiple entries.
+- **Voice of customer / post-sale feedback as revenue signal** — Revenue signals in support tickets, emails, calls go unacted upon. Overlaps with #74 (42% feature requests never reach product), #13 (expansion revenue detection), #87 (customer health scores). Signal capture partially captured in existing entries.
+
+---
+
 ## Areas To Explore Next
 - [ ] Sales team diversity and inclusion as a revenue performance factor (strong data but needs sales-ops framing)
 - [ ] Customer NPS/satisfaction survey fatigue impacting sales relationships (needs stronger sales-ops angle)
 - [ ] Post-close contract obligation tracking automation gap (related to #84 but buyer-side)
 - [ ] Multi-cloud commitment drawdown tracking for marketplace sellers
 - [ ] Sales team peer learning and knowledge sharing at scale (needs fresh angle)
-- [ ] Sales process observability / real-time funnel health monitoring (distinct from #3 pollution, diagnostic tooling angle)
 - [ ] Sales meeting-to-CRM auto-sync reliability and field mapping accuracy (adjacent to #103 but CRM integration angle)
 - [ ] Revenue team incentive misalignment across sales/CS/support/partners (meta-problem)
 - [ ] B2B customer lifecycle revenue orchestration across new/renewal/expansion/win-back (meta-problem)
@@ -2153,11 +2193,14 @@
 - [x] INFUSE 2026: Buyer trust gap (explored Session 34, overlaps #36/#62/#76/#42)
 - [x] Sales pipeline coverage ratio gaming (explored Session 34, overlaps #3/#40)
 - [ ] B2B sales compliance content freshness / regulatory update propagation to reps
-- [ ] Revenue leakage from subscription billing errors / involuntary churn (adjacent to #104 but payment-failure-specific angle)
+- [x] Revenue leakage from subscription billing errors / involuntary churn (added Session 35 as #111)
 - [ ] Sales team internal initiative propagation / HQ-to-frontline execution gap (Zipline-style problem for B2B sales, thin evidence)
 - [ ] B2B procurement portal seller response burden and compliance documentation overhead
 - [ ] Sales rep time allocation optimization / deal prioritization intelligence (solution space, not problem)
 - [ ] Customer sentiment monitoring between formal touchpoints / real-time account risk (solution space for #87/#25)
 - [ ] Pricing update propagation failure to field sales teams (overlaps #21/#23, thin as distinct problem)
 - [ ] Gartner prediction: AI agents outnumber sellers 10x by 2028 but <40% say productivity improved (adjacent to #43/#90)
-- [ ] Customer reactivation program infrastructure gap (explored Session 34, overlaps #68 which already captured)
+- [x] Customer reactivation program infrastructure gap (explored Session 34, overlaps #68 which already captured)
+- [ ] B2B sales micro-communities / peer network selling as a channel (thin evidence)
+- [ ] Sales-adjacent: procurement automation from the seller's perspective (buyer-side, not seller workflow)
+- [ ] Multi-product pricing optimization / dynamic pricing for B2B (overlaps #21/#23 pricing governance)

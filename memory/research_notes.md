@@ -1654,6 +1654,57 @@
 - Distinct from: quota METHODOLOGY (#20, how quotas are set), commission CALCULATION errors (#17, payout accuracy), comp plan COMPLEXITY (#33, rep understanding), territory EQUITY (#9, fairness), hiring/ramp timing (#63, capacity gaps), competing FORECASTS (#92, different systems/definitions)
 - Automation opportunity: integrated annual planning platform unifying territory design, quota allocation, comp plan modeling, and system deployment into single orchestrated workflow replacing sequential manual handoffs between Finance/RevOps/Sales Leadership
 
-## Cross-Cutting Themes (Updated Session 34)
+## Problem #111: Involuntary Churn from Payment Failures (Session 35)
+- Involuntary churn accounts for 20-40% of total SaaS churn (Rekko 2026, MRRSaver 2026)
+- Costs the subscription industry over $440B annually (Rekko 2026)
+- Average SaaS company: 5-10% of recurring payments fail monthly (Rekko 2026)
+- 80-90% of payment declines are soft declines — recoverable through smart retries without customer intervention (MRRSaver 2026)
+- Without dunning: 15-20% recovery rate; with proper dunning: 60-80% recovery (Rekko 2026)
+- Only 17% of subscription businesses actively track failed payments (ChurnWard 2026)
+- Primary causes: insufficient funds (40.5%), expired cards (25-30%), bank fraud blocks (~20%), processing errors (~15%) (MRRSaver 2026)
+- B2B SaaS: 0.8% monthly involuntary churn rate (Slicker 2025 benchmarks)
+- Mid-market SaaS companies lose average 23.7% of monthly revenue to payment failures (Payoptify 2025)
+- 62% of users who encounter payment errors never return (Slicker 2025)
+- $129B in failed payments in 2025 alone (Recurly via Slicker)
+- Failed payment recovery market: $7.2B (2024) → $21.1B by 2033, 12.8% CAGR (Dataintelo)
+- Subscription billing management market: $8.47B (2025) → $37.36B by 2035, 16% CAGR (GlobeNewsWire 2026)
+- Dunning automation delivers 10-20x ROI, some cases 67x returns (ChurnWard 2026)
+- Pre-dunning (30 days before card expiry) achieves 80-90% success rates vs 60-80% post-failure (Rekko 2026)
+- Fixing involuntary churn lifts revenue 8.6% in year one alone (Recurly via MRRSaver)
+- Companies actively managing failed payments recover 43% more payments and lose 37% less revenue (ChurnWard 2026)
+- Most analytics dashboards don't separate voluntary from involuntary churn, making problem invisible (Rekko 2026)
+- Distinct from: #104 (Quote-to-Cash disconnection — CRM/Billing/ERP handoffs and invoice errors), #25 (SaaS renewal churn prediction — voluntary churn detection), #87 (customer health score — lagging indicators of voluntary churn)
+- Automation opportunity: end-to-end payment recovery platform combining smart retry logic (timing optimization per decline reason), automated multi-channel dunning (email + SMS + in-app), card updater services integration, pre-dunning alerts, grace period management, and analytics separating involuntary from voluntary churn
+
+## Problem #112: Outbound Sales Contact Compliance Regulatory Fragmentation (Session 35)
+- 3,200 TCPA lawsuits filed in federal court in 2025, plus 1,200-1,500 in state courts annually (WebRecon via Claim Supply)
+- 78% of TCPA filings are class actions (Prospeo 2026)
+- Monthly filings hit 172 in January 2025, a 268% increase over January 2024 (Prospeo 2026)
+- Penalties: $500-$1,500 per violation (willful: triple), up to $50,120 for DNC violations (Prospeo 2026)
+- One company fined $225M for illegal robocalls (Apten 2026)
+- Major settlements: Dish Network ($280M), Capital One ($75M), Facebook ($90M) (Prospeo 2026)
+- Average individual settlements: $5K-$12K per claim; defense costs: $50K-$150K through discovery (Claim Supply 2026)
+- FCC classified AI-generated voices as "artificial or prerecorded voices" under TCPA, February 2024 (Percepture 2026, Bigly Sales 2026)
+- One-to-one consent rule: explicit individual consent per seller, eliminates shared-consent loopholes (Apten 2026, Bigly Sales 2026)
+- Consent revocation rule (effective April 2025): honor opt-outs within 10 business days through any reasonable means (PacificEast 2026)
+- Revoke-all rule (January 2027): single opt-out applies across ALL communication channels (Apten 2026)
+- Texas SB 140 (September 2025): expands telephone solicitation to include texts; treble damages (Apten 2026)
+- Virginia SB 1339 (January 2026): honor text opt-outs for 10 years; $500/violation (Apten 2026)
+- Florida and California: require written consent specifically for AI telemarketing (Apten 2026)
+- A2P 10DLC registration mandatory for all business-to-person SMS; unregistered traffic blocked (Apten 2026)
+- Must scrub contact lists against National DNC Registry every 31 days (Aloware 2026)
+- Tens of millions of phone numbers reassigned annually — consent doesn't follow to new users, creating per-call liability (PacificEast 2026)
+- Consent documentation via TrustedForm reduces successful claims by 68% (ActiveProspect via Claim Supply)
+- Firms buying 100+ leads monthly: 8-12% annual TCPA demand probability; 500+ leads: 30-40% (Claim Supply 2026)
+- CCPA B2B exemptions expired, extending compliance obligations to business contacts (Instantly 2026)
+- B2B-specific: exempt from DNC for business services but TCPA consent, time-of-day limits, recording laws, internal DNC, AI identification still apply (Percepture 2026)
+- Distinct from: #19 (email deliverability — SPF/DKIM/DMARC technical authentication), #30 (cold call connect rates — carrier spam labeling), #39 (data compliance — GDPR data privacy how you collect/store/process data), #75 (AI meeting notetaker recording consent)
+- Automation opportunity: unified outbound contact compliance platform with real-time consent verification, automated DNC scrubbing (federal + state + internal), consent record management, multi-state regulatory tracking, AI voice call compliance, A2P 10DLC registration management, phone number reassignment monitoring, and automated opt-out processing within mandated timeframes
+
+## Cross-Cutting Themes (Updated Session 35)
 
 90. **Annual GTM planning failure is a COORDINATION problem, not a planning problem** — The 71% quota-less start rate exists not because organizations lack planning capability but because the planning process requires sequential manual handoffs across Finance (budget allocation, cost modeling), RevOps (territory design, system configuration, data validation), Sales Leadership (quota distribution, team alignment, manager buy-in), and HR (comp plan legal review, offer letter updates). Each handoff introduces delay, miscommunication, and rework. The 89 hours/month admin burden proves the systems are incompatible — data must be manually exported, reconciled, and re-entered across CRM, ICM, and financial planning tools. The 40+ day comp plan delay compounds because each dependent step (territory → quota → comp plan → system config → rep communication) cannot begin until the previous step completes, and any change propagates rework through the entire chain. The 49% now updating quotas more frequently (monthly/quarterly) actually makes this WORSE — instead of one painful annual cycle, organizations now face continuous planning overhead without the infrastructure to support it. The automation opportunity is an orchestration layer that connects financial planning, territory management, quota allocation, and compensation configuration into a single system of record with automated data flow, real-time scenario modeling, stakeholder approval workflows, and same-day deployment — compressing the months-long planning cycle into days
+
+91. **Involuntary churn is the only type of churn that is 100% a billing infrastructure problem** — Unlike voluntary churn (product dissatisfaction, competitor switching, budget cuts), involuntary churn is entirely caused by payment processing failures on customers who WANT to stay. This makes it uniquely automatable: no product changes, no CS intervention, no relationship repair needed. The fact that 80-90% of declines are soft (temporary, recoverable) means the vast majority of the problem is solvable through retry timing optimization alone, without any customer contact. The $7.2B→$21.1B market growth (12.8% CAGR) reflects that awareness is increasing but most companies still lack infrastructure. The 17% active tracking rate proves this is a classic "invisible problem" — it doesn't show up in standard churn dashboards, so teams optimize for acquisition instead of plugging the leak.
+
+92. **Outbound sales compliance is a REGULATORY INFRASTRUCTURE problem, not a legal awareness problem** — Sales teams know calling laws exist but lack the OPERATIONAL INFRASTRUCTURE to comply at scale. The problem isn't knowledge of TCPA; it's that compliance requires real-time systems: consent verification before every call, DNC scrubbing every 31 days, opt-out processing within 10 business days, phone number reassignment monitoring, state-specific regulation tracking, AI voice disclosure management, and A2P registration maintenance. Each regulatory change (one-to-one consent, revoke-all, state bills) adds another operational layer. The 68% reduction in successful claims from TrustedForm consent documentation proves that infrastructure investment works — but most organizations treat compliance as legal review rather than engineering the automated systems needed for continuous compliance across millions of outbound contacts.
