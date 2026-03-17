@@ -1922,3 +1922,71 @@
 - [ ] Sales email inbox prioritization and triage automation
 - [ ] Competitive pricing intelligence during live negotiations (distinct from #12 stale CI?)
 - [ ] B2B buyer procurement software compatibility burden for sellers (Ariba, Coupa portal fragmentation)
+
+## Session 31 — Problems Added: #105
+
+### New Problems Added (Session 31)
+
+105. **direct-indirect-channel-sales-conflict-60pct-partner-deemphasis-64pct-spreadsheet-management-10pct-revenue-leakage-84pct-team-turnover** — Distinct from #24 (Channel Drift/strategic program misalignment): this problem targets the OPERATIONAL CONFLICT between a vendor's direct sales team and its channel partners. 60% of solution providers de-emphasize vendors over persistent conflict; 33% drop the relationship entirely (CompTIA/2112 Group). 64% of manufacturers manage partner ecosystems via spreadsheets (Computer Market Research 2026), causing 10% annual revenue loss from data inaccuracies and 12% quarterly rebate overpayment when POS data accuracy drops to 70%. One company nearly paid double commission on a $50K deal from email/Google Forms-based deal registration not logged in the master spreadsheet (Channeltivity). 84% channel team turnover in two years destroys institutional knowledge. 48% cite partner onboarding as top revenue inhibitor; 53% report partner churn impacts forecast accuracy. Mature programs drive 2x revenue growth, up to 28% of total revenue (Forrester). Automated deal registration reduces disputes by 40%. Automation yields 25% admin cost reduction within 12 months.
+
+### Research Sources Used (Session 31)
+- Journeybee (Jul 2025): "Is Your Direct Sales Team Sabotaging Your Partners?" — 60% de-emphasize, 33% drop, 70%+ enterprise tech purchases involve partners, types of channel conflict (vertical/horizontal/multichannel), root causes analysis
+- Computer Market Research (Mar 2026): "What is Channel Management? The 2026 Guide to Scaling Indirect Sales" — 64% use spreadsheets, 10% revenue loss from data inaccuracy, 12% quarterly rebate overpayment, 85% raw channel data contains errors, 25% conversion rate increase with automated PRM, 40% dispute reduction from automated deal registration
+- Channeltivity (Nov 2025): "Proper Partner Program Management Needs a System, Not Just a New Hire" — $50K near-double-commission, Skan AI Google Sheet PRM failure at 3-4 partners/week scale, RevOps Architect quote on structured data requirement
+- PartnerStack/Wynter (2026): State of Partnerships in GTM 2026 — 69% of SaaS companies increasing partnership investment
+- Forrester (2026): PMAP investment on the rise — 75% plan increased technology investment, nearly 70% of partners at low-to-medium maturity
+- xAmplify (2026): "Strategic Role of Agentic AI in Solving Channel Fragmentation" — 84% turnover in channel teams, 48% partner onboarding inefficiency, 53% partner churn impacts forecast accuracy, 76% global commerce through indirect channels
+
+### Topics Explored But Not Added (Session 31)
+- **Sales email inbox prioritization and triage automation** — 121 emails/day, 2.6 hours triaging, 83% SDRs miss quota; overlaps with #81 (app switching/sell 2hrs), #101 (lead response time); the inbox problem is absorbed into the non-selling activities bucket already captured
+- **Competitive pricing intelligence during live negotiations** — AI pricing tools emerging (Peak, Vendavo), 78% expect price transparency; mostly B2C/e-commerce focused; B2B angle overlaps with #12 (competitive intel goes stale) and #21 (discounting)
+- **B2B multi-entity / multi-subsidiary selling complexity** — 20-30 hours/week manual consolidation, fragmented billing/tax/currency; primarily finance/billing problem, not sales workflow; overlaps with #104 (quote-to-cash) and #70 (ASC 606)
+- **B2B supplier procurement portal fatigue** — Suppliers manage avg 12 portals (HICX), 38% use 10+ systems, 60%+ portal implementations fail, $1M/year labor for $5B-spend company, 50-day onboarding for high-risk suppliers; research notes from Session 30 already flagged as "primarily buyer-side procurement ops problem, not seller-automatable"
+- **B2B sales meeting no-show rates** — 6.5% average no-show rate, 24.5% for demos booked >1 week out, $730 per no-show, $1.8-3.6M pipeline exposure; already captured as #14 (Demo No-Shows Leak Pipeline)
+- **Commission clawback / churn reversal impact on morale** — 53% SaaS companies use clawbacks, 22% reps have commission disputes; overlaps with #17 (commission errors) and #33 (comp complexity)
+- **Forecast gaming/sandbagging** — Explored earlier sessions, overlaps with #3 (pipeline pollution) and #40 (forecast methods)
+- **B2B review site (G2/Capterra/TrustRadius) optimization** — 89-94% buyers consult review sites; primarily marketing not sales workflow; partially covered by #75 (AI chatbot visibility) and #42 (dark funnel)
+- **TCPA/DNC calling compliance burden** — 259M DNC registrations, 11 state lists, $50K+ per violation, 95% YoY class action increase; upstream cause of #30 (cold call connect collapse), compliance issue rather than workflow automation opportunity
+- **DSAR/CCPA data deletion impact on sales pipeline** — DROP platform launching Jan 2026, $200/day per unfulfilled deletion; primarily legal/compliance problem, not sales workflow; overlaps conceptually with #39 (multi-jurisdiction data compliance)
+- **Outsourced/offshore SDR coordination quality** — Only 7% say outsourced SDRs "really" worked, $4.42B market; generic management problem, not specific sales automation opportunity
+- **Signal-based selling overload / signal noise ratio** — 91% use intent data, only 25% operationalized; same domain as #10 (intent accuracy) and #53 (lead scoring conflates activity/intent), the "intent data doesn't translate to action" problem is captured
+- **Usage-based pricing sales comp complexity** — 67% use UBP, compensation framework confusion; overlaps with #72 (consumption pricing breaks compensation) explicitly
+- **SKU proliferation / product portfolio complexity** — 23% revenue lost to poor product data, SKU Spaghetti; overlaps with #65 (cross-sell portfolio failure) and #23 (CPQ); explored-but-rejected in prior sessions
+- **Renewal negotiation automation gap** — GRR ranges 51-98%, reactive vs proactive; overlaps with #25 (churn prediction), #87 (health scores); explored-but-rejected Session 28
+- **Enterprise procurement cycle lengthening** — 13 internal + 9 external stakeholders, 80% decision before seller engagement; consequence of expanded committees, covered by #27, #36, #62
+- **RevOps data model inconsistency / technical debt** — 91% CRM decay, $470K annual productivity loss for 50-rep team; covered collectively by #2 (data decay), #5 (lead handoff), #46 (RevOps burnout), #64 (CRM AI debt)
+- **Sales transformation paradox** — 89% CSOs struggle to balance change with targets, 90% transformations fail; organizational/strategic issue, not automation opportunity
+- **Digital sales room / MAP abandonment** — 48% rooms get zero buyer views; EXACTLY the same stat already in #55
+
+---
+
+## Areas To Explore Next
+- [ ] Sales team diversity and inclusion as a revenue performance factor (strong data but needs sales-ops framing)
+- [ ] Customer NPS/satisfaction survey fatigue impacting sales relationships (needs stronger sales-ops angle)
+- [ ] Post-close contract obligation tracking automation gap (related to #84 but buyer-side)
+- [ ] Buyer procurement AI agent response protocol standardization (selling TO AI agents; related to #66/#89)
+- [ ] Multi-cloud commitment drawdown tracking for marketplace sellers
+- [ ] Sales team peer learning and knowledge sharing at scale (explored Session 28, recycled existing stats; needs fresh angle)
+- [ ] Sales process observability / real-time funnel health monitoring (distinct from #3 pollution, diagnostic tooling angle)
+- [ ] B2B account plan execution tracking / living intelligence gap (explored Session 28, evidence thin; revisit with more sources)
+- [ ] Sales meeting-to-CRM auto-sync reliability and field mapping accuracy (adjacent to #103 but CRM integration angle)
+- [ ] B2B buyer group purchasing organization (GPO) negotiation complexity (explored Session 31, overlaps #27/#36/#62)
+- [ ] Revenue team incentive misalignment across sales/CS/support/partners (meta-problem)
+- [ ] B2B customer lifecycle revenue orchestration across new/renewal/expansion/win-back (meta-problem)
+- [ ] Pre-sales scoping accuracy / implementation effort estimation failure (explored Session 29, upstream cause of #85)
+- [ ] Sales rep attrition prediction / proactive retention signals (explored Session 29, overlaps with #44/#15)
+- [ ] B2B sales compensation benchmarking transparency (pay gap data exists but overlaps #17/#33)
+- [x] Direct-to-indirect channel sales conflict / deal registration collision (captured as #105)
+- [x] Sales email inbox triage (explored Session 31, overlaps #81/#101)
+- [x] Competitive pricing intelligence during live negotiations (explored Session 31, overlaps #12/#21)
+- [x] Multi-entity selling complexity (explored Session 31, finance/billing problem)
+- [x] Supplier procurement portal fatigue (explored Session 31, buyer-side ops)
+- [x] Commission clawback morale impact (explored Session 31, overlaps #17/#33)
+- [x] TCPA/DNC compliance burden (explored Session 31, upstream of #30)
+- [x] Signal-based selling overload (explored Session 31, overlaps #10/#53)
+- [x] SKU proliferation (explored Session 31, overlaps #65/#23)
+- [x] RevOps data model inconsistency (explored Session 31, covered by #2/#5/#46/#64)
+- [ ] Gartner prediction: AI agents outnumber sellers 10x by 2028 but <40% say productivity improved (adjacent to #43/#90)
+- [ ] Forrester finding: Only 1/3 of trial participants convert to paid (overlaps #67 but broader trial scope)
+- [ ] B2B sales-led onboarding handoff quality (explored Session 31, overlaps #18/#61/#85)
+- [ ] AI proposal quality control governance gap (explored Session 31, overlaps #79 hallucinations)
