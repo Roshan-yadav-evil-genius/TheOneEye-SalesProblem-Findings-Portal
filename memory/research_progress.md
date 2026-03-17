@@ -1811,6 +1811,42 @@
 - **Case study production bottleneck** — 3-month production time, $12.4M pipeline impact; overlaps with #28 (customer reference programs) and #16 (enablement content); distinct angle but thin differentiation
 - **Budget cycle timing misalignment** — deals aligned with budget cycles close 2-3x faster; tactical knowledge, not automatable workflow; thin standalone evidence
 
+## Session 29 — Problems Added: #103
+
+### New Problems Added (Session 29)
+
+103. **ai-meeting-summary-action-item-failure-79pct-miss-rate-20pct-revenue-intelligence-utilized-46920-annual-team-cost** — 79% of AI meeting summaries fail to capture action items, decisions, or next steps; 88% don't distinguish discussion from decision; 71% miss responsibility assignment; 84% summarize discussion but not decisions; only 7% of training datasets include annotated meeting transcripts; 90% of sales teams record meetings but 74% fail to act on them; teams operate on only 20% of revenue intelligence; 80% of conversation data evaporates after calls; $46,920/year per 10-person team parsing unclear summaries; $34,000 emergency remediation from one missed decision; 391 person-hours annually lost; 44% of all meeting action items never completed; ASR errors corrupt critical verbs; context window truncation drops early assignments; distinct from recording consent (#79), pre-meeting prep (#31), coaching (#6), tribal knowledge (#52), and calendar saturation (#82)
+
+### Research Sources Used (Session 29)
+- Medium/AI Tomorrow (Feb 2026): Analysis of 25,000+ AI meeting summaries — 79% fail to capture action items, 88% don't distinguish discussion from decision, 71% miss responsibility, 84% summarize discussion not decisions, 7% of training data annotated
+- Medium/Conversionlogic (Mar 2026): $46,920/year per 10-person team, $34,000 emergency remediation, 391 person-hours annually, "bullet soup" completeness over clarity
+- Vendasta CRM AI Launch (GlobeNewsWire, Mar 2026): 90% record but 74% don't act, 20% revenue intelligence utilized, 80% conversation data evaporates, "execution gap"
+- Clawctl/Granola Blog (2026): 44% action items never completed, context window truncation, ASR errors, no task extraction schema
+
+### Topics Explored But Not Added (Session 29)
+- **Pre-sales SOW/scoping inaccuracy** — $97M wasted per $1B invested, 80% scope creep; upstream cause of #85 (sales promise vs delivery gap), not distinct enough
+- **B2B payment processing friction / procurement delays** — 37% of payment cycle is delay, 50% invoices overdue; primarily finance/AR problem, not sales workflow automation
+- **Sales playbook documentation staleness** — <20% adoption, 20-30 hours/month maintenance; overlaps with #16 (enablement content unused) and #52 (tribal knowledge)
+- **B2B multi-language sales localization** — 47% search traffic increase with localization; overlaps with #68 (international sales cycles 20-50% longer)
+- **CRM technical debt blocking modernization** — 70% implementations fail, legacy workflows; overlaps with #64 (CRM AI initiatives failing due to technical debt)
+- **Email deliverability domain/IP management burden** — 85% deliverability average, 32pp gap for non-warmed domains; subset of #19 (email deliverability collapsing)
+- **AI SDR trust gap paradox** — only 46% trust AI SDRs, 15% vs 25% conversion effectiveness; overlaps with #43 (AI agent 90-day cliff) and #70 (auto-delete AI outreach)
+- **Pipeline hygiene / deal aging management** — zombie deals, stale opportunities; overlaps with #3 (pipeline pollution) and #40 (forecast methods)
+- **Buyer intent signal timing mismatch** — 48-hour signal decay, 5-15% actively buying; overlaps with #10 (intent data accuracy) and #53 (lead scoring conflates activity/intent)
+- **Manual sales reporting / analytics creation time waste** — 30% rep time on spreadsheets, 60-150 hours/month for reporting; overlaps with #47 (RevOps burnout)
+- **Sales compensation benchmarking opacity** — $200K gap top vs average AEs, pay compression; overlaps with #17 (commission errors) and #33 (comp complexity)
+- **Vendor consolidation / tool rationalization challenges** — 94% plan to consolidate, $19.8M license waste; flip side of #8 (tool stack bloat)
+- **B2B competitive displacement intelligence during active deals** — mostly solution-focused data (Crayon, Amolino, Signal Labs); overlaps with #12 (competitive intel goes stale)
+- **Sales rep attrition prediction** — 20% quit within 90 days, Xactly ML algorithm; overlaps with #44 (burnout) and #15 (ramp time)
+- **Forecast bias (sandbagging/deal padding)** — 79% miss forecast by 10%+; overlaps with #3 (pipeline pollution) and #40 (forecast methods)
+- **CRM adoption resistance / shadow systems** — 67% maintain spreadsheets alongside CRM; overlaps with #2 (CRM data decay) and #64 (CRM AI initiatives)
+- **Customer onboarding kickoff delay** — 62% lack real-time visibility, 57% say friction impacts revenue; overlaps with #61 (onboarding abandonment)
+- **Manual prospecting research time waste** — 14-15 hours/week per SDR, $222K/year for 10-person team; overlaps with #52 (90% of SDR research never persists)
+- **Multi-product bundling pricing complexity** — shadow discounting, margin leakage; overlaps with #21 (discounting), #23 (CPQ), #65 (cross-sell)
+- **Sales-to-product feedback gap** — 42% of requests never reach product, 80% chat signals uncaptured; directly duplicates #75
+- **Voicemail effectiveness decline** — 2-5% callback rate, 80% calls reach voicemail; subset of #30 (cold call connect rate collapse)
+- **Demo environment maintenance burden** — 20% engineering capacity, 21 days/year per SE; market being solved by Reprise/Demostack (explored Session 24 & 28)
+
 ---
 
 ## Areas To Explore Next
@@ -1820,18 +1856,22 @@
 - [ ] Buyer procurement AI agent response protocol standardization (selling TO AI agents; related to #66/#89)
 - [ ] Multi-cloud commitment drawdown tracking for marketplace sellers
 - [ ] AI-generated proposal customization quality control at scale
-- [ ] B2B sales competitive displacement intelligence during active deals (distinct from #12 stale competitive intel)
 - [ ] Sales team peer learning and knowledge sharing at scale (explored Session 28, recycled existing stats; needs fresh angle)
 - [ ] B2B sales contract renewal negotiation automation (explored Session 28, overlaps with #25; needs thin-slice angle)
 - [ ] Sales process observability / real-time funnel health monitoring (distinct from #3 pollution, diagnostic tooling angle)
-- [ ] B2B buyer committee turnover mid-deal / stakeholder churn during active sales cycles (explored Session 28, heavy overlap)
 - [x] Sales rep calendar optimization / travel logistics for field sales meetings (captured as #102)
 - [ ] Cross-functional deal room coordination for complex enterprise opportunities
 - [ ] Customer procurement AI agent negotiation protocol standardization
 - [ ] SaaS sales tax compliance as deal friction (strong data but primarily finance problem; revisit with sales-ops angle)
 - [ ] B2B case study / social proof production pipeline bottleneck (explored Session 28, overlaps with #28/#16; needs sharper angle)
 - [ ] B2B account plan execution tracking / living intelligence gap (explored Session 28, evidence thin; revisit with more sources)
-- [ ] B2B sales meeting recording summarization accuracy and action item extraction failure
-- [ ] Pre-sales scoping accuracy / implementation effort estimation failure (related to #85)
-- [ ] Sales rep attrition prediction / proactive retention signals (related to #44 burnout but prediction angle)
+- [x] B2B sales meeting recording summarization accuracy and action item extraction failure (captured as #103)
+- [ ] Pre-sales scoping accuracy / implementation effort estimation failure (explored Session 29, upstream cause of #85)
+- [ ] Sales rep attrition prediction / proactive retention signals (explored Session 29, overlaps with #44/#15)
 - [ ] B2B customer lifecycle revenue orchestration across new/renewal/expansion/win-back (meta-problem)
+- [ ] B2B procurement vendor onboarding delays blocking PO issuance (3+ week delays, W-9/COI processing; thin sales-specific data)
+- [ ] Sales meeting-to-CRM auto-sync reliability and field mapping accuracy (adjacent to #103 but CRM integration angle)
+- [ ] B2B buyer group purchasing organization (GPO) negotiation complexity
+- [ ] Sales team timezone coverage gaps for global prospect engagement
+- [ ] Deal velocity benchmarking and stage-duration anomaly detection (distinct from pipeline pollution #3)
+- [ ] Post-demo technical evaluation / sandbox access provisioning delays
