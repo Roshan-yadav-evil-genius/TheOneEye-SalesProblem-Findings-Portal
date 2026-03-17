@@ -2204,3 +2204,74 @@
 - [ ] B2B sales micro-communities / peer network selling as a channel (thin evidence)
 - [ ] Sales-adjacent: procurement automation from the seller's perspective (buyer-side, not seller workflow)
 - [ ] Multi-product pricing optimization / dynamic pricing for B2B (overlaps #21/#23 pricing governance)
+
+---
+
+## Session 36 — Problems Added: #113
+
+### New Problems Added (Session 36)
+
+113. **saas-integration-compatibility-gap-blocks-30pct-enterprise-deals-64pct-buyers-lack-api-resources-50k-150k-per-integration-maintenance** — Distinct from #78 (iPaaS outages/silent failures — middleware BREAKING after deployment), #85 (sales promise vs implementation gap — post-sale over-promise), #67 (POC conversion collapse — trial/POC failure), #41 (SE capacity bottleneck — human resource allocation), #8 (tool stack bloat — seller's own internal tools), #64 (CRM AI tech debt — CRM-specific). This problem targets PRE-SALES integration compatibility as an enterprise deal gatekeeper: 30% of lost enterprise deals trace directly to integration gaps. 64% of enterprise buyers lack technical resources to consume APIs ("We have an API" is not an answer). 90% of B2B buyers say integration capability influences vendor shortlists. 60% of sales deals involve integration discussions. 51% cite poor integration as reason to explore competitors. Custom integration: $50K-$150K/year maintenance per integration, 15-28 week dev timelines. Initial dev is only 30-40% of TCO; 78% is post-launch maintenance (OAuth, rate limiting, webhooks, API deprecations). Vendors can ship only 2-3 integrations/quarter while buyers operate 106-275 SaaS apps. 67% of enterprises report SaaS integration difficulties (Forrester). One $18M ARR company lost multiple enterprise deals over ERP integration gaps (SAP, NetSuite, Oracle). Integration backlogs become "shadow roadmaps" diverting engineering. 92% of SaaS leaders observe reduced churn for customers using integrations. Strong automation opportunity: unified API platforms, embedded iPaaS, integration marketplace tools compressing months of development into days.
+
+### Research Sources Used (Session 36)
+- Medium/Joan Rodriguez (2026): "We Have an API Is Not an Answer: Why 64% of Enterprise Buyers Walk Away" — 64% lack technical resources, $15K-$30K per DIY integration, 15-28 week timelines
+- Truto (2026): "The Tuesday to Friday Integration" — 30% of lost deals from integration gaps, 60% of deals involve integration, 90% of buyers cite integration as major factor, 51% cite poor integration as reason to switch, $50K-$150K annual maintenance
+- Truto (2026): "Why Truto is the Best Unified API for Enterprise SaaS Integrations" — 106-275 SaaS apps per enterprise, lowest-common-denominator schema limitations, speed vs depth false dichotomy
+- Boomi (2026): "How One SaaS Company Stopped Losing Enterprise Deals Over ERP Integrations" — $18M ARR company lost deals and churn from ERP integration gaps, shadow roadmaps diverting engineering
+- Technource (2026): "Top SaaS Integration Challenges" — 67% report difficulties (Forrester), 8+ hours/week manual data entry between disconnected apps
+- Paragon (2026): "Calculate MRR Losses From Backlogging Integrations" — revenue impact quantification, engineering resource allocation frameworks
+- Info-Tech Research Group (2026): "Integration Gaps Are Slowing AI and Digital Transformation Efforts" — integration gaps as macro-blocker for enterprise digital transformation
+- Truto (2026): "PM's Playbook: How to Pitch a 3rd-Party Integration Tool to Engineering" — initial dev 30-40% of TCO, 78% lifetime costs post-launch, integration iceberg
+
+### Topics Explored But Not Added (Session 36)
+- **Vendor security assessment / trust center questionnaire bottleneck** — 200+ questions, 40+ questionnaires/month for high-growth vendors. EXACT overlap with #56 (Security Questionnaires Delay 34% of Enterprise Deals — 847 questions, 23 hours per response, $2.3M annual revenue loss). Same domain, same problem.
+- **Partner deal registration fraud / channel conflict** — pocket leads, fake registrations, 60% de-emphasize vendor. Overlaps with #105 (channel conflict) and #69 (cloud marketplace co-sell). Narrow sub-problem.
+- **Revenue intelligence platform data quality** — 34% annual CRM data decay, $12.9-$15M annual cost. EXACT overlap with #2 (CRM Data Decays 91% Annually) and #47 (data enrichment vendor accuracy). Same fundamental problem.
+- **Mid-market selling complexity gap** — distinct from SMB and enterprise but thin quantitative evidence. More of a market segmentation strategy observation than automatable problem.
+- **Commission clawback dispute management** — trust breakdown, 42% quit. Overlaps with #17 (commission calculation errors) and #33 (comp plan complexity). Sub-problem of existing entries.
+- **CSQL pipeline routing / CS-to-sales expansion handoff** — reverse handoff direction. Overlaps with #13 (expansion revenue missed — no detection system) and #18 (sales-to-CS handoff). Same domain.
+- **HQ-to-frontline strategy execution gap** — Zipline 2026: 9.13 vs 5.67 self-assessment gap, 63% of initiatives fail. Primarily retail evidence, not B2B sales-specific. Thin evidence for sales workflow automation.
+- **Multi-year deal structuring complexity** — tiered discounts 10-25%, price escalation clauses, payment term variations. Overlaps with #23 (CPQ errors), #21 (discounting), #72 (consumption-based pricing).
+- **Sales spiff / incentive gaming and misalignment** — rule-chasing, data manipulation, cherry-picking, timing games. Overlaps with #17 (commission errors), #33 (comp plan complexity), #110 (GTM planning orchestration). Same underlying compensation system problems.
+- **Vendor ROI calculator credibility gap** — 65% of buyers find vendor ROI overly optimistic, 93% require business cases. Overlaps with #36 (40-60% no-decision, buyers can't build business cases). Other side of same coin.
+- **Pre-sales technical integration scoping gap** — 30% of lost deals from integration gaps. CAPTURED AS #113 (the integration compatibility problem).
+- **Customer onboarding project management burden** — 62% CS leaders lack visibility, 67% of churn during onboarding. Overlaps with #59 (48% abandon onboarding) and #18 (sales-to-CS handoff).
+- **Digital sales room engagement failure** — 48% never receive buyer view, 60% go stale. EXACTLY covered by #55 (Champions Must Sell Internally — 48% of DSRs Never Viewed).
+- **Vertical industry knowledge gap** — 14.7 months healthcare, 22 decision-makers. Already covered by #92 (Horizontal SaaS Reps Lack Vertical Expertise — 25% Lower Win Rates).
+- **ESG sustainability data as procurement gatekeeper** — 76% of procurement execs say ESG influences selection, 20-30% of supplier scoring, disqualification for missing data. Primarily compliance/operations problem, not sales workflow. Solution is ESG reporting platforms (EcoVadis, CDP), not sales automation. Vendor needs to HAVE the data, not change their sales process.
+- **AI-generated email spam filter detection** — 45% never reach inbox, 70% auto-delete. EXACT overlap with #19 (email deliverability), #71 (cross-channel trust erosion), #48 (sequence saturation).
+- **Virtual data room / due diligence bottleneck** — 60% time on document management, $94K per transaction delay. Primarily M&A/fundraising, not core B2B sales. Digital sales room equivalent covered by #55.
+- **Multi-product bundling/packaging configuration** — 93% struggle to close deals (Conga 2026). Meta-problem encompassing #23 (CPQ), #29 (deal desk), #65 (multi-product portfolio). Commerce chain fragmentation is the umbrella.
+- **Customer reference pool exhaustion** — advocacy programs cut, 84% start with referral. Already covered by #28 (reference programs — 12-18% participation, unscalable model).
+- **Geographic/timezone sales coverage** — 24-48 hour delays, 2-4 hour overlap windows. Overlaps with #60 (international sales cycles 20-50% longer) and #83 (calendar saturation).
+- **RFP evaluation/response burden** — 25 hours per proposal, 20% abandoned, $725K loss. EXACTLY covered by #22 (RFP Proposal Response Capacity Bottleneck — same $725K stat).
+- **Buying group consensus building failure** — 86% stall, 8.2 stakeholders average, 40-60% no-decision. Overlaps with #27 (buyer committee blindness), #36 (no-decision), #62 (unhealthy conflict), #55 (internal champion selling), #7 (single-threaded deals).
+- **Deal risk early warning signal detection** — 47,548 deals, 8 predictive signals, 84% accuracy. Overlaps with #54 (deal decay post-proposal) and #3 (pipeline pollution).
+- **CRM adoption resistance** — 55% of CRM projects fail, 30-50% don't meet expectations. Overlaps comprehensively with #1 (sell 2 hours/day), #2 (CRM data decay), #64 (CRM AI failure), #81 (app switching).
+- **B2B accessibility compliance** — 4,605 federal filings in 2025, 15-30% conversion improvement. Primarily web development/marketing problem, not core sales workflow.
+- **Compliance documentation burden (SOC2/ISO/HIPAA/GDPR/EU AI Act)** — $84K average SOC2 certification, 5.2 months. Expansion of #56 (security questionnaires) into broader compliance, but same underlying workflow (responding to buyer compliance requirements).
+- **Prospect phone number accuracy/decay** — 22.5% annual decay, 70.8% of business cards change within 12 months. Overlaps with #2 (CRM data decay), #47 (enrichment accuracy), #30 (cold call connect rates).
+- **Competitive displacement / switching costs** — 20% premium for familiarity, 25-95% profit increase from 5% retention. General sales strategy, not specific automation opportunity. Overlaps with #12 (competitive intelligence).
+- **Post-demo follow-up failure / deal momentum loss** — 92% stop after 4 tries, 75% of demos fail to convert, 86% deal decay. Overlaps with #54 (deal decay post-proposal — uses same 86% stat).
+
+---
+
+## Areas To Explore Next
+- [ ] Sales team diversity and inclusion as a revenue performance factor (strong data but needs sales-ops framing)
+- [ ] Customer NPS/satisfaction survey fatigue impacting sales relationships (needs stronger sales-ops angle)
+- [ ] Post-close contract obligation tracking automation gap (related to #84 but buyer-side)
+- [ ] Multi-cloud commitment drawdown tracking for marketplace sellers
+- [ ] Sales team peer learning and knowledge sharing at scale (needs fresh angle)
+- [ ] Sales meeting-to-CRM auto-sync reliability and field mapping accuracy (adjacent to #103 but CRM integration angle)
+- [ ] Revenue team incentive misalignment across sales/CS/support/partners (meta-problem)
+- [ ] B2B customer lifecycle revenue orchestration across new/renewal/expansion/win-back (meta-problem)
+- [ ] B2B sales compliance content freshness / regulatory update propagation to reps
+- [ ] Sales team internal initiative propagation / HQ-to-frontline execution gap (thin evidence for B2B sales specifically; strong retail data via Zipline)
+- [ ] B2B sales micro-communities / peer network selling as a channel (thin evidence)
+- [ ] B2B vendor ESG/sustainability credentials as procurement gatekeeper (compliance/ops problem, not sales workflow)
+- [ ] Multi-product pricing optimization / dynamic pricing for B2B (overlaps #21/#23 pricing governance)
+- [ ] Sales deal precedent search — finding how similar past deals/objections were handled (overlaps #52 tribal knowledge)
+- [ ] Commerce chain orchestration / cross-functional deal closure workflow (meta-problem over #23/#29/#11/#104; Conga 2026 data: 93% struggle)
+- [ ] B2B sales process observability / real-time funnel diagnostic tooling (symptom of #2/#3/#40)
+- [ ] Richardson 2026 Selling Challenges Research Study (gated; specific findings unknown)
+- [ ] Gartner: 67% of B2B buyers prefer rep-free purchasing, implications for sales org redesign
