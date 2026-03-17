@@ -1990,3 +1990,64 @@
 - [ ] Forrester finding: Only 1/3 of trial participants convert to paid (overlaps #67 but broader trial scope)
 - [ ] B2B sales-led onboarding handoff quality (explored Session 31, overlaps #18/#61/#85)
 - [ ] AI proposal quality control governance gap (explored Session 31, overlaps #79 hallucinations)
+
+## Session 32 — Problems Added: #106, #107
+
+### New Problems Added (Session 32)
+
+106. **se-demo-environment-maintenance-crisis-21-days-year-61pct-no-dedicated-resources-ai-unpredictability** — Distinct from #32 (Generic demos vs interactive demos — about demo FORMAT/interactivity) and #41 (SE capacity bottleneck — about ALLOCATION and ratio). This problem targets the INFRASTRUCTURE layer: maintaining demo environments, keeping demo data fresh, and managing AI feature unpredictability. SEs spend 3 hrs/week (21 days/year, $16,800-$22K/year) maintaining environments. 61% lack dedicated demo engineering resources. 94% conduct repetitive demos. AI features make demos fundamentally unpredictable — same input can produce different outputs. Clone-based tools require recreating all instances on every product update. Custom demos take 2x longer (7hrs vs 3.6hrs). 60% of SEs overwhelmed. 67% of prospects wait 1+ week for first demo. Deals with automated demo touchpoints: 72% win rate vs 59% without, 19 days faster close. Personalized demos: 48% higher view rate.
+
+107. **qbr-value-communication-failure-82pct-buyers-cancel-contracts-88pct-insufficient-value-15-20hr-prep-waste** — Distinct from #25 (SaaS Renewal Revenue at Risk — about churn PREDICTION being reactive), #87 (Customer Health Scores — about SCORING mechanisms), and #13 (Expansion Revenue Missed — about DETECTION systems). This problem targets the VALUE COMMUNICATION MECHANISM itself: Quarterly Business Reviews. 82% of buyers have cancelled contracts due to poor QBRs (Clientshare QBR Delusion). 88% say suppliers fail to demonstrate value. 76% feel QBRs are tick-box exercises. 72% of customers consider QBRs a waste of time (Cast.app). 15-20 hours prep per strategic QBR, with 60% on data collection not analysis (McKinsey). Only 28% of CIOs/CMOs find QBRs valuable. 21% of suppliers confident buyers understand their value. 67% forced into price-based renegotiations. 93% of buyers scrutinizing suppliers more intensely. 85% believe QBR improvements would increase retention. US: 64% unexpected contract loss vs UK: 45%.
+
+### Research Sources Used (Session 32)
+- Navattic (2026): State of Demo Automation 2026 Report — 70+ SE survey, 40K+ demos analyzed; 94% repetitive demos, 3 hrs/week maintenance, 7 demos/week avg, 3.6 hrs/standard demo, 61% no dedicated resources, 72% win rate with automated demo touches vs 59% without, 48% higher view rate for personalized demos, 19 days faster close, 3-5 demos most common range, custom demos 7 hrs
+- MeetRep (2026): SE Capacity Crisis Presales Benchmark Report — 21 days/year maintenance per SE, $16,800-$22K annual labor cost per SE, 60% SEs overwhelmed, True Year 1 TCO for demo tools $73K-$83K, 4:1 median AE:SE ratio vs 2:1 high-performing, 60% more revenue/rep at 2:1, 35% unqualified demos, 67% prospects wait 1+ week for first demo
+- MeetRep (2026): Demostack Pricing vs Rep comparison — clone-based tools require recreating all clones on product updates, $55K/year list price becomes $73K-$83K TCO
+- Reprise (2026): State of Demos 2026 Report (500+ SEs surveyed) — 71% spend 1+ hr/week on maintenance, 38% spend 5+ hrs/week on demo prep, 21% spend 3-10 hrs/week on maintenance alone, buyers demand authenticity
+- Saleo (2026): "Your AI Features Are Ready. Your Demo Environment Isn't." — AI features create unpredictable demo behavior, same input produces different outputs, hallucination/stalling/off-script risk, API-level data control as solution, Salesforce 92% reduction in demo prep time
+- Clientshare (2024): "QBR Delusion" buyer research — 82% cancelled contracts from poor QBRs, 88% insufficient value evidence, 76% tick-box exercise, 68% QBR is #1 value showcase moment, 93% scrutinizing suppliers more
+- Clientshare (2025): "QBR Frustration" supplier research — 71% cite QBR as top value opportunity, 80% margin risk, 85% improvements would increase retention, 87% could upsell more, 21% confident in buyer understanding, 67% price-based renegotiations, 64% US unexpected loss vs 45% UK
+- Cast.app (2026): "QBR in 2026: From Quarterly Meetings to AI Business Reviews" — 72% customers consider QBRs waste of time, industry shifting to continuous AI-driven reviews
+- Kapta (2026): "Why Your QBRs Suck" — 15-20 hours prep per strategic QBR, only 28% CIOs/CMOs find QBRs valuable, 31% find them not valuable, 55-slide decks for 4 requested charts
+- DemandFarm/McKinsey (2026): "AI-Powered QBRs for Account Managers" — 60% of QBR prep hours on data collection not analysis
+- Gartner via Clientshare (2026): QBRs and customer-facing tools essential for revenue enablement
+- Compass Group: high-performing orgs dedicate 80% of QBR to forward-looking strategy
+
+### Topics Explored But Not Added (Session 32)
+- **Contract redlining / version control chaos** — 9% annual revenue loss from mismanagement, 15% of cycle time on version reconciliation, 3-4 rounds of redlines, only 11% rate contract management as very effective, 70% of SaaS contracts require negotiation; overlaps with #11 (legal review bottleneck) and #29 (deal desk approval workflows) — the redlining IS part of the legal review process
+- **Buyer-seller digital communication channel fragmentation** — 99% recognize omnichannel importance but only 11% achieve integration, 72% expect interaction history across channels; overlaps with #81 (app switching 1,200/day) and the multi-channel aspect is absorbed into existing context-switching problems
+- **Sales data silos / customer 360 view** — $3.1T annual US loss from poor data, 27.3% of rep time on invalid leads, 51% say silos limit AI; overlaps comprehensively with #2 (CRM data decay), #46 (RevOps burnout), #64 (CRM AI debt), #8 (tool stack bloat)
+- **Pre-sales scoping accuracy / implementation estimation failure** — 52% scope creep, 45% over budget for large IT projects, 35% unqualified demos; overlaps with #41 (SE capacity), #85 (sales promise vs implementation gap), #67 (POC conversion)
+- **Revenue capacity planning / hiring model failure** — 3x pipeline rule is outdated, 2.1x probability-weighted is actual median, phantom capacity from hiring delays; EXACTLY covered by #63 (Phantom Capacity from Mistimed Hiring)
+- **CRM vendor lock-in / migration pain** — 62% concerned about lock-in, 80% migration projects exceed timelines, $47K failed migration example; primarily IT/infrastructure problem, not sales workflow; overlaps with #8 (tool stack) and #64 (CRM tech debt)
+- **Prospect ghosting / pipeline reactivation** — 70-80% leads go cold, 48% never follow up, 15-25% reactivation response rates; overlaps with #54 (post-proposal deal decay) and #36 (no-decision outcomes)
+- **Customer expansion upsell timing** — 3-5x more profitable than new acquisition, external signals precede usage signals; subset of #13 (expansion revenue missed — no detection system)
+- **B2B buyer enablement content gap** — 65% content unused, 30% time hunting for content, 61% buying journey before seller contact; overlaps with #16 (enablement content unused), #36 (buyers can't build business cases), #55 (generic PDFs for internal selling)
+- **B2B invoice dispute / payment collection delays** — 55% US B2B invoices overdue, 43-day average wait, $39K annual cost per company; primarily finance/AR problem, not sales workflow; partially covered by #104 (quote-to-cash disconnection) and #84 (unenforced contract terms)
+- **Sales content performance analytics** — only 21% tie content to revenue, top 20% drives 80% of results; primarily marketing analytics problem; overlaps with #16 (content unused) and #26 (attribution broken)
+- **Forecast gaming / sandbagging** — <50% forecast confidence, different managers apply different lenses; overlaps with #3 (pipeline pollution), #40 (forecast methods), #91 (competing forecasts)
+- **Multi-product pricing configuration complexity** — 85% believe pricing needs improvement, legacy CPQ leaks 4%; overlaps with #23 (CPQ errors) and #21 (discounting)
+- **Sales-to-CS/implementation handoff** — 62% CS leaders lack visibility, 57% report onboarding friction impacts revenue; EXACTLY covered by #18 (sales-to-CS handoff) and #61 (onboarding abandonment)
+- **Outbound prospecting data hygiene** — $12.9M annual cost from bad data, 27.3% rep time on invalid leads; overlaps with #2 (CRM data decay), #47 (enrichment vendor accuracy), #19 (email deliverability)
+- **Sales-to-implementation scoping over-promise** — 75% declining NRR, 55% CRM implementations fail; EXACTLY covered by #85 (sales promise vs implementation delivery gap)
+
+---
+
+## Areas To Explore Next
+- [ ] Sales team diversity and inclusion as a revenue performance factor (strong data but needs sales-ops framing)
+- [ ] Customer NPS/satisfaction survey fatigue impacting sales relationships (needs stronger sales-ops angle)
+- [ ] Post-close contract obligation tracking automation gap (related to #84 but buyer-side)
+- [ ] Buyer procurement AI agent response protocol standardization (selling TO AI agents; related to #66/#89)
+- [ ] Multi-cloud commitment drawdown tracking for marketplace sellers
+- [ ] Sales team peer learning and knowledge sharing at scale (needs fresh angle)
+- [ ] Sales process observability / real-time funnel health monitoring (distinct from #3 pollution, diagnostic tooling angle)
+- [ ] B2B account plan execution tracking / living intelligence gap (evidence thin; revisit)
+- [ ] Sales meeting-to-CRM auto-sync reliability and field mapping accuracy (adjacent to #103 but CRM integration angle)
+- [ ] Revenue team incentive misalignment across sales/CS/support/partners (meta-problem)
+- [ ] B2B customer lifecycle revenue orchestration across new/renewal/expansion/win-back (meta-problem)
+- [ ] Forrester 2026: Ungoverned genAI costing B2B $10B+ in enterprise value — governance layer for decentralized AI content creation
+- [ ] Forrester 2026: 20% of B2B sellers forced to engage in AI agent-led quote negotiations
+- [ ] INFUSE 2026: Buyer trust gap — information abundance without clarity, confidence eroding
+- [ ] B2B sales playbook maintenance / playbook rot — outdated playbooks as market changes
+- [ ] Sales deal precedent search — finding how similar past deals/objections were handled
+- [ ] B2B co-selling / ecosystem selling coordination beyond traditional channel partnerships
