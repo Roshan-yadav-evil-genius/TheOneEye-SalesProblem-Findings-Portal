@@ -1410,20 +1410,64 @@
 - **Sales vertical industry expertise gap** — Insufficient standalone data found
 - **Post-M&A sales team integration** — Insufficient standalone data found
 
+## Session 21: Customer Health Score Calibration Failure, Sales Leadership Development Gap (2026-03-17)
+
+### Problems Added (2 total, #87-88)
+87. **customer-health-score-model-calibration-failure-lagging-indicators-false-green-accounts** — Only 32% of health scoring implementations accurately predict churn; 72% rely on lagging indicators; 85% use fixed weightings; "green" accounts suddenly churn ($2M documented case); sentiment shifts 6-8 weeks before behavioral changes appear; manual scoring 61% accuracy vs advanced AI 82%; 65% of churn preventable if flagged early (TSIA)
+88. **sales-leadership-development-pipeline-gap-ic-to-manager-promotion-failure-peter-principle** — 60% of new managers fail within 2 years; 76% say promoting top ICs is bad idea; 65% promoted for performance not competencies; 56% receive no training; $800K revenue eliminated from top performer; 30% team performance drop in first 6 months; $150K opportunity cost; 45% consider leaving in first year; Peter Principle empirically confirmed across 53,035 employees in 214 companies
+
+### Research Sources Used (Session 21)
+- Fastenr: "Customer Health Scoring That Actually Predicts Churn: A Data-Driven Guide" — 32% accuracy, 72% lagging indicators, 85% static weightings, 68% lack intervention strategies
+- Rupert AI: "Why Customer Health Scores Are Broken — And What Comes Next" — green accounts churning, batch processing masking decline, missing critical signals
+- TSIA: "From Metrics to Machine Learning: Reinventing Customer Health Models" — 65% of churn preventable if flagged early
+- Athenic Blog: "Customer Churn Prediction: AI Model Analysis Across 67 SaaS Companies" — manual 61%, rule-based 68%, basic ML 74%, advanced AI 82%; 34% median churn reduction
+- The Next Web: "What My CS Team Was Missing" — $2M revenue loss from green-scored accounts; NPS-72 customer churned
+- CS Insider: "Why Customer Health Scores Are Broken" — relationship metrics predict 8 weeks earlier; coverage gaps in unconventional channels
+- ZapScale: 94% churn prediction accuracy (vendor benchmark)
+- Soar Lead: "Why 60% of New Managers Fail" — 60% failure rate; 35% confidence; 61% inadequate training
+- Harmonics: "Why 60% of New Managers Fail Within the First Year" — Peter Principle explanation; €1M+ per bad leader
+- Gallup: "When Good Frontline Workers Make Bad Supervisors" — 65% selected for performance; 30% for competencies; 45% received training; 70% engagement variance; +21% revenue/+32% profit with structured assessment
+- QJE: "Promotions and the Peter Principle" — 53,035 employees, 214 companies empirical confirmation
+- HBR: "Stop Promoting the Wrong People into Manager Roles" (Feb 2026) — 27% HR leader satisfaction; 38% employee satisfaction; 51% trust manager
+- Louie Bernstein: "Why Promoting Your Top Sales Rep to Manager Almost Always Fails" — $800K revenue lost; 30% team performance drop; $150K opportunity cost
+- SBI Growth: "Stop Undervaluing the Impact of Training Your Frontline Managers" — 56% no training; 40% no program; 7% higher quota with training; 45% consider leaving in first year
+- Forrester: "First-Line Sales Managers: Promote Or Hire?" — external hiring better revenue results; Illumio 90%+ external; Planview rigorous assessment
+- Scratchpad: "Top IC to Sales Manager: The Case For and Against" — 76% say bad idea
+- Modern Sales Foundations: "Sales Manager Readiness" — only 19% believe managers ready
+- CoacHem: "Why First-Line Managers Are the Highest-Risk Role in Revenue" — quota breaks at manager layer first
+
+### Topics Explored But Not Added (Session 21)
+- **AE-to-AM/CSM transition friction** — Overlaps significantly with sales-to-CS handoff (#18) and sales promise-delivery gap (#85); the core data (broken handoff, context loss, customer re-explanation) is already covered
+- **AI SDR phantom pipeline inflation** — Specific to a few vendors (11x, Artisan) with credibility issues; the broader claim (80%+ drop-off) from single competitive source; phantom pipeline already a bullet in AI agent governance (#57)
+- **B2B SaaS pricing experimentation infrastructure gap** — Only 24% conduct experiments, pricing changes once per 2 years; interesting but sits more in product/finance than sales operations; adjacent to pricing/discounting (#29) and consumption pricing (#72)
+- **Buyer procurement process standardization vs seller flexibility** — Interesting procurement-ops tension but too broad and more buyer-side ops than seller-side sales problem
+- **Multi-generational buyer preferences** — 64% millennial/Gen Z; $56B generational conflict cost; overlaps with self-service portals (#42), buyer enablement (#55), and dark funnel (#57)
+- **Sales enablement content findability** — 440 hrs/year searching, 65% never used; overlaps directly with content enablement (#16) which identifies delivery as the core problem
+- **Territory misalignment in remote/hybrid era** — Overlaps with territory planning (#9); remote angle adds nuance but not a distinct structural problem
+- **Vendor consolidation / SaaS fatigue** — Overlaps with tool stack bloat (#8); buyer-side consolidation is the mirror image of the same problem
+- **Account planning execution failure** — Fewer than 20% embedded; overlaps with multi-threading (#4), cross-sell (#65), tribal knowledge (#52); thin primary evidence
+- **Proposal creation bottleneck** — 25 hrs/proposal, 58% stall; overlaps with RFP/proposal management (#22)
+- **Customer community influence measurement** — Overlaps with revenue attribution (#33) and dark funnel (#57)
+- **Sales data silos** — $3.1T stat already referenced; overlaps with CRM data quality (#2), revenue attribution (#33), RevOps burnout (#43), CRM tech debt (#64)
+- **Speed-to-lead / response time** — 42-hour avg already in multiple existing problems (#5, #57, #82); data is woven across existing problems
+- **Quarter-end deal slippage / hockey stick** — Overlaps with forecasting (#40), silent deal decay (#54), capacity planning (#63)
+- **Sales expense management** — More admin/ops than core sales problem
+- **Vendor lock-in as sales opportunity** — More pricing/competitive strategy than structural sales workflow problem
+- **Async documentation culture failure** — Overlaps directly with tribal knowledge (#52) using same core statistics
+
 ## Areas To Explore Next
 - [ ] Sales team diversity and inclusion as a revenue performance factor
 - [ ] Partner ecosystem co-innovation and joint solution selling coordination
-- [ ] Customer community / user group selling intelligence and influence measurement
 - [ ] Customer NPS/satisfaction survey fatigue impacting sales relationships (needs stronger sales-ops angle)
 - [ ] Sales process compliance / methodology adherence monitoring (distinct from qualification #38 if broader)
-- [ ] B2B subscription pricing experimentation and A/B testing infrastructure gaps
-- [ ] Buyer procurement process standardization vs. seller flexibility tension
-- [ ] AE-to-AM (account management) internal transition friction (continuation of handoff theme)
-- [ ] Sales team async communication and documentation culture failure
 - [ ] Post-close contract obligation tracking automation gap (related to #84 but buyer-side)
 - [ ] Multi-product pricing model governance (usage + subscription + one-time hybrid complexity)
-- [ ] AI-generated pipeline inflation (phantom pipeline from AI SDR tools booking low-quality meetings)
 - [ ] Sales ops bottleneck from DIY integration maintenance (distinct from middleware #78 — internal custom code)
 - [ ] Buyer-side evaluation template standardization (every company's security/vendor assessment is unique)
-- [ ] Customer health score model calibration failure (scores don't predict actual churn/expansion)
-- [ ] Sales leadership development pipeline gap (managers promoted from top IC roles without training)
+- [ ] B2B sales team psychological safety / fear of reporting bad news (sandbagging, happy ears cultural root cause)
+- [ ] Sales compensation benchmarking opacity (reps can't compare their comp to market; creates retention risk)
+- [ ] AI agent-to-agent selling infrastructure (machines selling to machines — protocols, standards, APIs)
+- [ ] Customer procurement automation vendor response readiness (adapting sales process for AI buyers)
+- [ ] Sales micro-coaching / in-call real-time guidance accuracy and adoption
+- [ ] Vertical industry expertise gap for horizontal SaaS sales teams
+- [ ] Post-M&A sales team integration / territory re-carving disruption

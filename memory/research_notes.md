@@ -1239,7 +1239,53 @@
 - **Sales product knowledge gap** — Sub-dimension of content enablement (#16) and training retention (#58)
 - **Suppression list sync failure** — Sub-dimension of multi-jurisdiction compliance (#37)
 
-## Cross-Cutting Themes (Updated Session 20)
+### Customer Health Score Model Calibration Failure (Session 21)
+- Only 32% of health scoring implementations accurately predict churn (Fastenr)
+- 72% rely on lagging indicators (NPS, support tickets, usage volume)
+- 85% use fixed weightings from years-old implementations
+- Customer sentiment shifts 6-8 weeks before behavioral changes appear
+- Batch processing (daily/weekly/monthly) averages real-time drops into smooth aggregates
+- "Green" accounts suddenly churn; "yellow" accounts quietly expand
+- $2M revenue loss from two green-scored enterprise accounts; one had NPS of 72
+- Customer with sky-high usage metrics churned within 60 days after CFO change
+- Missing signals: sponsor turnover, engagement patterns, support sentiment, LinkedIn changes, competitive Slack discussions
+- Manual scoring: 61% accuracy; rule-based: 68%; basic ML: 74%; advanced AI ensemble: 82%
+- Advanced AI: 45 days advance warning, 18% false positive rate (vs 7 days manual)
+- 65% of churn preventable if flagged early (TSIA)
+- 68% of companies lack defined intervention strategies for detected risks
+- Relationship-based metrics predict churn 8 weeks earlier than usage-only
+- 34% median churn reduction through proactive intervention; 5.2x median ROI
+- 25% higher CLV with effective scoring; 28% retention improvement
+- 50% faster at-risk identification with proper models
+
+### Sales Leadership Development Pipeline Gap / IC-to-Manager Promotion Failure (Session 21)
+- 60% of newly promoted managers fail within first two years (Soar Lead)
+- 76% of sales pros say promoting top ICs is a bad idea (Scratchpad)
+- 65% of frontline supervisors selected for performance, only 30% for supervisory skills (Gallup)
+- 56% of new sales managers receive no formal training (SBI Growth)
+- Only 19% of organizations believe managers are ready for leadership (Modern Sales Foundations)
+- $800K+ annual revenue eliminated from top performer when promoted
+- 30% team performance decrease in first 6 months of new manager
+- $150K opportunity cost per failed promotion
+- 45% of newly promoted managers consider leaving within first year
+- Only 35% feel confident in leadership abilities; 61% report inadequate training
+- Only 27% of HR leaders satisfied with frontline manager effectiveness (HBR)
+- Only 51% of employees trust their manager (HBR)
+- Nearly 40% of companies have no dedicated sales manager training program
+- Peer resentment when former peer becomes manager
+- Forrester: external hiring produces better first-line manager revenue results
+- 7% higher quota attainment with structured training
+- Structured assessment: +21% revenue, +32% profit per manager (Gallup)
+- Peter Principle empirically confirmed: 53,035 employees, 214 companies (QJE)
+- Best salespeople more likely promoted AND more likely to perform poorly as managers
+- Manager engagement = 70% of variance in team-level engagement (Gallup)
+- Post-COVID: rapid promotions elevated people on performance, not leadership ability
+- A single bad leader can cost €1M+ per year in net losses (Harmonics)
+- Skills mismatch: intuition/charisma/independence (sales) vs patience/coaching/documentation (management)
+
+## Cross-Cutting Themes (Updated Session 21)
 64. **Post-signature revenue governance is the most efficient growth lever no one owns** — 6-12% of revenue leaks through unenforced contract terms, unbilled usage, and decaying commercial agreements; unlike churn (customer leaves) or discounting (price negotiated down), this is revenue the company is CONTRACTUALLY ENTITLED TO but fails to collect; the problem grows with pricing complexity (usage-based, multi-product bundles) and scales faster than finance/ops can manually govern; continuous monitoring recovers 2-3x more than quarterly audits because intervention happens while revenue is still actionable
 65. **The sales-delivery gap is the pre-sale behavior that causes post-sale churn** — 70% of implementation failures trace to requirements that were misaligned during sales, not lost during handoff; this is structurally different from handoff context loss (#18, which assumes what was sold was correct) and onboarding speed (#60, which assumes what was promised is deliverable); the incentive architecture makes this self-reinforcing: sales is rewarded for closure speed, PS is rewarded for utilization, and no one is rewarded for promise-delivery alignment; the "Trust Gap" between sales and delivery teams is organizational, not interpersonal
 66. **The inbound funnel is contaminated at the source** — bot traffic comprising ~50% of web traffic means that up to half of "leads" entering B2B systems may never have been real buyers; this poisons every downstream metric (MQL counts, SDR productivity, marketing ROI, lead scoring model accuracy) and is distinct from lead scoring failure (#53, which assumes leads are real), data enrichment gaps (#46, which focuses on data completeness), and outbound saturation (#48, which is outgoing); the problem is growing as AI makes realistic fake submissions easier and ad fraud tooling becomes more sophisticated
+67. **The CS instrumentation layer is broken at the foundation** — only 32% of health scoring implementations predict churn accurately; the primary diagnostic tool gives false readings (green accounts churn, yellow accounts expand), making every downstream action (retention playbooks, expansion targeting, resource allocation, renewal forecasting) inherit measurement error; this is distinct from churn mechanics (#34), lead scoring (#53), and expansion neglect (#13) because it targets the TOOL that CS teams depend on, not the process or motion
+68. **The sales leadership pipeline is a Peter Principle factory** — 60% of new managers fail within 2 years because the industry promotes based on selling performance (65%) rather than management competence (30%); the promotion destroys revenue on BOTH sides — eliminating $800K+ from a top performer while decreasing team performance 30% for 6 months; this is the upstream root cause of span-of-control (#61), coaching quality, forecasting accuracy, and retention problems; manager engagement accounts for 70% of team engagement variance, making manager creation the single highest-leverage variable in revenue performance
