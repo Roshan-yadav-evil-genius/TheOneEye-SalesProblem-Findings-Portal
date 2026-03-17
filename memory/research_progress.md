@@ -1618,6 +1618,51 @@
 - [x] B2B hidden pricing information asymmetry (captured as #95)
 - [x] ICP drift / ideal customer profile silent degradation (captured as #96)
 - [x] Champion job change pipeline gap / warm outbound from former buyers (captured as #97)
+- [x] Sales territory coverage gap during rep leave/transition/vacancy periods (captured as #98)
+- [x] Regulated industry sales content compliance review bottleneck (captured as #99)
+
+---
+
+## Session 26 — Problems Added: #98, #99
+
+### New Problems Added (Session 26)
+
+98. **territory-vacancy-orphaned-accounts-83pct-manual-25-50k-lost-pipeline-per-departure-25-35pct-attrition-cycle** — 83% of organizations rely on manual territory reassignment; $25K-$50K lost pipeline per vacancy (largest hidden cost); 25-35% annual B2B sales attrition creates continuous vacancy cycles; 25% of customer churn cases involve bad account transitions; smooth handoffs reduce customer loss by 60%; 5-10 reassignments per year taking weeks/months; one organization found 15,000 unassigned accounts worth $5M ARR; VP departure triggers 90-day cascading revenue breakdown; departing rep + replacement ramp reduces capacity 15-20%; automating reassignment reduces account conflicts by 60%
+99. **regulated-industry-sales-content-compliance-bottleneck-61-81pct-review-time-73pct-manual-6-rounds** — 61-81% of content creation time consumed by compliance review in financial services; 73% of compliance programs semi-automated or entirely manual; up to 6 review rounds per asset (10 for large departments); 6-10 working days per standard content piece; 78% of compliance teams have ≤5 members; 79% prioritize compliance tech investment; sales reps wait days for approvals or bypass compliance or use generic templates; regulatory landscape intensifying across fintech, healthcare, insurance, pharma
+
+### Research Sources Used (Session 26)
+- Salesmotion Territory Mapping Tools 2026 — 83% manual territory processes, 36% effectiveness rating, 30% performance gap, 300% variance between top/bottom quintiles
+- MarketBetter SDR Turnover Cost Analysis 2026 — $25K-$50K lost pipeline per vacancy, $150K total departure cost, 3.1-3.2 month ramp time
+- Traction Complete Territory Reassignment — 5-10 reassignments/year, weeks/months manually, 60% account conflict reduction with automation
+- TechGrowth Insights VP Sales Departure Timeline — 90-day cascading breakdown documentation (forecast → morale → win rates → pipeline)
+- RevenueTools Sales Capacity Planning Guide 2026 — 25-35% annual attrition, 15-20% productive capacity reduction
+- Rework Account Transition 2026 Guide — 25% of churn from bad transitions, 60% customer loss reduction with smooth handoffs
+- Kernel 2026 Headcount Planning and Territory Allocation Playbook — 15,000 unassigned accounts worth $5M ARR
+- Fullcast Rep Leave Management Checklist — quota relief, propensity scoring, SPIFF incentives for temporary coverage
+- Territories.ai 2026 Territory Design blog — pre-building 2026 territories, pipeline creation delays from late territory planning
+- Saifr Marketing Compliance Concerns 2026 — 61-81% compliance review time, up to 6 rounds, 6-10 working days, 30% of small firms >10 days
+- PerformLine 2025 State of Marketing Compliance Report — 73% manual/semi-automated, 78% ≤5 member teams, 79% prioritizing compliance tech
+- Stensul Cost of Compliance Bottlenecks — siloed teams, fragmented review, duplicate work
+- Everworker AI Compliance Sales Review — sales reps wait days, "manual, late, inconsistent" compliance processes
+- Vodori Regulated Content Approval Process — parallel review tracks, modular pre-approved blocks, automated routing recommendations
+
+### Topics Explored But Not Added (Session 26)
+- **B2B buyer committee consensus building friction** — 86% of purchases stall from internal disagreement, 94% clear benefits with 6+ participants; overlaps directly with #62 (unhealthy conflict during decisions) and #27 (buyer committee blindness)
+- **Customer advisory board ROI measurement** — 15% higher NRR, 24% annual sales increase with active CABs; niche problem with thin evidence, more of a strategic program issue than automatable sales workflow
+- **Post-outage SaaS customer retention** — 68% consider switching after one outage, $800K per incident; primarily a customer success/SRE problem rather than sales automation opportunity
+- **Sales cycle lengthening / procurement approval layers** — 58% report longer cycles, 22% increase since 2022; meta-trend already covered by multiple existing problems (#11 legal, #29 deal desk, #27 buying committees, #51 scheduling)
+- **Sales proposal personalization at scale** — 41% cite personalization as pain point, 30+ hours/week recreating answers; overlaps significantly with RFP bottleneck (#22) and cold email personalization (#4)
+- **Multi-language localization as selling barrier** — 57% confirm language barriers, 55% lost business; overlaps with international sales (#60) which covers cross-border friction
+- **Buyer self-education / information asymmetry reversal** — 80% journey before contact, 61% prefer rep-free; overlaps with dark funnel (#42), AI chatbot research (#76), buying networks (#77)
+- **Pipeline generation crisis / declining coverage ratios** — 69% miss quota, 17% of reps generate 81% of revenue; meta-consequence of multiple existing problems, not distinct standalone
+- **Procurement portal proliferation seller-side burden** — multiple portals, inconsistent requirements, duplicate entry; evidence thin from seller perspective, more of a procurement operations problem
+- **Remote/hybrid sales team coordination** — 92% view remote selling as permanent; performance actually BETTER (48% more calls, 28% more likely to exceed targets); management challenge, not sales automation opportunity
+- **Sales quote expiration management** — deals >28 days lose 67% conversion; overlaps with pipeline pollution (#3), forecasting (#40), post-proposal decay (#54)
+- **Sales enablement content freshness/staleness** — 65% unused, 30% hunting time; closely related to existing #16 (enablement content goes unused)
+- **CRM data entry compliance / fabrication** — 37% fabricate data, 5.5 hrs/week on entry; closely related to #2 (CRM data decay) and #81 (app switching/selling time)
+- **Sales negotiation preparation tooling gap** — 15-30% margin erosion unmanaged; overlaps with #21 (discounting) and #29 (deal desk)
+- **CS-to-sales expansion signal detection** — expansion deals close 2-3x rate; directly overlaps with #13 (post-sale expansion missed)
+- **Intent signal noise / false positive overwhelm** — 500 "high-intent" accounts, half bad data; directly overlaps with #10 (intent data accuracy below 20%)
 
 ---
 
@@ -1666,22 +1711,23 @@
 
 ## Areas To Explore Next
 - [ ] Sales team diversity and inclusion as a revenue performance factor (strong data but needs sales-ops framing)
-- [ ] Partner ecosystem co-innovation and joint solution selling coordination (explored Session 25, overlaps with #24/#69 but account mapping friction is interesting)
 - [ ] Customer NPS/satisfaction survey fatigue impacting sales relationships (needs stronger sales-ops angle)
 - [ ] Post-close contract obligation tracking automation gap (related to #84 but buyer-side)
-- [ ] Multi-product pricing model governance (usage + subscription + one-time hybrid complexity; explored Session 25, overlaps with #72/#23)
-- [ ] Buyer-side evaluation template standardization (every company's security/vendor assessment is unique)
+- [ ] Buyer-side evaluation template standardization (every company's security/vendor assessment is unique; explored Session 26, evidence thin from seller angle)
 - [ ] Real-time AI coaching authenticity trap (needs more quantitative evidence; revisit when more data available)
-- [ ] Buyer procurement AI agent response protocol standardization (selling TO AI agents)
+- [ ] Buyer procurement AI agent response protocol standardization (selling TO AI agents; related to #66/#89 but protocol angle)
 - [ ] Multi-cloud commitment drawdown tracking for marketplace sellers
 - [ ] AI-generated proposal customization quality control at scale
-- [ ] B2B payment friction impact on sales operations and commission timing (explored Session 25, primarily finance-side)
-- [ ] Sales forecast sandbagging / rep under-reporting pipeline (explored Session 25, overlaps with #40)
-- [ ] Buyer-side AI-assisted vendor shortlisting disruption (related to #75 but vendor response angle)
-- [ ] B2B sales hiring signal quality / interview process predictive validity (related to #34 but process angle)
-- [ ] Sales-initiated customer advisory board coordination and ROI
-- [ ] GTM data unification across sales/marketing/CS systems (explored Session 25, being solved by RevOps maturation)
-- [ ] Post-incident/outage sales relationship repair and retention playbooks
-- [ ] B2B buyer committee video-first consensus building tools
-- [ ] Sales territory coverage gap during rep leave/transition/vacancy periods
-- [ ] Revenue intelligence platform consolidation and vendor lock-in risk
+- [ ] B2B sales hiring interview predictive validity (unstructured interviews r=0.24, DISC/PI r=0.07-0.10; related to #34 but methodology-specific; explored Session 26)
+- [ ] Sales-initiated customer advisory board coordination and ROI (explored Session 26, niche/thin evidence)
+- [ ] Post-incident/outage sales relationship repair and retention playbooks (explored Session 26, primarily CS/SRE problem)
+- [ ] B2B buyer committee video-first consensus building tools (explored Session 26, overlaps with #62/#27)
+- [ ] Revenue intelligence platform consolidation and vendor lock-in risk (explored Session 26, overlaps with #8/#46)
+- [ ] Procurement portal proliferation seller-side burden (explored Session 26, thin seller-side evidence)
+- [ ] B2B sales competitive displacement intelligence during active deals (distinct from #12 stale competitive intel)
+- [ ] Sales micro-segmentation / segment-level performance visibility blind spots
+- [ ] Customer procurement AI agent response readiness for sellers (related to #89 but operational response angle)
+- [ ] Sales team peer learning and knowledge sharing at scale (distinct from #58 training, #52 tribal knowledge)
+- [ ] B2B sales contract renewal negotiation automation (distinct from #25 churn prediction)
+- [x] Sales territory coverage gap during rep leave/transition/vacancy periods (captured as #98)
+- [x] Regulated industry sales content compliance review bottleneck (captured as #99)
