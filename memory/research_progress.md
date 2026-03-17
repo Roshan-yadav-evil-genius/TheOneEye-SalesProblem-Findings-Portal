@@ -2092,22 +2092,72 @@
 
 ---
 
+## Session 34 — Problems Added: #110
+
+### New Problems Added (Session 34)
+
+110. **annual-gtm-planning-orchestration-bottleneck-71pct-start-without-quotas-40-day-comp-rollout-delays-89hrs-month-admin** — Distinct from #20 (quota METHODOLOGY absence — how quotas are set), #17 (commission CALCULATION errors — payout accuracy), #33 (comp plan COMPLEXITY — rep understanding), #9 (territory EQUITY — fairness of distribution), #63 (hiring/RAMP timing — capacity gaps). This problem targets the OPERATIONAL ORCHESTRATION of the annual planning process: the cross-functional coordination workflow transforming revenue targets into deployed territories, quotas, and compensation plans. 71% of salespeople start fiscal year without quotas (CaptivateIQ 2026). 42% wait a month or more. 23% lack specific goals entirely. Comp plan rollouts endemically 40+ days late (Forma.ai). 89 hours/month on compensation admin from incompatible systems. Finance, Sales, RevOps work in silos. T&Q planning implementations take months (Canidium). 72% fail GTM plan targets in first year (Fullcast). 77% experience commission errors; 31% leave or consider leaving. 1.6 hrs/week shadow accounting per rep. Automated T&Q planning eliminates 3-month delays with 30% faster cycles. Strong automation opportunity: integrated annual planning platform unifying territory, quota, comp plan modeling, and deployment into single orchestrated workflow.
+
+### Research Sources Used (Session 34)
+- CaptivateIQ 2026 State of Sales Report: 71% start without quotas, 42% wait a month+, 23% no goals, 77% commission errors, 31% attrition risk, 1.6 hrs/week shadow accounting, 89 hrs/month admin, only 10% have clear path to quota, 90% faced target obstacles
+- Forma.ai (2026): "5 Ways to Avoid Launching Late Sales Comp Plans" — 40+ day endemic delays, disconnect between planning and execution as primary culprit
+- QuotaPath (2026): "Launching New Compensation Plans in Q1" — Finance/Sales/RevOps silos, 65% turnover from comp discrepancies, 80% revise plans every 2 years
+- Canidium (2026): "How to Automate Territory and Quota Planning in 2026" — implementations take months, organizations underestimate alignment/validation time
+- Fullcast (2026): GTM Planning — 72% fail GTM targets in first year, automated planning eliminates 3-month delays, 30% faster planning cycles
+- Xactly 2026 State of Sales Compensation Report: $200K pay gap between 25th and 90th percentile AEs, shift toward "paying for certainty"
+- CompleteAI Training (2026): Analysis of CaptivateIQ report — 42% wait month+ for quotas, only 29% get targets in first week
+
+### Topics Explored But Not Added (Session 34)
+- **Ungoverned genAI costing B2B $10B+ in enterprise value** — Forrester 2026 predicts $10B+ losses from ungoverned AI; 76% implement agentic AI but only 11% have responsible AI capabilities; 56.4% incident surge; $67.4B global hallucination losses. META-PROBLEM encompassing #79 (hallucinations), #77 (shadow AI), #43 (AI cliff), #90 (agent sprawl). The governance gap is the umbrella over already-captured problems, not a distinct workflow problem.
+- **B2B buyer trust gap / decision confidence declining** — Forrester/Gartner: 70% feel overloaded, 20% less confident using AI, expanded buying groups. Overlaps with #36 (no-decision outcomes), #62 (unhealthy buying committee conflict), #76 (AI chatbot visibility), #42 (dark funnel). Buyer-side market trend, not seller-automatable workflow.
+- **Sales comp plan modeling/simulation complexity** — QuotaPath/Forma.ai offer sandbox testing. Solutions already exist; problem overlaps with #17 (errors) and #33 (complexity). Tool category, not distinct problem.
+- **Cross-sell bundling execution gap** — Behavioral barriers, compensation misalignment, legacy tools. Overlaps directly with #65 (multi-product portfolio selling failure) and #23 (CPQ errors).
+- **Pipeline coverage ratio gaming / inflated pipeline** — Median raw coverage 3.4x but probability-weighted only 1.8x; phantom pipeline. Overlaps with #3 (pipeline pollution) and #40 (forecast methods). Sandbagging is a sub-behavior of forecast inaccuracy problems already captured.
+- **Sales enablement ROI measurement attribution** — Only 68% confident in effectiveness data; 30.3% say metrics minimally reflect value. Overlaps with #16 (content unused) and #26 (attribution broken). Consequence of broader attribution problem.
+- **First-party data transition after cookie deprecation** — 80% impacted by cookie changes; 64% using data clean rooms. Primarily marketing problem, not sales workflow. Overlaps with #39 (data compliance) and #47 (enrichment accuracy).
+- **B2B buyer regret / implementation success gap** — 60% express regret, 43% churn in first 90 days. Overlaps with #59 (onboarding abandonment) and #85 (sales promise vs implementation gap).
+- **Sales rep product knowledge gaps** — 69% don't know enough about products. Overlaps with #15 (rep ramp), #58 (training retention), #108 (playbook rot).
+- **Proposal creation bottleneck** — 25 hours per proposal, +60% close rate for 24hr delivery. Overlaps with #22 (RFP response capacity). Core issue (document creation time) is same domain.
+- **Voicemail callback rates** — 80% of cold calls go to voicemail, 2-4% callback rate. Sub-component of #30 (cold call connect collapse).
+- **B2B vendor consolidation trend** — 68% plan to consolidate, 20% vendor reduction target. Market trend, not seller-automatable. Overlaps with #8 (tool stack bloat) from seller side.
+- **Forecast commit / sandbagging / CRO board visibility** — Fewer than 25% forecast within 10%; weekly fire drills; manager bias layers. Overlaps with #3 (pipeline pollution), #40 (forecast methods), #92 (competing forecasts).
+- **Buyer internal business case creation burden** — 40-60% no-decision from inability to build cases. EXACTLY #36.
+- **RevOps reporting/analytics burden** — 35% at reactive stage, 30+ hours/week on manual hygiene. Overlaps with #46 (RevOps burnout) and #2 (CRM data decay).
+- **SaaS sales tax / nexus compliance** — Half of states tax SaaS differently. Primarily finance/tax problem, not sales workflow. Overlaps with #70 (ASC 606) conceptually.
+- **Customer case study production bottleneck** — Generic content marketing problem. Overlaps with #16 (enablement content) and #28 (reference programs).
+- **Inbound live chat qualification** — 82% conversion increase with chat. Overlaps with #101 (lead response time). Chat is a SOLUTION to the response time problem.
+- **First 90 days churn** — 43% churn in first 90 days (Moxo). Overlaps with #59 (onboarding abandonment) and #18 (sales-to-CS handoff).
+- **Mid-deal stakeholder turnover** — Champion leaves during active deal. Overlaps with #7 (single-threaded deals), #54 (deal decay), #97 (champion job changes).
+- **Shadow IT / decentralized SaaS purchasing** — 61.3% of enterprise apps are shadow IT. Buyer-side management problem, not seller workflow. No clear seller-side automation opportunity.
+- **Deal risk scoring / AI prediction accuracy** — 70-80% AI project failure rate. Overlaps with #3 (pipeline pollution) and #40 (forecast methods). Solution category, not distinct problem.
+- **B2B vendor differentiation crisis** — 94% admit messaging barely stands out. Primarily marketing/branding problem, not sales automation opportunity. Feature commoditization is a market trend.
+- **Free trial conversion / enterprise trial abuse** — 5-20% enterprise conversion. Overlaps with #67 (POC conversion) and #37 (PLG handoff).
+- **CSQL expansion pipeline routing** — CS-generated leads for expansion. Overlaps with #13 (expansion revenue missed) which already captures detection system absence.
+- **B2B AI-to-AI negotiation / seller adaptation to AI procurement** — 38% buyers using AI procurement vs 24% sellers (Deloitte). Overlaps with #66 (AI buyer agents, machine-legibility) and #89 (seller agentic commerce readiness gap).
+- **AI-informed buyer / discovery conversation irrelevance** — 67% prefer rep-free, 94% use AI in buying. Consequence of shifts already in #42 (dark funnel) and #76 (AI chatbot visibility). Buyer-side trend.
+
+---
+
 ## Areas To Explore Next
 - [ ] Sales team diversity and inclusion as a revenue performance factor (strong data but needs sales-ops framing)
 - [ ] Customer NPS/satisfaction survey fatigue impacting sales relationships (needs stronger sales-ops angle)
 - [ ] Post-close contract obligation tracking automation gap (related to #84 but buyer-side)
-- [ ] Buyer procurement AI agent response protocol standardization (selling TO AI agents; related to #66/#89)
 - [ ] Multi-cloud commitment drawdown tracking for marketplace sellers
 - [ ] Sales team peer learning and knowledge sharing at scale (needs fresh angle)
 - [ ] Sales process observability / real-time funnel health monitoring (distinct from #3 pollution, diagnostic tooling angle)
 - [ ] Sales meeting-to-CRM auto-sync reliability and field mapping accuracy (adjacent to #103 but CRM integration angle)
 - [ ] Revenue team incentive misalignment across sales/CS/support/partners (meta-problem)
 - [ ] B2B customer lifecycle revenue orchestration across new/renewal/expansion/win-back (meta-problem)
-- [ ] Forrester 2026: Ungoverned genAI costing B2B $10B+ in enterprise value
-- [ ] Forrester 2026: 20% of B2B sellers forced to engage in AI agent-led quote negotiations
-- [ ] INFUSE 2026: Buyer trust gap — information abundance without clarity
-- [ ] Sales deal precedent search — finding how similar past deals/objections were handled (explored Session 33, overlaps #52/#50)
-- [ ] B2B sales-finance deal approval criteria disconnect (explored Session 33, thin evidence)
-- [ ] Field sales geographic route optimization / travel logistics (distinct from calendar saturation #83)
+- [x] Forrester 2026: Ungoverned genAI costing B2B $10B+ (explored Session 34, meta-problem over #79/#77/#43/#90)
+- [x] Forrester 2026: 20% AI agent-led quote negotiations (explored Session 34, overlaps #66/#89)
+- [x] INFUSE 2026: Buyer trust gap (explored Session 34, overlaps #36/#62/#76/#42)
+- [x] Sales pipeline coverage ratio gaming (explored Session 34, overlaps #3/#40)
 - [ ] B2B sales compliance content freshness / regulatory update propagation to reps
-- [ ] Sales pipeline coverage ratio gaming / inflated pipeline to hit 3x target
+- [ ] Revenue leakage from subscription billing errors / involuntary churn (adjacent to #104 but payment-failure-specific angle)
+- [ ] Sales team internal initiative propagation / HQ-to-frontline execution gap (Zipline-style problem for B2B sales, thin evidence)
+- [ ] B2B procurement portal seller response burden and compliance documentation overhead
+- [ ] Sales rep time allocation optimization / deal prioritization intelligence (solution space, not problem)
+- [ ] Customer sentiment monitoring between formal touchpoints / real-time account risk (solution space for #87/#25)
+- [ ] Pricing update propagation failure to field sales teams (overlaps #21/#23, thin as distinct problem)
+- [ ] Gartner prediction: AI agents outnumber sellers 10x by 2028 but <40% say productivity improved (adjacent to #43/#90)
+- [ ] Customer reactivation program infrastructure gap (explored Session 34, overlaps #68 which already captured)
