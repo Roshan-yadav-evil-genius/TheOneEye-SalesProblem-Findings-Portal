@@ -31,7 +31,7 @@ Continue researching until you find a **distinct new problem**.
 Append a new line to **`problems.jsonl`** in this format:
 
 ```json
-{"problem_title": "Problem Title", "problem_description": "Problem Description", "why_it_matters": "Why it Matters", "example_evidence": "Example Evidence", "proposed_slug": "Proposed Slug"}
+{"problem_title": "Problem Title", "problem_description": "Problem Description", "why_it_matters": "Why it Matters", "example_evidence": "Example Evidence", "proposed_slug": "Proposed Slug", "references": ["https://source-url-1", "https://source-url-2"]}
 ```
 
 Each **line must represent one unique problem**.
