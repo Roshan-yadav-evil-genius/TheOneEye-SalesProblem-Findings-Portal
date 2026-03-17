@@ -1776,6 +1776,43 @@
 - **CSQL handoff routing** — overlaps with #5 and #13
 - **Demo environment maintenance burden** — market being solved by Reprise/Demostack (also explored Session 24)
 
+## Session 28 — Problems Added: #102
+
+### New Problems Added (Session 28)
+
+102. **field-sales-route-optimization-failure-28-35pct-travel-waste-79pct-data-loss-571pct-performance-gap-manual-planning** — Manual route planning achieves only 78.2% territory coverage vs 91.4% algorithmic; unoptimized routes waste 28-35% of travel time and reduce face-time 28%; field reps lose ~2 hours/day (50% of shift) to admin/route adjustments; only 28-38% of field rep time spent selling; 50-70% consumed by travel; top-decile reps: 13.9 visits/day vs bottom-decile 2.07 (571% gap); 173% more accounts visited by top performers; $308/contact field vs $50 inside (6x premium); 79% of opportunity data never enters CRM; 40.8% travel distance reduction with graph-based algorithms; 18-44% more daily visits with GPS optimization; 39% inflate mileage claims; $12-17B annual grey fleet fraud; field sales closes 40% vs 20% inside but at 6x cost
+
+### Research Sources Used (Session 28)
+- SalesRabbit 2026 Field Sales Report — manual targeting burns capital on dead doors, territory by assumption not data
+- Upper Inc 2026 Route Planning Guide — 28-35% travel waste, 28% face-time reduction, 18-44% visit increase with optimization
+- RepMove 50 Outside Sales Efficiency Benchmarks — 78.2% vs 91.4% coverage, 40.8% distance reduction, 571% top-to-bottom gap, 5.1 avg visits/day
+- SalesRabbit D2D Statistics — 2 hours/day lost to paperwork and route adjustments (50% of shift)
+- aiOla 2026 CRM Data Quality in Field Sales — 79% opportunity data never enters CRM, 23% data accuracy, desk-designed CRM
+- Prospeo Field vs Inside Sales 2026 — $308 vs $50 per contact, 40% vs 20% close rate, 50-70% time traveling
+- GreetNow Inside Sales Statistics 2026 — 72.6% of interactions now inside sales (up from 45% in 2019), 18% larger field deals
+- GetFuelShine 2026 Expense Management — 39% mileage inflation, $12-17B grey fleet fraud, 76% fraud through manual processes
+
+### Topics Explored But Not Added (Session 28)
+- **B2B buyer committee stakeholder turnover mid-deal** — 86% of deals stall, 40-60% no-decision, 13+9 stakeholders; overlaps heavily with #7 (single-threaded/champion departure), #27 (buyer committee blindness), #36 (no-decision), #62 (unhealthy conflict); data mostly repeats existing datasets
+- **B2B contract renewal negotiation automation** — renewals drive 80% SaaS revenue, 30% miss alerts, spreadsheet tracking; overlaps with #25 (churn prediction) and #13 (expansion missed); the negotiation-specific angle has thin evidence
+- **Sales micro-segmentation / segment visibility** — AI micro-segmentation yields 30% conversion increase, 25% cycle reduction; mostly solution-focused not problem-focused; overlaps with #9 (territory design), #96 (ICP drift)
+- **Sales peer learning and knowledge sharing** — 86% cite poor collaboration as failure root cause; data recycled existing coaching (#6), enablement (#16, #58), collaboration (#7) stats; not distinct enough
+- **Procurement AI vendor response readiness** — 11% fully ready, 65% mostly ready, 67% data privacy concerns; overlaps with #89 (agentic commerce readiness) and #66 (AI buyer agents)
+- **Commission clawback disputes** — 9% quit over disputes, 22% have disputes yearly; overlaps with #17 (commission errors) and #33 (comp complexity); more legal than automation
+- **Sales methodology adherence measurement** — only 15% fully qualified, 30% follow methodology; directly restates #38 (qualification methodology drift)
+- **CSQL handoff / CS-to-sales expansion signals** — overlaps with #5 (lead handoff) and #13 (expansion missed)
+- **Sales automation workflow testing / QA** — silent failures, undetected data corruption; overlaps with #78 (iPaaS fragility / 62% silent failure rate)
+- **Buyer evaluation fatigue / decision overload** — 60% find options overwhelming, 86% of deals stall; overlaps with #36 (no-decision), #27 (committees), #62 (conflict); buyer-side, not seller automation
+- **Sales content ROI measurement gap** — only 21% tie content to revenue; overlaps with #16 (content unused) and #26 (attribution broken); primarily marketing analytics
+- **B2B billing disputes as churn trigger** — 77% say billing impacts renewal, 10% ARR involuntary churn; overlaps with #25 (churn) and #84 (post-signature leakage); more finance/billing ops
+- **B2B account plan execution tracking** — 67% of strategies fail from poor execution, fewer than 20% embed planning; evidence from limited sources (mostly Salesmotion); overlaps with #49 (ABM failure), #31 (account research)
+- **Multi-product cross-sell execution** — directly duplicates #65 (multi-product cross-sell portfolio selling failure)
+- **TCO/pricing transparency gap** — overlaps with #95 (hidden pricing) and #21 (discounting)
+- **Case study production bottleneck** — 3-month production time, $12.4M pipeline impact; overlaps with #28 (customer reference programs) and #16 (enablement content); distinct angle but thin differentiation
+- **Budget cycle timing misalignment** — deals aligned with budget cycles close 2-3x faster; tactical knowledge, not automatable workflow; thin standalone evidence
+
+---
+
 ## Areas To Explore Next
 - [ ] Sales team diversity and inclusion as a revenue performance factor (strong data but needs sales-ops framing)
 - [ ] Customer NPS/satisfaction survey fatigue impacting sales relationships (needs stronger sales-ops angle)
@@ -1784,14 +1821,17 @@
 - [ ] Multi-cloud commitment drawdown tracking for marketplace sellers
 - [ ] AI-generated proposal customization quality control at scale
 - [ ] B2B sales competitive displacement intelligence during active deals (distinct from #12 stale competitive intel)
-- [ ] Sales micro-segmentation / segment-level performance visibility blind spots
-- [ ] Sales team peer learning and knowledge sharing at scale (distinct from #58 training, #52 tribal knowledge)
-- [ ] B2B sales contract renewal negotiation automation (distinct from #25 churn prediction)
+- [ ] Sales team peer learning and knowledge sharing at scale (explored Session 28, recycled existing stats; needs fresh angle)
+- [ ] B2B sales contract renewal negotiation automation (explored Session 28, overlaps with #25; needs thin-slice angle)
 - [ ] Sales process observability / real-time funnel health monitoring (distinct from #3 pollution, diagnostic tooling angle)
-- [ ] B2B buyer committee turnover mid-deal / stakeholder churn during active sales cycles
-- [ ] Sales rep calendar optimization / travel logistics for field sales meetings
+- [ ] B2B buyer committee turnover mid-deal / stakeholder churn during active sales cycles (explored Session 28, heavy overlap)
+- [x] Sales rep calendar optimization / travel logistics for field sales meetings (captured as #102)
 - [ ] Cross-functional deal room coordination for complex enterprise opportunities
-- [ ] B2B sales compensation clawback disputes and legal risk
 - [ ] Customer procurement AI agent negotiation protocol standardization
 - [ ] SaaS sales tax compliance as deal friction (strong data but primarily finance problem; revisit with sales-ops angle)
-- [ ] Sales rep product knowledge gap / feature release communication pipeline (strong data but overlaps; revisit if evidence strengthens)
+- [ ] B2B case study / social proof production pipeline bottleneck (explored Session 28, overlaps with #28/#16; needs sharper angle)
+- [ ] B2B account plan execution tracking / living intelligence gap (explored Session 28, evidence thin; revisit with more sources)
+- [ ] B2B sales meeting recording summarization accuracy and action item extraction failure
+- [ ] Pre-sales scoping accuracy / implementation effort estimation failure (related to #85)
+- [ ] Sales rep attrition prediction / proactive retention signals (related to #44 burnout but prediction angle)
+- [ ] B2B customer lifecycle revenue orchestration across new/renewal/expansion/win-back (meta-problem)
