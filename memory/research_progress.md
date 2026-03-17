@@ -1,6 +1,6 @@
 # Sales Problems Research Progress
 
-## Last Updated: 2026-03-17 (Session 22)
+## Last Updated: 2026-03-17 (Session 23)
 
 ## Session 1: Initial Research (2026-03-16)
 
@@ -1499,6 +1499,40 @@
 - **SaaS sales tax compliance** — More finance/tax than sales workflow problem
 - **AI sales tech consumption pricing (Agentforce)** — Too vendor-specific; overlaps with tool stack cost (#8), consumption pricing (#72)
 
+## Session 23: Enterprise Sales Gifting ROI Crisis, Sales-Finance Forecast Misalignment (2026-03-17)
+
+### Problems Added (2 total, #91-92)
+91. **enterprise-sales-gifting-roi-crisis-compliance-delivery-measurement-failure** — 67% of enterprise gifting budgets generate zero ROI; 68% of B2B direct mail campaigns fail; 41% of gifts go unclaimed at corporate addresses; 73% of Fortune 1000 limit gifts to $100; generic cold mailers 0.3-0.8% response vs personalized 6.8-9.2%; $765B+ market with massive waste; 40% end in landfills; pre-call gifting reduces no-shows 41%
+92. **sales-finance-board-revenue-forecast-version-misalignment-three-truths-organizational-fiction** — Three competing forecasts from Sales, Finance, and Board using different definitions, systems, and cadences; 87% missed 2025 targets; deal slippage quadrupled in 2 years; 72% still use spreadsheets; less than half share scenarios org-wide; CRM closed-won ≠ invoiced ≠ collected; investors value predictability over growth rate; aligned companies grow 19% faster with 15% more profit
+
+### Research Sources Used (Session 23)
+- SalesRelief: "67% of Enterprise Gifting Budgets Generate Zero ROI" — $200K case study, 67% zero ROI, role-specific gifting 34% higher velocity
+- SalesRelief: "68% of B2B Direct Mail Campaigns Fail" — generic 0.3-0.8% response at $150-220/response; personalized dimensional mail 6.8-9.2% at $49-68/response
+- Sendoso Q3 2024: 41% of gifts to enterprise corporate addresses go unclaimed
+- Corporate Executive Board 2024: 73% of Fortune 1000 limit gifts to $100 or less
+- Launch Leads 2026: direct mail response rates 2.7-4.4% vs email 0.6%
+- Prospeo 2026: 40% of corporate gifts end in landfills; FINRA $100 cap; IRS $25 deduction limit
+- Alyce: personalized gifts under $50 generate 3.2x response vs cold email; intent data +31% acceptance; 3.4x acceptance with choice-based gifting
+- Sales Benchmark Index: role-specific buying committee gifting drives 34% higher deal progression
+- PerfectGift.com: corporate gifting market exceeded $765B in 2023, projected to exceed $1T
+- Kluster: "Why Forecasting Misalignment Is Destroying Valuation" (Sep 2025) — three versions of truth, deal slippage quadrupled, only 45% confident in forecast accuracy, investors value predictability over growth rate
+- Clari Labs January 2026: 87% missed 2025 revenue targets; 48% data not AI-ready; 42% lack governance
+- Durity February 2026: "How RevOps Misalignment Creates Conflicting Forecasts" — fragmented data, uncoordinated cadences, inconsistent definitions; CRM closed-won ≠ invoiced/collected; invoice-level reconciliation required
+- Durity February 2026: "Why Revenue Forecasting Accuracy Collapses Without Invoice-Level Reconciliation" — CRM pipeline optimism vs financial reality; payment delays, credits, deferred revenue create discrepancies
+- Databox State of Annual Planning 2026: 72% of mid-market leaders use spreadsheets; less than half share scenarios org-wide
+- PwC Global Investor Survey: 75%+ of investors prioritize quality of reporting and forward-looking disclosures
+- Fullcast: "A Practical Guide to RevOps and Finance Alignment" — aligned companies grow 19% faster with 15% more profits
+- Gartner State of Sales Operations: only 45% of sales leaders confident in forecast accuracy
+
+### Topics Explored But Not Added (Session 23)
+- **B2B invoice-to-cash payment friction** — 37% of payment cycle is delay, 51 days avg to get paid, only 52-58% of Net30 invoices paid on time; interesting but more finance/AR operations than sales workflow problem; partially overlaps with post-signature revenue leakage (#84) and cross-border selling (#60)
+- **Sales territory transition customer churn** — Smooth transitions reduce churn 60%, 65% churn probability after unmanaged executive change; overlaps with sales-to-CS handoff (#18), tribal knowledge (#52), multi-threading (#4)
+- **Revenue intelligence tool shelfware** — 87% missed targets despite AI investment, 48% data not AI-ready, 73% tool overlap; largely an adoption story that overlaps with tool stack bloat (#8) and AI agent governance (#57)
+- **Sales tech feature adoption failure** — Only 27% fully utilize CRM, 67% features unused, 30% SaaS spend completely unused; overlaps with tool stack bloat (#8); the distinction (depth vs breadth of adoption) is real but evidence base is thin for a standalone problem; training delivers 420% ROI vs buying new tools
+- **AI interview fraud in sales hiring** — 38.5% flagged for cheating, cheating tripled 2025; but sales-specific cheating rate only 12% (vs 48% for tech roles); existing #31 already covers AI-generated CVs and assessment challenges
+- **Partner co-sell coordination** — 50% miss targets, only 2/8 executives say co-selling works; overlaps significantly with channel partner programs (#24) and cloud marketplace co-sell (#69)
+- **Buyer-side evaluation template standardization** — 68% use static spreadsheets; more of a procurement-ops problem than a sales workflow problem
+
 ## Areas To Explore Next
 - [ ] Sales team diversity and inclusion as a revenue performance factor
 - [ ] Partner ecosystem co-innovation and joint solution selling coordination
@@ -1513,8 +1547,10 @@
 - [ ] Sales cycle stage definition inconsistency across CRM implementations
 - [ ] Buyer procurement AI agent response protocol standardization (selling TO AI agents)
 - [ ] Multi-cloud commitment drawdown tracking for marketplace sellers
-- [ ] Sales-finance alignment on consumption revenue forecasting
 - [ ] AI-generated proposal customization quality control at scale
+- [ ] B2B payment friction impact on sales operations and commission timing
+- [ ] Sales tech feature underutilization / training gap (distinct from tool count)
+- [ ] Account rep transition customer churn (needs more sales-specific data)
 - [x] B2B seller agentic commerce readiness / machine-readable infrastructure gap
 - [x] AI agent sprawl / siloed agent syndrome / multi-agent orchestration failure
 - [x] Sales compensation benchmarking opacity (explored, overlaps with #17 and #30)
@@ -1522,3 +1558,5 @@
 - [x] Customer procurement automation vendor response readiness (captured as readiness gap #89)
 - [x] Sales micro-coaching / in-call real-time guidance accuracy (explored, thin evidence)
 - [x] B2B sales team psychological safety (explored, overlaps with #40)
+- [x] Enterprise sales gifting ROI crisis (captured as #91)
+- [x] Sales-finance revenue forecast version misalignment (captured as #92)
