@@ -1,6 +1,6 @@
 # Sales Problems Research Progress
 
-## Last Updated: 2026-03-17 (Session 17)
+## Last Updated: 2026-03-17 (Session 18)
 
 ## Session 1: Initial Research (2026-03-16)
 
@@ -1295,19 +1295,55 @@
 - [x] AI search vendor discoverability / pipeline invisibility crisis
 - [x] Buying network external influence invisibility / 9 external validators CRM blind spot
 - [x] Sales workflow middleware fragility / integration chain silent failure crisis
+- [x] AI hallucination in customer-facing sales content / fabricated proposals and legal liability
+- [x] Sales gamification / leaderboard demotivation and 80% motivational mismatch
+- [x] Sales rep context-switching cognitive tax / 1,200 daily app switches and 40% productivity loss
+
+## Session 18: AI Hallucinations, Gamification Demotivation, Context-Switching Cognitive Tax (2026-03-17)
+
+### Problems Added (3 total, #79-81)
+79. **ai-hallucination-customer-facing-sales-content-fabricated-proposals-legal-liability** — 17% hallucination rate in AI-generated content, $67.4B global losses, fabricated case studies and ROI stats in proposals
+80. **sales-leaderboard-gamification-demotivation-80-percent-harmed** — Leaderboards motivate 20% while demotivating 80%, self-fulfilling performance ceilings, collaboration destruction
+81. **sales-rep-context-switching-cognitive-tax-1200-daily-app-switches** — 1,200 app switches/day, 40% productivity loss, SDRs sell only 2 hours, $450B annual US cost
+
+### Research Sources Used (Session 18)
+- Suprmind AI Hallucination Statistics Report 2026
+- Four Dots Business Impact of AI Hallucinations
+- AutogenAI AI Hallucination Risks in Proposal Writing
+- Towards AI "Four Ways LLMs Hallucinate in Customer-Facing Pipelines" (March 2026)
+- Jeeva AI Guardrails 101: Preventing AI Hallucinations in Sales
+- IntuitionLabs AI Hallucinations in Business: Causes and Prevention
+- Bytexel Reducing AI Hallucinations: The 2026 Enterprise Blueprint
+- Octalysis Group "Why Your Sales Leaderboard is Killing Performance" (January 2026)
+- AcuteData "Toxic Sales Leaderboard Habits"
+- Spinify "Are Leaderboards Still Effective?" and "Leaderboards Done Right"
+- Cobalt "Why Traditional Sales Competitions Are Flawed"
+- Talentfoot "Sales Incentive Trends and Contest Effectiveness: 2026 Data"
+- MarketBetter "The SDR Productivity Crisis: 83% Miss Quota While Selling Just 2 Hours a Day" (February 2026)
+- Speakwise "Context Switching Statistics 2026"
+- TheTab "The Hidden Cost of Context Switching: $450 Billion Lost" (2025)
+- FullStack RevOps "The Cognitive Cost of Context-Switching"
+- Highspot State of Sales Enablement 2025
+
+### Topics Explored But Not Added (Session 18)
+- **Sales order management / post-close fulfillment** — Overlaps with deal desk (#27) and sales-to-CS handoff (#18)
+- **RevOps data observability / pipeline data lineage** — Overlaps with CRM data quality (#2), middleware fragility (#78), revenue attribution (#33)
+- **Customer multi-product adoption sequencing** — Overlaps with post-sale expansion (#13) and cross-sell portfolio failure (#65)
+- **Proposal/deck personalization bottleneck** — Overlaps with RFP/proposal management (#22)
+- **Deal negotiation AI asymmetry** — Largely covered by autonomous AI buyer agents (#66)
+- **Digital Sales Room / Mutual Action Plan abandonment** — Already covered in buyer enablement / champion gap (#55)
 
 ## Areas To Explore Next
 - [ ] Sales team diversity and inclusion as a revenue performance factor
-- [ ] Sales order management and fulfillment coordination for complex deals
 - [ ] Partner ecosystem co-innovation and joint solution selling coordination
 - [ ] Customer community / user group selling intelligence and influence measurement
-- [ ] Sales content creation bottleneck (personalized decks — distinct from RFP if stronger evidence found)
 - [ ] Customer NPS/satisfaction survey fatigue impacting sales relationships (needs stronger sales-ops angle)
-- [ ] B2B sales gamification behavioral distortion and leaderboard demotivation
 - [ ] Sales process compliance / methodology adherence monitoring (distinct from qualification #38 if broader)
-- [ ] Revenue operations data observability and pipeline data lineage tracking
-- [ ] Customer multi-product adoption sequencing and expansion path optimization
 - [ ] Sales team communication and deal collaboration across remote/distributed teams
 - [ ] Outbound channel selection intelligence (when to use which channel for which prospect)
-- [ ] Sales AI output verification and hallucination detection in customer-facing content
 - [ ] B2B subscription pricing experimentation and A/B testing infrastructure gaps
+- [ ] Sales data visualization / reporting overload (dashboards that nobody reads or acts on)
+- [ ] Buyer procurement process standardization vs. seller flexibility tension
+- [ ] Sales enablement content ROI measurement gap (which assets actually influence deals)
+- [ ] Internal sales handoff friction (SDR-to-AE, AE-to-AM transitions)
+- [ ] Sales meeting effectiveness / meeting overload and calendar fragmentation
