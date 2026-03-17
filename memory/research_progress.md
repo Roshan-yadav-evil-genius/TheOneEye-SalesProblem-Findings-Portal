@@ -1731,3 +1731,67 @@
 - [ ] B2B sales contract renewal negotiation automation (distinct from #25 churn prediction)
 - [x] Sales territory coverage gap during rep leave/transition/vacancy periods (captured as #98)
 - [x] Regulated industry sales content compliance review bottleneck (captured as #99)
+- [x] B2B customer referral pipeline attribution broken (captured as #100)
+- [x] B2B inbound lead response time crisis (captured as #101)
+
+---
+
+## Session 27 — Problems Added: #100, #101
+
+### New Problems Added (Session 27)
+
+100. **b2b-referral-pipeline-attribution-broken-70pct-no-formal-program-25-40pct-attribution-loss-47k-per-referral-untracked** — 70% of B2B companies lack formal referral programs; 25-40% of referral attributions lost to cookie/tracking failures (ad-blockers at 31.5%, Safari ITP, cross-device); $47K average pipeline value per referral; 4x faster close rate vs cold; 50-70% win rate vs 10-20% cold; 50% lower CAC; 35% shorter sales cycles; 15% larger deal sizes; 50% fewer touchpoints; 86% more revenue growth with formalized programs; attribution dies in CRM during 6+ month sales cycles; sales teams treat referral leads as cold due to lost context; manual reward fulfillment stalls participation; distinct from customer REFERENCE programs (#28, social proof during deals), dark funnel (#42, general visibility), and champion tracking (#97, known contacts at new companies)
+101. **b2b-inbound-lead-response-time-crisis-42-47hr-avg-vs-5min-expectation-78pct-buy-first-responder-61hr-weekend-gap** — Average B2B company takes 42-47 hours to respond to inbound leads; 78% of customers buy from first responder; 21x more likely to qualify at 5 minutes vs 30 minutes; 10% conversion drop per minute of delay; 81.2% lead leakage for 1+ hour responders vs 46.6% for <15 min; 40%+ of high-intent inquiries arrive after hours; 61-hour response gap Friday night to Monday morning; only 35.4% meet own 5-minute SLA; companies with AI automation: 62.5% meet <15min vs 29.5% without; 7x qualification drop after 1 hour, 60x after 24 hours; distinct from marketing-to-sales handoff (#5, qualification criteria), demo scheduling delay (#14, post-engagement), and bot traffic (#86, fake leads)
+
+### Research Sources Used (Session 27)
+- GrowSurf 2026 B2B Referral Marketing Statistics — 54% pipeline from referrals, $47K per referral, 4x faster close, 50-70% win rate, 35% shorter cycles, 86% more revenue growth
+- Cello 2026 SaaS Referral Tracking Report — 25-40% attribution loss from ad-blockers/ITP, server-side tracking needed via Stripe metadata/webhooks
+- Revenue Wizards RevOps Newsletter — 70% lack formal programs, attribution dies in CRM during long cycles, manual reward fulfillment bottleneck
+- BusinessDasher 2026 B2B Referral Statistics — 50% lower CAC, 30-70% better conversion, 15% larger deal sizes
+- HALIRO Cold Call vs Referral Analysis — 40-60% first meeting conversion referrals vs 1-3% cold, 30-50% lower CAC
+- Blazeo 2026 Speed-to-Lead Benchmark Report (March 2026) — 42-47 hour average response, 81.2% leakage for 1+ hour, 40%+ after-hours inquiries, 61-hour weekend gap, 35.4% meet 5-min SLA, 62.5% with AI meet <15min
+- ProspectVine 2026 B2B Lead Response Guide — 21x qualification at 5min vs 30min, 10% drop per minute, 7x after 1 hour, 60x after 24 hours
+- GreetNow 2026 Lead Response Time Statistics — 78% buy from first responder, 47 data points aggregated
+
+### Topics Explored But Not Added (Session 27)
+- **SaaS sales tax compliance complexity** — 50% of states now tax SaaS, 408 rate changes, nexus tracking complexity; primarily finance/accounting problem; closest overlap with #23 (CPQ) and #71 (ASC 606)
+- **B2B community-led growth / dark social measurement** — 70% buyer journey in untrackable channels; directly overlaps with #42, #76, #77
+- **Multi-product usage signal fragmentation for expansion** — 2-3x retention for 3+ products, 11+ day signal delay; overlaps with #13 and #65
+- **Partner/reseller deal registration conflicts** — 60% de-emphasize vendor due to conflict; overlaps with #24, sub-problem of channel management
+- **Subscription downgrade as silent revenue killer** — 20-30% of revenue churn from downgrades; overlaps with #25 and #87; same solution space
+- **Proposal version control chaos** — 74% lose trust with proposal errors; overlaps with #22, #55, #23
+- **Second-order revenue / customer advocacy measurement gap** — overlaps with #100 (new) and #28
+- **Pipeline coverage ratio decline** — meta-consequence, explored Session 26, not standalone
+- **Dormant account reactivation** — 15-25% response rates; explored Session 24, overlaps with #3/#5/#53
+- **B2B buyer experience personalization gap** — meta-theme spanning #4, #32, #55, #42
+- **Sales pipeline observability / funnel diagnostics** — overlaps with #3, #40, #54
+- **CLV prediction inaccuracy** — primarily data science problem, not sales workflow
+- **Enterprise deal internal team coordination (war room)** — meta-problem encompassing #27, #29, #41, #51, #55
+- **Vendor lock-in / switching costs** — product strategy issue, not sales automation opportunity
+- **Sales enablement ROI measurement** — overlaps with #16 and #58
+- **Outbound multi-channel compliance burden (TCPA/CAN-SPAM/CASL)** — TCPA class actions up 95% YoY; overlaps with #19, #30, #39
+- **Sales rep product knowledge gap from rapid feature releases** — 40% of product questions unanswered; overlaps with #16, #32, #58
+- **Hunter-farmer model failure** — overlaps with #13 and #85
+- **Quote-to-close commercial operations fragmentation** — 93% struggle; composite of #11, #29, #23
+- **CSQL handoff routing** — overlaps with #5 and #13
+- **Demo environment maintenance burden** — market being solved by Reprise/Demostack (also explored Session 24)
+
+## Areas To Explore Next
+- [ ] Sales team diversity and inclusion as a revenue performance factor (strong data but needs sales-ops framing)
+- [ ] Customer NPS/satisfaction survey fatigue impacting sales relationships (needs stronger sales-ops angle)
+- [ ] Post-close contract obligation tracking automation gap (related to #84 but buyer-side)
+- [ ] Buyer procurement AI agent response protocol standardization (selling TO AI agents; related to #66/#89)
+- [ ] Multi-cloud commitment drawdown tracking for marketplace sellers
+- [ ] AI-generated proposal customization quality control at scale
+- [ ] B2B sales competitive displacement intelligence during active deals (distinct from #12 stale competitive intel)
+- [ ] Sales micro-segmentation / segment-level performance visibility blind spots
+- [ ] Sales team peer learning and knowledge sharing at scale (distinct from #58 training, #52 tribal knowledge)
+- [ ] B2B sales contract renewal negotiation automation (distinct from #25 churn prediction)
+- [ ] Sales process observability / real-time funnel health monitoring (distinct from #3 pollution, diagnostic tooling angle)
+- [ ] B2B buyer committee turnover mid-deal / stakeholder churn during active sales cycles
+- [ ] Sales rep calendar optimization / travel logistics for field sales meetings
+- [ ] Cross-functional deal room coordination for complex enterprise opportunities
+- [ ] B2B sales compensation clawback disputes and legal risk
+- [ ] Customer procurement AI agent negotiation protocol standardization
+- [ ] SaaS sales tax compliance as deal friction (strong data but primarily finance problem; revisit with sales-ops angle)
+- [ ] Sales rep product knowledge gap / feature release communication pipeline (strong data but overlaps; revisit if evidence strengthens)
