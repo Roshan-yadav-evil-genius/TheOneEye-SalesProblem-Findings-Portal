@@ -1289,3 +1289,49 @@
 66. **The inbound funnel is contaminated at the source** — bot traffic comprising ~50% of web traffic means that up to half of "leads" entering B2B systems may never have been real buyers; this poisons every downstream metric (MQL counts, SDR productivity, marketing ROI, lead scoring model accuracy) and is distinct from lead scoring failure (#53, which assumes leads are real), data enrichment gaps (#46, which focuses on data completeness), and outbound saturation (#48, which is outgoing); the problem is growing as AI makes realistic fake submissions easier and ad fraud tooling becomes more sophisticated
 67. **The CS instrumentation layer is broken at the foundation** — only 32% of health scoring implementations predict churn accurately; the primary diagnostic tool gives false readings (green accounts churn, yellow accounts expand), making every downstream action (retention playbooks, expansion targeting, resource allocation, renewal forecasting) inherit measurement error; this is distinct from churn mechanics (#34), lead scoring (#53), and expansion neglect (#13) because it targets the TOOL that CS teams depend on, not the process or motion
 68. **The sales leadership pipeline is a Peter Principle factory** — 60% of new managers fail within 2 years because the industry promotes based on selling performance (65%) rather than management competence (30%); the promotion destroys revenue on BOTH sides — eliminating $800K+ from a top performer while decreasing team performance 30% for 6 months; this is the upstream root cause of span-of-control (#61), coaching quality, forecasting accuracy, and retention problems; manager engagement accounts for 70% of team engagement variance, making manager creation the single highest-leverage variable in revenue performance
+
+### B2B Seller Agentic Commerce Readiness Gap (Session 22)
+- Average agentic commerce readiness score: 31/100 (AgentReadyHQ, 2,847 stores)
+- Independent scan: 35.7/100 average (Pacestack, 243 top sites)
+- Only 8.4% of non-Shopify stores score 60+ (passing)
+- Nearly 70% score D or F grades
+- 87% of stores missing product IDs entirely
+- Only 2% of major sites offer machine-readable product feeds
+- Only 46% have proper Schema.org markup
+- 0% have MCP (Model Context Protocol) endpoints
+- Only 3% support any commerce protocol (ACP or UCP)
+- 67% of mid-market catalogs lack GTIN coverage; 54% inconsistent attribute naming; 43% no taxonomy
+- Product data across 6-12 systems (ERP, PIM, OMS, WMS, DAM)
+- 65% of retailers taking NO AI preparation steps
+- AI-referred traffic up 805% YoY (Black Friday 2025)
+- AI-referred converts at 11.4% vs 5.3% traditional search
+- Gartner: 20% of transactions through AI agents by 2030
+- McKinsey: 50% of procurement automated by AI agents by 2027
+- AI-driven orders grew 15x YoY in 2025
+- Three competing standards: ACP (OpenAI/Stripe), UCP (Google/Shopify), x402 (Coinbase)
+- Non-compliant catalogs simply don't appear to AI agents — no warnings, just invisible
+
+### AI Agent Sprawl / Siloed Agent Syndrome (Session 22)
+- 87% of sales orgs use AI for prospecting, forecasting, content creation (Salesforce 2026)
+- Average enterprise: 12 distinct AI agents; 50% operate in complete isolation
+- Revenue growth stalled throughout 2025 despite record AI investment
+- 957 separate applications per enterprise; only 27% connected
+- Contradictory outreach: one agent prioritizes lead, another ignores it, third sends conflicting message
+- Marketing and sales AI agents score accounts differently without awareness of each other
+- 86% of IT leaders: agents will introduce more complexity than value without integration
+- 340% LLM API cost increase in single quarter from duplicate undecommissioned agents
+- 27% of APIs currently run ungoverned
+- 42% cite risk/legal as primary hurdle to agentic transformation
+- Agentic deployments fail 3x more with poor data quality (RevOps.tools 2026)
+- 74% prioritize data cleansing for AI returns; high performers 79% vs underperformers 54%
+- 51% of sales leaders: data silos delay or limit AI initiatives
+- 19% of enterprise data inaccessible to AI agents
+- Agent Network Protocol adoption: 43% of enterprises
+- Consolidation response: OpenAI Operator, Anthropic Claude Agent SDK, Microsoft Dynamics 365 Autonomous Agents, Google Gemini Deep Research Agent
+- Fractional CROs hired to audit broken agent architectures; demand surged 68% YoY
+- Fractional sales leadership: 32% average revenue increase within first year
+- 30% of midsize enterprises projected to use fractional executives by 2027 (Gartner)
+
+## Cross-Cutting Themes (Updated Session 22)
+69. **Agentic commerce readiness is the new digital infrastructure imperative** — AI buyer agents are entering procurement ($15T+ by 2028, 50% automation by 2027) but 87% of sellers lack basic machine-readable product IDs and 0% have MCP endpoints; non-compliant catalogs don't get warnings from AI agents — they simply don't exist; three competing protocols (ACP, UCP, x402) create a standards fragmentation risk on top of the readiness gap; this is distinct from AI buyer agent disruption (#66, market force) and AI search discoverability (#75, content marketing) because it targets the TRANSACTIONAL INFRASTRUCTURE required for machines to discover, evaluate, configure, negotiate, and purchase; early movers capture disproportionate AI-referred traffic (805% growth, 2x conversion)
+70. **AI agent sprawl is the multi-agent coordination crisis distinct from individual agent governance** — enterprises average 12 AI agents with 50% siloed, creating automated chaos where agents contradict each other, duplicate work, and generate 340% LLM cost spirals from undecommissioned duplicates; even if every individual agent is perfectly governed (solving #57), the SYSTEM still fails because agents compete rather than coordinate; the distinction is architectural: #57 is about what happens INSIDE a single agent, this is about what happens BETWEEN agents; the consolidation race (ACP, Agent Network Protocol, platform unification) signals a market forming around the orchestration solution

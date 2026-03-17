@@ -1,6 +1,6 @@
 # Sales Problems Research Progress
 
-## Last Updated: 2026-03-17 (Session 18)
+## Last Updated: 2026-03-17 (Session 22)
 
 ## Session 1: Initial Research (2026-03-16)
 
@@ -1300,6 +1300,8 @@
 - [x] Sales rep context-switching cognitive tax / 1,200 daily app switches and 40% productivity loss
 - [x] SDR-to-AE internal handoff context loss / CRM Lead-to-Opportunity fragmentation
 - [x] Internal meeting calendar saturation tax / 92.4% recurring meetings never expire, 9-hour focus deficit
+- [x] B2B seller agentic commerce readiness gap / machine-readable product data and protocol infrastructure
+- [x] AI agent sprawl / siloed agent syndrome / multi-agent orchestration failure
 
 ## Session 18: AI Hallucinations, Gamification Demotivation, Context-Switching Cognitive Tax (2026-03-17)
 
@@ -1455,19 +1457,68 @@
 - **Vendor lock-in as sales opportunity** — More pricing/competitive strategy than structural sales workflow problem
 - **Async documentation culture failure** — Overlaps directly with tribal knowledge (#52) using same core statistics
 
+## Session 22: Agentic Commerce Readiness, AI Agent Sprawl (2026-03-17)
+
+### Problems Added (2 total, #89-90)
+89. **b2b-seller-agentic-commerce-readiness-gap-machine-readable-product-data-protocol-infrastructure** — Average readiness 31/100; 87% missing product IDs; 0% MCP endpoints; 2% machine-readable feeds; only 3% support ACP/UCP; AI-referred traffic up 805% YoY; 65% of retailers taking zero preparation steps
+90. **ai-agent-sprawl-siloed-agent-syndrome-multi-agent-orchestration-failure-revenue-stagnation** — 12 avg AI agents per enterprise; 50% siloed; 87% use AI yet revenue stalled; 957 apps, 27% connected; 340% LLM cost explosion; agents contradict each other; Agent Network Protocol at 43% adoption
+
+### Research Sources Used (Session 22)
+- AgentReadyHQ: "State of AI Commerce Readiness 2026" — 2,847 store audit, 31/100 avg score, 8.4% pass rate, 87% missing IDs
+- Pacestack: "State of Agent Readiness 2026" (243 sites) — 35.7/100 avg, 2% machine-readable feeds, 46% Schema.org, 0% MCP
+- Shopify Enterprise: "Agentic-Ready Product Data: Cost of Inaction 2026" — 6-12 systems, GTIN gaps, taxonomy misalignment
+- UCP Hub: "2026 UCP Technical Guide" — structural, semantic, identifier, protocol normalization requirements
+- RevSure: "State of Agentic AI in B2B GTM 2026" — 41% using agentic AI, siloed data preventing execution
+- Agentic Commerce Protocol (GitHub): ACP specification, REST + MCP compatibility
+- Dev.to "Protocol Wars: x402 vs ACP vs UCP" — comparison of three competing standards
+- Salesforce State of Sales Report 2026: 87% AI adoption for prospecting, forecasting, content creation
+- Salesforce Connectivity Benchmark Report 2026: 12 avg agents, 50% siloed, 957 apps, 27% connected, ANP at 43%
+- Get'er Done: "You Bought 12 AI Agents. Your Revenue Flatlined" — Siloed Agent Syndrome, 340% cost increase, fractional CRO fix
+- ADAI News: "AI Agent Sprawl: 2026 Year of Consolidation" — vendor-driven proliferation, governance gaps
+- OptinAmpOut: "Taming AI Agent Sprawl: Orchestration Patterns" — orchestrator-worker patterns
+- Salesforce/Multi-Agent Systems: 86% IT leaders cite complexity, 42% cite risk/legal hurdles
+- RevOps.tools 2026: agentic deployments fail 3x with poor data quality
+
+### Topics Explored But Not Added (Session 22)
+- **B2B sales team psychological safety / fear of reporting bad news** — Sandbagging/happy ears data largely replicates forecasting methodology (#40); psychological safety framing is root cause but evidence is same stats; Teamgate, No Smoke and Mirrors, Sandler 2025 sources reviewed
+- **Sales compensation benchmarking opacity** — Overlaps with commission errors (#17) and comp complexity (#30); only 50% provide real-time earnings visibility already captured; SalesCompLab 2026, Xactly 2026 sources reviewed
+- **Real-time AI sales coaching cognitive load / authenticity trap** — Interesting (reps sound less human when receiving live prompts, cognitive split-focus, buyers detect dissonance) but thin quantitative evidence; only 12% of teams use AI coaching; overlaps with coaching gap (#6), training retention (#58), context-switching (#81); Medium/RapportScore Mar 2026, MeetRep, MySalesCoach sources reviewed
+- **Sales process compliance / methodology adherence monitoring** — 73% of SPICED implementations fail in 90 days; 25-30% sustained adherence; but concept overlaps with qualification drift (#38) which already covers framework embedding failure; Oliv.ai, Eagr.ai, Medium sources reviewed
+- **Voicemail callback rate decline** — 2-4% generic callback rates; sub-dimension of cold calling (#28) and cadence saturation (#48); B2B Outbound Systems, Apten AI, Prospeo sources reviewed
+- **B2B buyer inbox saturation from duplicate vendor outreach** — 30-50 cold emails/week; already covered in cold email (#4), cadence saturation (#48), AI trust erosion (#71)
+- **CRM migration / vendor lock-in switching costs** — 300-500 custom fields; 55% implementations fail; one-time event, not recurring workflow; overlaps with CRM tech debt (#64)
+- **Customer survey/NPS fatigue** — Survey requests up 71% since 2020; response rates from 30% to 18%; more CS/marketing than sales problem
+- **CDP fragmentation / unified data gaps** — 91% lack unified data; overlaps with CRM data quality (#2), revenue attribution (#33), RevOps burnout (#43)
+- **Technical buyer veto power** — Overlaps with buyer committee mapping (#27), consensus failure (#62), SE capacity (#36)
+- **Multi-product bundling pricing complexity** — Overlaps with pricing (#21), CPQ (#23), portfolio selling (#65)
+- **Contract execution / signing abandonment** — Overlaps with legal bottleneck (#11), deal desk (#27)
+- **Quarter-end hockey stick / deal pull-in** — Already noted as overlap with forecasting (#40), deal decay (#54), capacity planning (#63)
+- **Expansion signal timing failures** — Overlaps with post-sale expansion (#13), health scoring (#87)
+- **Territory overlap / cannibalization** — Sub-dimension of territory planning (#9)
+- **Reverse trial / freemium conversion** — Overlaps with PLG-to-sales handoff (#39)
+- **SaaS sales tax compliance** — More finance/tax than sales workflow problem
+- **AI sales tech consumption pricing (Agentforce)** — Too vendor-specific; overlaps with tool stack cost (#8), consumption pricing (#72)
+
 ## Areas To Explore Next
 - [ ] Sales team diversity and inclusion as a revenue performance factor
 - [ ] Partner ecosystem co-innovation and joint solution selling coordination
 - [ ] Customer NPS/satisfaction survey fatigue impacting sales relationships (needs stronger sales-ops angle)
-- [ ] Sales process compliance / methodology adherence monitoring (distinct from qualification #38 if broader)
 - [ ] Post-close contract obligation tracking automation gap (related to #84 but buyer-side)
 - [ ] Multi-product pricing model governance (usage + subscription + one-time hybrid complexity)
 - [ ] Sales ops bottleneck from DIY integration maintenance (distinct from middleware #78 — internal custom code)
 - [ ] Buyer-side evaluation template standardization (every company's security/vendor assessment is unique)
-- [ ] B2B sales team psychological safety / fear of reporting bad news (sandbagging, happy ears cultural root cause)
-- [ ] Sales compensation benchmarking opacity (reps can't compare their comp to market; creates retention risk)
-- [ ] AI agent-to-agent selling infrastructure (machines selling to machines — protocols, standards, APIs)
-- [ ] Customer procurement automation vendor response readiness (adapting sales process for AI buyers)
-- [ ] Sales micro-coaching / in-call real-time guidance accuracy and adoption
 - [ ] Vertical industry expertise gap for horizontal SaaS sales teams
 - [ ] Post-M&A sales team integration / territory re-carving disruption
+- [ ] Real-time AI coaching authenticity trap (needs more quantitative evidence; revisit when more data available)
+- [ ] Sales cycle stage definition inconsistency across CRM implementations
+- [ ] Buyer procurement AI agent response protocol standardization (selling TO AI agents)
+- [ ] Multi-cloud commitment drawdown tracking for marketplace sellers
+- [ ] Sales-finance alignment on consumption revenue forecasting
+- [ ] AI-generated proposal customization quality control at scale
+- [x] B2B seller agentic commerce readiness / machine-readable infrastructure gap
+- [x] AI agent sprawl / siloed agent syndrome / multi-agent orchestration failure
+- [x] Sales compensation benchmarking opacity (explored, overlaps with #17 and #30)
+- [x] AI agent-to-agent selling infrastructure (captured as readiness gap #89)
+- [x] Customer procurement automation vendor response readiness (captured as readiness gap #89)
+- [x] Sales micro-coaching / in-call real-time guidance accuracy (explored, thin evidence)
+- [x] B2B sales team psychological safety (explored, overlaps with #40)
