@@ -282,6 +282,23 @@
             font-size: 0.85rem;
         }
 
+        .references-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .references-list li {
+            margin-bottom: 8px;
+            padding-left: 0;
+            word-break: break-all;
+        }
+        .references-list a {
+            color: var(--accent);
+            font-size: 0.85rem;
+            text-decoration: none;
+        }
+        .references-list a:hover { text-decoration: underline; }
+
         /* ── Panel 3: notes ──────────────────────────── */
         .notes-panel {
             width: var(--notes-w);
@@ -551,6 +568,35 @@
                     <span class="section-chevron">&#9660;</span>
                 </button>
                 <div class="section-body" id="sec-ev"><div class="evidence-box">${esc(p.example_evidence)}</div></div>
+            </div>
+            ${renderReferencesSection(p)}
+        `;
+    }
+
+    function renderReferencesSection(p) {
+        const refs = Array.isArray(p.references)
+            ? p.references.map(u => String(u).trim()).filter(Boolean)
+            : [];
+        if (!refs.length) return '';
+        function refHref(u) {
+            if (!/^https?:\/\/.+/i.test(u)) return '#';
+            return u.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+        }
+        return `
+            <div class="detail-section">
+                <button class="section-toggle" aria-expanded="true" data-target="sec-refs">
+                    <span class="section-label">References</span>
+                    <span class="section-chevron">&#9660;</span>
+                </button>
+                <div class="section-body" id="sec-refs">
+                    <ul class="references-list">
+                        ${refs.map(u => {
+                            const href = refHref(u);
+                            const label = esc(u);
+                            return `<li><a href="${href}" target="_blank" rel="noopener noreferrer">${label}</a></li>`;
+                        }).join('')}
+                    </ul>
+                </div>
             </div>
         `;
     }
