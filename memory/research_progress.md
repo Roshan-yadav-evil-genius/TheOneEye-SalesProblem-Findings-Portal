@@ -2256,6 +2256,59 @@
 
 ---
 
+## Session 37 — Problems Added: #114
+
+### New Problems Added (Session 37)
+
+114. **ai-governance-documentation-extends-enterprise-sales-cycles-40pct-8pct-buyer-readiness-11-person-committees-eu-ai-act-35m-penalties** — Distinct from #56 (security questionnaires — InfoSec focused: encryption, access controls, SOC 2), #39 (multi-jurisdiction data compliance — GDPR for prospect data collection/processing), #112 (outbound contact compliance — TCPA phone/SMS permissions), and #11 (general legal review bottleneck — contract review timelines). This problem targets AI-SPECIFIC governance documentation as a new enterprise deal barrier. AI procurement averages 7.2 months — 40% longer than traditional software. Buying committees expanded from 6.8 (traditional software) to 11.3 stakeholders for AI products. 8-week average due diligence assessments covering 50+ AI-specific criteria (model transparency, training data provenance, bias testing, hallucination risk, explainability, AI attack vectors). EU AI Act effective August 2, 2026 with penalties up to €35M or 7% global turnover. Only 8% of organizations have compliance readiness. 40% of AI vendors cannot explain model decisions. SOC 2 insufficient for AI risks. Procurement teams pausing contracts pending Annex III classification. California ADMT (Jan 1, 2026) and Colorado AI Act (Jun 30, 2026) compound. Cross-functional AI Governance Pods with 6 specialized roles now required. $67.4B in global hallucination losses creates procurement urgency. Strong automation opportunity: AI governance documentation platforms, AI trust centers, automated Annex III classification, compliance-as-a-service.
+
+### Research Sources Used (Session 37)
+- Cresse Insights (2026): "The New Enterprise AI Procurement Landscape" — AI procurement averages 7.2 months (40% longer than traditional software), 11.3-person buying committees (vs 6.8), 72% require POC, security/compliance review adds 6 weeks
+- GLACIS (2026): "AI Vendor Due Diligence Checklist 2026" — 50+ criteria, 8-week assessments, 40% of vendors cannot explain model decisions, 66% require SOC 2 but insufficient for AI risks, model opacity/hallucination/drift/attack vector categories
+- ProcureInsights (2026): "Do You Know If Your ProcureTech Vendor Is Ready for the EU AI Act?" — Only 8% compliance readiness, vendors bear no obligation to assess buyer deployment readiness
+- Georg Keferboeck (2026): "The EU AI Act Kicks In August 2026" — Hard August 2 deadline, possible Digital Omnibus delay to December 2027 (uncertain), SaaS vendor classification requirements
+- Unorma (2026): "EU AI Act Compliance Complete Guide 2026 Edition" — Penalties €35M/7% (prohibited), €15M/3% (high-risk), documented compliance as mitigating factor
+- Formiti (2026): "Global AI Procurement Playbook" — Cross-functional AI Governance Pod structure (6 roles), EU AI Act/NIST/California ADMT/Colorado AI Act timeline
+- Hashmeta AI (2026): "Enterprise AI Providers Security Governance and Procurement Checklist" — SOC 2 Type II, ISO 27001, zero-trust, data residency, customer data non-training commitments
+- Docket (2026): "The 2026 AI Procurement Checklist for B2B SaaS" — AI agent vetting for security, privacy, and trust
+- AktAI (2026): "EU AI Act Conformity Assessment Practical Guide" — Articles 9-13 documentation requirements, conformity assessment process
+
+### Topics Explored But Not Added (Session 37)
+- **B2B CRM data hygiene / duplicate records cost** — $12.9M/year from bad data, 15% duplicate rates, 27% of rep time on data tasks. Overlaps with #2 (CRM Data Decays 91% Annually — same domain, data quality). Not distinct.
+- **Sales forecasting commit ritual burden** — managers spend 1-2 hours per rep reconstructing deal stories, <50% leader confidence. Overlaps with #40 (forecast methods) and #3 (pipeline pollution). Explored/rejected Session 34.
+- **Post-signature order fulfillment handoff delays** — 86% of B2B transactions delayed, 5% PO match rate, 39% invoice errors. Overlaps with #104 (Quote-to-Cash System Disconnection — CRM-Billing-ERP manual handoffs).
+- **Shadow accounting / commission tracking spreadsheets** — 88% spreadsheets contain errors, 3-8% of payouts miscalculated. Component of #110 (GTM planning orchestration — 1.6 hrs/week shadow accounting), overlaps #17 (commission errors), #33 (comp plan complexity).
+- **Customer expansion signal detection from product usage** — 113% NRR for top quartile, 3-5x cheaper than new business. Covered by #13 (expansion revenue systematically missed — no detection system).
+- **Sales tribal knowledge / institutional memory with AI** — 30% more time searching for answers. Covered by #52 (tribal knowledge evaporates with every departure).
+- **AI procurement agents / buyer-side automation** — AI agents automating RFQ lifecycle, 80% procurement cycle reduction. Buyer-side. Seller impact covered by #66 (autonomous AI buyer agents) and #89 (seller agentic commerce readiness).
+- **Sales enablement content localization / multilingual** — $3K-$8K per blog post translation, 90% cost savings with AI. Primarily marketing/localization, overlaps #60 (international selling cycles). Explored/rejected Session 34.
+- **CSQL / CS-to-Sales expansion handoff** — overlaps #13 (expansion revenue missed — no detection system) and #18 (sales-to-CS handoff). Same domain.
+- **Digital sales room engagement analytics** — 48% of DSRs never viewed, 60% go stale. EXACTLY #55 (Champions Must Sell Internally — 48% of DSRs Never Viewed). Same stats.
+- **B2B proof of value / business case justification** — 93% require business case, 40-60% no-decision. EXACTLY #36 (No Decision outcomes — buyers can't build business cases).
+- **Sales capacity planning / headcount modeling** — Working backward from revenue targets with ramp curves, attrition. Overlaps #63 (mistimed hiring/ramp gaps) and #110 (GTM planning orchestration).
+- **AI copilot fatigue / AI brain fry** — 14% of workers experience cognitive exhaustion from managing AI tools, 39% more likely to make major errors, 34% more likely to quit. Overlaps #90 (AI Agent Sprawl and Siloed Agent Syndrome — same underlying problem from organizational vs individual perspective) and #8 (tool stack bloat).
+- **Account prioritization / attention fragmentation** — Reps with 200+ accounts treat every one the same. Overlaps #31 (reps review <4% of account info) and #1 (productivity crisis). Same coin.
+- **Usage-based pricing compensation/forecasting complexity** — Breaks traditional ACV comp models, usage churn emerges. Covered by #72 (Consumption-Based Pricing Breaks Traditional Pipeline Metrics).
+- **Outbound sequence collision / cross-campaign prospect deduplication** — 12% revenue loss from duplicates, 27.3% of hours wasted. Downstream symptom of #2 (CRM data decay/duplicates) and #8 (tool stack bloat). Not distinct root cause.
+- **Vendor risk assessment / cybersecurity questionnaire burden** — 200+ questions, 15% of breaches involve third parties. Overlaps #56 (Security Questionnaires Delay 34% of Enterprise Deals). Same domain.
+- **Cross-functional revenue team alignment** — $1T annual cost from misalignment, 82% of C-suite believes aligned vs 65% of front-line. Meta-problem. Overlaps #5 (lead handoff), #18 (sales-to-CS handoff). Too broad.
+- **Proposal document version control** — 20% of time searching for information, 30+ hrs/week recreating content. Overlaps #22 (RFP Proposal Response Capacity Bottleneck).
+- **Customer onboarding backlog / time-to-value** — 62% lack visibility, 57% say friction impacts revenue. Covered by #59 (48% abandon onboarding before value).
+- **Account ownership / territory conflict** — Account poaching, blurry ownership. Consequence of #9 (territory design inequitable) and #98 (manual territory reassignment).
+- **Buyer ghosting after proposal** — 48% proposals unviewed, 67% stall mid-pipeline. Covered by #54 (deal decay post-proposal) and #36 (no-decision).
+- **Enterprise deal slippage** — 87% missed 2025 targets, 55% conflicting pipeline signals. Overlaps #40 (forecast methods), #3 (pipeline pollution), #63 (phantom capacity).
+- **Meeting no-shows beyond demos** — 6.5% overall B2B no-show rate. Covered by #14 (demo no-shows) and #51 (scheduling kills demo requests).
+- **Multi-year contract renegotiation / price increase pushback** — Inflation-era price increases persist despite normalization. Overlaps #21 (discounting governance). Negotiation strategy, not automatable workflow.
+- **Manual CRM data entry burden** — 71% spend too much time, 28% of time selling. Root cause of #1 (productivity crisis) and #2 (CRM data decay). Same problem, different measurement.
+- **Single-channel pipeline risk** — 73% report main acquisition channel unstable, multi-channel generates 40% higher response. Strategic risk, not specific workflow automation.
+- **Procurement portal seller response burden** — Ariba/Coupa portal management. Buyer-side procurement ops, not seller-automatable. Thin specific evidence.
+- **Subscription co-termination complexity** — Managing multiple renewal dates across products. Billing operations problem. Solutions exist (Nue). Overlaps #104 (quote-to-cash), #72 (consumption pricing).
+- **Commission clawbacks** — 53% of SaaS companies use clawbacks, state law variations. Sub-component of #17 (commission errors) and #33 (comp plan complexity).
+- **Hunter-farmer role conflict** — AEs managing both new business and renewals. Organizational design problem, overlaps #18 (sales-to-CS handoff).
+- **Multi-product catalog complexity / SKU proliferation** — Product data scattered across systems, seller overwhelm. Overlaps #65 (multi-product portfolio selling failure).
+
+---
+
 ## Areas To Explore Next
 - [ ] Sales team diversity and inclusion as a revenue performance factor (strong data but needs sales-ops framing)
 - [ ] Customer NPS/satisfaction survey fatigue impacting sales relationships (needs stronger sales-ops angle)
@@ -2266,12 +2319,13 @@
 - [ ] Revenue team incentive misalignment across sales/CS/support/partners (meta-problem)
 - [ ] B2B customer lifecycle revenue orchestration across new/renewal/expansion/win-back (meta-problem)
 - [ ] B2B sales compliance content freshness / regulatory update propagation to reps
-- [ ] Sales team internal initiative propagation / HQ-to-frontline execution gap (thin evidence for B2B sales specifically; strong retail data via Zipline)
-- [ ] B2B sales micro-communities / peer network selling as a channel (thin evidence)
-- [ ] B2B vendor ESG/sustainability credentials as procurement gatekeeper (compliance/ops problem, not sales workflow)
-- [ ] Multi-product pricing optimization / dynamic pricing for B2B (overlaps #21/#23 pricing governance)
-- [ ] Sales deal precedent search — finding how similar past deals/objections were handled (overlaps #52 tribal knowledge)
-- [ ] Commerce chain orchestration / cross-functional deal closure workflow (meta-problem over #23/#29/#11/#104; Conga 2026 data: 93% struggle)
-- [ ] B2B sales process observability / real-time funnel diagnostic tooling (symptom of #2/#3/#40)
+- [ ] Sales team internal initiative propagation / HQ-to-frontline execution gap (thin evidence for B2B sales specifically)
+- [ ] Commerce chain orchestration / cross-functional deal closure workflow (meta-problem over #23/#29/#11/#104)
 - [ ] Richardson 2026 Selling Challenges Research Study (gated; specific findings unknown)
 - [ ] Gartner: 67% of B2B buyers prefer rep-free purchasing, implications for sales org redesign
+- [ ] B2B sales-adjacent procurement portal seller response burden (needs stronger quantitative evidence)
+- [ ] Sales coaching perception gap (90% leaders say coaching vs 38% reps receive it) — may overlap #6/#61
+- [ ] AI-generated outreach detection and filtering by buyer-side AI assistants (emerging 2026 dynamic)
+- [ ] B2B vendor differentiation crisis — 94% admit messaging barely stands out (marketing/branding, thin sales workflow angle)
+- [ ] Sales team restructuring / reorg disruption on pipeline continuity (needs evidence)
+- [ ] Buyer-side AI negotiation leverage creating information asymmetry against sellers (overlaps #66)

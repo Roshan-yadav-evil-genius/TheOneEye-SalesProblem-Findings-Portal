@@ -1760,3 +1760,76 @@
 ### Cross-Cutting Theme
 
 93. **Integration compatibility is a PRODUCT INFRASTRUCTURE problem masquerading as a sales problem** — Sales teams get blamed for losing deals that are actually lost because of missing product integrations. The "We have an API" response is the integration equivalent of "we have a product" — technically true but operationally useless for 64% of enterprise buyers who lack developer resources. The structural challenge is that integration is a compounding investment: each new integration costs $50K-$150K/year to maintain, but the integration catalog is what determines the addressable enterprise market. Companies with 10 integrations can sell to a fraction of the market that companies with 100 integrations can address. The automation opportunity is in the PLATFORM layer: unified APIs and embedded iPaaS that let one engineering investment cover dozens of integration targets, changing the economics from linear (N integrations × $100K each) to logarithmic (one platform × N connectors).
+
+---
+
+## Session 37 Research Notes
+
+### Problem #114: AI Governance Documentation as Enterprise Deal Barrier
+
+**Core Insight:** Every SaaS company is shipping AI features, but enterprise procurement has created an entirely new documentation category — AI governance — that sits on TOP of (not replaces) traditional security and compliance reviews. This extends enterprise sales cycles by 40% and requires completely new pre-sales capabilities.
+
+**Key Statistics:**
+- AI procurement averages 7.2 months — 40% longer than traditional software purchases (Cresse Insights 2026)
+- AI buying committees: 11.3 stakeholders (vs 6.8 for traditional software) — 66% larger
+- 8-week average AI vendor due diligence assessment (GLACIS 2026)
+- 50+ criteria in AI-specific due diligence checklists
+- 72% of enterprises require POC before committing to AI vendors
+- Only 8% of organizations have EU AI Act compliance readiness (ProcureInsights 2026)
+- 40% of AI vendors cannot provide interpretable explanations for high-stakes decisions
+- 66% of B2B buyers require SOC 2 — but SOC 2 doesn't address AI-specific risks
+- $67.4B in estimated global hallucination losses (2024)
+
+**Regulatory Timeline:**
+- California ADMT: effective January 1, 2026 (already in effect)
+- Colorado AI Act: effective June 30, 2026
+- EU AI Act (high-risk provisions): effective August 2, 2026 (possible delay to December 2027 under Digital Omnibus, uncertain)
+- Penalties: up to €35M or 7% global turnover (prohibited practices), €15M or 3% (high-risk obligation breaches)
+
+**AI-Specific Due Diligence Categories (Beyond Traditional InfoSec):**
+1. Model transparency / explainability for high-stakes decisions
+2. Training data provenance and bias risk
+3. Hallucination risk management and measurement
+4. Model drift detection and monitoring
+5. AI-specific attack vectors: prompt injection, data poisoning, adversarial examples
+6. Customer data non-training commitments (data won't train vendor's public models)
+7. EU AI Act risk classification (Annex III high-risk categories)
+8. Conformity assessment documentation (Articles 9-13)
+9. Responsible AI capability maturity (only 11% have this vs 76% implementing agentic AI)
+
+**Procurement Process Changes:**
+- Cross-functional "AI Governance Pods" now required with 6 specialized roles: Product/Business Owner, AI Ethics/Compliance, Procurement Lead, Data Protection Officer, CISO/InfoSec, Legal Counsel
+- Procurement teams pausing contracts pending formal Annex III classification confirmation
+- Vendors sell AI but bear NO obligation to assess buyer deployment readiness — buyers absorb regulatory liability
+- Traditional top-down governance inadequate for genAI in commercial tools
+
+**Distinctness Analysis:**
+- #56 (Security Questionnaires) — InfoSec focused: encryption, access controls, incident response, SOC 2, data center security. AI governance covers model behavior, training data, bias, explainability, hallucination risk — completely different documentation category
+- #39 (Multi-Jurisdiction Data Compliance) — GDPR for how you COLLECT and PROCESS prospect data. AI governance is about how your PRODUCT works — model transparency, not data handling
+- #112 (Outbound Contact Compliance) — TCPA for phone/SMS permission. Completely different domain
+- #11 (Legal Review Bottleneck) — General contract review timelines. AI governance is a specific procurement GATE, not general legal review
+- Session 34 explored "EU AI Act impact on sales AI tools" and rejected as primarily regulatory / overlapping #39 — BUT that exploration was about the Act's impact on tools SALES TEAMS USE, not about AI governance documentation as a SALES BARRIER for companies SELLING AI products. Different problem framing.
+
+**Automation Opportunity:**
+- AI governance documentation platforms (auto-generate model cards, training data provenance, bias audits)
+- AI trust centers (buyer self-service compliance documentation access)
+- Automated Annex III risk classification tools
+- Compliance-as-a-service for AI vendors
+- Pre-built conformity assessment frameworks
+- AI governance readiness scoring for prospects (help buyers prepare to deploy compliantly)
+
+### Session 37 Research Process
+Explored 30+ potential problem areas. Most overlapped with the 113 existing problems. Key exploration paths:
+- CRM data hygiene/duplicates → overlaps #2
+- Forecast commit ritual → overlaps #40
+- Post-signature order fulfillment → overlaps #104
+- Customer expansion signals → overlaps #13
+- AI copilot fatigue → overlaps #90/#8
+- Account prioritization → overlaps #31/#1
+- Usage-based comp complexity → overlaps #72
+- Outbound sequence collision → symptom of #2/#8
+- Enterprise deal slippage → overlaps #40/#3/#63
+- Hunter-farmer role conflict → organizational design, overlaps #18
+- Multi-product catalog complexity → overlaps #65
+
+The AI governance documentation barrier was the strongest novel finding due to: (1) entirely new documentation category that didn't exist 2 years ago, (2) hard regulatory deadlines in 2026, (3) quantified sales cycle impact (40% longer), (4) clear automation opportunity, (5) distinct from all 113 existing problems.
