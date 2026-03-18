@@ -10,9 +10,11 @@ USER_DATA_FILE = 'user_data.json'
 def load_problems():
     problems = []
     with open('problems.jsonl', 'r') as f:
-        for line in f:
+        for line_num, line in enumerate(f, start=1):
             if line.strip():
-                problems.append(json.loads(line))
+                p = json.loads(line)
+                p['line_id'] = line_num
+                problems.append(p)
     return problems
 
 
