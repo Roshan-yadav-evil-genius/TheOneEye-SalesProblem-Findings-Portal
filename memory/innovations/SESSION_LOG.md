@@ -82,3 +82,10 @@
 - **Duplicate check:** Vendasta not previously in file. Gong Oct 2025 row covers Orchestrate/Data Extractor/MCP for GTM plays—Mission Andromeda is a distinct enablement/account-management launch (not same product+challenge pair). Mindtickle not previously listed.
 - **Sources:** vendasta.com newsroom article, gong.io press release, PRNewswire (Mindtickle).
 - **Next ideas:** Salesforce–ChatGPT Jan 2026 story if distinct from Agentforce row; Mindtickle Elevate summit expansion PR if additive; RingCentral ACE 2026 feature drops with sales impact; academic/industry ML for lead scoring 2026.
+
+## 2026-04-07 (session 13)
+
+- **Appended:** 3 lines — Dynamics 365 Sales Qualification Agent outreach personalization + related SQA lead-management plan (Microsoft Learn 2026 wave 1 feature page), Regie.ai Signal Selling (Apr 23, 2025 PRNewswire), Gainsight Atlas / Renewal AI Agent + Staircase AI Agent (May 28, 2025 GlobeNewswire); pros/cons only on line 3 of batch (Gainsight).
+- **Duplicate check:** No existing row for Regie.ai. Microsoft entry is distinct from prior “Sales agent in M365 Copilot inside Dynamics 365” (unified Graph/CRM conversational access)—this row is Sales Qualification Agent lead/outreach tuning and related SQA roadmap. Gainsight Atlas is distinct from Clari→Gainsight Copilot timeline sync (integration vs. Atlas renewal/adoption agents).
+- **Sources:** Microsoft Learn release plan, PRNewswire (Regie.ai), GlobeNewswire (Gainsight).
+- **Next ideas:** Gainsight MCP Apr 2026 PR if distinct agentic angle needed; RingCentral RingSense 2025 release notes; Intercom or Freshsales Freddy sales-specific 2025+ docs; Forrester TEI with named vendors 2026.
