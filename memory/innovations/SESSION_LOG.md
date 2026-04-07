@@ -47,3 +47,10 @@
 - **Duplicate check:** No existing product+challenge overlap with HubSpot Breeze, ZoomInfo Copilot Workspace, Gong, Outreach MCP, Apollo, 6sense RevvyAI, Salesforce Agentforce, Clay, Seismic, Lusha, Cognism, or prior Clari/Highspot entries (distinct HG Insights unified GTM intelligence; People.ai MCP vs Outreach MCP is different product and data layer; People.ai Forecasting vs Gong/Outreach deal agents is different vendor and stated GA forecasting stack).
 - **Sources:** PRNewswire (HG Insights), People.ai newsroom (MCP, Forecasting).
 - **Next ideas:** Forrester Oct 2025 investor release on agent-led quote negotiations; IDC/Gartner 2026 market notes with product tie-ins; Zoho/Zendesk Sell AI if sales-specific 2025+ docs found; academic or industry ML for pipeline 2026.
+
+## 2026-04-07 (session 8)
+
+- **Appended:** 3 lines — Revenue.io Spring 2025 (Moments in Zoom, multilingual Teams for Moments, Revenue AI prompt favorites, outcome-linked scorecards; April 29, 2025 blog), Zoho CRM for Everyone + Zia agentic reports/workflows/modules (May 14, 2025 Business Wire), SAP Joule intelligent selling for SAP Sales Cloud (Feb 4, 2025 SAP News Center); pros/cons only on line 3 of batch (SAP Joule).
+- **Duplicate check:** No existing product+challenge overlap with HubSpot Breeze, Gong, Outreach, ZoomInfo, Salesforce Agentforce, Apollo, People.ai, or other prior entries (Revenue.io real-time Zoom/Teams CI; Zoho democratized CRM building; SAP ERP-aware seller copilot).
+- **Sources:** revenue.io blog (dated), Business Wire (dated PR), SAP News Center (dated feature article).
+- **Next ideas:** SAP Sales Cloud Q4 2025 AI duplicate check or Q1 2026 Joule Studio GA (if distinct from Joule copilot entry); Avoma or Jiminny 2025+; Forrester Wave sales engagement 2026; academic ML for lead scoring 2025+.
