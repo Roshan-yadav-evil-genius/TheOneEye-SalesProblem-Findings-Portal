@@ -2,6 +2,48 @@
 
 {% block title %}Problem Tracker - The One Eye Researchers{% endblock %}
 
+{% block head %}
+{{ super() }}
+<style>
+    .detail-title-row {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 12px;
+        margin-bottom: 14px;
+    }
+    .detail-title-row .detail-title { margin-bottom: 0; flex: 1; min-width: 0; }
+    .copy-problem-link-btn {
+        flex-shrink: 0;
+        padding: 8px 12px;
+        border-radius: var(--radius-md);
+        border: 1px solid var(--border);
+        background: var(--muted);
+        color: var(--foreground);
+        font-size: 0.75rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 0.15s, border-color 0.15s;
+        touch-action: manipulation;
+    }
+    .copy-problem-link-btn:hover {
+        background: var(--card);
+        border-color: var(--ring);
+    }
+    .copy-link-feedback {
+        display: block;
+        font-size: 0.72rem;
+        color: var(--done-color);
+        font-weight: 600;
+        min-height: 1.2em;
+        margin-bottom: 10px;
+        opacity: 0;
+        transition: opacity 0.2s;
+    }
+    .copy-link-feedback.show { opacity: 1; }
+</style>
+{% endblock %}
+
 {% block tracker_scripts %}
 <script>
 (function () {
@@ -67,15 +109,66 @@
     }
     syncMobileLayout();
 
+    function getSlugFromUrl() {
+        const v = new URLSearchParams(window.location.search).get('slug');
+        return v && v.trim() ? v.trim() : null;
+    }
+
+    function setUrlSlug(slug, { replace = false } = {}) {
+        const url = new URL(window.location.href);
+        if (slug) {
+            url.searchParams.set('slug', slug);
+        } else {
+            url.searchParams.delete('slug');
+        }
+        window.history[replace ? 'replaceState' : 'pushState'](null, '', url);
+    }
+
+    function syncTabUi() {
+        tabsBar.querySelectorAll('.tab-btn').forEach(b => {
+            b.classList.toggle('active', b.dataset.tab === activeTab);
+        });
+    }
+
+    function applySlugFromUrl() {
+        const slug = getSlugFromUrl();
+        if (!slug) {
+            selectedSlug = null;
+            renderList();
+            renderDetail(null);
+            renderNotes(null);
+            syncMobileLayout();
+            return;
+        }
+        const p = problems.find(x => x.proposed_slug === slug);
+        if (!p) {
+            const url = new URL(window.location.href);
+            url.searchParams.delete('slug');
+            window.history.replaceState(null, '', url);
+            selectedSlug = null;
+            renderList();
+            renderDetail(null);
+            renderNotes(null);
+            syncMobileLayout();
+            return;
+        }
+        searchQuery = '';
+        searchInput.value = '';
+        activeTab = p.status;
+        syncTabUi();
+        selectedSlug = slug;
+        renderList();
+        renderDetail(slug);
+        renderNotes(slug);
+        if (isMobileLayout()) setMobilePanel('detail');
+        syncMobileLayout();
+    }
+
     async function loadProblems() {
         const res = await fetch('/api/problems');
         problems = await res.json();
         updateCounts();
-        renderList();
-        if (selectedSlug) {
-            renderDetail(selectedSlug);
-            renderNotes(selectedSlug);
-        }
+        applySlugFromUrl();
     }
 
     async function setStatus(slug, status) {
@@ -86,6 +179,10 @@
         });
         const p = problems.find(x => x.proposed_slug === slug);
         if (p) p.status = status;
+        if (p && activeTab !== p.status) {
+            activeTab = p.status;
+            syncTabUi();
+        }
         updateCounts();
         renderList();
         if (selectedSlug === slug) renderDetail(slug);
@@ -143,8 +240,14 @@
     }
 
     function renderDetail(slug) {
+        if (slug == null || slug === '') {
+            selectedSlug = null;
+            detailPanel.innerHTML = '<div class="detail-placeholder">Select a problem from the list to view details</div>';
+            return;
+        }
         const p = problems.find(x => x.proposed_slug === slug);
         if (!p) {
+            selectedSlug = null;
             detailPanel.innerHTML = '<div class="detail-placeholder">Select a problem from the list to view details</div>';
             return;
         }
@@ -153,7 +256,11 @@
         detailPanel.innerHTML = `
             <div class="detail-header">
                 ${p.line_id ? `<div class="detail-id">Problem #${p.line_id}</div>` : ''}
-                <h2 class="detail-title">${esc(p.problem_title)}</h2>
+                <div class="detail-title-row">
+                    <h2 class="detail-title">${esc(p.problem_title)}</h2>
+                    <button type="button" class="copy-problem-link-btn" id="copyProblemLinkBtn">Copy link</button>
+                </div>
+                <span class="copy-link-feedback" id="copyLinkFeedback" aria-live="polite"></span>
                 <div class="status-actions">
                     ${['raw','todo','review','done','deleted'].map(s =>
                         `<button class="status-btn${p.status === s ? ' active-status' : ''}" data-s="${s}">${statusLabel(s)}</button>`
@@ -217,6 +324,10 @@
     }
 
     function renderNotes(slug) {
+        if (slug == null || slug === '') {
+            notesPanel.innerHTML = '<div class="notes-placeholder">Select a problem to start taking notes</div>';
+            return;
+        }
         const p = problems.find(x => x.proposed_slug === slug);
         if (!p) {
             notesPanel.innerHTML = '<div class="notes-placeholder">Select a problem to start taking notes</div>';
@@ -253,6 +364,15 @@
         tabsBar.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         activeTab = btn.dataset.tab;
+        if (selectedSlug) {
+            const p = problems.find(x => x.proposed_slug === selectedSlug);
+            if (p && p.status !== activeTab) {
+                selectedSlug = null;
+                setUrlSlug(null, { replace: true });
+                renderDetail(null);
+                renderNotes(null);
+            }
+        }
         renderList();
     });
 
@@ -260,6 +380,7 @@
         const card = e.target.closest('.list-card');
         if (!card) return;
         selectedSlug = card.dataset.slug;
+        setUrlSlug(selectedSlug);
         renderList();
         renderDetail(selectedSlug);
         renderNotes(selectedSlug);
@@ -275,6 +396,21 @@
     }
 
     detailPanel.addEventListener('click', e => {
+        if (e.target.closest('#copyProblemLinkBtn') && selectedSlug) {
+            const shareUrl = window.location.origin + '/problems?slug=' + encodeURIComponent(selectedSlug);
+            const feedback = document.getElementById('copyLinkFeedback');
+            navigator.clipboard.writeText(shareUrl).then(() => {
+                if (feedback) {
+                    feedback.textContent = 'Copied';
+                    feedback.classList.add('show');
+                    setTimeout(() => {
+                        feedback.classList.remove('show');
+                        feedback.textContent = '';
+                    }, 2000);
+                }
+            });
+            return;
+        }
         const statusBtn = e.target.closest('.status-btn');
         if (statusBtn && selectedSlug) {
             setStatus(selectedSlug, statusBtn.dataset.s);
@@ -314,6 +450,11 @@
             e.preventDefault();
             searchInput.focus();
         }
+    });
+
+    window.addEventListener('popstate', () => {
+        applySlugFromUrl();
+        requestAnimationFrame(() => { updateChromeHeight(); syncMobileLayout(); });
     });
 
     window.addEventListener('load', () => {

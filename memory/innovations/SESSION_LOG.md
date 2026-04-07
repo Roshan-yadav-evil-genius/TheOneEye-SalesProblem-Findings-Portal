@@ -61,3 +61,10 @@
 - **Duplicate check:** No existing product+challenge overlap with HubSpot Breeze, Salesforce Agentforce, SAP Joule, ZoomInfo, Apollo, Gong, Outreach, People.ai, Zoho, or other prior rows (Oracle and monday entries are new vendors/angles).
 - **Sources:** Oracle newsroom (dated PRs), monday.com press release (Business Wire via monday).
 - **Next ideas:** Avoma March 2026 methodology scoring; SugarCRM April 2025 Intelligence add-on; Freshworks Refresh Nov 2025 if sales tie-in; Forrester 2026 B2B agent predictions with product examples.
+
+## 2026-04-07 (session 10)
+
+- **Appended:** 3 lines — Avoma March 2026 Deal Methodology Intelligence (Insider blog), SugarCRM sales-i + Sugar Sell full integration (May 6, 2025 press release), Jiminny CRM Filling + Ask Jiminny Panorama (Help Center changelog); pros/cons only on line 3 of batch (Jiminny).
+- **Duplicate check:** No existing product+challenge overlap with Gong, Outreach, Revenue.io, Clari, Salesforce Agentforce, Oracle Fusion agents, or other prior rows (Avoma methodology scoring angle; Sugar sales-i ERP/order-driven selling; Jiminny CRM extraction vs. generic CI).
+- **Sources:** avoma.com blog (dated Mar 2026), sugarcrm.com press release (dated May 2025), Jiminny Help Center what’s new.
+- **Next ideas:** Sugar Support AI release notes (Account Intelligence July 2025); Faye FAB for Sugar Oct 2025 PR if partner-sourced entries allowed; Freshworks Freddy sales-specific 2025 GA notes; Forrester/IDC 2026 sales AI ROI studies with named products.
