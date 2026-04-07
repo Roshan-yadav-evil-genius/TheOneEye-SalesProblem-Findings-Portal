@@ -89,3 +89,10 @@
 - **Duplicate check:** No existing row for Regie.ai. Microsoft entry is distinct from prior “Sales agent in M365 Copilot inside Dynamics 365” (unified Graph/CRM conversational access)—this row is Sales Qualification Agent lead/outreach tuning and related SQA roadmap. Gainsight Atlas is distinct from Clari→Gainsight Copilot timeline sync (integration vs. Atlas renewal/adoption agents).
 - **Sources:** Microsoft Learn release plan, PRNewswire (Regie.ai), GlobeNewswire (Gainsight).
 - **Next ideas:** Gainsight MCP Apr 2026 PR if distinct agentic angle needed; RingCentral RingSense 2025 release notes; Intercom or Freshsales Freddy sales-specific 2025+ docs; Forrester TEI with named vendors 2026.
+
+## 2026-04-07 (session 14)
+
+- **Appended:** 3 lines — Lavender Ora scalable outbound augmentation (Mar 19, 2025 blog); Microsoft Copilot Sales Development agent (Learn release plan: preview Feb 5, 2026, GA Apr 2026); RingCentral AI Conversation Expert Q4 2025 release notes (pros/cons on line 3 of batch only).
+- **Duplicate check:** Lavender and RingCentral not previously in `innovations.jsonl`. Microsoft Sales Development agent is distinct from prior row on “Sales agent in Microsoft 365 Copilot inside Dynamics 365” (unified Graph/CRM conversational access vs. autonomous lead qualification, D365 updates, and Teams Agent Store deployment).
+- **Sources:** lavender.ai blog (dated), Microsoft Learn copilot release plan, RingCentral support release notes Q4 2025.
+- **Next ideas:** Zendesk Resolution Platform Mar 2025 if sales-adjacent GTM angle; Intercom Fin 2025; Freshworks Freddy Agentic 2025 IR/press; Forrester TEI sales AI 2026; academic ML for lead scoring post-2025.
