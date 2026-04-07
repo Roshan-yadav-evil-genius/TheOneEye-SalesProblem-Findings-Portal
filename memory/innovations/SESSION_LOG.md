@@ -40,3 +40,10 @@
 - **Duplicate check:** No existing product+challenge overlap with HubSpot Breeze, ZoomInfo Copilot Workspace, Apollo AI Assistant, Gong, Outreach, Salesforce Agentforce, Seismic Page Builder, Microsoft D365 sales agent, Gartner enablement forecast, or other prior entries.
 - **Sources:** Cognism newsroom blog PR, Highspot product blog, Lusha product blog (all dated 2025–2026).
 - **Next ideas:** Forrester 2026 B2B predictions (agent-led negotiations) with investor PDF link; Cognism HubSpot 2-way sync Feb 2026; Revenue.io or Chorus-style conversation intelligence 2025+; IDC market notes.
+
+## 2026-04-07 (session 7)
+
+- **Appended:** 3 lines — HG Insights RGI Platform + Sales Copilot + RGI Agent Builder (March 24, 2026 PRNewswire), People.ai MCP for SalesAI (Feb 18, 2026 newsroom), People.ai AI-native Forecasting GA (Oct 2, 2025 newsroom); pros/cons only on line 3 of batch (Forecasting).
+- **Duplicate check:** No existing product+challenge overlap with HubSpot Breeze, ZoomInfo Copilot Workspace, Gong, Outreach MCP, Apollo, 6sense RevvyAI, Salesforce Agentforce, Clay, Seismic, Lusha, Cognism, or prior Clari/Highspot entries (distinct HG Insights unified GTM intelligence; People.ai MCP vs Outreach MCP is different product and data layer; People.ai Forecasting vs Gong/Outreach deal agents is different vendor and stated GA forecasting stack).
+- **Sources:** PRNewswire (HG Insights), People.ai newsroom (MCP, Forecasting).
+- **Next ideas:** Forrester Oct 2025 investor release on agent-led quote negotiations; IDC/Gartner 2026 market notes with product tie-ins; Zoho/Zendesk Sell AI if sales-specific 2025+ docs found; academic or industry ML for pipeline 2026.
