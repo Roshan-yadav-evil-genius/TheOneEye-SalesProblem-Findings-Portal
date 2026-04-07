@@ -2,104 +2,57 @@
 
 {% block title %}The One Eye — Research{% endblock %}
 
-{% block head %}
-    <style>
-        :root {
-            --primary: #1a202c;
-            --secondary: #4a5568;
-            --accent: #3182ce;
-            --bg: #f0f2f5;
-            --border: #e2e8f0;
-        }
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background: var(--bg);
-            color: var(--primary);
-            line-height: 1.5;
-            min-height: 100vh;
-            min-height: 100dvh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: max(24px, env(safe-area-inset-top)) max(24px, env(safe-area-inset-right)) max(24px, env(safe-area-inset-bottom)) max(24px, env(safe-area-inset-left));
-        }
-        .landing {
-            text-align: center;
-            max-width: 420px;
-            width: 100%;
-        }
-        .landing-logo {
-            width: 120px;
-            height: 120px;
-            object-fit: contain;
-            display: block;
-            margin: 0 auto 28px;
-        }
-        .landing-tagline {
-            font-size: 1.05rem;
-            color: var(--secondary);
-            font-weight: 500;
-            margin-bottom: 36px;
-            letter-spacing: 0.02em;
-        }
-        .landing-actions {
-            display: flex;
-            flex-direction: column;
-            gap: 14px;
-        }
-        .landing-btn {
-            display: block;
-            width: 100%;
-            padding: 16px 24px;
-            font-size: 1rem;
-            font-weight: 700;
-            text-decoration: none;
-            text-align: center;
-            border-radius: 10px;
-            border: 2px solid var(--border);
-            background: #fff;
-            color: var(--primary);
-            transition: transform 0.15s, border-color 0.15s, box-shadow 0.15s;
-            min-height: 52px;
-            touch-action: manipulation;
-        }
-        .landing-btn:hover {
-            border-color: var(--accent);
-            box-shadow: 0 4px 14px rgba(49, 130, 206, 0.15);
-            transform: translateY(-1px);
-        }
-        .landing-btn:focus {
-            outline: 2px solid var(--accent);
-            outline-offset: 3px;
-        }
-        .landing-btn--primary {
-            background: var(--accent);
-            border-color: var(--accent);
-            color: #fff;
-        }
-        .landing-btn--primary:hover {
-            background: #2b6cb0;
-            border-color: #2b6cb0;
-            box-shadow: 0 4px 14px rgba(49, 130, 206, 0.35);
-        }
-        @media (min-width: 480px) {
-            .landing-actions {
-                flex-direction: row;
-                justify-content: center;
-            }
-            .landing-btn { width: auto; min-width: 160px; }
-        }
-    </style>
-{% endblock %}
-
 {% block body %}
-    <div class="landing">
+<div class="landing-wrap">
+    <div class="landing-card">
+        <div class="landing-header-row">
+            <button type="button" class="theme-toggle" id="themeToggleHome" aria-label="Theme: follow system" title="Theme (system)">
+                <svg class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+                <svg class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                <svg class="theme-toggle__icon theme-toggle__icon--monitor" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </button>
+        </div>
         <img src="/static/Logo.png" alt="The One Eye" class="landing-logo" width="120" height="120">
         <p class="landing-tagline">TheOneEye Sales Innovations Research Tracker</p>
         <div class="landing-actions">
             <a class="landing-btn landing-btn--primary" href="/problems">Problems</a>
-            <a class="landing-btn" href="/innovations">Innovations</a>
+            <a class="landing-btn landing-btn--outline" href="/innovations">Innovations</a>
         </div>
     </div>
+</div>
+{% endblock %}
+
+{% block body_scripts %}
+<script>
+(function () {
+    var btn = document.getElementById("themeToggleHome");
+    if (!btn || !window.PortalTheme) return;
+    var sun = btn.querySelector(".theme-toggle__icon--sun");
+    var moon = btn.querySelector(".theme-toggle__icon--moon");
+    var monitor = btn.querySelector(".theme-toggle__icon--monitor");
+    function labelFor(stored) {
+        if (stored === "system") return "Theme: follow system (click for light)";
+        if (stored === "light") return "Theme: light (click for dark)";
+        return "Theme: dark (click for system)";
+    }
+    function syncIcons() {
+        var stored = window.PortalTheme.getStored();
+        var resolved = window.PortalTheme.getResolved();
+        btn.setAttribute("aria-label", labelFor(stored));
+        btn.setAttribute("title", labelFor(stored));
+        if (sun) sun.style.display = "none";
+        if (moon) moon.style.display = "none";
+        if (monitor) monitor.style.display = "none";
+        if (stored === "system" && monitor) monitor.style.display = "block";
+        else if (resolved === "light" && moon) moon.style.display = "block";
+        else if (sun) sun.style.display = "block";
+    }
+    btn.addEventListener("click", function () {
+        window.PortalTheme.cycle();
+        syncIcons();
+    });
+    document.addEventListener("portalthemechange", syncIcons);
+    syncIcons();
+})();
+</script>
 {% endblock %}

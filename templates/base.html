@@ -3,12 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <script>
+    (function () {
+        var k = "theme";
+        var m = window.matchMedia("(prefers-color-scheme: dark)");
+        var s = localStorage.getItem(k);
+        var r = s === "light" || s === "dark" ? s : (m.matches ? "dark" : "light");
+        var d = document.documentElement;
+        d.classList.remove("light", "dark");
+        d.classList.add(r);
+        d.dataset.themeStored = s === "light" || s === "dark" ? s : "system";
+        d.dataset.themeResolved = r;
+    })();
+    </script>
     <title>{% block title %}The One Eye{% endblock %}</title>
     <link rel="icon" type="image/png" href="/static/LogoSquare.png">
     <link rel="apple-touch-icon" href="/static/LogoSquare.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/lamp-theme.css">
     {% block head %}{% endblock %}
+    <script src="/static/js/theme-init.js"></script>
 </head>
 <body{% block body_attrs %}{% endblock %}>
 {% block body %}{% endblock %}
+{% block body_scripts %}{% endblock %}
 </body>
 </html>
