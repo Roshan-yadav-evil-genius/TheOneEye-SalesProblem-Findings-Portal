@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>Problem Tracker - The One Eye Researchers</title>
+    <title>Innovation Tracker - The One Eye Researchers</title>
     <link rel="icon" type="image/png" href="/static/LogoSquare.png">
     <link rel="apple-touch-icon" href="/static/LogoSquare.png">
     <style>
@@ -53,6 +53,25 @@
             top: 0; left: 0; right: 0;
             z-index: 100;
         }
+        .app-header-left {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            min-width: 0;
+            flex: 1;
+        }
+        .header-home {
+            color: rgba(255,255,255,0.88);
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-decoration: none;
+            flex-shrink: 0;
+            padding: 6px 8px;
+            margin-left: -4px;
+            border-radius: 6px;
+        }
+        .header-home:hover { color: #fff; }
+        .header-home:focus { outline: 2px solid rgba(255,255,255,0.5); outline-offset: 2px; }
         .app-header-brand {
             display: flex;
             align-items: center;
@@ -613,11 +632,14 @@
 
 <div class="app-chrome" id="appChrome">
 <header class="app-header">
-    <div class="app-header-brand">
-        <img src="/static/Logo.png" alt="" class="app-logo" width="36" height="36">
-        <h1><span class="title-short">TheOneEye Sales Problem Research Tracker</span><span class="title-full">TheOneEye Sales Problem Research Tracker</span></h1>
+    <div class="app-header-left">
+        <a href="/" class="header-home">Home</a>
+        <div class="app-header-brand">
+            <img src="/static/Logo.png" alt="" class="app-logo" width="36" height="36">
+            <h1><span class="title-short">TheOneEye Sales Innovations Research Tracker</span><span class="title-full">TheOneEye Sales Innovations Research Tracker</span></h1>
+        </div>
     </div>
-    <input type="text" class="search-box" id="searchInput" placeholder="Search problems... (Ctrl+K)" enterkeyhint="search" autocomplete="off">
+    <input type="text" class="search-box" id="searchInput" placeholder="Search innovations... (Ctrl+K)" enterkeyhint="search" autocomplete="off">
 </header>
 
 <nav class="tabs-bar" id="tabsBar">
@@ -633,17 +655,17 @@
     <aside class="list-panel" id="listPanel"></aside>
 
     <main class="detail-panel" id="detailPanel">
-        <div class="detail-placeholder">Select a problem from the list to view details</div>
+        <div class="detail-placeholder">Select an innovation from the list to view details</div>
     </main>
 
     <section class="notes-panel" id="notesPanel">
-        <div class="notes-placeholder">Select a problem to start taking notes</div>
+        <div class="notes-placeholder">Select an innovation to start taking notes</div>
     </section>
 </div>
 
 <nav class="mobile-bottom-nav" id="mobileBottomNav" aria-label="Main sections">
     <div class="mobile-bottom-nav-inner">
-        <button type="button" class="mobile-nav-item active" data-panel="list" aria-current="page">Problems</button>
+        <button type="button" class="mobile-nav-item active" data-panel="list" aria-current="page">Innovations</button>
         <button type="button" class="mobile-nav-item" data-panel="detail">Details</button>
         <button type="button" class="mobile-nav-item" data-panel="notes">Notes</button>
     </div>
@@ -652,7 +674,7 @@
 <script>
 (function () {
     const MOBILE_MAX = 768;
-    let problems = [];
+    let innovations = [];
     let activeTab = 'raw';
     let selectedSlug = null;
     let searchQuery = '';
@@ -713,9 +735,9 @@
     }
     syncMobileLayout();
 
-    async function loadProblems() {
-        const res = await fetch('/api/problems');
-        problems = await res.json();
+    async function loadInnovations() {
+        const res = await fetch('/api/innovations');
+        innovations = await res.json();
         updateCounts();
         renderList();
         if (selectedSlug) {
@@ -730,7 +752,7 @@
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ slug, status })
         });
-        const p = problems.find(x => x.proposed_slug === slug);
+        const p = innovations.find(x => x.slug === slug);
         if (p) p.status = status;
         updateCounts();
         renderList();
@@ -743,26 +765,28 @@
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ slug, notes })
         });
-        const p = problems.find(x => x.proposed_slug === slug);
+        const p = innovations.find(x => x.slug === slug);
         if (p) p.notes = notes;
         renderList();
     }
 
     function updateCounts() {
         const counts = { raw: 0, done: 0, review: 0, todo: 0, deleted: 0 };
-        problems.forEach(p => { counts[p.status] = (counts[p.status] || 0) + 1; });
+        innovations.forEach(p => { counts[p.status] = (counts[p.status] || 0) + 1; });
         Object.keys(counts).forEach(k => {
             document.getElementById('count-' + k).textContent = counts[k];
         });
     }
 
     function getFiltered() {
-        return problems.filter(p => {
+        return innovations.filter(p => {
             if (p.status !== activeTab) return false;
             if (searchQuery) {
                 const q = searchQuery.toLowerCase();
-                return p.problem_title.toLowerCase().includes(q) ||
-                       p.problem_description.toLowerCase().includes(q);
+                const link = (p.source_link || '').toLowerCase();
+                return (p.challenge_addressed || '').toLowerCase().includes(q) ||
+                       (p.ai_ml_solution || '').toLowerCase().includes(q) ||
+                       link.includes(q);
             }
             return true;
         });
@@ -771,14 +795,14 @@
     function renderList() {
         const filtered = getFiltered();
         if (!filtered.length) {
-            listPanel.innerHTML = '<div class="list-empty">No problems in this category' +
+            listPanel.innerHTML = '<div class="list-empty">No innovations in this category' +
                 (searchQuery ? ' matching your search' : '') + '</div>';
             return;
         }
         listPanel.innerHTML = filtered.map(p => `
-            <div class="list-card${p.proposed_slug === selectedSlug ? ' selected' : ''}"
-                 data-slug="${p.proposed_slug}">
-                <div class="list-card-title">${esc(p.problem_title)}</div>
+            <div class="list-card${p.slug === selectedSlug ? ' selected' : ''}"
+                 data-slug="${esc(p.slug)}">
+                <div class="list-card-title">${esc(p.challenge_addressed || '')}</div>
                 <div class="list-card-meta">
                     ${p.line_id ? `<span class="line-id-badge">#${p.line_id}</span>` : ''}
                     <span class="status-badge" data-status="${p.status}">${p.status}</span>
@@ -788,18 +812,69 @@
         `).join('');
     }
 
+    function hasText(v) {
+        return v != null && String(v).trim() !== '';
+    }
+
+    function renderProsConsSections(p) {
+        let html = '';
+        if (hasText(p.pros)) {
+            html += `
+            <div class="detail-section">
+                <button class="section-toggle" aria-expanded="true" data-target="sec-pros">
+                    <span class="section-label">Pros</span>
+                    <span class="section-chevron">&#9660;</span>
+                </button>
+                <div class="section-body" id="sec-pros"><div class="why-box">${esc(String(p.pros))}</div></div>
+            </div>`;
+        }
+        if (hasText(p.cons)) {
+            html += `
+            <div class="detail-section">
+                <button class="section-toggle" aria-expanded="true" data-target="sec-cons">
+                    <span class="section-label">Cons</span>
+                    <span class="section-chevron">&#9660;</span>
+                </button>
+                <div class="section-body" id="sec-cons"><div class="evidence-box">${esc(String(p.cons))}</div></div>
+            </div>`;
+        }
+        return html;
+    }
+
+    function renderSourceSection(p) {
+        const u = (p.source_link || '').trim();
+        if (!u) return '';
+        const href = /^https?:\/\/.+/i.test(u)
+            ? u.replace(/&/g, '&amp;').replace(/"/g, '&quot;')
+            : '#';
+        const label = esc(u);
+        return `
+            <div class="detail-section">
+                <button class="section-toggle" aria-expanded="true" data-target="sec-src">
+                    <span class="section-label">Source</span>
+                    <span class="section-chevron">&#9660;</span>
+                </button>
+                <div class="section-body" id="sec-src">
+                    <ul class="references-list">
+                        <li><a href="${href}" target="_blank" rel="noopener noreferrer">${label}</a></li>
+                    </ul>
+                </div>
+            </div>
+        `;
+    }
+
     function renderDetail(slug) {
-        const p = problems.find(x => x.proposed_slug === slug);
+        const p = innovations.find(x => x.slug === slug);
         if (!p) {
-            detailPanel.innerHTML = '<div class="detail-placeholder">Select a problem from the list to view details</div>';
+            detailPanel.innerHTML = '<div class="detail-placeholder">Select an innovation from the list to view details</div>';
             return;
         }
         selectedSlug = slug;
 
         detailPanel.innerHTML = `
             <div class="detail-header">
-                ${p.line_id ? `<div class="detail-id">Problem #${p.line_id}</div>` : ''}
-                <h2 class="detail-title">${esc(p.problem_title)}</h2>
+                ${p.line_id ? `<div class="detail-id">Innovation #${p.line_id}</div>` : ''}
+                <h2 class="detail-title">${esc(p.challenge_addressed || '')}</h2>
                 <div class="status-actions">
                     ${['raw','todo','review','done','deleted'].map(s =>
                         `<button class="status-btn${p.status === s ? ' active-status' : ''}" data-s="${s}">${statusLabel(s)}</button>`
@@ -808,70 +883,27 @@
             </div>
 
             <div class="detail-section">
-                <button class="section-toggle" aria-expanded="true" data-target="sec-desc">
-                    <span class="section-label">Problem Description</span>
+                <button class="section-toggle" aria-expanded="true" data-target="sec-sol">
+                    <span class="section-label">AI / ML solution</span>
                     <span class="section-chevron">&#9660;</span>
                 </button>
-                <div class="section-body" id="sec-desc">${esc(p.problem_description)}</div>
+                <div class="section-body" id="sec-sol">${esc(p.ai_ml_solution || '')}</div>
             </div>
-
-            <div class="detail-section">
-                <button class="section-toggle" aria-expanded="true" data-target="sec-why">
-                    <span class="section-label">Why It Matters</span>
-                    <span class="section-chevron">&#9660;</span>
-                </button>
-                <div class="section-body" id="sec-why"><div class="why-box">${esc(p.why_it_matters)}</div></div>
-            </div>
-
-            <div class="detail-section">
-                <button class="section-toggle" aria-expanded="true" data-target="sec-ev">
-                    <span class="section-label">Evidence</span>
-                    <span class="section-chevron">&#9660;</span>
-                </button>
-                <div class="section-body" id="sec-ev"><div class="evidence-box">${esc(p.example_evidence)}</div></div>
-            </div>
-            ${renderReferencesSection(p)}
-        `;
-    }
-
-    function renderReferencesSection(p) {
-        const refs = Array.isArray(p.references)
-            ? p.references.map(u => String(u).trim()).filter(Boolean)
-            : [];
-        if (!refs.length) return '';
-        function refHref(u) {
-            if (!/^https?:\/\/.+/i.test(u)) return '#';
-            return u.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
-        }
-        return `
-            <div class="detail-section">
-                <button class="section-toggle" aria-expanded="true" data-target="sec-refs">
-                    <span class="section-label">References</span>
-                    <span class="section-chevron">&#9660;</span>
-                </button>
-                <div class="section-body" id="sec-refs">
-                    <ul class="references-list">
-                        ${refs.map(u => {
-                            const href = refHref(u);
-                            const label = esc(u);
-                            return `<li><a href="${href}" target="_blank" rel="noopener noreferrer">${label}</a></li>`;
-                        }).join('')}
-                    </ul>
-                </div>
-            </div>
+            ${renderProsConsSections(p)}
+            ${renderSourceSection(p)}
         `;
     }
 
     function renderNotes(slug) {
-        const p = problems.find(x => x.proposed_slug === slug);
+        const p = innovations.find(x => x.slug === slug);
         if (!p) {
-            notesPanel.innerHTML = '<div class="notes-placeholder">Select a problem to start taking notes</div>';
+            notesPanel.innerHTML = '<div class="notes-placeholder">Select an innovation to start taking notes</div>';
             return;
         }
         notesPanel.innerHTML = `
             <div class="notes-header">
                 <div class="notes-title">Your Notes${p.line_id ? ` · #${p.line_id}` : ''}</div>
-                <div class="notes-problem-ref">${esc(p.problem_title)}</div>
+                <div class="notes-problem-ref">${esc(p.challenge_addressed || '')}</div>
             </div>
             <div class="notes-body">
                 <textarea class="notes-area" id="notesArea" placeholder="Write your thoughts, analysis, or follow-up ideas...">${esc(p.notes || '')}</textarea>
@@ -966,7 +998,7 @@
         updateChromeHeight();
         syncMobileLayout();
     });
-    loadProblems().then(() => {
+    loadInnovations().then(() => {
         requestAnimationFrame(() => { updateChromeHeight(); syncMobileLayout(); });
     });
 })();

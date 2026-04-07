@@ -5,6 +5,7 @@ import os
 app = Flask(__name__)
 
 USER_DATA_FILE = 'user_data.json'
+INNOVATIONS_FILE = 'innovations.jsonl'
 
 
 def load_problems():
@@ -16,6 +17,20 @@ def load_problems():
                 p['line_id'] = line_num
                 problems.append(p)
     return problems
+
+
+def load_innovations():
+    if not os.path.exists(INNOVATIONS_FILE):
+        return []
+    items = []
+    with open(INNOVATIONS_FILE, 'r') as f:
+        for line_num, line in enumerate(f, start=1):
+            if line.strip():
+                row = json.loads(line)
+                row['line_id'] = line_num
+                row['slug'] = f'innovation:{line_num}'
+                items.append(row)
+    return items
 
 
 def load_user_data():
@@ -31,8 +46,18 @@ def save_user_data(data):
 
 
 @app.route('/')
-def index():
-    return render_template('index.html')
+def home():
+    return render_template('home.html')
+
+
+@app.route('/problems')
+def problems_page():
+    return render_template('problems.html')
+
+
+@app.route('/innovations')
+def innovations_page():
+    return render_template('innovations.html')
 
 
 @app.route('/api/problems')
@@ -45,6 +70,18 @@ def api_problems():
         p['status'] = ud.get('status', 'raw')
         p['notes'] = ud.get('notes', '')
     return jsonify(problems)
+
+
+@app.route('/api/innovations')
+def api_innovations():
+    items = load_innovations()
+    user_data = load_user_data()
+    for row in items:
+        slug = row['slug']
+        ud = user_data.get(slug, {})
+        row['status'] = ud.get('status', 'raw')
+        row['notes'] = ud.get('notes', '')
+    return jsonify(items)
 
 
 @app.route('/api/status', methods=['POST'])
@@ -74,4 +111,4 @@ def api_notes():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000,host='0.0.0.0')
+    app.run(debug=True, port=5000, host='0.0.0.0')
