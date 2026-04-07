@@ -75,3 +75,10 @@
 - **Duplicate check:** No existing rows for Dialpad agentic platform, Creatio Twin sales agents, or Aircall AI Assist Pro; distinct from Revenue.io (Moments), Gong, Dialpad-adjacent not previously listed, Salesforce Agentforce, ZoomInfo, etc.
 - **Sources:** dialpad.com press, creatio.com twin release page, aircall.io blog (dated).
 - **Next ideas:** Mindtickle AI Copilot 2025 metrics; RingCentral RingSense 2025–2026; Microsoft Copilot for Sales feature waves not yet covered; Forrester TEI studies naming products with 2026 dates.
+
+## 2026-04-07 (session 12)
+
+- **Appended:** 3 lines — Vendasta CRM AI self-updating SMB CRM (Mar 17, 2026 vendasta.com press article); Gong Mission Andromeda / Gong Enable + Assistant + account views + MCP (Feb 25, 2026 gong.io press); Mindtickle role-based AI Copilot (Mar 20, 2025 PRNewswire); pros/cons only on line 3 of batch (Mindtickle).
+- **Duplicate check:** Vendasta not previously in file. Gong Oct 2025 row covers Orchestrate/Data Extractor/MCP for GTM plays—Mission Andromeda is a distinct enablement/account-management launch (not same product+challenge pair). Mindtickle not previously listed.
+- **Sources:** vendasta.com newsroom article, gong.io press release, PRNewswire (Mindtickle).
+- **Next ideas:** Salesforce–ChatGPT Jan 2026 story if distinct from Agentforce row; Mindtickle Elevate summit expansion PR if additive; RingCentral ACE 2026 feature drops with sales impact; academic/industry ML for lead scoring 2026.
