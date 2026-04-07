@@ -1,9 +1,9 @@
-Your goal is to **search the web for recent (2025–2026) advancements in AI/ML applied to sales processes** and record **concrete applications or systems** with **practical business impact** (e.g., lead generation, conversion, CRM, outreach, sales productivity).
+Your goal is to **search the web for AI/ML advancements in sales** (the sales field broadly: processes, tools, and go-to-market execution) that are **from 2025 onward**—i.e. **after the start of 2025**, with **no upper year limit** (include 2026, 2027, and later as they appear). Record **concrete applications or systems** with **practical business impact** (e.g., lead generation, conversion, CRM, outreach, sales productivity).
 
 **Constraints:**
 
 * Focus only on practical sales impact—not generic AI descriptions. Each entry must be a **specific** application or system tied to a **specific** sales challenge.
-* Prefer **credible, recent** sources (vendor docs, analyst reports, reputable press, academic/industry summaries with dates in range when possible).
+* Prefer **credible** sources (vendor docs, analyst reports, reputable press, academic/industry summaries). Where possible, favor material that clearly reflects **post‑2025** releases, forecasts, or evidence (stated dates, product/version timelines, report publication dates).
 
 ---
 
@@ -73,4 +73,4 @@ After each research session, **commit your changes using git** so progress is pr
 
 ### Objective
 
-Continuously build a **dataset of unique, validated AI/ML sales innovations** (2025–2026 focus) with **clear challenges, solutions, and sources**, suitable for downstream product or research use.
+Continuously build a **dataset of unique, validated AI/ML sales innovations** (**post‑2025**, ongoing) with **clear challenges, solutions, and sources**, suitable for downstream product or research use.
