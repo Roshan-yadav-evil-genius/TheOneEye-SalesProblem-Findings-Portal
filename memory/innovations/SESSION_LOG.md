@@ -19,3 +19,10 @@
 - **Duplicate check:** No existing product+challenge overlap with HubSpot Breeze, Gong, Outreach, Salesforce Agentforce, Microsoft D365 sales agent, or Gartner enablement forecast.
 - **Sources:** Credible vendor/IR and wire releases with explicit 2025–2026 dates.
 - **Next ideas:** Clari Copilot + ZoomInfo integration (Jun 2025 release notes); Pipedrive AI; LinkedIn Sales Navigator AI 2026; Forrester/Gartner 2026 sales tech forecasts with concrete product tie-ins; academic arXiv on ML for pipeline forecasting post-2025.
+
+## 2026-04-07 (session 4)
+
+- **Appended:** 3 lines — Clari Gainsight–Copilot integration (March 5, 2025 community release notes), Pipedrive agentic AI CRM pilot (Feb 4, 2025 newsroom), Salesloft 15 new AI agents / 26 total (May 13, 2025 PRNewswire); pros/cons only on line 3 of this batch (Salesloft).
+- **Duplicate check:** No existing product+challenge overlap: distinct from Gong (orchestration/extractor), Outreach (Meeting Prep/Deal Agent), HubSpot Breeze, Salesforce Agentforce, ZoomInfo Copilot Workspace, 6sense RevvyAI, Apollo AI Assistant, Microsoft D365 sales agent, Gartner enablement forecast.
+- **Sources:** Clari community product update (dated release), Pipedrive newsroom, PRNewswire for Salesloft.
+- **Next ideas:** Forrester TEI or Wave 2026 with vendor-neutral ROI; Clari Ask Clari + field mapping (RevDB); Salesloft Fall 2025 Influence Graph / Sales Strategist; academic or industry ML for revenue forecasting 2025+.
