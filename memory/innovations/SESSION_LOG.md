@@ -54,3 +54,10 @@
 - **Duplicate check:** No existing product+challenge overlap with HubSpot Breeze, Gong, Outreach, ZoomInfo, Salesforce Agentforce, Apollo, People.ai, or other prior entries (Revenue.io real-time Zoom/Teams CI; Zoho democratized CRM building; SAP ERP-aware seller copilot).
 - **Sources:** revenue.io blog (dated), Business Wire (dated PR), SAP News Center (dated feature article).
 - **Next ideas:** SAP Sales Cloud Q4 2025 AI duplicate check or Q1 2026 Joule Studio GA (if distinct from Joule copilot entry); Avoma or Jiminny 2025+; Forrester Wave sales engagement 2026; academic ML for lead scoring 2025+.
+
+## 2026-04-07 (session 9)
+
+- **Appended:** 3 lines — Oracle Fusion CX AI agents Oct 6, 2025 (Deal Advisor, Quote Assistant, Lead Advisor, Product Recommendations, etc.); monday CRM monday agents + monday campaigns Elevate Oct 3, 2025; Oracle Fusion CX agents Feb 10, 2026 (Contact Insights, Quote Generation, Renewal, My Territory) with pros/cons on line 3 of batch only.
+- **Duplicate check:** No existing product+challenge overlap with HubSpot Breeze, Salesforce Agentforce, SAP Joule, ZoomInfo, Apollo, Gong, Outreach, People.ai, Zoho, or other prior rows (Oracle and monday entries are new vendors/angles).
+- **Sources:** Oracle newsroom (dated PRs), monday.com press release (Business Wire via monday).
+- **Next ideas:** Avoma March 2026 methodology scoring; SugarCRM April 2025 Intelligence add-on; Freshworks Refresh Nov 2025 if sales tie-in; Forrester 2026 B2B agent predictions with product examples.
