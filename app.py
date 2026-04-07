@@ -15,6 +15,7 @@ def load_problems():
             if line.strip():
                 p = json.loads(line)
                 p['line_id'] = line_num
+                p['slug'] = f'problem:{line_num}'
                 problems.append(p)
     return problems
 
@@ -65,8 +66,14 @@ def api_problems():
     problems = load_problems()
     user_data = load_user_data()
     for p in problems:
-        slug = p.get('proposed_slug', '')
-        ud = user_data.get(slug, {})
+        new_slug = p['slug']
+        old_key = p.get('proposed_slug', '')
+        if new_slug in user_data:
+            ud = user_data[new_slug]
+        elif old_key in user_data:
+            ud = user_data[old_key]
+        else:
+            ud = {}
         p['status'] = ud.get('status', 'raw')
         p['notes'] = ud.get('notes', '')
     return jsonify(problems)

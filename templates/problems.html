@@ -140,7 +140,10 @@
             syncMobileLayout();
             return;
         }
-        const p = problems.find(x => x.proposed_slug === slug);
+        let p = problems.find(x => x.slug === slug);
+        if (!p) {
+            p = problems.find(x => x.proposed_slug === slug);
+        }
         if (!p) {
             const url = new URL(window.location.href);
             url.searchParams.delete('slug');
@@ -152,14 +155,18 @@
             syncMobileLayout();
             return;
         }
+        const canonical = p.slug;
+        if (slug !== canonical) {
+            setUrlSlug(canonical, { replace: true });
+        }
         searchQuery = '';
         searchInput.value = '';
         activeTab = p.status;
         syncTabUi();
-        selectedSlug = slug;
+        selectedSlug = canonical;
         renderList();
-        renderDetail(slug);
-        renderNotes(slug);
+        renderDetail(canonical);
+        renderNotes(canonical);
         if (isMobileLayout()) setMobilePanel('detail');
         syncMobileLayout();
     }
@@ -177,7 +184,7 @@
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ slug, status })
         });
-        const p = problems.find(x => x.proposed_slug === slug);
+        const p = problems.find(x => x.slug === slug);
         if (p) p.status = status;
         if (p && activeTab !== p.status) {
             activeTab = p.status;
@@ -194,7 +201,7 @@
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ slug, notes })
         });
-        const p = problems.find(x => x.proposed_slug === slug);
+        const p = problems.find(x => x.slug === slug);
         if (p) p.notes = notes;
         renderList();
     }
@@ -227,8 +234,8 @@
             return;
         }
         listPanel.innerHTML = filtered.map(p => `
-            <div class="list-card${p.proposed_slug === selectedSlug ? ' selected' : ''}"
-                 data-slug="${p.proposed_slug}">
+            <div class="list-card${p.slug === selectedSlug ? ' selected' : ''}"
+                 data-slug="${esc(p.slug)}">
                 <div class="list-card-title">${esc(p.problem_title)}</div>
                 <div class="list-card-meta">
                     ${p.line_id ? `<span class="line-id-badge">#${p.line_id}</span>` : ''}
@@ -245,7 +252,7 @@
             detailPanel.innerHTML = '<div class="detail-placeholder">Select a problem from the list to view details</div>';
             return;
         }
-        const p = problems.find(x => x.proposed_slug === slug);
+        const p = problems.find(x => x.slug === slug);
         if (!p) {
             selectedSlug = null;
             detailPanel.innerHTML = '<div class="detail-placeholder">Select a problem from the list to view details</div>';
@@ -328,7 +335,7 @@
             notesPanel.innerHTML = '<div class="notes-placeholder">Select a problem to start taking notes</div>';
             return;
         }
-        const p = problems.find(x => x.proposed_slug === slug);
+        const p = problems.find(x => x.slug === slug);
         if (!p) {
             notesPanel.innerHTML = '<div class="notes-placeholder">Select a problem to start taking notes</div>';
             return;
@@ -365,7 +372,7 @@
         btn.classList.add('active');
         activeTab = btn.dataset.tab;
         if (selectedSlug) {
-            const p = problems.find(x => x.proposed_slug === selectedSlug);
+            const p = problems.find(x => x.slug === selectedSlug);
             if (p && p.status !== activeTab) {
                 selectedSlug = null;
                 setUrlSlug(null, { replace: true });
