@@ -68,3 +68,10 @@
 - **Duplicate check:** No existing product+challenge overlap with Gong, Outreach, Revenue.io, Clari, Salesforce Agentforce, Oracle Fusion agents, or other prior rows (Avoma methodology scoring angle; Sugar sales-i ERP/order-driven selling; Jiminny CRM extraction vs. generic CI).
 - **Sources:** avoma.com blog (dated Mar 2026), sugarcrm.com press release (dated May 2025), Jiminny Help Center what’s new.
 - **Next ideas:** Sugar Support AI release notes (Account Intelligence July 2025); Faye FAB for Sugar Oct 2025 PR if partner-sourced entries allowed; Freshworks Freddy sales-specific 2025 GA notes; Forrester/IDC 2026 sales AI ROI studies with named products.
+
+## 2026-04-07 (session 11)
+
+- **Appended:** 3 lines — Dialpad Agentic AI Platform (Oct 9, 2025 press release: lead qualification, scheduling, account management via agentic execution), Creatio 8.3 Twin Sales Agents on creatio.com/twin-release (June 25, 2025 context via launch materials), Aircall AI Assist Pro (July 23, 2025 blog: real-time coaching + CRM automation); pros/cons only on line 3 of batch (Aircall).
+- **Duplicate check:** No existing rows for Dialpad agentic platform, Creatio Twin sales agents, or Aircall AI Assist Pro; distinct from Revenue.io (Moments), Gong, Dialpad-adjacent not previously listed, Salesforce Agentforce, ZoomInfo, etc.
+- **Sources:** dialpad.com press, creatio.com twin release page, aircall.io blog (dated).
+- **Next ideas:** Mindtickle AI Copilot 2025 metrics; RingCentral RingSense 2025–2026; Microsoft Copilot for Sales feature waves not yet covered; Forrester TEI studies naming products with 2026 dates.
