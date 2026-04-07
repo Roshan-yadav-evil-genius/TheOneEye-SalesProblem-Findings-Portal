@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>The One Eye — Research</title>
-    <link rel="icon" type="image/png" href="/static/LogoSquare.png">
-    <link rel="apple-touch-icon" href="/static/LogoSquare.png">
+{% extends "base.html" %}
+
+{% block title %}The One Eye — Research{% endblock %}
+
+{% block head %}
     <style>
         :root {
             --primary: #1a202c;
@@ -94,8 +91,9 @@
             .landing-btn { width: auto; min-width: 160px; }
         }
     </style>
-</head>
-<body>
+{% endblock %}
+
+{% block body %}
     <div class="landing">
         <img src="/static/Logo.png" alt="The One Eye" class="landing-logo" width="120" height="120">
         <p class="landing-tagline">Research of The One Eye Team</p>
@@ -104,5 +102,4 @@
             <a class="landing-btn" href="/innovations">Innovations</a>
         </div>
     </div>
-</body>
-</html>
+{% endblock %}

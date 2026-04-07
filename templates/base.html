@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>{% block title %}The One Eye{% endblock %}</title>
+    <link rel="icon" type="image/png" href="/static/LogoSquare.png">
+    <link rel="apple-touch-icon" href="/static/LogoSquare.png">
+    {% block head %}{% endblock %}
+</head>
+<body{% block body_attrs %}{% endblock %}>
+{% block body %}{% endblock %}
+</body>
+</html>
