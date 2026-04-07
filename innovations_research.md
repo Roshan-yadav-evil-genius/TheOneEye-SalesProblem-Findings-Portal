@@ -55,8 +55,8 @@ When producing the **lines to append** to `innovations.jsonl`, **do not include 
 
 ### Memory
 
-You may use the `memory/` folder as your brain to record thoughts, notes, and research progress so future runs can continue from past work.
-Runtime memory resets after execution, so it is mandatory to keep track of your progress by organizing and updating files in the `memory/` folder in whatever way helps you recall and move forward effectively.
+Use **`memory/innovations/`** only (not `memory/problems/`). Record thoughts, notes, and research progress there so future runs can continue from past work.
+Runtime memory resets after execution, so it is mandatory to keep track of your progress by organizing and updating files under **`memory/innovations/`** in whatever way helps you recall and move forward effectively.
 
 ---
 
@@ -64,7 +64,7 @@ Runtime memory resets after execution, so it is mandatory to keep track of your 
 
 After each research session, **commit your changes using git** so progress is preserved for future runs.
 
-* Stage and commit **`innovations.jsonl`**, **`memory/`**, and any other modified files (including this doc if edited).
+* Stage and commit **`innovations.jsonl`**, **`memory/innovations/`**, and any other modified files (including this doc if edited).
 * Write a clear, descriptive commit message summarizing what was added or changed.
 * **Do NOT push** unless explicitly asked — just commit locally.
 * This ensures that even if runtime memory resets, the git history serves as a reliable record of all research progress.
