@@ -117,3 +117,10 @@
 - **Duplicate check:** No prior rows for Bigtincan/GenieAI Pro. 6sense RevvyAI row is GTM command center/natural-language GTM—distinct product (AI Email) and challenge (email lifecycle agents). Oracle Fusion CX agent rows cover Fusion CRM quote/renewal flows—not NetSuite CPQ AI Assistant (ERP/CPQ product line).
 - **Sources:** showpad.com press, businesswire.com (6sense), prnewswire.com (NetSuite SuiteConnect).
 - **Next ideas:** Showpad Field Meeting AI dated docs; Bigtincan Fall 2025 sales simulations press; lemlist MCP blog; Forrester Wave revenue marketing Q1 2026 tie-ins with new products.
+
+## 2026-04-08 (session 18)
+
+- **Appended:** 3 lines — HubSpot Fall 2025 Conversation-powered Deal Risks (transcript-based pipeline warnings); HubSpot Fall 2025 Commerce CPQ AI Quote Creation + 24/7 Closing Agent + Quote Engagement (same spotlight article, distinct late-stage vs. early Breeze Prospecting Agent row); Salesforce–Google Gemini for Agentforce + Google Cloud expansion (Feb 24, 2025 Google Cloud Press Corner); pros/cons only on line 3 of batch (Salesforce–Google) per rule.
+- **Duplicate check:** No existing rows for HubSpot Deal Risks, HubSpot CPQ Closing Agent/quote automation, or Salesforce–Gemini/Vertex grounding partnership; distinct from existing HubSpot Breeze Prospecting Agent (SDR signals/outreach) and Salesforce Agentforce Sales GA story (Mar 2026 product agents announcement).
+- **Sources:** hubspot.com company news fall-2025-spotlight (dated update Oct 6, 2025); googlecloudpresscorner.com dated partnership release.
+- **Next ideas:** Freshworks June 11, 2025 Freddy Agentic Platform IR/GlobeNewswire with Freshsales-specific proof points; Salesforce–Google Oct 2025 Agentforce 360 deepening PR if distinct angle; Zendesk Sell + AI cross-sell from service tickets with 2025+ official doc.
