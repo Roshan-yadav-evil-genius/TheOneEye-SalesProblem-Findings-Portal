@@ -173,3 +173,10 @@
 - **Duplicate check:** HubSpot connectors distinct from Dynamics 365 Sales MCP server, People.ai MCP, lemlist MCP, and Salesforce–Gemini Gmail extension (native HubSpot↔Claude/ChatGPT CRM actions). Pega row new (no prior Pega). Crayon distinct from MCP rows above (competitive enablement data plane vs. CRM/SEP/revenue-intelligence MCP).
 - **Sources:** community.hubspot.com; pega.com newsroom; crayon.com blog.
 - **Next ideas:** Forrester Revenue Enablement Platforms Landscape Q1 2026 with vendor-neutral product callouts if publicly linkable; Zendesk Forethought + Sell only with explicit sales workflow doc; Freshworks IR June 11, 2025 + Freshsales Freddy if sales angle needs splitting from pure service messaging.
+
+## 2026-04-08 (session 26)
+
+- **Appended:** 3 lines — Amazon Connect re:Invent 2025 agentic AI + MCP + Salesforce Contact Center integration + predictive insights/Journeys (`aws.amazon.com` contact-center blog); Clari + Salesloft merger Predictive Revenue System (Dec 3, 2025 salesloft.com newsroom); Apollo.io acquires Pocus (Mar 19, 2026 PRNewswire) with pros/cons on line 3 of batch only.
+- **Duplicate check:** No existing rows for Amazon Connect re:Invent 2025 narrative, Clari+Salesloft merger, or Apollo–Pocus acquisition. Distinct from Apollo AI Assistant row (agentic chat/workflows vs. signal-intelligence M&A); distinct from Salesloft 15 agents / Gong / individual Clari product rows (corporate merger + platform thesis); distinct from RingCentral ACE and Dialpad (different vendor and Connect-specific MCP/Salesforce/Journeys scope).
+- **Sources:** AWS official blog; Salesloft newsroom; PRNewswire (Apollo.io).
+- **Deferred:** Freshworks June 11, 2025 IR release remains service-primary in primary text—defer until a Freshsales/Freddy sales-copilot line has a clearly sales-dated primary source.
