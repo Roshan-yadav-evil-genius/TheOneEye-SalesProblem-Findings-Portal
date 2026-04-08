@@ -110,3 +110,10 @@
 - **Duplicate check:** No existing rows for Fullcast+Ebsta combination, Google Gemini–Salesforce Gmail extension, or Calendly agentic platform; distinct from Salesforce Agentforce (Sales Cloud agents), Microsoft Copilot/Dynamics entries, Qualified/Intercom inbound agents, and prior Ebsta benchmark reports (acquisition/system integration vs. research-only).
 - **Sources:** PRNewswire (Fullcast), Google Workspace Updates (official), Calendly engineering blog.
 - **Next ideas:** NetSuite CPQ AI Assistant / NetSuite AI innovations 2025 PR if distinct from Oracle Fusion CX rows; ServiceNow AI CRM Knowledge 2025 press (English); Chili Piper or Calendly MCP Mar 2026 community changelog for agent interoperability.
+
+## 2026-04-08 (session 17)
+
+- **Appended:** 3 lines — Bigtincan GenieAI Pro / Genie Assistant Pro + AuthoringAI Pro (Jan 30, 2025 Showpad press); 6sense AI Email Agents full lifecycle + Summer 2025 features (Aug 28, 2025 Business Wire); NetSuite CPQ AI Assistant SuiteConnect Feb 6, 2025 (PRNewswire); pros/cons only on line 3 of batch (NetSuite) per rule.
+- **Duplicate check:** No prior rows for Bigtincan/GenieAI Pro. 6sense RevvyAI row is GTM command center/natural-language GTM—distinct product (AI Email) and challenge (email lifecycle agents). Oracle Fusion CX agent rows cover Fusion CRM quote/renewal flows—not NetSuite CPQ AI Assistant (ERP/CPQ product line).
+- **Sources:** showpad.com press, businesswire.com (6sense), prnewswire.com (NetSuite SuiteConnect).
+- **Next ideas:** Showpad Field Meeting AI dated docs; Bigtincan Fall 2025 sales simulations press; lemlist MCP blog; Forrester Wave revenue marketing Q1 2026 tie-ins with new products.
