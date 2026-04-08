@@ -131,3 +131,10 @@
 - **Duplicate check:** No existing rows for Opportunity Research Agent, D365 Sales MCP server, or Sales Close Agent. Distinct from People.ai MCP (revenue intelligence data layer vs. first-party D365 CRM tools for leads/outreach) and Outreach MCP (SEP actions vs. Dynamics CRM protocol server). Distinct from HubSpot Closing Agent (Commerce Hub CPQ/quote context vs. D365 Sales Close Agent late-funnel objection/KB/re-engagement framing).
 - **Sources:** Microsoft Learn release plan articles (`learn.microsoft.com` dynamics365 release-plan 2025wave2 sales).
 - **Next ideas:** D365 “improve opportunity context with AI-based data enrichment” (2026 wave 1); Fabric lakehouse + AI-powered sales research feature; Freshworks Freddy once a stable press URL is confirmed.
+
+## 2026-04-08 (session 20)
+
+- **Appended:** 3 lines — WINN.AI Series A / real-time revenue execution (Feb 11, 2026 Benzinga syndicated Business Wire); Consensus AI Agent Connect demo-to-revenue-stack intelligence (Feb 10, 2026 PRNewswire); Aurasell AI-native CRM launch (Aug 26, 2025 GlobeNewswire); pros/cons only on line 3 of batch (Aurasell).
+- **Duplicate check:** No existing rows for WINN.AI, Consensus, or Aurasell; distinct from Aircall AI Assist Pro (telephony live coaching), Revenue.io Moments (Zoom/Teams CI), Gong/Outreach demo-adjacent entries, and incumbent full-stack CRM agent launches already recorded.
+- **Sources:** benzinga.com (press release syndication with Business Wire attribution), prnewswire.com, globenewswire.com.
+- **Next ideas:** Aurasell Feb 2026 “GTM OS” release if treated as distinct from Aug 2025 CRM launch; ServiceNow Knowledge 2025 AI CRM press (if stable URL); Freshworks June 2025 Freddy Agentic with explicit Freshsales sales proof points; Forrester/IDC 2026 sales-AI ROI studies with named vendors.
