@@ -180,3 +180,10 @@
 - **Duplicate check:** No existing rows for Amazon Connect re:Invent 2025 narrative, Clari+Salesloft merger, or Apollo–Pocus acquisition. Distinct from Apollo AI Assistant row (agentic chat/workflows vs. signal-intelligence M&A); distinct from Salesloft 15 agents / Gong / individual Clari product rows (corporate merger + platform thesis); distinct from RingCentral ACE and Dialpad (different vendor and Connect-specific MCP/Salesforce/Journeys scope).
 - **Sources:** AWS official blog; Salesloft newsroom; PRNewswire (Apollo.io).
 - **Deferred:** Freshworks June 11, 2025 IR release remains service-primary in primary text—defer until a Freshsales/Freddy sales-copilot line has a clearly sales-dated primary source.
+
+## 2026-04-08 (session 27)
+
+- **Appended:** 3 lines — Close CRM 2025 AI/automation roundup (Dec 17, 2025 close.com blog: Notetaker, AI Enrich + Workflows, MCP, Pipeline Guidance, Email Draft Assist); AdRoll unified brand + AdRoll AI Assistant with AdRoll ABM (Aug 27, 2025 GlobeNewswire); Frontiers peer-reviewed B2B ML lead scoring case study (Mar 7, 2025 DOI 10.3389/frai.2025.1554325) with pros/cons on line 3 of batch only.
+- **Duplicate check:** No prior Close, AdRoll/RollWorks, or Frontiers 1554325 rows; distinct from HubSpot/6sense ABM rows (different vendors); distinct from VALOR/Google uplift paper (causal uplift vs. supervised lead scoring case study); distinct from generic CRM agent entries (Close-specific SMB stack + academic CRM classifier study).
+- **Sources:** close.com blog; GlobeNewswire (AdRoll/NextRoll); Frontiers full article URL.
+- **Next ideas:** Copper CopperGPT Nov/Dec 2025 release-note deep links once article body is extractable; Attio Web Research Agent / Notion MCP if official changelog or help URL stabilizes; Instantly.ai product changelog with dated AI reply-agent scope.
