@@ -103,3 +103,10 @@
 - **Duplicate check:** No existing rows for Qualified PipelineAI/Piper, Reply.io Jason AI SDR, or Intercom Fin Sales; distinct from Microsoft Copilot Sales Development agent (Teams/Dynamics), Apollo AI Assistant, Regie.ai Signal Selling, Lavender Ora, etc.
 - **Sources:** qualified.com newsroom, reply.io dated blog, intercom.com help article (Sales Agent section + limited-access note).
 - **Next ideas:** Freshworks Freddy Agentic platform June 2025 with Freshsales-specific GA line; Zendesk AI for Sell if dated 2025+ docs; Ebsta/Revenue Grid 2025; Forrester TEI naming vendors 2026.
+
+## 2026-04-08 (session 16)
+
+- **Appended:** 3 lines — Fullcast acquires Ebsta unified GTM + revenue intelligence (Aug 28, 2025 PRNewswire); Salesforce for Gemini extension in Gmail GA (Mar 3, 2025 Google Workspace Updates blog); Calendly agentic AI platform since Aug 2025 (Feb 27, 2026 engineering blog); pros/cons only on line 3 of batch (Calendly) per rule.
+- **Duplicate check:** No existing rows for Fullcast+Ebsta combination, Google Gemini–Salesforce Gmail extension, or Calendly agentic platform; distinct from Salesforce Agentforce (Sales Cloud agents), Microsoft Copilot/Dynamics entries, Qualified/Intercom inbound agents, and prior Ebsta benchmark reports (acquisition/system integration vs. research-only).
+- **Sources:** PRNewswire (Fullcast), Google Workspace Updates (official), Calendly engineering blog.
+- **Next ideas:** NetSuite CPQ AI Assistant / NetSuite AI innovations 2025 PR if distinct from Oracle Fusion CX rows; ServiceNow AI CRM Knowledge 2025 press (English); Chili Piper or Calendly MCP Mar 2026 community changelog for agent interoperability.
