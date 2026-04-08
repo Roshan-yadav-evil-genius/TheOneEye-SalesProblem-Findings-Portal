@@ -159,3 +159,10 @@
 - **Duplicate check:** No existing rows for these arXiv IDs; distinct from Dynamics Opportunity Research Agent (release-plan feature vs. Sales Research Agent technical report + benchmark), VALOR uplift modeling, and prior FMCG cooler paper (different sector and method).
 - **Sources:** arXiv abstract pages (`arxiv.org/abs/2602.17017`, `2603.27476`, `2509.11085`).
 - **Next ideas:** Microsoft Learn feature page for Sales Research Agent if/when distinct from Opportunity Research Agent slug; vendor press for Freshworks/Zendesk agentic sales GA with stable URLs; IDC/Forrester 2026 TEI studies naming products.
+
+## 2026-04-08 (session 24)
+
+- **Appended:** 3 lines — Microsoft 365 Copilot for Sales 2026 wave 1 planned features (`learn.microsoft.com` planned-features, last updated Mar 31, 2026); Zoom Revenue Accelerator agentic prospecting at Zoomtopia 2025 (`news.zoom.com/zoomtopia2025/`, Sept 17, 2025); Scratchpad AI Sales Agents + manager workflows (`scratchpad.com/blog/ai-for-sales-managers`, July 7, 2025). Pros/cons only on line 3 of batch (Scratchpad) per rule.
+- **Duplicate check:** No existing rows for M365 Copilot for Sales 2026 wave 1 roadmap (distinct from Dynamics 365 “Sales agent in Microsoft 365 Copilot inside Dynamics 365” unified Graph/CRM access row and from Dynamics-specific agents). No prior Zoom ZRA agentic prospecting entry. No prior Scratchpad entry.
+- **Sources:** Microsoft Learn release plan; Zoom official newsroom; Scratchpad dated blog.
+- **Deferred / next ideas:** Crayon Sparks competitive field-enablement blog for a future batch with explicit publication metadata if needed; Zendesk Forethought acquisition is service-primary—use only with a clear sales-adjacent angle and official doc; Gartner Nov 2025 CSO trends Q&A is strategy-heavy vs. product systems.
