@@ -145,3 +145,10 @@
 - **Duplicate check:** No existing rows for ServiceNow CRM AI Agents, lemlist MCP, or Chili Piper; distinct from Qualified Piper (different vendor/product), Apollo AI Assistant, Regie.ai, Intercom Fin, Calendly agentic platform, Microsoft/Dynamics agents, People.ai MCP, Outreach MCP, HG Insights RGI Agent Builder.
 - **Sources:** businesswire.com (ServiceNow), lemlist.com blog (dated), Chili Piper product marketing page.
 - **Next ideas:** Zendesk Forethought acquisition (Mar 2026) if framed with Zendesk Sell–specific tie-in and official doc; Freshworks June 11, 2025 GlobeNewswire with explicit Freshsales/Freddy sales-copilot angle; Forrester Wave or TEI 2026 naming vendors; academic ML for pipeline 2026.
+
+## 2026-04-08 (session 22)
+
+- **Appended:** 3 lines — arXiv **VALOR** B2B revenue uplift modeling (2604.02472, published 2026-04-02); arXiv FMCG B2B cooler allocation / volume-growth targeting (2511.06642, 2025-11-10); Microsoft **Work IQ MCP** overview for Agent 365 + Dataverse/Dynamics tooling (`learn.microsoft.com` tooling-servers-overview, ms.date 2026-04-02). Pros/cons only on line 3 (Work IQ) per batch rule.
+- **Duplicate check:** No existing rows for VALOR, cooler-allocation paper, or Work IQ MCP; distinct from Dynamics 365 Sales MCP server (lead-specific lead tools vs. broader Work IQ catalog spanning M365 + Dataverse) and from People.ai/Outreach/lemlist MCP integrations (third-party revenue/SEP stacks vs. Microsoft-first Agent 365 MCP).
+- **Sources:** arXiv abs pages; Microsoft Learn Agent 365 documentation (preview).
+- **Next ideas:** Forrester/IDC 2026 TEI with named sales-AI vendors; Zendesk X4 2026 EX/sales-adjacent official articles; additional Microsoft Learn 2026 wave Copilot for Sales feature pages once slugs are discoverable; follow-on VALOR-related industry deployment write-ups if published.
