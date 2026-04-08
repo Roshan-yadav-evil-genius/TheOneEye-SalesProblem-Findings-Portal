@@ -152,3 +152,10 @@
 - **Duplicate check:** No existing rows for VALOR, cooler-allocation paper, or Work IQ MCP; distinct from Dynamics 365 Sales MCP server (lead-specific lead tools vs. broader Work IQ catalog spanning M365 + Dataverse) and from People.ai/Outreach/lemlist MCP integrations (third-party revenue/SEP stacks vs. Microsoft-first Agent 365 MCP).
 - **Sources:** arXiv abs pages; Microsoft Learn Agent 365 documentation (preview).
 - **Next ideas:** Forrester/IDC 2026 TEI with named sales-AI vendors; Zendesk X4 2026 EX/sales-adjacent official articles; additional Microsoft Learn 2026 wave Copilot for Sales feature pages once slugs are discoverable; follow-on VALOR-related industry deployment write-ups if published.
+
+## 2026-04-08 (session 23)
+
+- **Appended:** 3 lines — arXiv **Sales Research Agent** + **Sales Research Bench** (2602.17017, submitted Dec 2025); arXiv **PeopleSearchBench** including B2B sales prospecting evaluation (2603.27476); arXiv **DemandLens** SKU-level Prophet forecasting for mattress/DTC contract manufacturing (2509.11085, Sep 2025). Pros/cons only on line 3 of batch (DemandLens) per rule.
+- **Duplicate check:** No existing rows for these arXiv IDs; distinct from Dynamics Opportunity Research Agent (release-plan feature vs. Sales Research Agent technical report + benchmark), VALOR uplift modeling, and prior FMCG cooler paper (different sector and method).
+- **Sources:** arXiv abstract pages (`arxiv.org/abs/2602.17017`, `2603.27476`, `2509.11085`).
+- **Next ideas:** Microsoft Learn feature page for Sales Research Agent if/when distinct from Opportunity Research Agent slug; vendor press for Freshworks/Zendesk agentic sales GA with stable URLs; IDC/Forrester 2026 TEI studies naming products.
