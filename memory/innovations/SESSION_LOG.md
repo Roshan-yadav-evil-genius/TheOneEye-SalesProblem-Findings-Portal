@@ -166,3 +166,10 @@
 - **Duplicate check:** No existing rows for M365 Copilot for Sales 2026 wave 1 roadmap (distinct from Dynamics 365 “Sales agent in Microsoft 365 Copilot inside Dynamics 365” unified Graph/CRM access row and from Dynamics-specific agents). No prior Zoom ZRA agentic prospecting entry. No prior Scratchpad entry.
 - **Sources:** Microsoft Learn release plan; Zoom official newsroom; Scratchpad dated blog.
 - **Deferred / next ideas:** Crayon Sparks competitive field-enablement blog for a future batch with explicit publication metadata if needed; Zendesk Forethought acquisition is service-primary—use only with a clear sales-adjacent angle and official doc; Gartner Nov 2025 CSO trends Q&A is strategy-heavy vs. product systems.
+
+## 2026-04-08 (session 25)
+
+- **Appended:** 3 lines — HubSpot Feb 2026 Claude/ChatGPT CRM write + engagement-history connectors (HubSpot Community “Top Product Updates for February 2026”, published Mar 2, 2026); Pegasystems Aug 18, 2025 Gartner SFA Critical Capabilities PR (Pega Sales Automation + Pega Coach + Pega Blueprint); Crayon APIs + MCP for curated competitive intel in enterprise AI assistants (`crayon.co/blog/connecting-competitive-intel-to-enterprise-ai-with-api-mcp`, HTTP Last-Modified Apr 7, 2026). Pros/cons only on line 3 of batch (Crayon) per rule.
+- **Duplicate check:** HubSpot connectors distinct from Dynamics 365 Sales MCP server, People.ai MCP, lemlist MCP, and Salesforce–Gemini Gmail extension (native HubSpot↔Claude/ChatGPT CRM actions). Pega row new (no prior Pega). Crayon distinct from MCP rows above (competitive enablement data plane vs. CRM/SEP/revenue-intelligence MCP).
+- **Sources:** community.hubspot.com; pega.com newsroom; crayon.com blog.
+- **Next ideas:** Forrester Revenue Enablement Platforms Landscape Q1 2026 with vendor-neutral product callouts if publicly linkable; Zendesk Forethought + Sell only with explicit sales workflow doc; Freshworks IR June 11, 2025 + Freshsales Freddy if sales angle needs splitting from pure service messaging.
