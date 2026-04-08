@@ -138,3 +138,10 @@
 - **Duplicate check:** No existing rows for WINN.AI, Consensus, or Aurasell; distinct from Aircall AI Assist Pro (telephony live coaching), Revenue.io Moments (Zoom/Teams CI), Gong/Outreach demo-adjacent entries, and incumbent full-stack CRM agent launches already recorded.
 - **Sources:** benzinga.com (press release syndication with Business Wire attribution), prnewswire.com, globenewswire.com.
 - **Next ideas:** Aurasell Feb 2026 “GTM OS” release if treated as distinct from Aug 2025 CRM launch; ServiceNow Knowledge 2025 AI CRM press (if stable URL); Freshworks June 2025 Freddy Agentic with explicit Freshsales sales proof points; Forrester/IDC 2026 sales-AI ROI studies with named vendors.
+
+## 2026-04-08 (session 21)
+
+- **Appended:** 3 lines — ServiceNow CRM AI Agents + Knowledge 2025 positioning (Business Wire May 6, 2025); lemlist MCP server for campaign/lead ops from AI clients (lemlist blog Mar 11, 2026); Chili Piper Chat AI inbound conversion (chilipiper.com/ai) with pros/cons on line 3 of batch only.
+- **Duplicate check:** No existing rows for ServiceNow CRM AI Agents, lemlist MCP, or Chili Piper; distinct from Qualified Piper (different vendor/product), Apollo AI Assistant, Regie.ai, Intercom Fin, Calendly agentic platform, Microsoft/Dynamics agents, People.ai MCP, Outreach MCP, HG Insights RGI Agent Builder.
+- **Sources:** businesswire.com (ServiceNow), lemlist.com blog (dated), Chili Piper product marketing page.
+- **Next ideas:** Zendesk Forethought acquisition (Mar 2026) if framed with Zendesk Sell–specific tie-in and official doc; Freshworks June 11, 2025 GlobeNewswire with explicit Freshsales/Freddy sales-copilot angle; Forrester Wave or TEI 2026 naming vendors; academic ML for pipeline 2026.
