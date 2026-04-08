@@ -96,3 +96,10 @@
 - **Duplicate check:** Lavender and RingCentral not previously in `innovations.jsonl`. Microsoft Sales Development agent is distinct from prior row on “Sales agent in Microsoft 365 Copilot inside Dynamics 365” (unified Graph/CRM conversational access vs. autonomous lead qualification, D365 updates, and Teams Agent Store deployment).
 - **Sources:** lavender.ai blog (dated), Microsoft Learn copilot release plan, RingCentral support release notes Q4 2025.
 - **Next ideas:** Zendesk Resolution Platform Mar 2025 if sales-adjacent GTM angle; Intercom Fin 2025; Freshworks Freddy Agentic 2025 IR/press; Forrester TEI sales AI 2026; academic ML for lead scoring post-2025.
+
+## 2026-04-08 (session 15)
+
+- **Appended:** 3 lines — Qualified Piper 2025 (Jan 22, 2025 newsroom); Reply.io Jason AI SDR 2.5 (Apr 7, 2025 blog); Intercom Fin Sales Agent role (Intercom Help Center); pros/cons only on line 3 of batch (Intercom) per rule.
+- **Duplicate check:** No existing rows for Qualified PipelineAI/Piper, Reply.io Jason AI SDR, or Intercom Fin Sales; distinct from Microsoft Copilot Sales Development agent (Teams/Dynamics), Apollo AI Assistant, Regie.ai Signal Selling, Lavender Ora, etc.
+- **Sources:** qualified.com newsroom, reply.io dated blog, intercom.com help article (Sales Agent section + limited-access note).
+- **Next ideas:** Freshworks Freddy Agentic platform June 2025 with Freshsales-specific GA line; Zendesk AI for Sell if dated 2025+ docs; Ebsta/Revenue Grid 2025; Forrester TEI naming vendors 2026.
