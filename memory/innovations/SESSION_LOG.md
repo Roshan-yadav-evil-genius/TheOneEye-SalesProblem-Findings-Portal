@@ -124,3 +124,10 @@
 - **Duplicate check:** No existing rows for HubSpot Deal Risks, HubSpot CPQ Closing Agent/quote automation, or Salesforce–Gemini/Vertex grounding partnership; distinct from existing HubSpot Breeze Prospecting Agent (SDR signals/outreach) and Salesforce Agentforce Sales GA story (Mar 2026 product agents announcement).
 - **Sources:** hubspot.com company news fall-2025-spotlight (dated update Oct 6, 2025); googlecloudpresscorner.com dated partnership release.
 - **Next ideas:** Freshworks June 11, 2025 Freddy Agentic Platform IR/GlobeNewswire with Freshsales-specific proof points; Salesforce–Google Oct 2025 Agentforce 360 deepening PR if distinct angle; Zendesk Sell + AI cross-sell from service tickets with 2025+ official doc.
+
+## 2026-04-08 (session 19)
+
+- **Appended:** 3 lines — Dynamics 365 Opportunity Research Agent (2025 wave 2 release plan: preview Oct 31, 2025, GA Mar 2026); Dynamics 365 Sales MCP server (preview Jun 30, 2025, GA Feb 2026); Dynamics 365 Sales Close Agent (preview Oct 31, 2025) with pros/cons on line 3 of batch only.
+- **Duplicate check:** No existing rows for Opportunity Research Agent, D365 Sales MCP server, or Sales Close Agent. Distinct from People.ai MCP (revenue intelligence data layer vs. first-party D365 CRM tools for leads/outreach) and Outreach MCP (SEP actions vs. Dynamics CRM protocol server). Distinct from HubSpot Closing Agent (Commerce Hub CPQ/quote context vs. D365 Sales Close Agent late-funnel objection/KB/re-engagement framing).
+- **Sources:** Microsoft Learn release plan articles (`learn.microsoft.com` dynamics365 release-plan 2025wave2 sales).
+- **Next ideas:** D365 “improve opportunity context with AI-based data enrichment” (2026 wave 1); Fabric lakehouse + AI-powered sales research feature; Freshworks Freddy once a stable press URL is confirmed.
